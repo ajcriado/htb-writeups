@@ -1,9 +1,9 @@
-- [ ] Root a Retired Easy Box
-- [ ] Root a Retired Medium Box
-- [ ] Root an Active Box
+- [x] Root a Retired Easy Box
+- [x] Root a Retired Medium Box
+- [x] Root an Active Box
 - [ ] Complete an Easy Challenge
-- [ ] Share a Walk-through of a Retired Box
-- [ ] Complete Offensive Academy Modules
+- [x] Share a Walk-through of a Retired Box
+- [x] Complete Offensive Academy Modules
 - [ ] Root Live Medium/Hard Boxes
 - [ ] Complete A Track
 - [ ] Win a `Hack The Box Battlegrounds` Battle
