@@ -8,18 +8,47 @@
         "type": "tabs",
         "children": [
           {
-            "id": "992a39fc4e594d7d",
+            "id": "6afc38478cd7e514",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Boxes/Active/2. Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "81ca96edcc96ca2a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Boxes/Active/3. SMB.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "73622e968e4111e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Hack the Box/Boxes/Active/1. Machine info.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "right": {
     "id": "af0655b461996112",
@@ -85,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Hack the Box/Boxes/Active/3. SMB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Hack the Box/Boxes/Active/3. SMB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Hack the Box/Boxes/Active/3. SMB.md"
               }
             }
           }
@@ -146,10 +175,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "992a39fc4e594d7d",
+  "active": "81ca96edcc96ca2a",
   "lastOpenFiles": [
-    "Hack the Box/Checklist.md",
+    "Hack the Box/Boxes/Active/2. Enumeration.md",
+    "Hack the Box/Boxes/Active/1. Machine info.md",
+    "Hack the Box/Boxes/Active/3. SMB.md",
+    "Hack the Box/Boxes/Bastion/3. SMB.md",
+    "Hack the Box/Boxes/Bastion/4. SSH.md",
     "README.md",
+    "Hack the Box/Boxes/Active",
+    "Hack the Box/Checklist.md",
     "Hack the Box/Boxes/Sau/3. HTTP.md",
     "Hack the Box/Images/Pasted image 20231107225919.png",
     "Hack the Box/Images/Untitled Diagram.drawio.png",
