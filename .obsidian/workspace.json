@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1f040dc0c96f05be",
+        "id": "e46f8700935580a0",
         "type": "tabs",
         "children": [
           {
-            "id": "6afc38478cd7e514",
+            "id": "b3cd7fb352cd014f",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Active/2. Enumeration.md",
+                "file": "Hack the Box/Boxes/Postman/2. Enumeration.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "81ca96edcc96ca2a",
+            "id": "de7d7e39ba67def9",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Active/3. SMB.md",
+                "file": "Hack the Box/Boxes/Postman/3. Redis.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,19 +36,31 @@
             }
           },
           {
-            "id": "73622e968e4111e6",
+            "id": "488ab7094e18dd2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Active/1. Machine info.md",
+                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "350a1488675d5db4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Boxes/Active/3. SMB.md",
+                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Boxes/Active/3. SMB.md",
+                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Boxes/Active/3. SMB.md"
+                "file": "Hack the Box/Boxes/Postman/4. SSH.md"
               }
             }
           }
@@ -175,20 +187,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81ca96edcc96ca2a",
+  "active": "488ab7094e18dd2b",
   "lastOpenFiles": [
-    "Hack the Box/Boxes/Active/2. Enumeration.md",
-    "Hack the Box/Boxes/Active/1. Machine info.md",
+    "Hack the Box/Boxes/Postman/3. Redis.md",
+    "Hack the Box/Boxes/Postman/2. Enumeration.md",
+    "Hack the Box/Boxes/Postman/4. SSH.md",
+    "Hack the Box/Boxes/Postman/1. Machine info.md",
+    "Hack the Box/Images/Pasted image 20231116214727.png",
+    "Hack the Box/Boxes/Zipping/3. Http.md",
+    "Hack the Box/Boxes/Zipping/2. Enumeration.md",
+    "Hack the Box/Boxes/Zipping/1. Machine info.md",
+    "Hack the Box/Boxes/Postman",
+    "Hack the Box/Images/Pasted image 20231115131421.png",
+    "Hack the Box/Images/Pasted image 20231115113420.png",
+    "Hack the Box/Boxes/Forest/5. WinRM.md",
+    "Hack the Box/Boxes/Zipping/Untitled",
+    "Hack the Box/Boxes/Zipping",
+    "Hack the Box/Images/Pasted image 20231113153318.png",
+    "Hack the Box/Images/Pasted image 20231113153213.png",
+    "Hack the Box/Boxes/Forest/2. Enumeration.md",
     "Hack the Box/Boxes/Active/3. SMB.md",
+    "Hack the Box/Boxes/Forest/4. RPC.md",
+    "Hack the Box/Boxes/Forest/3. Services to try.md",
+    "Hack the Box/Boxes/Forest (To Do)/4. DNS.md",
+    "Hack the Box/Boxes/Forest/1. Machine info.md",
+    "Hack the Box/Boxes/Blunder/3. Http.md",
+    "Hack the Box/Boxes/Blunder/2. Enumeration.md",
+    "Hack the Box/Boxes/Blunder/1. Machine info.md",
+    "Hack the Box/Boxes/Blunder",
     "Hack the Box/Boxes/Bastion/3. SMB.md",
     "Hack the Box/Boxes/Bastion/4. SSH.md",
+    "Hack the Box/Boxes/Forest/Untitled",
+    "Hack the Box/Boxes/Beep (To Do)/2. Enumeration.md",
+    "Hack the Box/Boxes/Forest",
+    "Hack the Box/Boxes/Beep (To Do)/1. Machine info.md",
+    "Hack the Box/Boxes/Active/2. Enumeration.md",
+    "Hack the Box/Boxes/Active/1. Machine info.md",
     "README.md",
     "Hack the Box/Boxes/Active",
     "Hack the Box/Checklist.md",
-    "Hack the Box/Boxes/Sau/3. HTTP.md",
     "Hack the Box/Images/Pasted image 20231107225919.png",
     "Hack the Box/Images/Untitled Diagram.drawio.png",
-    "Hack the Box/Images/Clipboard.md",
     "Hack the Box/Images/Pasted image 20230704093200.png",
     "Hack the Box/Images"
   ]
