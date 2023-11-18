@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e46f8700935580a0",
+        "id": "22744283196e0bfe",
         "type": "tabs",
         "children": [
           {
-            "id": "b3cd7fb352cd014f",
+            "id": "a0a367b4b12c0cf5",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Postman/2. Enumeration.md",
+                "file": "Hack the Box/Boxes/SolidState/1. Machine info.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "de7d7e39ba67def9",
+            "id": "6aed3f735071631e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Postman/3. Redis.md",
+                "file": "Hack the Box/Boxes/SolidState/2. Enumeration.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,24 +36,26 @@
             }
           },
           {
-            "id": "488ab7094e18dd2b",
+            "id": "84883fd4e0f75207",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
+                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "350a1488675d5db4",
+            "id": "90911cba6c60a52f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
+                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
+                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Boxes/Postman/4. SSH.md",
+                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Boxes/Postman/4. SSH.md"
+                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md"
               }
             }
           }
@@ -187,11 +189,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "488ab7094e18dd2b",
+  "active": "84883fd4e0f75207",
   "lastOpenFiles": [
+    "Hack the Box/Boxes/SolidState/2. Enumeration.md",
+    "Hack the Box/Boxes/SolidState/3. Apache James.md",
+    "Hack the Box/Boxes/SolidState/1. Machine info.md",
+    "Hack the Box/Boxes/SolidState",
+    "Hack the Box/Boxes/Postman/4. SSH.md",
+    "Hack the Box/Boxes/Untitled.md",
     "Hack the Box/Boxes/Postman/3. Redis.md",
     "Hack the Box/Boxes/Postman/2. Enumeration.md",
-    "Hack the Box/Boxes/Postman/4. SSH.md",
     "Hack the Box/Boxes/Postman/1. Machine info.md",
     "Hack the Box/Images/Pasted image 20231116214727.png",
     "Hack the Box/Boxes/Zipping/3. Http.md",
@@ -222,10 +229,7 @@
     "Hack the Box/Boxes/Forest",
     "Hack the Box/Boxes/Beep (To Do)/1. Machine info.md",
     "Hack the Box/Boxes/Active/2. Enumeration.md",
-    "Hack the Box/Boxes/Active/1. Machine info.md",
-    "README.md",
     "Hack the Box/Boxes/Active",
-    "Hack the Box/Checklist.md",
     "Hack the Box/Images/Pasted image 20231107225919.png",
     "Hack the Box/Images/Untitled Diagram.drawio.png",
     "Hack the Box/Images/Pasted image 20230704093200.png",
