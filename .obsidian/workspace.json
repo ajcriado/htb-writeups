@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0a367b4b12c0cf5",
+            "id": "61bc251bd4b29f8e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/SolidState/1. Machine info.md",
+                "file": "Hack the Box/Boxes/Hospital/2. Enumeration.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "6aed3f735071631e",
+            "id": "6b7508d6ffef5487",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/SolidState/2. Enumeration.md",
+                "file": "Hack the Box/Boxes/Hospital/3. Http 8080.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "84883fd4e0f75207",
+            "id": "7434fbdc2a7a30b4",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
+                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,19 +50,31 @@
             }
           },
           {
-            "id": "90911cba6c60a52f",
+            "id": "aff586c4b7c11d5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
+                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06e16a2a285d6a36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
+                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md",
+                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Boxes/SolidState/3. Apache James.md"
+                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md"
               }
             }
           }
@@ -189,11 +201,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84883fd4e0f75207",
+  "active": "06e16a2a285d6a36",
   "lastOpenFiles": [
+    "Hack the Box/Boxes/Hospital/3. Http 8080.md",
+    "Hack the Box/Boxes/Hospital/2. Enumeration.md",
+    "Hack the Box/Boxes/Hospital/4. Https 443.md",
+    "Hack the Box/Boxes/Hospital/1. Machine info.md",
+    "Hack the Box/Images/Pasted image 20231120142319.png",
+    "Hack the Box/Images/Pasted image 20231120122401.png",
+    "Hack the Box/Boxes/SolidState/1. Machine info.md",
     "Hack the Box/Boxes/SolidState/2. Enumeration.md",
     "Hack the Box/Boxes/SolidState/3. Apache James.md",
-    "Hack the Box/Boxes/SolidState/1. Machine info.md",
+    "Hack the Box/Boxes/Hospital",
     "Hack the Box/Boxes/SolidState",
     "Hack the Box/Boxes/Postman/4. SSH.md",
     "Hack the Box/Boxes/Untitled.md",
@@ -222,13 +241,8 @@
     "Hack the Box/Boxes/Blunder/2. Enumeration.md",
     "Hack the Box/Boxes/Blunder/1. Machine info.md",
     "Hack the Box/Boxes/Blunder",
-    "Hack the Box/Boxes/Bastion/3. SMB.md",
-    "Hack the Box/Boxes/Bastion/4. SSH.md",
     "Hack the Box/Boxes/Forest/Untitled",
-    "Hack the Box/Boxes/Beep (To Do)/2. Enumeration.md",
     "Hack the Box/Boxes/Forest",
-    "Hack the Box/Boxes/Beep (To Do)/1. Machine info.md",
-    "Hack the Box/Boxes/Active/2. Enumeration.md",
     "Hack the Box/Boxes/Active",
     "Hack the Box/Images/Pasted image 20231107225919.png",
     "Hack the Box/Images/Untitled Diagram.drawio.png",
