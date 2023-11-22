@@ -4,77 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "22744283196e0bfe",
+        "id": "0f5cd6b200462889",
         "type": "tabs",
         "children": [
           {
-            "id": "61bc251bd4b29f8e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Boxes/Hospital/2. Enumeration.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "6b7508d6ffef5487",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Boxes/Hospital/3. Http 8080.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "7434fbdc2a7a30b4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "aff586c4b7c11d5f",
+            "id": "17cd733fc4f3879a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06e16a2a285d6a36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hack the Box/Boxes/Hospital/4. Https 443.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -201,11 +138,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06e16a2a285d6a36",
+  "active": "17cd733fc4f3879a",
   "lastOpenFiles": [
+    "Hack the Box/Boxes/Manager (just user flag)/6. WinRM.md",
+    "Hack the Box/Boxes/Manager (just user flag)/5. MSSQL.md",
+    "Hack the Box/Boxes/Manager (just user flag)/4. SMB.md",
+    "Hack the Box/Boxes/Manager (just user flag)/3. Services to try.md",
+    "Hack the Box/Boxes/Manager (just user flag)/2. Enumeration.md",
+    "Hack the Box/Boxes/Manager (just user flag)/1. Machine info.md",
+    "Hack the Box/Boxes/Hospital/4. Https 443.md",
+    "Hack the Box/Boxes/Manager (just user flag)",
+    "Hack the Box/Boxes/Untitled.md",
     "Hack the Box/Boxes/Hospital/3. Http 8080.md",
     "Hack the Box/Boxes/Hospital/2. Enumeration.md",
-    "Hack the Box/Boxes/Hospital/4. Https 443.md",
     "Hack the Box/Boxes/Hospital/1. Machine info.md",
     "Hack the Box/Images/Pasted image 20231120142319.png",
     "Hack the Box/Images/Pasted image 20231120122401.png",
@@ -215,7 +160,6 @@
     "Hack the Box/Boxes/Hospital",
     "Hack the Box/Boxes/SolidState",
     "Hack the Box/Boxes/Postman/4. SSH.md",
-    "Hack the Box/Boxes/Untitled.md",
     "Hack the Box/Boxes/Postman/3. Redis.md",
     "Hack the Box/Boxes/Postman/2. Enumeration.md",
     "Hack the Box/Boxes/Postman/1. Machine info.md",
@@ -235,18 +179,12 @@
     "Hack the Box/Boxes/Active/3. SMB.md",
     "Hack the Box/Boxes/Forest/4. RPC.md",
     "Hack the Box/Boxes/Forest/3. Services to try.md",
-    "Hack the Box/Boxes/Forest (To Do)/4. DNS.md",
-    "Hack the Box/Boxes/Forest/1. Machine info.md",
-    "Hack the Box/Boxes/Blunder/3. Http.md",
-    "Hack the Box/Boxes/Blunder/2. Enumeration.md",
-    "Hack the Box/Boxes/Blunder/1. Machine info.md",
     "Hack the Box/Boxes/Blunder",
     "Hack the Box/Boxes/Forest/Untitled",
     "Hack the Box/Boxes/Forest",
     "Hack the Box/Boxes/Active",
     "Hack the Box/Images/Pasted image 20231107225919.png",
     "Hack the Box/Images/Untitled Diagram.drawio.png",
-    "Hack the Box/Images/Pasted image 20230704093200.png",
-    "Hack the Box/Images"
+    "Hack the Box/Images/Pasted image 20230704093200.png"
   ]
 }
