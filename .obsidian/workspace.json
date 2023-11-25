@@ -10,12 +10,31 @@
           {
             "id": "17cd733fc4f3879a",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Boxes/Devvortex/1. Machine info.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "44af81fa3738f43a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Boxes/Devvortex/3. Http.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hack the Box/Boxes/Devvortex/3. Http.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hack the Box/Boxes/Devvortex/3. Http.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hack the Box/Boxes/Devvortex/3. Http.md"
+              }
             }
           }
         ]
@@ -138,14 +161,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17cd733fc4f3879a",
+  "active": "44af81fa3738f43a",
   "lastOpenFiles": [
-    "Hack the Box/Boxes/Manager (just user flag)/6. WinRM.md",
+    "Hack the Box/Boxes/Devvortex/2. Enumeration.md",
+    "Hack the Box/Boxes/Devvortex/1. Machine info.md",
+    "Hack the Box/Boxes/Devvortex/3. Http.md",
+    "Hack the Box/Images/Pasted image 20231125205708.png",
+    "Hack the Box/Academy/Windows privilege escalation/1. Lab easy.md",
+    "Hack the Box/Boxes/Devvortex",
+    "Hack the Box/Academy/Windows privilege escalation/2. Lab medium.md",
+    "Hack the Box/Images/Pasted image 20231125104757.png",
+    "Hack the Box/Images/Pasted image 20231125100854.png",
+    "Hack the Box/Images/Pasted image 20231125100717.png",
     "Hack the Box/Boxes/Manager (just user flag)/5. MSSQL.md",
+    "Hack the Box/Academy/Windows privilege escalation/Lab easy/Untitled.md",
+    "Hack the Box/Academy/Windows privilege escalation/Lab easy",
+    "Hack the Box/Academy/Windows privilege escalation/1. L.md",
+    "Hack the Box/Academy/Windows privilege escalation",
     "Hack the Box/Boxes/Manager (just user flag)/4. SMB.md",
     "Hack the Box/Boxes/Manager (just user flag)/3. Services to try.md",
     "Hack the Box/Boxes/Manager (just user flag)/2. Enumeration.md",
     "Hack the Box/Boxes/Manager (just user flag)/1. Machine info.md",
+    "Hack the Box/Boxes/Manager (just user flag)/6. WinRM.md",
     "Hack the Box/Boxes/Hospital/4. Https 443.md",
     "Hack the Box/Boxes/Manager (just user flag)",
     "Hack the Box/Boxes/Untitled.md",
@@ -164,27 +201,12 @@
     "Hack the Box/Boxes/Postman/2. Enumeration.md",
     "Hack the Box/Boxes/Postman/1. Machine info.md",
     "Hack the Box/Images/Pasted image 20231116214727.png",
-    "Hack the Box/Boxes/Zipping/3. Http.md",
-    "Hack the Box/Boxes/Zipping/2. Enumeration.md",
-    "Hack the Box/Boxes/Zipping/1. Machine info.md",
     "Hack the Box/Boxes/Postman",
     "Hack the Box/Images/Pasted image 20231115131421.png",
     "Hack the Box/Images/Pasted image 20231115113420.png",
-    "Hack the Box/Boxes/Forest/5. WinRM.md",
     "Hack the Box/Boxes/Zipping/Untitled",
     "Hack the Box/Boxes/Zipping",
     "Hack the Box/Images/Pasted image 20231113153318.png",
-    "Hack the Box/Images/Pasted image 20231113153213.png",
-    "Hack the Box/Boxes/Forest/2. Enumeration.md",
-    "Hack the Box/Boxes/Active/3. SMB.md",
-    "Hack the Box/Boxes/Forest/4. RPC.md",
-    "Hack the Box/Boxes/Forest/3. Services to try.md",
-    "Hack the Box/Boxes/Blunder",
-    "Hack the Box/Boxes/Forest/Untitled",
-    "Hack the Box/Boxes/Forest",
-    "Hack the Box/Boxes/Active",
-    "Hack the Box/Images/Pasted image 20231107225919.png",
-    "Hack the Box/Images/Untitled Diagram.drawio.png",
-    "Hack the Box/Images/Pasted image 20230704093200.png"
+    "Hack the Box/Boxes/Blunder"
   ]
 }
