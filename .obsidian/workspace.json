@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "17cd733fc4f3879a",
+            "id": "fa09a14ee28774ef",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Devvortex/1. Machine info.md",
+                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/1. Machine info.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,19 +22,45 @@
             }
           },
           {
-            "id": "44af81fa3738f43a",
+            "id": "31d8178d3bf599bd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Academy/Documenting and reporting/2. 172.16.5.200 Window 1/1. Machine info.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6a98fadf66b4a190",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Boxes/Devvortex/3. Http.md",
+                "file": "Hack the Box/Academy/Documenting and reporting/2. 172.16.5.200 Window 1/2. Http (Tomcat 8080).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d45d43af72a7bc34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Boxes/Devvortex/3. Http.md",
+                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Boxes/Devvortex/3. Http.md",
+                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Boxes/Devvortex/3. Http.md"
+                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md"
               }
             }
           }
@@ -161,11 +187,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44af81fa3738f43a",
+  "active": "d45d43af72a7bc34",
   "lastOpenFiles": [
-    "Hack the Box/Boxes/Devvortex/2. Enumeration.md",
+    "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/1. Machine info.md",
+    "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
+    "Hack the Box/Academy/Documenting and reporting/Credentials.md",
+    "Hack the Box/Academy/Documenting and reporting/3. 172.16.5.5 Windows 2 DC/1. Machine info.md",
+    "Hack the Box/Academy/Documenting and reporting/2. 172.16.5.200 Window 1/2. Http (Tomcat 8080).md",
+    "Hack the Box/Academy/Documenting and reporting/2. 172.16.5.200 Window 1/1. Machine info.md",
+    "Hack the Box/Academy/Documenting and reporting/Enumeration.md",
     "Hack the Box/Boxes/Devvortex/1. Machine info.md",
     "Hack the Box/Boxes/Devvortex/3. Http.md",
+    "Hack the Box/Academy/Documenting and reporting/3. 172.16.5.5 Windows 2 DC",
+    "Hack the Box/Academy/Documenting and reporting/2. 172.16.5.200 Window 1",
+    "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux",
+    "Hack the Box/Academy/Documenting and reporting",
+    "Hack the Box/Boxes/Devvortex/2. Enumeration.md",
     "Hack the Box/Images/Pasted image 20231125205708.png",
     "Hack the Box/Academy/Windows privilege escalation/1. Lab easy.md",
     "Hack the Box/Boxes/Devvortex",
@@ -192,21 +229,11 @@
     "Hack the Box/Images/Pasted image 20231120142319.png",
     "Hack the Box/Images/Pasted image 20231120122401.png",
     "Hack the Box/Boxes/SolidState/1. Machine info.md",
-    "Hack the Box/Boxes/SolidState/2. Enumeration.md",
-    "Hack the Box/Boxes/SolidState/3. Apache James.md",
     "Hack the Box/Boxes/Hospital",
     "Hack the Box/Boxes/SolidState",
-    "Hack the Box/Boxes/Postman/4. SSH.md",
-    "Hack the Box/Boxes/Postman/3. Redis.md",
-    "Hack the Box/Boxes/Postman/2. Enumeration.md",
-    "Hack the Box/Boxes/Postman/1. Machine info.md",
     "Hack the Box/Images/Pasted image 20231116214727.png",
-    "Hack the Box/Boxes/Postman",
     "Hack the Box/Images/Pasted image 20231115131421.png",
     "Hack the Box/Images/Pasted image 20231115113420.png",
-    "Hack the Box/Boxes/Zipping/Untitled",
-    "Hack the Box/Boxes/Zipping",
-    "Hack the Box/Images/Pasted image 20231113153318.png",
-    "Hack the Box/Boxes/Blunder"
+    "Hack the Box/Images/Pasted image 20231113153318.png"
   ]
 }
