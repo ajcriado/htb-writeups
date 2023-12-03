@@ -4,73 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a59e6b45e7fae1dc",
+        "id": "d9f71810c0e1870e",
         "type": "tabs",
         "children": [
           {
-            "id": "50ba0c371d1d53a4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Prolabs/Dante/Path.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "0ae66b12a05e7b0b",
+            "id": "6d5cb909aa9c9ff9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/1. Services and ports.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5d658ac50c9749d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Prolabs/Dante/Discovering/Ping sweep.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "013442d9588825a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/2. 65000 Apache 2.4.41.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3325c771c4c899a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. 65000 Shell.md",
+                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. 65000 Shell.md",
+                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. 65000 Shell.md",
+                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. 65000 Shell.md"
+                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md"
               }
             }
           }
@@ -197,17 +146,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3325c771c4c899a",
+  "active": "6d5cb909aa9c9ff9",
   "lastOpenFiles": [
-    "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/1. Services and ports.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. 21 Ftp.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/2. 65000 Http.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/3. Shell.md",
     "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/2. 65000 Apache 2.4.41.md",
-    "Hack the Box/Prolabs/Dante/Credentials.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. 65000 Shell.md",
+    "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/1. Services and ports.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 172.16.1.10 Linux/2. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/Findings/List of users.md",
+    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254/1. 172.16.1.10 Linux/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 172.16.1.10 Linux/1. 445 SMB.md",
     "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/1. Environment.md",
-    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/3. Services.md",
-    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/2. Internals.md",
-    "Hack the Box/Prolabs/Dante/Discovering/Ping sweep.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. FTP.md",
+    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254/1. Services and ports.md",
     "Hack the Box/Prolabs/Dante/Path.md",
+    "Hack the Box/Prolabs/Dante/Discovering/Ping sweep.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 172.16.1.10 Linux",
+    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254/1. 172.16.1.10 Linux",
+    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/2. Internals.md",
+    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254",
+    "Hack the Box/Prolabs/Dante/Potential vulnerabilities.md",
+    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/3. Services.md",
+    "Hack the Box/Prolabs/Dante/Credentials.md",
     "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu",
     "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu",
     "Hack the Box/Prolabs/Dante/Scans/2. 10.10.110.2",
@@ -215,9 +177,6 @@
     "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu",
     "Hack the Box/Prolabs/Dante/Findings",
     "Hack the Box/Prolabs/Dante/Enumeration",
-    "Hack the Box/Prolabs/Dante/Untitled/Untitled",
-    "Hack the Box/Prolabs/Dante/Scans",
-    "Hack the Box/Prolabs/Dante",
     "Hack the Box/Boxes/Authority/2. Enumeration.md",
     "Hack the Box/Boxes/Authority/3. Services to try.md",
     "Hack the Box/Boxes/Authority/1. Machine info.md",
@@ -225,20 +184,10 @@
     "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/1. Machine info.md",
     "Hack the Box/Academy/Documenting and reporting/Credentials.md",
     "Hack the Box/Academy/Documenting and reporting/3. 172.16.5.5 Windows 2 DC/1. Machine info.md",
-    "Hack the Box/Academy/Documenting and reporting/2. 172.16.5.200 Window 1/2. Http (Tomcat 8080).md",
-    "Hack the Box/Academy/Documenting and reporting/2. 172.16.5.200 Window 1/1. Machine info.md",
-    "Hack the Box/Academy/Documenting and reporting/Enumeration.md",
-    "Hack the Box/Boxes/Devvortex/1. Machine info.md",
-    "Hack the Box/Boxes/Devvortex/3. Http.md",
-    "Hack the Box/Boxes/Devvortex/2. Enumeration.md",
     "Hack the Box/Images/Pasted image 20231125205708.png",
-    "Hack the Box/Academy/Windows privilege escalation/1. Lab easy.md",
-    "Hack the Box/Academy/Windows privilege escalation/2. Lab medium.md",
     "Hack the Box/Images/Pasted image 20231125104757.png",
     "Hack the Box/Images/Pasted image 20231125100854.png",
     "Hack the Box/Images/Pasted image 20231125100717.png",
-    "Hack the Box/Boxes/Manager (just user flag)/5. MSSQL.md",
-    "Hack the Box/Academy/Windows privilege escalation/Lab easy/Untitled.md",
     "Hack the Box/Images/Pasted image 20231120142319.png",
     "Hack the Box/Images/Pasted image 20231120122401.png",
     "Hack the Box/Images/Pasted image 20231116214727.png",
