@@ -1,3 +1,11 @@
+```bash
+┌──(kali㉿kali)-[/Shared/htb-writeups]
+└─$ for i in $(seq 254); do ping 10.10.110.$i -c1 -W1 & done | grep from 
+64 bytes from 10.10.110.2: icmp_seq=1 ttl=64 time=55.6 ms
+64 bytes from 10.10.110.100: icmp_seq=1 ttl=62 time=76.4 ms
+```
+
+### Nmap
 
 ```bash
 ┌──(kali㉿kali)-[~/Documents/Boxes/Dante-Prolab]
@@ -22,6 +30,8 @@ PORT      STATE SERVICE
 
 Nmap done: 2 IP addresses (2 hosts up) scanned in 263.63 seconds
 ```
+
+#### 10.10.110.100
 
 ```bash
 ┌──(kali㉿kali)-[~/Documents/Boxes/Dante-Prolab]

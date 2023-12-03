@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
+                "file": "Hack the Box/Prolabs/Dante/Credentials.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
+                "file": "Hack the Box/Prolabs/Dante/Credentials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
+                "file": "Hack the Box/Prolabs/Dante/Credentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md"
+                "file": "Hack the Box/Prolabs/Dante/Credentials.md"
               }
             }
           }
@@ -148,42 +148,41 @@
   },
   "active": "6d5cb909aa9c9ff9",
   "lastOpenFiles": [
-    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. 21 Ftp.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/2. 65000 Http.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/Path.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/3. Shell.md",
-    "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/2. 65000 Apache 2.4.41.md",
-    "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/1. Services and ports.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 172.16.1.10 Linux/2. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/Findings/List of users.md",
-    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254/1. 172.16.1.10 Linux/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 172.16.1.10 Linux/1. 445 SMB.md",
-    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/1. Environment.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. FTP.md",
-    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254/1. Services and ports.md",
-    "Hack the Box/Prolabs/Dante/Path.md",
-    "Hack the Box/Prolabs/Dante/Discovering/Ping sweep.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 172.16.1.10 Linux",
-    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254/1. 172.16.1.10 Linux",
-    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/2. Internals.md",
-    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254",
-    "Hack the Box/Prolabs/Dante/Potential vulnerabilities.md",
-    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu/3. Services.md",
+    "Hack the Box/Prolabs/Dante/List of users.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Findings/2. 65000 Http.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Findings/2. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Findings/1. 21 Ftp.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Findings/1. 445 SMB.md",
     "Hack the Box/Prolabs/Dante/Credentials.md",
-    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu",
-    "Hack the Box/Prolabs/Dante/Enumeration/1. 10.10.110.100 Ubuntu",
-    "Hack the Box/Prolabs/Dante/Scans/2. 10.10.110.2",
-    "Hack the Box/Prolabs/Dante/Discovering",
-    "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu",
-    "Hack the Box/Prolabs/Dante/Findings",
-    "Hack the Box/Prolabs/Dante/Enumeration",
+    "Hack the Box/Prolabs/Dante/Discovering.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Discovering.md",
+    "Hack the Box/Prolabs/Dante/Potential vulnerabilities.md",
+    "Hack the Box/Prolabs/Dante/Scans/3. 172.16.1.0-254/1. Services and ports.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Scans and scripts/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Scans and scripts",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Findings",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Enumeration",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10",
+    "Hack the Box/Prolabs/Dante/Path.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Scans and scripts/65000 Apache 2.4.41.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Path.md",
+    "Hack the Box/Prolabs/Dante/Scans/1. 10.10.110.100 Ubuntu/1. Services and ports.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Findings",
+    "Hack the Box/Prolabs/Dante/Discovering/Ping sweep.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Scans and scripts",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Enumeration",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Discovering",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Enumeration/1. Environment.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Enumeration/3. Services.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Enumeration/2. Internals.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Findings/3. Shell.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 10.10.110.100 Ubuntu/1. FTP.md",
+    "Hack the Box/Prolabs/Dante/Findings/1. 172.16.1.10 Linux",
     "Hack the Box/Boxes/Authority/2. Enumeration.md",
     "Hack the Box/Boxes/Authority/3. Services to try.md",
     "Hack the Box/Boxes/Authority/1. Machine info.md",
     "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
-    "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/1. Machine info.md",
-    "Hack the Box/Academy/Documenting and reporting/Credentials.md",
-    "Hack the Box/Academy/Documenting and reporting/3. 172.16.5.5 Windows 2 DC/1. Machine info.md",
     "Hack the Box/Images/Pasted image 20231125205708.png",
     "Hack the Box/Images/Pasted image 20231125104757.png",
     "Hack the Box/Images/Pasted image 20231125100854.png",

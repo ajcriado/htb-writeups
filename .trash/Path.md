@@ -1,4 +1,4 @@
-We have the entry point of 10.10.110.0/24 range, so lets do a ping sweep
+We have the entry point of 10.10.110.0/24 range, so we do a ping sweep
 
 ```bash
 ┌──(kali㉿kali)-[~/Documents/Boxes/Dante-Prolab]
