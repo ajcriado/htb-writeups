@@ -1,0 +1,5 @@
+- In SMB we found margaret username, and a possible wordpress old installation
+- We exploit LFI in the webapp and retrieve wp-config.php file (wordpress) with php-filters
+- Log with SSH as margaret
+- Find frank credentials in a cached slack conversation and move laterally
+- Modify and exploit a python script executed as cronjob with the root user
