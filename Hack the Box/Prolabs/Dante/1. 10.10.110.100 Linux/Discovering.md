@@ -31,7 +31,7 @@ root@DANTE-WEB-NIX01:~# for i in $(seq 254); do ping 172.16.1.$i -c1 -W1 & done 
 
 <u>Command execute for port discovery</u>:
 - `proxychains4 nmap --min-rate=5000 --open IP -oN nmap/IP-discovery`
-- `proxychains4 nmap -p 21,111,135,139,445,1433,2049 -sCV 172.16.1.5`
+- `proxychains4 nmap -p 21,111,135,139,445,1433,2049 -A -T4 172.16.1.5`
 #### 172.16.1.10
 
 ```bash
@@ -84,6 +84,23 @@ PORT     STATE SERVICE
 ```
 #### 172.16.1.13
 
+Really slow host, I check open ports by looking proxychains log. Basically we have website in http (80) and https (443), and smb
+
+```bash
+┌──(kali㉿kali)-[~/…/Boxes/Dante-Prolab/10.10.110.100/172.16.1.13]
+└─$ proxychains nmap -A -T4 172.16.1.13   
+[proxychains] config file found: /etc/proxychains4.conf
+[proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+[proxychains] DLL init: proxychains-ng 4.16
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2023-12-04 23:48 CET
+[proxychains] Strict chain  ...  127.0.0.1:8081  ...  172.16.1.13:80  ...  OK
+[...SNIP...]
+[proxychains] Strict chain  ...  127.0.0.1:8081  ...  172.16.1.13:443  ...  OK
+[...SNIP...]
+[proxychains] Strict chain  ...  127.0.0.1:8081  ...  172.16.1.13:445  ...  OK
+[...SNIP...]
+```
+
 #### 172.16.1.12
 
 ```bash
@@ -130,17 +147,38 @@ Nmap done: 1 IP address (1 host up) scanned in 225.27 seconds
 #### 172.16.1.17
 
 ```bash
-# Nmap 7.94SVN scan initiated Sat Dec  2 09:46:02 2023 as: nmap --min-rate=5000 --open -oN nmap/172.16.1.17-discovery 172.16.1.17
+# Nmap 7.94SVN scan initiated Sat Dec  2 09:46:02 2023 as: nmap -p 80,139,445,10000 -A -T4 172.16.1.17
 Nmap scan report for 172.16.1.17
-Host is up (0.053s latency).
-Not shown: 996 closed tcp ports (conn-refused)
-PORT      STATE SERVICE
-80/tcp    open  http
-139/tcp   open  netbios-ssn
-445/tcp   open  microsoft-ds
-10000/tcp open  snet-sensor-mgmt
+Host is up (0.14s latency).
 
-# Nmap done at Sat Dec  2 09:46:57 2023 -- 1 IP address (1 host up) scanned in 54.87 seconds
+PORT      STATE SERVICE     VERSION
+80/tcp    open  http        Apache httpd 2.4.41
+|_http-title: Index of /
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| http-ls: Volume /
+| SIZE  TIME              FILENAME
+| 37M   2020-06-25 13:00  webmin-1.900.zip
+| -     2020-07-13 02:21  webmin/
+|_
+139/tcp   open  netbios-ssn Samba smbd 4.6.2
+445/tcp   open  netbios-ssn Samba smbd 4.6.2
+10000/tcp open  http        MiniServ 1.900 (Webmin httpd)
+|_http-title: Login to Webmin
+|_http-server-header: MiniServ/1.900
+| http-robots.txt: 1 disallowed entry 
+|_/
+Service Info: Host: 127.0.0.1
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2023-12-03T16:25:21
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 90.41 seconds
 ```
 #### 172.16.1.102
 

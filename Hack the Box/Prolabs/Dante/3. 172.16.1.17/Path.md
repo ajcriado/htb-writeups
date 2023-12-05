@@ -1,0 +1,3 @@
+- We find a PCAP file in SMB server where we extract some credentials
+- We use this credentials to log in the webapp hosted in port 80 and get RCE
+- We are root
