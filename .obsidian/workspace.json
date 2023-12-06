@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Findings/1. 80 Http.md",
+                "file": "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Findings/1. 80 Http.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Path.md",
+                "file": "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Findings/1. 80 Http.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Path.md",
+                "file": "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Findings/1. 80 Http.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Path.md",
+                "file": "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Findings/1. 80 Http.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Path.md"
+                "file": "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Findings/1. 80 Http.md"
               }
             }
           }
@@ -161,44 +161,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7906457861032fbf",
+  "active": "070872a27155d906",
   "lastOpenFiles": [
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Findings/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Discovering.md",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Scans and scripts/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13/Findings/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Path.md",
+    "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Findings/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Findings/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Findings/1. SMB.md",
+    "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Findings/2. Http port 80.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Enumeration/1. Environment.md",
+    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Path.md",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Scans and scripts",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Findings",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Enumeration",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20",
+    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Findings/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Scans and scripts",
+    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Findings",
+    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Enumeration",
+    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03",
     "Hack the Box/Prolabs/Dante/Discovering.md",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Path.md",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13/Path.md",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Scans and scripts",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Findings",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12/Enumeration",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13/Scan and scripts/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17/Findings/2. Http port 80.md",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17/Findings/1. SMB.md",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17/Path.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Findings/2. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13/Scan and scripts",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13/Findings",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13/Enumeration",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13",
+    "Hack the Box/Prolabs/Dante/Discovering.md",
+    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Path.md",
+    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Scans and scripts/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Scans and scripts",
+    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Findings",
+    "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Scan and scripts/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Path.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/2. 80 Http.md",
     "Hack the Box/Prolabs/Dante/Credentials.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Findings/2. 65000 Http.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Findings/1. 21 Ftp.md",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17/Scans and scripts",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17/Findings",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Path.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Findings/3. Shell.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Scans and scripts/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/2. 65000 Http.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/1. 21 Ftp.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Path.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/3. Shell.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Scans and scripts/1. 80 Http.md",
     "Hack the Box/Prolabs/Dante/List of users.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Findings/1. 445 SMB.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Path.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 Linux/Findings/3. Shell.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Enumeration/1. Environment.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Enumeration/4. Credentials.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Enumeration/3. Services.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10/Enumeration/2. Internals.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/1. 445 SMB.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Path.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/3. Shell.md",
+    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Enumeration/4. Credentials.md",
     "Hack the Box/Images/Pasted image 20231125205708.png",
     "Hack the Box/Images/Pasted image 20231125104757.png",
     "Hack the Box/Images/Pasted image 20231125100854.png",

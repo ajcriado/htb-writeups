@@ -1,0 +1,1 @@
+Create a user in the webapp hosted in http (port 80/443) and get RCE by uploading a php shell, then abuse SeImpersonatePrivilege to get nt authority
