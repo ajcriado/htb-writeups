@@ -337,35 +337,55 @@ PORT     STATE SERVICE
 #### 172.16.1.20
 
 ```bash
-# Nmap 7.94SVN scan initiated Sat Dec  2 09:53:41 2023 as: nmap --min-rate=5000 --open -oN nmap/172.16.1.20-discovery 172.16.1.20
-Nmap scan report for 172.16.1.20
-Host is up (0.055s latency).
-Not shown: 978 closed tcp ports (conn-refused)
-PORT      STATE SERVICE
-22/tcp    open  ssh
-53/tcp    open  domain
-80/tcp    open  http
-88/tcp    open  kerberos-sec
-135/tcp   open  msrpc
-139/tcp   open  netbios-ssn
-389/tcp   open  ldap
-443/tcp   open  https
-445/tcp   open  microsoft-ds
-464/tcp   open  kpasswd5
-593/tcp   open  http-rpc-epmap
-636/tcp   open  ldapssl
-3268/tcp  open  globalcatLDAP
-3269/tcp  open  globalcatLDAPssl
-3389/tcp  open  ms-wbt-server
-49152/tcp open  unknown
-49153/tcp open  unknown
-49154/tcp open  unknown
-49155/tcp open  unknown
-49157/tcp open  unknown
-49158/tcp open  unknown
-49159/tcp open  unknown
+# Nmap 7.94SVN scan initiated Wed Dec  6 10:33:21 2023 as: nmap -A -T4 -oN port-discovery 172.16.1.102
+Nmap scan report for 172.16.1.102
+Host is up (0.051s latency).
+Not shown: 993 closed tcp ports (conn-refused)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Apache httpd 2.4.54 ((Win64) OpenSSL/1.1.1p PHP/7.4.0)
+|_http-title: Dante Marriage Registration System :: Home Page
+|_http-server-header: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp  open  ssl/http      Apache httpd 2.4.54 ((Win64) OpenSSL/1.1.1p PHP/7.4.0)
+| tls-alpn: 
+|   h2
+|_  http/1.1
+|_http-server-header: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.0
+|_http-title: 400 Bad Request
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=localhost/organizationName=TESTING CERTIFICATE
+| Subject Alternative Name: DNS:localhost
+| Not valid before: 2022-06-24T01:07:25
+|_Not valid after:  2022-12-24T01:07:25
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL (unauthorized)
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2023-12-06T09:34:43+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=DANTE-WS03
+| Not valid before: 2023-12-05T03:13:10
+|_Not valid after:  2024-06-05T03:13:10
+| rdp-ntlm-info: 
+|   Target_Name: DANTE-WS03
+|   NetBIOS_Domain_Name: DANTE-WS03
+|   NetBIOS_Computer_Name: DANTE-WS03
+|   DNS_Domain_Name: DANTE-WS03
+|   DNS_Computer_Name: DANTE-WS03
+|   Product_Version: 10.0.19041
+|_  System_Time: 2023-12-06T09:34:32+00:00
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
-# Nmap done at Sat Dec  2 09:54:36 2023 -- 1 IP address (1 host up) scanned in 55.32 seconds
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2023-12-06T09:34:34
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Dec  6 10:34:46 2023 -- 1 IP address (1 host up) scanned in 84.95 seconds
+
 ```
 #### 172.16.1.101
 
