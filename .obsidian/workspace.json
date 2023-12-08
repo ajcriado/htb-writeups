@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7906457861032fbf",
+            "id": "b43069664387a192",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Scans and scripts/SMB Vulnerability.md",
+                "file": "Hack the Box/Prolabs/Dante/Discovering.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,15 +22,31 @@
             }
           },
           {
-            "id": "4c1b49b9e1e0ebf1",
+            "id": "a64d5e607b4ab6fc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Findings/1. 80 Http.md",
+                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "af5f1599ceef967e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts/1. Ftp.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
         ],
@@ -100,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Findings/1. 80 Http.md",
+                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Findings/1. 80 Http.md",
+                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Findings/1. 80 Http.md"
+                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md"
               }
             }
           }
@@ -161,12 +177,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c1b49b9e1e0ebf1",
+  "active": "a64d5e607b4ab6fc",
   "lastOpenFiles": [
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Scans and scripts/SMB Vulnerability.md",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Findings/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Findings/1. 80 Http.md",
     "Hack the Box/Prolabs/Dante/Discovering.md",
+    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
+    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts/1. Ftp.md",
+    "Hack the Box/Prolabs/Dante/Credentials.md",
+    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts",
+    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings",
+    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Enumeration",
+    "Hack the Box/Prolabs/Dante/8. 172.16.1.101",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Scans and scripts/SMB Vulnerability.md",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Path.md",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Findings/1. 80 Http.md",
+    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Findings/1. 80 Http.md",
     "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Findings/1. 80 Http.md",
     "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Path.md",
     "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Findings/1. 80 Http.md",
@@ -174,31 +198,23 @@
     "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Findings/2. Http port 80.md",
     "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Enumeration/1. Environment.md",
     "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Path.md",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Scans and scripts",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Findings",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20/Enumeration",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Scans and scripts",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Findings",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Enumeration",
+    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01",
     "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Scans and scripts",
     "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Findings",
-    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Enumeration",
-    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03",
     "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Path.md",
     "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Scans and scripts/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Scans and scripts",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Findings",
     "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Scan and scripts/1. 80 Http.md",
     "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Path.md",
     "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/2. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/Credentials.md",
     "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/2. 65000 Http.md",
     "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/1. 21 Ftp.md",
     "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Path.md",
     "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/3. Shell.md",
     "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Scans and scripts/1. 80 Http.md",
     "Hack the Box/Prolabs/Dante/List of users.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/1. 445 SMB.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Path.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/3. Shell.md",
     "Hack the Box/Images/Pasted image 20231125205708.png",
     "Hack the Box/Images/Pasted image 20231125104757.png",
     "Hack the Box/Images/Pasted image 20231125100854.png",

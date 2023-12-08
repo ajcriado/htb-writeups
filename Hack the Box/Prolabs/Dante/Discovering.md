@@ -324,15 +324,24 @@ Service detection performed. Please report any incorrect results at https://nmap
 #### 172.16.1.19
 
 ```bash
-# Nmap 7.94SVN scan initiated Sat Dec  2 09:49:48 2023 as: nmap --min-rate=5000 --open -oN nmap/172.16.1.19-discovery 172.16.1.19
+# Nmap 7.94SVN scan initiated Thu Dec  7 11:40:07 2023 as: nmap -A -T4 -oN port-discovery 172.16.1.19
 Nmap scan report for 172.16.1.19
-Host is up (0.054s latency).
+Host is up (0.45s latency).
 Not shown: 998 closed tcp ports (conn-refused)
-PORT     STATE SERVICE
-80/tcp   open  http
-8080/tcp open  http-proxy
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.41
+|_http-title: Index of /
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+8080/tcp open  http    Jetty 9.4.27.v20200227
+|_http-title: Site doesnt have a title (text/html;charset=utf-8).
+|_http-server-header: Jetty(9.4.27.v20200227)
+| http-robots.txt: 1 disallowed entry 
+|_/
+Service Info: Host: 127.0.0.1
 
-# Nmap done at Sat Dec  2 09:50:43 2023 -- 1 IP address (1 host up) scanned in 55.76 seconds
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Dec  7 11:48:54 2023 -- 1 IP address (1 host up) scanned in 527.00 seconds
+
 ```
 #### 172.16.1.20
 
@@ -390,15 +399,54 @@ Service detection performed. Please report any incorrect results at https://nmap
 #### 172.16.1.101
 
 ```bash
-# Nmap 7.94SVN scan initiated Sat Dec  2 10:24:54 2023 as: nmap --min-rate=5000 --open -oN nmap/172.16.1.101-discovery 172.16.1.101
+# Nmap 7.94SVN scan initiated Thu Dec  7 11:49:42 2023 as: nmap --top-ports 5000 -Pn --open -T4 -oN scan-discovery 172.16.1.101
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2023-12-07 12:16 CET
+Stats: 0:00:16 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 0.74% done
+Stats: 0:00:24 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 1.12% done; ETC: 12:52 (0:35:19 remaining)
+Stats: 0:01:42 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 4.26% done; ETC: 12:56 (0:38:12 remaining)
+Stats: 0:08:13 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 21.70% done; ETC: 12:54 (0:29:39 remaining)
 Nmap scan report for 172.16.1.101
-Host is up (0.060s latency).
-Not shown: 996 closed tcp ports (conn-refused)
-PORT    STATE SERVICE
-21/tcp  open  ftp
-135/tcp open  msrpc
-139/tcp open  netbios-ssn
-445/tcp open  microsoft-ds
+Host is up (0.47s latency).
+Not shown: 4994 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5040/tcp open  unknown
+5985/tcp open  wsman
 
-# Nmap done at Sat Dec  2 10:25:51 2023 -- 1 IP address (1 host up) scanned in 57.32 seconds
+# Nmap 7.94SVN scan initiated Thu Dec  7 13:38:50 2023 as: nmap -p 21,135,139,445,5040,5985 -A -T4 -oN scan-discovery 172.16.1.101
+Nmap scan report for 172.16.1.101
+Host is up (0.40s latency).
+
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           FileZilla ftpd
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5040/tcp open  unknown
+5985/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2023-12-07T13:42:10
+|_  start_date: N/A
+|_clock-skew: 59m59s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Dec  7 13:42:20 2023 -- 1 IP address (1 host up) scanned in 209.47 seconds
+
 ```
