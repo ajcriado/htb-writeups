@@ -11,11 +11,9 @@
             "id": "faaba49e05409268",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Academy/CPTS/Pentesting AD Guide Map.svg"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Academy/CPTS/Pentesting AD Guide Map.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Academy/CPTS/Pentesting AD Guide Map.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Academy/CPTS/Pentesting AD Guide Map.svg"
               }
             }
           }
@@ -148,6 +146,10 @@
   },
   "active": "faaba49e05409268",
   "lastOpenFiles": [
+    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Academy/CPTS/Pentesting AD Guide Map.svg",
+    "Academy/CPTS/HTB_CPTS_Exam_Report_Template.docx",
+    "Academy/CPTS/Exam Preparation.md",
     "Academy/CPTS/Cheat sheet/03. Network Enumeration with Nmap.md",
     "README.md",
     "Academy/CPTS/Skill Assesments",
@@ -158,7 +160,6 @@
     "Academy/CPTS/Cheat sheet/11. Attacking Common Services.md",
     "Academy/CPTS/Cheat sheet/15. Attacking Web Applications with Ffuf.md",
     "Academy/CPTS/Cheat sheet/07. File Transfers.md",
-    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Academy/CPTS/Cheat sheet/02. Getting Started.md",
     "tjnull-list.jpg",
     "Academy/CPTS/Skill Assesments/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
@@ -176,7 +177,6 @@
     "Academy/CPTS/Cheat sheet/19. Cross-Site Scripting (XSS).md",
     "Academy/CPTS/Cheat sheet/18. SQLMap Essentials.md",
     "Academy/CPTS/Cheat sheet/17. SQL Injection Fundamentals.md",
-    "Academy/CPTS/Cheat sheet/16. Login Brute Forcing.md",
     "Academy/CPTS/Cheat sheet",
     "Hack the Box/hackthebox.JPG",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts",
@@ -185,13 +185,11 @@
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101",
     "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Scans and scripts",
     "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Findings",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Enumeration",
     "Images/Pasted image 20231125205708.png",
     "Images/Pasted image 20231125104757.png",
     "Images/Pasted image 20231125100854.png",
     "Images/Pasted image 20231125100717.png",
     "Images/Pasted image 20231120142319.png",
-    "Images/Pasted image 20231120122401.png",
-    "Images/Pasted image 20231116214727.png"
+    "Images/Pasted image 20231120122401.png"
   ]
 }
