@@ -1,6 +1,8 @@
+Here I post the CPTS modules which I need to read again and some related boxes to practice the content. Some modules will need a review due to their difficulty.
+
 ### Modules that don't require review
 
-* Network Enumeration with Nmap
+* Network Enumeration with Nmap ✅
 
 
 ### Modules to review

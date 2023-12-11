@@ -11,9 +11,11 @@
             "id": "faaba49e05409268",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Academy/CPTS/Pentesting AD Guide Map.svg"
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/CPTS/Pentesting AD Guide Map.svg",
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/CPTS/Pentesting AD Guide Map.svg",
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/CPTS/Pentesting AD Guide Map.svg"
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md"
               }
             }
           }
@@ -146,10 +148,11 @@
   },
   "active": "faaba49e05409268",
   "lastOpenFiles": [
-    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-    "Academy/CPTS/Pentesting AD Guide Map.svg",
-    "Academy/CPTS/HTB_CPTS_Exam_Report_Template.docx",
+    "flag.txt",
     "Academy/CPTS/Exam Preparation.md",
+    "Academy/CPTS/Pentesting AD Guide Map.svg",
+    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Academy/CPTS/HTB_CPTS_Exam_Report_Template.docx",
     "Academy/CPTS/Cheat sheet/03. Network Enumeration with Nmap.md",
     "README.md",
     "Academy/CPTS/Skill Assesments",
