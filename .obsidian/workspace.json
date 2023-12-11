@@ -4,53 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d9f71810c0e1870e",
+        "id": "f74262adb34b3efe",
         "type": "tabs",
         "children": [
           {
-            "id": "b43069664387a192",
+            "id": "c13812f873a30b2f",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/Discovering.md",
+                "file": "Cheat sheet/Getting Started.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "a64d5e607b4ab6fc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "af5f1599ceef967e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts/1. Ftp.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "webmin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
+                "file": "Cheat sheet/Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
+                "file": "Cheat sheet/Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md"
+                "file": "Cheat sheet/Getting Started.md"
               }
             }
           }
@@ -177,44 +146,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a64d5e607b4ab6fc",
+  "active": "c13812f873a30b2f",
   "lastOpenFiles": [
-    "Hack the Box/Prolabs/Dante/Discovering.md",
-    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings/1. Ftp.md",
-    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts/1. Ftp.md",
-    "Hack the Box/Prolabs/Dante/Credentials.md",
+    "Cheat sheet/Windows Privilege Escalation.md",
+    "Cheat sheet/Linux Privilege Escalation.md",
+    "Cheat sheet/Web Attacks.md",
+    "Cheat sheet/Using Web Proxies.md",
+    "Cheat sheet/SQLMap Essentials.md",
+    "Cheat sheet/SQL Injection Fundamentals.md",
+    "Cheat sheet/Login Brute Forcing.md",
+    "Cheat sheet/File Upload Attacks.md",
+    "Cheat sheet/File Inclusion.md",
+    "Cheat sheet/Cross-Site Scripting (XSS).md",
+    "Cheat sheet/Command Injections.md",
+    "Cheat sheet/Attacking Web Applications with Ffuf.md",
+    "Cheat sheet/Attacking Common Applications.md",
+    "Cheat sheet/Active Directory Enumeration & Attacks.md",
+    "Cheat sheet/Using the Metasploit Framework.md",
+    "Cheat sheet/Shells & Payloads.md",
+    "Cheat sheet/Pivoting, Tunneling, and Port Forwarding.md",
+    "Cheat sheet/Password Attacks.md",
+    "Cheat sheet/Information Gathering - Web Edition.md",
+    "Cheat sheet/Footprinting.md",
+    "Cheat sheet/File Transfers.md",
+    "Cheat sheet/Attacking Common Services.md",
+    "Cheat sheet/Network Enumeration with Nmap.md",
+    "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
+    "Cheat sheet/Getting Started.md",
+    "Cheat sheet",
+    "Hack the Box/Boxes/Beep (To Do)/3. Services to try.md",
+    "Hack the Box/tjnull-list.jpg",
+    "Hack the Box/hackthebox.JPG",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Enumeration",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Scans and scripts/SMB Vulnerability.md",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Path.md",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Findings/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Findings/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Findings/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Path.md",
-    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Findings/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Findings/1. SMB.md",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Findings/2. Http port 80.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Enumeration/1. Environment.md",
-    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Path.md",
     "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Scans and scripts",
     "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Findings",
     "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Enumeration",
     "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01",
     "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Scans and scripts",
-    "Hack the Box/Prolabs/Dante/6. 172.16.1.102 WS03/Findings",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Path.md",
-    "Hack the Box/Prolabs/Dante/5. 172.16.1.12 NIX04/Scans and scripts/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/4. 172.16.1.13 WS01/Scan and scripts/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/3. 172.16.1.17 NIX03/Path.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/2. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/2. 65000 Http.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Findings/1. 21 Ftp.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Path.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Findings/3. Shell.md",
-    "Hack the Box/Prolabs/Dante/2. 172.16.1.10 NIX02/Scans and scripts/1. 80 Http.md",
-    "Hack the Box/Prolabs/Dante/List of users.md",
     "Hack the Box/Images/Pasted image 20231125205708.png",
     "Hack the Box/Images/Pasted image 20231125104757.png",
     "Hack the Box/Images/Pasted image 20231125100854.png",
@@ -222,8 +193,6 @@
     "Hack the Box/Images/Pasted image 20231120142319.png",
     "Hack the Box/Images/Pasted image 20231120122401.png",
     "Hack the Box/Images/Pasted image 20231116214727.png",
-    "Hack the Box/Images/Pasted image 20231115131421.png",
-    "Hack the Box/Images/Pasted image 20231115113420.png",
-    "Hack the Box/Images/Pasted image 20231113153318.png"
+    "Hack the Box/Images/Pasted image 20231115131421.png"
   ]
 }
