@@ -1,2 +1,0 @@
-- Found http://172.16.1.13/discuss/ and create a user, uploading as profile image a php shell
-- Escalate privileges through **[Druva exploitation](https://www.exploit-db.com/exploits/49211)**

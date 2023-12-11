@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f74262adb34b3efe",
+        "id": "d1b80ccce62fd243",
         "type": "tabs",
         "children": [
           {
-            "id": "c13812f873a30b2f",
+            "id": "faaba49e05409268",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c13812f873a30b2f",
+  "active": "faaba49e05409268",
   "lastOpenFiles": [
+    "Hack the Box/tjnull-list.jpg",
+    "Hack the Box/Academy/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
+    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Path.md",
     "Cheat sheet/09. Using the Metasploit Framework.md",
     "Cheat sheet/08. Shells & Payloads.md",
     "Cheat sheet/07. File Transfers.md",
@@ -171,11 +166,7 @@
     "Cheat sheet/14. Using Web Proxies.md",
     "Cheat sheet/13. Active Directory Enumeration & Attacks.md",
     "Cheat sheet/12. Pivoting, Tunneling, and Port Forwarding.md",
-    "Cheat sheet/11. Attacking Common Services.md",
-    "Cheat sheet/10. Password Attacks.md",
-    "Cheat sheet/9. Using the Metasploit Framework.md",
     "Cheat sheet",
-    "Hack the Box/tjnull-list.jpg",
     "Hack the Box/hackthebox.JPG",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings",
