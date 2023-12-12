@@ -3,15 +3,15 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 ### Modules that don't require review
 
 * Network Enumeration with Nmap ✅
-
+- Footprinting
+	- FriendZone, Remote, Pit, Atom, RedCross
 
 ### Modules to review
 
 
 
 ### Pending modules
-- Footprinting
-	- FriendZone, Remote, Pit, Atom, RedCross
+
 - Information Gathering - Web Edition
 - File Transfers
 - Shells & Payloads

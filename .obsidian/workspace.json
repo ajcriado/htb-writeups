@@ -10,16 +10,45 @@
           {
             "id": "faaba49e05409268",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ecad8bd6894aeebb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Exam Preparation.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "09f30278cefdc2b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boxes/Friendzone/4. Attack Chain.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "file": "Boxes/Friendzone/4. Attack Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "file": "Boxes/Friendzone/4. Attack Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md"
+                "file": "Boxes/Friendzone/4. Attack Chain.md"
               }
             }
           }
@@ -146,12 +175,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "faaba49e05409268",
+  "active": "09f30278cefdc2b9",
   "lastOpenFiles": [
-    "flag.txt",
+    "Boxes/Friendzone/3. Notes.md",
+    "Boxes/Friendzone/2. Services.md",
+    "Boxes/Friendzone/1. Enumeration.md",
     "Academy/CPTS/Exam Preparation.md",
-    "Academy/CPTS/Pentesting AD Guide Map.svg",
+    "Boxes/Friendzone/4. Attack Chain.md",
+    "Boxes/Friendzone/2. Notes.txt",
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Boxes/Hospital/1. Machine info.md",
+    "Boxes/Hospital/3. Http 8080.md",
+    "Boxes/Hospital/2. Enumeration.md",
+    "Boxes/Friendzone",
+    "flag.txt",
+    "Academy/CPTS/Pentesting AD Guide Map.svg",
     "Academy/CPTS/HTB_CPTS_Exam_Report_Template.docx",
     "Academy/CPTS/Cheat sheet/03. Network Enumeration with Nmap.md",
     "README.md",
@@ -173,21 +211,11 @@
     "Academy/CPTS/Cheat sheet/26. Windows Privilege Escalation.md",
     "Academy/CPTS/Cheat sheet/25. Linux Privilege Escalation.md",
     "Academy/CPTS/Cheat sheet/24. Attacking Common Applications.md",
-    "Academy/CPTS/Cheat sheet/23. Web Attacks.md",
-    "Academy/CPTS/Cheat sheet/22. Command Injections.md",
-    "Academy/CPTS/Cheat sheet/21. File Upload Attacks.md",
-    "Academy/CPTS/Cheat sheet/20. File Inclusion.md",
-    "Academy/CPTS/Cheat sheet/19. Cross-Site Scripting (XSS).md",
-    "Academy/CPTS/Cheat sheet/18. SQLMap Essentials.md",
-    "Academy/CPTS/Cheat sheet/17. SQL Injection Fundamentals.md",
     "Academy/CPTS/Cheat sheet",
     "Hack the Box/hackthebox.JPG",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Findings",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Enumeration",
-    "Hack the Box/Prolabs/Dante/8. 172.16.1.101",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Scans and scripts",
-    "Hack the Box/Prolabs/Dante/7. 172.16.1.20 DC01/Findings",
     "Images/Pasted image 20231125205708.png",
     "Images/Pasted image 20231125104757.png",
     "Images/Pasted image 20231125100854.png",
