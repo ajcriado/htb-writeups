@@ -24,6 +24,9 @@ Scan
 
 --------------------------
 ### 3. Notes
+#### ++ USERS ++
+	Name Surname
+
 #### ++ CREDENTIALS ++
 	user:password
 
@@ -42,6 +45,6 @@ Scan
 
 --------------------------
 
-### 4. Attack chain
+### 4. Attack Chain
 * Step 1
 * Step 2
