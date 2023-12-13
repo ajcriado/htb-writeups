@@ -1,0 +1,47 @@
+If there are more than one server, keep the file structure but divide the information by host in Enumeration / Services pages and vulnerabilities in Notes
+
+### 1. Enumeration
+#### Nmap
+```bash
+Scan
+```
+#### Fuzzing
+```bash
+Scan
+```
+#### Scripts (Or other programs)
+```bash
+Scan
+```
+
+--------------------------
+### 2. Services
+#### 21 TCP: (Port numbers and service)
+	Additional info
+
+#### 80 HTTP / 443 HTTPS
+	Additional info
+
+--------------------------
+### 3. Notes
+#### ++ CREDENTIALS ++
+	user:password
+
+#### ++ HOSTS (Check with Aquatone if numerous) ++
+	`www.host1.com`
+	`www.host1.com`
+	
+#### ++ VULN 1 ++
+	Path and steps
+	
+#### ++ VULN 2 ++
+	Path and steps
+
+#### ++ Priv Esc ++
+	Path and steps
+
+--------------------------
+
+### 4. Attack chain
+* Step 1
+* Step 2
