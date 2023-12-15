@@ -4,123 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "34d90894ffaa1f8d",
-        "type": "split",
+        "id": "d1b80ccce62fd243",
+        "type": "tabs",
         "children": [
           {
-            "id": "0cc993c3410fa2ea",
-            "type": "split",
-            "dimension": 67.27467811158799,
-            "children": [
-              {
-                "id": "d1b80ccce62fd243",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "faaba49e05409268",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-                        "mode": "preview",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "ecad8bd6894aeebb",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/CPTS/Exam Preparation.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "bd9be41e4c4a6eb9",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Remote/1. Enumeration.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "b4d0306764325293",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Remote/2. Services.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ],
-                "currentTab": 3
+            "id": "faaba49e05409268",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "02e9787bf354b58a",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "bbdcf03fd7425448",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Remote/3. Notes.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
+              "pinned": true
+            }
           },
           {
-            "id": "2a129779e3a40141",
-            "type": "tabs",
-            "dimension": 32.72532188841202,
-            "children": [
-              {
-                "id": "525a8ff1a9192255",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Boxes/Remote/4. Attack Chain.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              }
-            ]
+            "id": "ecad8bd6894aeebb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Exam Preparation.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "af0655b461996112",
@@ -187,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Remote/4. Attack Chain.md",
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Remote/4. Attack Chain.md",
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Remote/4. Attack Chain.md"
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md"
               }
             }
           }
@@ -248,15 +162,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "525a8ff1a9192255",
+  "active": "faaba49e05409268",
   "lastOpenFiles": [
-    "Boxes/Remote/3. Notes.md",
-    "Boxes/Remote/4. Attack Chain.md",
-    "Boxes/Remote/2. Services.md",
+    "Academy/CPTS/Exam Preparation.md",
     "Boxes/Remote/1. Enumeration.md",
     "Boxes/Note Structures Template.txt",
+    "Boxes/Note Structures - Preview.png",
+    "Boxes/Remote/2. Services.md",
+    "Boxes/Remote/4. Attack Chain.md",
+    "Boxes/Remote/3. Notes.md",
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-    "Academy/CPTS/Exam Preparation.md",
     "Boxes/Remote",
     "Boxes/Friendzone/4. Attack Chain.md",
     "Boxes/Friendzone/3. Notes.md",
@@ -293,7 +208,6 @@
     "Images/Pasted image 20231125104757.png",
     "Images/Pasted image 20231125100854.png",
     "Images/Pasted image 20231125100717.png",
-    "Images/Pasted image 20231120142319.png",
-    "Images/Pasted image 20231120122401.png"
+    "Images/Pasted image 20231120142319.png"
   ]
 }
