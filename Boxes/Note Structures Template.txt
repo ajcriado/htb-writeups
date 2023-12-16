@@ -16,7 +16,7 @@ Scan
 
 --------------------------
 ### 2. Services
-#### 21 TCP: (Port numbers and service)
+#### 21 FTP (Port numbers and service)
 	Additional info
 
 #### 80 HTTP / 443 HTTPS
