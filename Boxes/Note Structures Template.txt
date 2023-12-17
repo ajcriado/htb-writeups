@@ -24,6 +24,10 @@ Scan
 
 --------------------------
 ### 3. Notes
+
+#### ++ INFO ++
+-> We found this here:
+	- Technical support ticket with this info
 #### ++ USERS ++
 	Name Surname
 

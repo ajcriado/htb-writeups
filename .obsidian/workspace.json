@@ -4,50 +4,123 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b80ccce62fd243",
-        "type": "tabs",
+        "id": "7e263fb32b525770",
+        "type": "split",
         "children": [
           {
-            "id": "faaba49e05409268",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-                "mode": "preview",
-                "source": false
+            "id": "851e3c98c9b32b9e",
+            "type": "split",
+            "dimension": 70.26768642447419,
+            "children": [
+              {
+                "id": "d1b80ccce62fd243",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "faaba49e05409268",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "ecad8bd6894aeebb",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/CPTS/Exam Preparation.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "3645998c770bfa37",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Beep/1. Enumeration.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "87072ea128ddf511",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Beep/2. Services.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ],
+                "currentTab": 3
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "ecad8bd6894aeebb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/CPTS/Exam Preparation.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "87072ea128ddf511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Note Structures Template.txt",
-                "mode": "source",
-                "source": false
+              {
+                "id": "8dbd2a3a05910227",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "661c766ef02b5cc0",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Beep/3. Notes.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ]
               }
-            }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "aca0b597456d20da",
+            "type": "tabs",
+            "dimension": 29.732313575525815,
+            "children": [
+              {
+                "id": "2d501953618331f4",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Boxes/Beep/4. Attack chain.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -113,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "file": "Boxes/Beep/2. Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "file": "Boxes/Beep/2. Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md"
+                "file": "Boxes/Beep/2. Services.md"
               }
             }
           }
@@ -174,10 +247,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "faaba49e05409268",
+  "active": "87072ea128ddf511",
   "lastOpenFiles": [
+    "Boxes/Beep/3. Notes.md",
+    "Boxes/Beep/2. Services.md",
+    "Boxes/Beep/4. Attack chain.md",
+    "Boxes/Beep/1. Enumeration.md",
     "Boxes/Note Structures Template.txt",
     "Academy/CPTS/Exam Preparation.md",
+    "Boxes/Beep (To Do)/3. Services to try.md",
+    "Boxes/Beep (To Do)/2. Enumeration.md",
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Boxes/Remote/1. Enumeration.md",
     "Boxes/Note Structures - Preview.png",
@@ -206,13 +285,7 @@
     "Academy/CPTS/Cheat sheet/05. Information Gathering - Web Edition.md",
     "Academy/CPTS/Cheat sheet/11. Attacking Common Services.md",
     "Academy/CPTS/Cheat sheet/15. Attacking Web Applications with Ffuf.md",
-    "Academy/CPTS/Cheat sheet/07. File Transfers.md",
-    "Academy/CPTS/Cheat sheet/02. Getting Started.md",
     "tjnull-list.jpg",
-    "Academy/CPTS/Skill Assesments/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
-    "Hack the Box/Prolabs/Dante/1. 10.10.110.100 WEB-NIX01/Path.md",
-    "Academy/CPTS/Cheat sheet/09. Using the Metasploit Framework.md",
-    "Academy/CPTS/Cheat sheet/08. Shells & Payloads.md",
     "Academy/CPTS/Cheat sheet",
     "Hack the Box/hackthebox.JPG",
     "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts",
