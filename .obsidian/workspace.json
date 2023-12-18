@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7e263fb32b525770",
+        "id": "1eecef09bbd26d89",
         "type": "split",
         "children": [
           {
-            "id": "851e3c98c9b32b9e",
+            "id": "ca71aef9814e95c0",
             "type": "split",
-            "dimension": 70.26768642447419,
             "children": [
               {
                 "id": "d1b80ccce62fd243",
@@ -45,13 +44,13 @@
                     }
                   },
                   {
-                    "id": "3645998c770bfa37",
+                    "id": "bbf03c7fd5c9ab2e",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Beep/1. Enumeration.md",
+                        "file": "Boxes/Note Structures Template.txt",
                         "mode": "source",
                         "source": false
                       },
@@ -59,13 +58,27 @@
                     }
                   },
                   {
-                    "id": "87072ea128ddf511",
+                    "id": "ebd3779216dbeea7",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Beep/2. Services.md",
+                        "file": "Boxes/Cronos/1. Enumeration.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "5450bbcc61ac8fae",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Cronos/2. Services.md",
                         "mode": "source",
                         "source": false
                       },
@@ -73,20 +86,20 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 4
               },
               {
-                "id": "8dbd2a3a05910227",
+                "id": "4a6472e766793f14",
                 "type": "tabs",
                 "children": [
                   {
-                    "id": "661c766ef02b5cc0",
+                    "id": "1bf537ec91c7ae9d",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Beep/3. Notes.md",
+                        "file": "Boxes/Cronos/3. Notes.md",
                         "mode": "source",
                         "source": false
                       },
@@ -99,18 +112,17 @@
             "direction": "vertical"
           },
           {
-            "id": "aca0b597456d20da",
+            "id": "39066fed65d3afaa",
             "type": "tabs",
-            "dimension": 29.732313575525815,
             "children": [
               {
-                "id": "2d501953618331f4",
+                "id": "abaa2a59a037fdb3",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Boxes/Beep/4. Attack chain.md",
+                    "file": "Boxes/Cronos/4. Attack chain.md",
                     "mode": "source",
                     "source": false
                   },
@@ -186,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Beep/2. Services.md",
+                "file": "Boxes/Cronos/3. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Beep/2. Services.md",
+                "file": "Boxes/Cronos/3. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Beep/2. Services.md"
+                "file": "Boxes/Cronos/3. Notes.md"
               }
             }
           }
@@ -247,17 +259,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87072ea128ddf511",
+  "active": "1bf537ec91c7ae9d",
   "lastOpenFiles": [
-    "Boxes/Beep/3. Notes.md",
-    "Boxes/Beep/2. Services.md",
-    "Boxes/Beep/4. Attack chain.md",
-    "Boxes/Beep/1. Enumeration.md",
+    "Boxes/Cronos/4. Attack chain.md",
+    "Boxes/Cronos/3. Notes.md",
+    "Boxes/Cronos/2. Services.md",
+    "Boxes/Cronos/1. Enumeration.md",
     "Boxes/Note Structures Template.txt",
+    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Boxes/Cronos",
+    "Boxes/Artic/7. FMTP.md",
+    "Boxes/Artic/6. Services to try.md",
+    "Boxes/Artic/5. Enumeration.md",
+    "Boxes/Artic/1. Machine Info.md",
     "Academy/CPTS/Exam Preparation.md",
+    "Boxes/Beep/1. Enumeration.md",
+    "Boxes/Beep/2. Services.md",
+    "Boxes/Beep/3. Notes.md",
+    "Boxes/Beep/4. Attack chain.md",
     "Boxes/Beep (To Do)/3. Services to try.md",
     "Boxes/Beep (To Do)/2. Enumeration.md",
-    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Boxes/Remote/1. Enumeration.md",
     "Boxes/Note Structures - Preview.png",
     "Boxes/Remote/2. Services.md",
@@ -270,25 +291,16 @@
     "Boxes/Friendzone/1. Enumeration.md",
     "Boxes/Friendzone/2. Notes.txt",
     "Boxes/Hospital/1. Machine info.md",
-    "Boxes/Hospital/3. Http 8080.md",
-    "Boxes/Hospital/2. Enumeration.md",
     "Boxes/Friendzone",
     "flag.txt",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
     "Academy/CPTS/HTB_CPTS_Exam_Report_Template.docx",
-    "Academy/CPTS/Cheat sheet/03. Network Enumeration with Nmap.md",
-    "README.md",
     "Academy/CPTS/Skill Assesments",
     "Academy/CPTS",
     "Images/Untitled Diagram.drawio.png",
-    "Hack the Box/Checklist.md",
-    "Academy/CPTS/Cheat sheet/05. Information Gathering - Web Edition.md",
-    "Academy/CPTS/Cheat sheet/11. Attacking Common Services.md",
-    "Academy/CPTS/Cheat sheet/15. Attacking Web Applications with Ffuf.md",
     "tjnull-list.jpg",
     "Academy/CPTS/Cheat sheet",
     "Hack the Box/hackthebox.JPG",
-    "Hack the Box/Prolabs/Dante/8. 172.16.1.101/Scans and scripts",
     "Images/Pasted image 20231125205708.png",
     "Images/Pasted image 20231125104757.png",
     "Images/Pasted image 20231125100854.png",
