@@ -81,14 +81,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/Bounty/1. Enumeration.md",
+                "file": "Boxes/Jerry/3. Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a0a7a36952a43a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boxes/Jerry/4. Attack chain.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Bounty/1. Enumeration.md",
+                "file": "Boxes/Jerry/4. Attack chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Bounty/1. Enumeration.md",
+                "file": "Boxes/Jerry/4. Attack chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Bounty/1. Enumeration.md"
+                "file": "Boxes/Jerry/4. Attack chain.md"
               }
             }
           }
@@ -215,13 +227,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1bd9c38aa8b74d7",
+  "active": "5a0a7a36952a43a4",
   "lastOpenFiles": [
-    "Boxes/Bounty/2. Services.md",
+    "Boxes/Jerry/3. Notes.md",
+    "Boxes/Jerry/2. Services.md",
+    "Boxes/Jerry/1. Enumeration.md",
+    "Boxes/Jerry/4. Attack chain.md",
     "Boxes/Bounty/3. Notes.md",
-    "Boxes/Bounty/4. Attack chain.md",
-    "Boxes/Bounty/1. Enumeration.md",
     "Boxes/Note Structures Template.txt",
+    "Boxes/Bounty/1. Enumeration.md",
+    "Boxes/Jerry",
+    "Boxes/Bounty/2. Services.md",
+    "Boxes/Bounty/4. Attack chain.md",
     "Boxes/SolidState/3. Apache James.md",
     "Boxes/Bounty",
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
@@ -243,18 +260,12 @@
     "Boxes/Cronos/4. Attack chain.md",
     "Boxes/Nineveh/1. Enumeration.md",
     "Boxes/Nineveh",
-    "Boxes/Cronos/3. Notes.md",
-    "Boxes/Cronos/2. Services.md",
-    "Boxes/Cronos/1. Enumeration.md",
     "Boxes/Cronos",
-    "Boxes/Artic/7. FMTP.md",
-    "Boxes/Artic/6. Services to try.md",
     "Boxes/Note Structures - Preview.png",
     "Boxes/Remote",
     "Boxes/Friendzone/2. Notes.txt",
     "Boxes/Friendzone",
     "flag.txt",
-    "Academy/CPTS/HTB_CPTS_Exam_Report_Template.docx",
     "Images/Untitled Diagram.drawio.png",
     "tjnull-list.jpg",
     "Hack the Box/hackthebox.JPG",
