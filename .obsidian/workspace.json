@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1eecef09bbd26d89",
+        "id": "f5c60e6461995bf9",
         "type": "split",
         "children": [
           {
-            "id": "ca71aef9814e95c0",
+            "id": "5858dde0750312cf",
             "type": "split",
             "children": [
               {
@@ -44,13 +44,13 @@
                     }
                   },
                   {
-                    "id": "bbf03c7fd5c9ab2e",
+                    "id": "7e29f0a460fed7d1",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Note Structures Template.txt",
+                        "file": "Boxes/Silo/1. Enumeration.md",
                         "mode": "source",
                         "source": false
                       },
@@ -58,48 +58,33 @@
                     }
                   },
                   {
-                    "id": "ebd3779216dbeea7",
+                    "id": "a2027dc0ec94d12c",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Cronos/1. Enumeration.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "5450bbcc61ac8fae",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Cronos/2. Services.md",
+                        "file": "Boxes/Silo/2. Services.md",
                         "mode": "source",
                         "source": false
                       },
                       "pinned": true
                     }
                   }
-                ],
-                "currentTab": 4
+                ]
               },
               {
-                "id": "4a6472e766793f14",
+                "id": "ea0fbe315044d8da",
                 "type": "tabs",
                 "children": [
                   {
-                    "id": "1bf537ec91c7ae9d",
+                    "id": "8102fe0ef23e4b34",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Cronos/3. Notes.md",
+                        "file": "Boxes/Silo/3. Notes.md",
                         "mode": "source",
                         "source": false
                       },
@@ -112,17 +97,17 @@
             "direction": "vertical"
           },
           {
-            "id": "39066fed65d3afaa",
+            "id": "b041f3086910e9ad",
             "type": "tabs",
             "children": [
               {
-                "id": "abaa2a59a037fdb3",
+                "id": "ee2151897e96ab5a",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Boxes/Cronos/4. Attack chain.md",
+                    "file": "Boxes/Silo/4. Attack chain.md",
                     "mode": "source",
                     "source": false
                   },
@@ -161,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "webmin",
+                "query": "crackmapexec",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 370.5
   },
   "right": {
     "id": "af0655b461996112",
@@ -198,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Cronos/3. Notes.md",
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Cronos/3. Notes.md",
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Cronos/3. Notes.md"
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md"
               }
             }
           }
@@ -259,47 +244,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1bf537ec91c7ae9d",
+  "active": "faaba49e05409268",
   "lastOpenFiles": [
+    "Boxes/Silo/4. Attack chain.md",
+    "Boxes/Silo/1. Enumeration.md",
+    "Boxes/Silo/3. Notes.md",
+    "Boxes/Silo/2. Services.md",
+    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Boxes/Note Structures Template.txt",
+    "Academy/CPTS/Exam Preparation.md",
+    "Boxes/Silo",
+    "Academy/CPTS/Pentesting AD Guide Map.svg",
+    "Boxes/Buff/3. Http.md",
+    "Boxes/Chatterbox/3. Achat (Port 9256).md",
+    "Boxes/Nineveh/4. Attack chain.md",
+    "Boxes/Nineveh/3. Notes.md",
+    "Boxes/Nineveh/2. Services.md",
     "Boxes/Cronos/4. Attack chain.md",
+    "Boxes/Nineveh/1. Enumeration.md",
+    "Boxes/Nineveh",
     "Boxes/Cronos/3. Notes.md",
     "Boxes/Cronos/2. Services.md",
     "Boxes/Cronos/1. Enumeration.md",
-    "Boxes/Note Structures Template.txt",
-    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Boxes/Cronos",
     "Boxes/Artic/7. FMTP.md",
     "Boxes/Artic/6. Services to try.md",
     "Boxes/Artic/5. Enumeration.md",
     "Boxes/Artic/1. Machine Info.md",
-    "Academy/CPTS/Exam Preparation.md",
     "Boxes/Beep/1. Enumeration.md",
     "Boxes/Beep/2. Services.md",
     "Boxes/Beep/3. Notes.md",
     "Boxes/Beep/4. Attack chain.md",
     "Boxes/Beep (To Do)/3. Services to try.md",
-    "Boxes/Beep (To Do)/2. Enumeration.md",
-    "Boxes/Remote/1. Enumeration.md",
     "Boxes/Note Structures - Preview.png",
-    "Boxes/Remote/2. Services.md",
-    "Boxes/Remote/4. Attack Chain.md",
-    "Boxes/Remote/3. Notes.md",
     "Boxes/Remote",
-    "Boxes/Friendzone/4. Attack Chain.md",
-    "Boxes/Friendzone/3. Notes.md",
-    "Boxes/Friendzone/2. Services.md",
-    "Boxes/Friendzone/1. Enumeration.md",
     "Boxes/Friendzone/2. Notes.txt",
-    "Boxes/Hospital/1. Machine info.md",
     "Boxes/Friendzone",
     "flag.txt",
-    "Academy/CPTS/Pentesting AD Guide Map.svg",
     "Academy/CPTS/HTB_CPTS_Exam_Report_Template.docx",
     "Academy/CPTS/Skill Assesments",
-    "Academy/CPTS",
     "Images/Untitled Diagram.drawio.png",
     "tjnull-list.jpg",
-    "Academy/CPTS/Cheat sheet",
     "Hack the Box/hackthebox.JPG",
     "Images/Pasted image 20231125205708.png",
     "Images/Pasted image 20231125104757.png",
