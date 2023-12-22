@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -34,9 +34,33 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "2be78582f9732cd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Cheat sheet/05. Information Gathering - Web Edition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "463f68f824441153",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Boxes/SolidState/3. Apache James.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/CPTS/Exam Preparation.md",
+                "file": "Boxes/SolidState/3. Apache James.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/CPTS/Exam Preparation.md",
+                "file": "Boxes/SolidState/3. Apache James.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/CPTS/Exam Preparation.md"
+                "file": "Boxes/SolidState/3. Apache James.md"
               }
             }
           }
@@ -163,15 +187,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ecad8bd6894aeebb",
+  "active": "463f68f824441153",
   "lastOpenFiles": [
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Boxes/SolidState/3. Apache James.md",
+    "Boxes/SolidState/2. Enumeration.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/SolidState/1. Machine info.md",
+    "Academy/CPTS/Exam Preparation.md",
+    "Academy/CPTS/Cheat sheet/05. Information Gathering - Web Edition.md",
     "Boxes/Silo/4. Attack chain.md",
     "Boxes/Silo/1. Enumeration.md",
     "Boxes/Silo/3. Notes.md",
     "Boxes/Silo/2. Services.md",
-    "Boxes/Note Structures Template.txt",
-    "Academy/CPTS/Exam Preparation.md",
     "Boxes/Silo",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
     "Boxes/Buff/3. Http.md",
@@ -191,10 +219,6 @@
     "Boxes/Artic/5. Enumeration.md",
     "Boxes/Artic/1. Machine Info.md",
     "Boxes/Beep/1. Enumeration.md",
-    "Boxes/Beep/2. Services.md",
-    "Boxes/Beep/3. Notes.md",
-    "Boxes/Beep/4. Attack chain.md",
-    "Boxes/Beep (To Do)/3. Services to try.md",
     "Boxes/Note Structures - Preview.png",
     "Boxes/Remote",
     "Boxes/Friendzone/2. Notes.txt",
