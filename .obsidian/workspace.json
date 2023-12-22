@@ -4,120 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f5c60e6461995bf9",
-        "type": "split",
+        "id": "d1b80ccce62fd243",
+        "type": "tabs",
         "children": [
           {
-            "id": "5858dde0750312cf",
-            "type": "split",
-            "children": [
-              {
-                "id": "d1b80ccce62fd243",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "faaba49e05409268",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-                        "mode": "preview",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "ecad8bd6894aeebb",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/CPTS/Exam Preparation.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "7e29f0a460fed7d1",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Silo/1. Enumeration.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "a2027dc0ec94d12c",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Silo/2. Services.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ]
+            "id": "faaba49e05409268",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "mode": "preview",
+                "source": false
               },
-              {
-                "id": "ea0fbe315044d8da",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "8102fe0ef23e4b34",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Silo/3. Notes.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
+              "pinned": true
+            }
           },
           {
-            "id": "b041f3086910e9ad",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ee2151897e96ab5a",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Boxes/Silo/4. Attack chain.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              }
-            ]
+            "id": "ecad8bd6894aeebb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Exam Preparation.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "file": "Academy/CPTS/Exam Preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                "file": "Academy/CPTS/Exam Preparation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md"
+                "file": "Academy/CPTS/Exam Preparation.md"
               }
             }
           }
@@ -244,13 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "faaba49e05409268",
+  "active": "ecad8bd6894aeebb",
   "lastOpenFiles": [
+    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Boxes/Silo/4. Attack chain.md",
     "Boxes/Silo/1. Enumeration.md",
     "Boxes/Silo/3. Notes.md",
     "Boxes/Silo/2. Services.md",
-    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Boxes/Note Structures Template.txt",
     "Academy/CPTS/Exam Preparation.md",
     "Boxes/Silo",
