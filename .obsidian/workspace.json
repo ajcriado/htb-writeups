@@ -34,73 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "2be78582f9732cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/CPTS/Cheat sheet/05. Information Gathering - Web Edition.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "463f68f824441153",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Note Structures Template.txt",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3cc0cc9621d81e58",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Bounty/3. Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "e1bd9c38aa8b74d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Jerry/3. Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a0a7a36952a43a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Jerry/4. Attack chain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Jerry/4. Attack chain.md",
+                "file": "Academy/CPTS/Exam Preparation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Jerry/4. Attack chain.md",
+                "file": "Academy/CPTS/Exam Preparation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Jerry/4. Attack chain.md"
+                "file": "Academy/CPTS/Exam Preparation.md"
               }
             }
           }
@@ -227,14 +163,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a0a7a36952a43a4",
+  "active": "ecad8bd6894aeebb",
   "lastOpenFiles": [
+    "Boxes/Valentine/2. Enumeration.md",
+    "Boxes/Valentine/3. Http.md",
+    "Academy/CPTS/Exam Preparation.md",
+    "Boxes/Node/3. Notes.md",
+    "Boxes/Node/2. Services.md",
+    "Boxes/Node/4. Attack chain.md",
+    "Boxes/Node/1. Enumeration.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Node",
+    "Academy/CPTS/Cheat sheet/05. Information Gathering - Web Edition.md",
+    "Boxes/Jerry/4. Attack chain.md",
     "Boxes/Jerry/3. Notes.md",
     "Boxes/Jerry/2. Services.md",
     "Boxes/Jerry/1. Enumeration.md",
-    "Boxes/Jerry/4. Attack chain.md",
     "Boxes/Bounty/3. Notes.md",
-    "Boxes/Note Structures Template.txt",
     "Boxes/Bounty/1. Enumeration.md",
     "Boxes/Jerry",
     "Boxes/Bounty/2. Services.md",
@@ -244,8 +189,6 @@
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Boxes/SolidState/2. Enumeration.md",
     "Boxes/SolidState/1. Machine info.md",
-    "Academy/CPTS/Exam Preparation.md",
-    "Academy/CPTS/Cheat sheet/05. Information Gathering - Web Edition.md",
     "Boxes/Silo/4. Attack chain.md",
     "Boxes/Silo/1. Enumeration.md",
     "Boxes/Silo/3. Notes.md",
@@ -254,18 +197,12 @@
     "Academy/CPTS/Pentesting AD Guide Map.svg",
     "Boxes/Buff/3. Http.md",
     "Boxes/Chatterbox/3. Achat (Port 9256).md",
-    "Boxes/Nineveh/4. Attack chain.md",
-    "Boxes/Nineveh/3. Notes.md",
-    "Boxes/Nineveh/2. Services.md",
-    "Boxes/Cronos/4. Attack chain.md",
-    "Boxes/Nineveh/1. Enumeration.md",
     "Boxes/Nineveh",
     "Boxes/Cronos",
     "Boxes/Note Structures - Preview.png",
     "Boxes/Remote",
     "Boxes/Friendzone/2. Notes.txt",
     "Boxes/Friendzone",
-    "flag.txt",
     "Images/Untitled Diagram.drawio.png",
     "tjnull-list.jpg",
     "Hack the Box/hackthebox.JPG",
