@@ -8,11 +8,11 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 ### Modules to review
 
 - Footprinting
+- File Transfers
 
 
 ### Pending modules
 
-- File Transfers
 - Shells & Payloads
 - Using the Metasploit Framework
 - Password Attacks
