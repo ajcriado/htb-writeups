@@ -2,14 +2,18 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 
 ### Modules that don't require review
 
-* Network Enumeration with Nmap ✅
-- Information Gathering - Web Edition ✅
+* Network Enumeration with Nmap
+- Information Gathering - Web Edition
 
 ### Modules to review
 
+
+
+
+### Modules to reference
+
 - Footprinting
 - File Transfers
-
 
 ### Pending modules
 
