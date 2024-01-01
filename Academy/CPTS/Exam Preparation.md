@@ -4,6 +4,8 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 
 * Network Enumeration with Nmap
 - Information Gathering - Web Edition
+- Shells & Payloads
+- Using the Metasploit Framework
 
 ### Modules to review
 
@@ -13,13 +15,59 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 ### Modules to reference
 
 - Footprinting
-- File Transfers
+	- FTP
+	- SMB
+	- RPC
+	- NFS
+	- DNS
+	- SMTP
+	- IMAP
+	- POP3
+	- SNMP
+	- MySQL
+	- MSQL
+	- IPMI
+	- SSH
+	- RSync
+	- RServices
+	- RDP
+	- WinRM
+	- Oracle TNS
+- File Transfers (Ways to move files)
+- Password Attacks
+	- John the Ripper / Hashcat
+	- Credential Storage
+		- Linux
+			- Files
+			- History
+			- Memory
+			- Key-Rings (Browsers)
+			- Passwd, Shadow & Opasswd
+		- Windows
+			- SAM
+			- LSASS
+			- Credential Manager / Credential Hunting
+				- FindSTR
+				- Lazagne
+			- Active Directory & NTDS.dit
+	- Services
+		- WinRM (crackmapexec and evil-winrm)
+		- SSH (hydra)
+		- RDP (hydra and xfreerdp)
+		- SMB (hydra, msfconsole, crackmapexec and smbclient)
+	- Password Mutations / Cewl
+	- Password Reuse / Default Passwords
+	- Pass the Hash
+		- Mimikatz
+		- PowerShell Invoke-TheHash
+		- Impacket
+		- Crackmapexec
+		- Evil-winrm
+		- RDP
 
 ### Pending modules
 
-- Shells & Payloads
-- Using the Metasploit Framework
-- Password Attacks
+
 - Attacking Common Services
 - Pivoting, Tunneling, and Port Forwarding
 - Active Directory Enumeration & Attacks
