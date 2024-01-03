@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c599af1877a12b67",
+        "id": "7e0c073938e33890",
         "type": "split",
         "children": [
           {
-            "id": "4842f9300129e940",
+            "id": "428bacbec241f9c8",
             "type": "split",
             "children": [
               {
@@ -56,13 +56,13 @@
                     }
                   },
                   {
-                    "id": "3f0a6cd5b799dba5",
+                    "id": "7d8a9f7e9f2b23e0",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Omni/1. Enumeration.md",
+                        "file": "Boxes/Networked/1. Enumeration.md",
                         "mode": "source",
                         "source": false
                       },
@@ -70,13 +70,13 @@
                     }
                   },
                   {
-                    "id": "21cc39f74524cad9",
+                    "id": "04fb9e5075868a85",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Omni/2. Services.md",
+                        "file": "Boxes/Networked/2. Services.md",
                         "mode": "source",
                         "source": false
                       },
@@ -87,18 +87,18 @@
                 "currentTab": 4
               },
               {
-                "id": "c25f662a3482decb",
+                "id": "38df9aed89734871",
                 "type": "tabs",
                 "children": [
                   {
-                    "id": "a9f655303a5cbc89",
+                    "id": "8366a9e1fbf83f7a",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Omni/3. Notes.md",
-                        "mode": "source",
+                        "file": "Boxes/Networked/3. Notes.md",
+                        "mode": "preview",
                         "source": false
                       },
                       "pinned": true
@@ -110,17 +110,17 @@
             "direction": "vertical"
           },
           {
-            "id": "598910e76cbe686f",
+            "id": "33d259e721cfb2eb",
             "type": "tabs",
             "children": [
               {
-                "id": "b3bb2eafeaea6f57",
+                "id": "cb37a07fcc931b00",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Boxes/Omni/4. Attack chain.md",
+                    "file": "Boxes/Networked/4. Attack chain.md",
                     "mode": "source",
                     "source": false
                   },
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Omni/3. Notes.md",
+                "file": "Boxes/Networked/3. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Omni/3. Notes.md",
+                "file": "Boxes/Networked/3. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Omni/3. Notes.md"
+                "file": "Boxes/Networked/3. Notes.md"
               }
             }
           }
@@ -257,17 +257,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9f655303a5cbc89",
+  "active": "8366a9e1fbf83f7a",
   "lastOpenFiles": [
-    "Boxes/Omni/4. Attack chain.md",
+    "Boxes/Networked/2. Services.md",
+    "Boxes/Networked/3. Notes.md",
+    "Boxes/Networked/4. Attack chain.md",
+    "Boxes/Networked/1. Enumeration.md",
+    "Boxes/Note Structures Template.txt",
     "Boxes/Omni/3. Notes.md",
     "Boxes/Omni/2. Services.md",
+    "Boxes/Omni/1. Enumeration.md",
+    "Boxes/Networked",
+    "Boxes/Omni/4. Attack chain.md",
     "Boxes/Chatterbox/3. Achat (Port 9256).md",
     "Academy/CPTS/Cheat sheet/10. Password Attacks.md",
-    "Boxes/Note Structures Template.txt",
     "Academy/CPTS/Exam Preparation.md",
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-    "Boxes/Omni/1. Enumeration.md",
     "Boxes/Omni",
     "Academy/CPTS/Cheat sheet/18. SQLMap Essentials.md",
     "Academy/CPTS/Cheat sheet/17. SQL Injection Fundamentals.md",
@@ -283,10 +288,6 @@
     "Boxes/Irked/3. Notes.md",
     "Boxes/Irked",
     "Boxes/Sunday/8. SSH.md",
-    "Boxes/Sunday/7. Finger.md",
-    "Boxes/Sunday/5. Enumeration.md",
-    "Boxes/Sunday/1. Machine Info.md",
-    "Boxes/Poison/3. HTTP.md",
     "Boxes/Node",
     "Boxes/Jerry",
     "Boxes/Bounty",
@@ -295,7 +296,6 @@
     "Boxes/Nineveh",
     "Boxes/Cronos",
     "Boxes/Note Structures - Preview.png",
-    "Boxes/Remote",
     "Images/Untitled Diagram.drawio.png",
     "tjnull-list.jpg",
     "Hack the Box/hackthebox.JPG",
