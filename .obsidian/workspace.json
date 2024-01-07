@@ -4,123 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "7e0c073938e33890",
+        "id": "8c20bb2802e76e22",
         "type": "split",
         "children": [
           {
-            "id": "428bacbec241f9c8",
-            "type": "split",
-            "children": [
-              {
-                "id": "d1b80ccce62fd243",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "faaba49e05409268",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-                        "mode": "preview",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "30aaed2cae452139",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/CPTS/Cheat sheet/10. Password Attacks.md",
-                        "mode": "preview",
-                        "source": false
-                      }
-                    }
-                  },
-                  {
-                    "id": "ecad8bd6894aeebb",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/CPTS/Exam Preparation.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "7d8a9f7e9f2b23e0",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Networked/1. Enumeration.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "04fb9e5075868a85",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Networked/2. Services.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ],
-                "currentTab": 4
-              },
-              {
-                "id": "38df9aed89734871",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "8366a9e1fbf83f7a",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Networked/3. Notes.md",
-                        "mode": "preview",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
-          },
-          {
-            "id": "33d259e721cfb2eb",
+            "id": "d1b80ccce62fd243",
             "type": "tabs",
+            "dimension": 67.11281070745699,
             "children": [
               {
-                "id": "cb37a07fcc931b00",
+                "id": "faaba49e05409268",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Boxes/Networked/4. Attack chain.md",
+                    "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "30aaed2cae452139",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Academy/CPTS/Cheat sheet/10. Password Attacks.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ecad8bd6894aeebb",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Academy/CPTS/Academy Index.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "e19413c6cacf4907",
+            "type": "tabs",
+            "dimension": 32.88718929254302,
+            "children": [
+              {
+                "id": "724f09a07b6c9b8c",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Boxes/Bizness/4. Attack chain.md",
                     "mode": "source",
                     "source": false
                   },
@@ -159,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "icacls",
+                "query": "responder",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "right": {
     "id": "af0655b461996112",
@@ -196,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Networked/3. Notes.md",
+                "file": "Boxes/Bizness/4. Attack chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Networked/3. Notes.md",
+                "file": "Boxes/Bizness/4. Attack chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Networked/3. Notes.md"
+                "file": "Boxes/Bizness/4. Attack chain.md"
               }
             }
           }
@@ -257,44 +205,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8366a9e1fbf83f7a",
+  "active": "724f09a07b6c9b8c",
   "lastOpenFiles": [
+    "Boxes/Bizness/3. Notes.md",
+    "Boxes/Bizness/4. Attack chain.md",
+    "Boxes/Bizness/2. Services.md",
+    "Boxes/Bizness/1. Enumeration.md",
+    "Boxes/Manager (just user flag)/3. Services to try.md",
+    "Academy/CPTS/Academy Index.md",
+    "Boxes/Frolic/3. Notes.md",
+    "Boxes/Frolic/2. Services.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Omni/4. Attack chain.md",
+    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Boxes/Bizness",
+    "Boxes/Frolic/4. Attack chain.md",
+    "Boxes/Frolic/1. Enumeration.md",
+    "Academy/CPTS/Pentesting AD Guide Map.svg",
+    "Boxes/Frolic",
+    "Academy/CPTS/Cheat sheet/10. Password Attacks.md",
+    "Boxes/Networked/1. Enumeration.md",
     "Boxes/Networked/2. Services.md",
     "Boxes/Networked/3. Notes.md",
     "Boxes/Networked/4. Attack chain.md",
-    "Boxes/Networked/1. Enumeration.md",
-    "Boxes/Note Structures Template.txt",
     "Boxes/Omni/3. Notes.md",
     "Boxes/Omni/2. Services.md",
     "Boxes/Omni/1. Enumeration.md",
     "Boxes/Networked",
-    "Boxes/Omni/4. Attack chain.md",
     "Boxes/Chatterbox/3. Achat (Port 9256).md",
-    "Academy/CPTS/Cheat sheet/10. Password Attacks.md",
-    "Academy/CPTS/Exam Preparation.md",
-    "Academy/CPTS/Cheat sheet/04. Footprinting.md",
     "Boxes/Omni",
     "Academy/CPTS/Cheat sheet/18. SQLMap Essentials.md",
     "Academy/CPTS/Cheat sheet/17. SQL Injection Fundamentals.md",
     "Academy/CPTS/Cheat sheet/07. File Transfers.md",
     "Boxes/Forest/5. WinRM.md",
     "Boxes/Forest/4. RPC.md",
-    "Academy/CPTS/Cheat sheet/13. Active Directory Enumeration & Attacks.md",
-    "Boxes/Forest/1. Machine info.md",
-    "Academy/CPTS/Cheat sheet/08. Shells & Payloads.md",
-    "Boxes/Irked/1. Enumeration.md",
-    "Boxes/Irked/2. Services.md",
-    "Boxes/Irked/4. Attack chain.md",
-    "Boxes/Irked/3. Notes.md",
     "Boxes/Irked",
-    "Boxes/Sunday/8. SSH.md",
     "Boxes/Node",
     "Boxes/Jerry",
     "Boxes/Bounty",
     "Boxes/Silo",
-    "Academy/CPTS/Pentesting AD Guide Map.svg",
-    "Boxes/Nineveh",
-    "Boxes/Cronos",
     "Boxes/Note Structures - Preview.png",
     "Images/Untitled Diagram.drawio.png",
     "tjnull-list.jpg",

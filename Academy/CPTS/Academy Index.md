@@ -1,5 +1,3 @@
-Here I post the CPTS modules which I need to read again and some related boxes to practice the content. Some modules will need a review due to their difficulty.
-
 ### Modules that don't require review
 
 * Network Enumeration with Nmap
@@ -12,9 +10,9 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 
 
 
-### Modules to reference
+# Modules to reference
 
-- Footprinting
+- #### Footprinting
 	- FTP
 	- SMB
 	- RPC
@@ -33,10 +31,12 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 	- RDP
 	- WinRM
 	- Oracle TNS
-- File Transfers (Ways to move files)
-- Password Attacks
+	
+- #### File Transfers (Ways to move files)
+
+- #### Password Attacks
 	- John the Ripper / Hashcat
-	- Credential Storage
+	- ##### Credential Storage
 		- Linux
 			- Files
 			- History
@@ -55,15 +55,37 @@ Here I post the CPTS modules which I need to read again and some related boxes t
 		- SSH (hydra)
 		- RDP (hydra and xfreerdp)
 		- SMB (hydra, msfconsole, crackmapexec and smbclient)
-	- Password Mutations / Cewl
-	- Password Reuse / Default Passwords
-	- Pass the Hash
+	- ##### Password Mutations / Cewl
+	- ##### Password Reuse / Default Passwords
+	- ##### Pass the Hash
+		- NTLM
 		- Mimikatz
 		- PowerShell Invoke-TheHash
 		- Impacket
+			- impacket-wmiexec
+			- impacket-atexec
+			- impacket-smbexec
 		- Crackmapexec
 		- Evil-winrm
 		- RDP
+			- Enable Restricted Admin Mode to Allow PtH (If blue screen appears)
+	- ##### Pass the Ticket 
+		- Pass the Ticket (From Windows, using Mimikatz / Rubeus)
+			- Kerberos
+			- Pass the Key or OverPass the Hash
+			- Pass The Ticket with PowerShell Remoting
+		- Pass the Ticket (From Linux)
+			- Identifying Linux and Active Directory Integration
+			- Finding Kerberos Tickets in Linux
+				- Finding Keytab Files
+				- Finding ccache Files
+				- Abusing KeyTab Files
+			- Keytab Extract / Extracting Keytab Hashes with KeyTabExtract
+			- Obtaining More Hashes / Abusing Keytab ccache
+			- Using Linux Attack Tools with Kerberos
+	- Protected Files / Archives
+		- Cracking
+	- Password Policies
 
 ### Pending modules
 
