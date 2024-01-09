@@ -1,18 +1,12 @@
-### Modules that don't require review
+### Other Modules
 
 * Network Enumeration with Nmap
 - Information Gathering - Web Edition
 - Shells & Payloads
 - Using the Metasploit Framework
-
-### Modules to review
-
-
-
-
 # Modules to reference
 
-- #### Footprinting
+- #### <u>Footprinting</u>
 	- FTP
 	- SMB
 	- RPC
@@ -31,10 +25,24 @@
 	- RDP
 	- WinRM
 	- Oracle TNS
-	
-- #### File Transfers (Ways to move files)
-
-- #### Password Attacks
+	</br>
+- #### <u>Attacking Common Services</u>
+	- Attacking FTP 
+		- Enumeration, Misconfigurations, Brute Force, FTP Bounce Attack
+	- Attacking SMB
+		- Enumeration, Misconfigurations, Remote Procedure Call (RPC), Brute Force, Password Spray, Remote Code Execution (RCE)
+	- Attacking SQL Databases
+		- Enumeration, Misconfigurations, Protocol Specific Attacks, Default Databases, SQL Syntax, Execute Commands, Read/Write Local Files, MSSQL Attacks
+	- Attacking RDP
+		- Enumeration, Password Spraying, Session Hijacking, Pass the Hash, DisableRestrictedAdmin Registry Key
+	- Attacking DNS
+		- Enumeration, DNS Zone Transfer, Domain Takeovers and Subdomain Enumeration, DNS Spoofing
+	- Attacking Email Services
+		- Enumeration, Misconfigurations, Cloud Enumeration, Password Attacks, Protocol Specifics Attacks
+	</br>
+- #### <u>File Transfers</u> (Ways to move files)
+	</br>
+- #### <u>Password Attacks</u> (Credential Storage, Brute Forcing, Pass the Hash/Ticket)
 	- John the Ripper / Hashcat
 	- ##### Credential Storage
 		- Linux
