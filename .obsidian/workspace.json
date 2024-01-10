@@ -4,37 +4,124 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b80ccce62fd243",
-        "type": "tabs",
+        "id": "473fc680054cf8bd",
+        "type": "split",
         "children": [
           {
-            "id": "faaba49e05409268",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
-                "mode": "preview",
-                "source": false
+            "id": "7a3d0064b81a6039",
+            "type": "split",
+            "dimension": 72.08413001912047,
+            "children": [
+              {
+                "id": "d1b80ccce62fd243",
+                "type": "tabs",
+                "dimension": 50,
+                "children": [
+                  {
+                    "id": "faaba49e05409268",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "4bb5d7103d4f5da8",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/CPTS/Academy Index.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "d268f783d51e1ac8",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Querier/1. Enumeration.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "0dc2ea98a54ec5ea",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Querier/2. Services.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ]
               },
-              "pinned": true
-            }
+              {
+                "id": "443b3250dd92999b",
+                "type": "tabs",
+                "dimension": 50,
+                "children": [
+                  {
+                    "id": "c978e00ab3374061",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Querier/3. Notes.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
           },
           {
-            "id": "d268f783d51e1ac8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/CPTS/Academy Index.md",
-                "mode": "preview",
-                "source": false
+            "id": "e62d84f5ff777fb7",
+            "type": "tabs",
+            "dimension": 27.915869980879542,
+            "children": [
+              {
+                "id": "9908e4588994d01b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Boxes/Querier/4. Attack chain.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -63,7 +150,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "responder",
+                "query": "47001",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "right": {
     "id": "af0655b461996112",
@@ -100,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/CPTS/Academy Index.md",
+                "file": "Boxes/Querier/3. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/CPTS/Academy Index.md",
+                "file": "Boxes/Querier/3. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/CPTS/Academy Index.md"
+                "file": "Boxes/Querier/3. Notes.md"
               }
             }
           }
@@ -161,9 +249,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d268f783d51e1ac8",
+  "active": "c978e00ab3374061",
   "lastOpenFiles": [
     "Academy/CPTS/Cheat sheet/04. Footprinting.md",
+    "Boxes/Querier/3. Notes.md",
+    "Boxes/Querier/2. Services.md",
+    "Boxes/Querier/1. Enumeration.md",
+    "Academy/CPTS/Academy Index.md",
+    "Boxes/Netmon/3. Services to try.md",
+    "Boxes/Netmon/2. Enumeration.md",
+    "Boxes/Remote/2. Services.md",
+    "Boxes/Remote/1. Enumeration.md",
+    "Boxes/Silo/2. Services.md",
+    "Boxes/Silo/1. Enumeration.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Querier/4. Attack chain.md",
+    "Boxes/Querier",
     "Boxes/Frolic (Just user)/4. Attack chain.md",
     "Boxes/Frolic (Just user)/3. Notes.md",
     "Boxes/Frolic (Just user)/2. Services.md",
@@ -173,8 +274,6 @@
     "Boxes/Bizness/2. Services.md",
     "Boxes/Bizness/1. Enumeration.md",
     "Boxes/Manager (just user flag)/3. Services to try.md",
-    "Academy/CPTS/Academy Index.md",
-    "Boxes/Note Structures Template.txt",
     "Boxes/Omni/4. Attack chain.md",
     "Boxes/Bizness",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
@@ -183,23 +282,12 @@
     "Boxes/Networked/1. Enumeration.md",
     "Boxes/Networked/2. Services.md",
     "Boxes/Networked/3. Notes.md",
-    "Boxes/Networked/4. Attack chain.md",
-    "Boxes/Omni/3. Notes.md",
-    "Boxes/Omni/2. Services.md",
-    "Boxes/Omni/1. Enumeration.md",
     "Boxes/Networked",
-    "Boxes/Chatterbox/3. Achat (Port 9256).md",
     "Boxes/Omni",
-    "Academy/CPTS/Cheat sheet/18. SQLMap Essentials.md",
-    "Academy/CPTS/Cheat sheet/17. SQL Injection Fundamentals.md",
-    "Academy/CPTS/Cheat sheet/07. File Transfers.md",
-    "Boxes/Forest/5. WinRM.md",
-    "Boxes/Forest/4. RPC.md",
     "Boxes/Irked",
     "Boxes/Node",
     "Boxes/Jerry",
     "Boxes/Bounty",
-    "Boxes/Silo",
     "Boxes/Note Structures - Preview.png",
     "Images/Untitled Diagram.drawio.png",
     "tjnull-list.jpg",

@@ -6,7 +6,7 @@
 - Using the Metasploit Framework
 # Modules to reference
 
-- #### <u>Footprinting</u>
+- #### <u>Footprinting</u> *Boxes counter: 0*
 	- FTP
 	- SMB
 	- RPC
@@ -26,7 +26,7 @@
 	- WinRM
 	- Oracle TNS
 	</br>
-- #### <u>Attacking Common Services</u>
+- #### <u>Attacking Common Services</u> *Boxes counter: 0*
 	- Attacking FTP 
 		- Enumeration, Misconfigurations, Brute Force, FTP Bounce Attack
 	- Attacking SMB
@@ -40,9 +40,9 @@
 	- Attacking Email Services
 		- Enumeration, Misconfigurations, Cloud Enumeration, Password Attacks, Protocol Specifics Attacks
 	</br>
-- #### <u>File Transfers</u> (Ways to move files)
+- #### <u>File Transfers</u> (Ways to move files) *Boxes counter: 0*
 	</br>
-- #### <u>Password Attacks</u> (Credential Storage, Brute Forcing, Pass the Hash/Ticket)
+- #### <u>Password Attacks</u> (Credential Storage, Brute Forcing, Pass the Hash/Ticket) *Boxes counter: 0*
 	- John the Ripper / Hashcat
 	- ##### Credential Storage
 		- Linux
