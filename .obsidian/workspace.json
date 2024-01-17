@@ -8,13 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "faaba49e05409268",
+            "id": "6a5c6b0c61b04c90",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/Cheat sheets/04. Footprinting.md",
+                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1e5eddba5b1af82e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "10d0a2ea72d00035",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Wordlists.md",
                 "mode": "preview",
                 "source": false
               },
@@ -22,15 +50,17 @@
             }
           },
           {
-            "id": "ace65b1bba6d6f5e",
+            "id": "513e8e11afa06e05",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/Cheat sheets/20. File Inclusion.md",
-                "mode": "source",
+                "file": "Academy/OSCP/Content Summary/Commands.md",
+                "mode": "preview",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -63,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dnsenum",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 333.5
   },
   "right": {
     "id": "af0655b461996112",
@@ -100,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/Cheat sheets/20. File Inclusion.md",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/Cheat sheets/20. File Inclusion.md",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/Cheat sheets/20. File Inclusion.md"
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md"
               }
             }
           }
@@ -161,44 +191,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ace65b1bba6d6f5e",
+  "active": "1e5eddba5b1af82e",
   "lastOpenFiles": [
-    "Academy/Cheat sheets/04. Footprinting.md",
+    "Academy/OSCP/Content Summary/Wordlists.md",
+    "Academy/OSCP/Content Summary/Commands.md",
+    "Academy/CPTS/Content Summary/20. File Inclusion.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/CPTS/Content Summary/02. Getting Started.md",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Academy/CPTS/Content Summary",
+    "Academy/OSCP/Content Summary",
+    "Academy/CPTS/Academy Index.md",
+    "Academy/CPTS/Content Summary/04. Footprinting.md",
+    "Academy/CPTS/Content Summary/03. Network Enumeration with Nmap.md",
+    "Academy/OSCP",
+    "Boxes/Proving Grounds/Algernon/1. Enumeration.md",
+    "Boxes/Proving Grounds/Algernon/2. Services.md",
+    "Boxes/Proving Grounds/Algernon/4. Attach chain & Post exploitation.md",
+    "Boxes/Proving Grounds/Algernon/3. Notes.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Proving Grounds/Algernon",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/2. Services.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/3. Notes.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/1. Enumeration.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/4. Attack chain.md",
+    "Boxes/HackTheBox/Postman/2. Enumeration.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/4. Attack chain.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/2. Services.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/1. Enumeration.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/3. Notes.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/Scope.md",
+    "Boxes/Challenge Labs/2. Relia/2. Enumeration.md",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)",
+    "Boxes/Challenge Labs/2. Relia (In Process)/172.16.93.0-24 (Internal)",
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)",
+    "Boxes/Challenge Labs/2. Relia (In Process)",
     "Boxes/Proving Grounds/Kevin/3. Notes.md",
     "Boxes/Proving Grounds/Kevin/4. Attack chain.md",
-    "Boxes/Note Structures Template.txt",
-    "Boxes/Proving Grounds/Kevin/2. Services.md",
-    "Boxes/Proving Grounds/Kevin/1. Enumeration.md",
-    "Academy/CPTS/Academy Index.md",
-    "Boxes/Proving Grounds/Kevin",
-    "Boxes/Proving Grounds",
-    "Boxes/HackTheBox",
-    "Academy/Cheat sheets/02. Getting Started.md",
-    "Boxes/HackTheBox/Cronos/2. Services.md",
-    "Academy/CPTS/Skill Assesments/Shells and Payloads/Enumeration/Host 1 - 172.16.1.11.md",
-    "Academy/Cheat sheets/05. Information Gathering - Web Edition.md",
-    "Boxes/HackTheBox/Monitored/1. Enumeration.md",
-    "Boxes/HackTheBox/Monitored/3. Notes.md",
-    "Boxes/HackTheBox/Monitored/2. Services.md",
-    "Boxes/HackTheBox/Monitored/4. Attack chain.md",
-    "Boxes/HackTheBox/Monitored",
-    "Boxes/HackTheBox/Querier/3. Notes.md",
-    "Boxes/HackTheBox/Querier/2. Services.md",
-    "Boxes/HackTheBox/Querier/1. Enumeration.md",
-    "Boxes/HackTheBox/Netmon/3. Services to try.md",
-    "Boxes/HackTheBox/Netmon/2. Enumeration.md",
-    "Boxes/HackTheBox/Remote/2. Services.md",
-    "Boxes/HackTheBox/Remote/1. Enumeration.md",
-    "Boxes/HackTheBox/Silo/2. Services.md",
-    "Boxes/HackTheBox/Silo/1. Enumeration.md",
-    "Boxes/HackTheBox/Querier/4. Attack chain.md",
-    "Boxes/HackTheBox/Querier",
-    "Boxes/HackTheBox/Frolic (Just user)/4. Attack chain.md",
-    "Boxes/HackTheBox/Bizness",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
-    "Boxes/HackTheBox/Frolic (Just user)",
-    "Boxes/HackTheBox/Networked",
-    "Boxes/HackTheBox/Omni",
     "Boxes/Note Structures - Preview.png",
     "Images/Untitled Diagram.drawio.png",
     "Boxes/HackTheBox/tjnull-list.jpg",
