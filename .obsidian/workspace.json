@@ -4,67 +4,121 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b80ccce62fd243",
-        "type": "tabs",
+        "id": "33bf76c57b770a6a",
+        "type": "split",
         "children": [
           {
-            "id": "6a5c6b0c61b04c90",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
-                "mode": "source",
-                "source": false
+            "id": "93c0f9f5ade07ae7",
+            "type": "split",
+            "dimension": 41.14832535885167,
+            "children": [
+              {
+                "id": "d1b80ccce62fd243",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "6a5c6b0c61b04c90",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "414f4add256dcd0d",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "00588a27ef143390",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Snookums/2. Services.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "5de48b1e47bd010b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ],
+                "currentTab": 2
               },
-              "pinned": true
-            }
+              {
+                "id": "e3a62a38d3cc5469",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "c020410e46ef0a85",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Snookums/3. Notes.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
           },
           {
-            "id": "1e5eddba5b1af82e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "10d0a2ea72d00035",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Wordlists.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "513e8e11afa06e05",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Commands.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
+            "id": "34632b76c7dbbc4a",
+            "type": "tabs",
+            "dimension": 58.85167464114832,
+            "children": [
+              {
+                "id": "a61bd4fbfac2efe9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -93,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bind",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "right": {
     "id": "af0655b461996112",
@@ -130,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "file": "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "file": "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md"
+                "file": "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md"
               }
             }
           }
@@ -191,14 +246,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e5eddba5b1af82e",
+  "active": "a61bd4fbfac2efe9",
   "lastOpenFiles": [
-    "Academy/OSCP/Content Summary/Wordlists.md",
-    "Academy/OSCP/Content Summary/Commands.md",
-    "Academy/CPTS/Content Summary/20. File Inclusion.md",
+    "Boxes/Proving Grounds/Snookums/Pasted image 20240117235902.png",
+    "Boxes/Proving Grounds/Snookums/3. Notes.md",
+    "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
+    "Boxes/Proving Grounds/Snookums/Pasted image 20240117235510.png",
+    "Boxes/Proving Grounds/Snookums/Pasted image 20240117233952.png",
+    "Boxes/Proving Grounds/Snookums/Pasted image 20240117232249.png",
+    "Boxes/Proving Grounds/Snookums/Pasted image 20240117232014.png",
+    "Boxes/Proving Grounds/Snookums/2. Services.md",
     "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Academy/CPTS/Content Summary/02. Getting Started.md",
+    "Academy/CPTS/Content Summary/08. Shells & Payloads.md",
+    "Academy/OSCP/Content Summary/Commands.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
+    "Boxes/Proving Grounds/AuthBy/2. Services.md",
+    "Boxes/Proving Grounds/Snookums",
+    "Boxes/Proving Grounds/AuthBy/1. Enumeration.md",
+    "Boxes/Proving Grounds/AuthBy/4. Attack chain & Post-exploitation.md",
+    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173750.png",
+    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173637.png",
+    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173602.png",
+    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173458.png",
+    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173430.png",
+    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173035.png",
+    "Boxes/Proving Grounds/AuthBy/3. Notes.md",
+    "Boxes/Proving Grounds/AuthBy",
+    "Academy/OSCP/Content Summary/Wordlists.md",
+    "Academy/CPTS/Content Summary/22. Command Injections.md",
+    "Academy/CPTS/Content Summary/20. File Inclusion.md",
     "Academy/CPTS/Content Summary",
     "Academy/OSCP/Content Summary",
     "Academy/CPTS/Academy Index.md",
@@ -209,35 +288,11 @@
     "Boxes/Proving Grounds/Algernon/2. Services.md",
     "Boxes/Proving Grounds/Algernon/4. Attach chain & Post exploitation.md",
     "Boxes/Proving Grounds/Algernon/3. Notes.md",
-    "Boxes/Note Structures Template.txt",
     "Boxes/Proving Grounds/Algernon",
     "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/2. Services.md",
     "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/3. Notes.md",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/1. Enumeration.md",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250/4. Attack chain.md",
-    "Boxes/HackTheBox/Postman/2. Enumeration.md",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/4. Attack chain.md",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/2. Services.md",
     "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/1. Enumeration.md",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)/3. Notes.md",
-    "Boxes/Challenge Labs/2. Relia (In Process)/Scope.md",
-    "Boxes/Challenge Labs/2. Relia/2. Enumeration.md",
     "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)",
-    "Boxes/Challenge Labs/2. Relia (In Process)/172.16.93.0-24 (Internal)",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)",
-    "Boxes/Challenge Labs/2. Relia (In Process)",
-    "Boxes/Proving Grounds/Kevin/3. Notes.md",
-    "Boxes/Proving Grounds/Kevin/4. Attack chain.md",
-    "Academy/CPTS/Pentesting AD Guide Map.svg",
-    "Boxes/Note Structures - Preview.png",
-    "Images/Untitled Diagram.drawio.png",
-    "Boxes/HackTheBox/tjnull-list.jpg",
-    "Hack the Box/hackthebox.JPG",
-    "Images/Pasted image 20231125205708.png",
-    "Images/Pasted image 20231125104757.png",
-    "Images/Pasted image 20231125100854.png",
-    "Images/Pasted image 20231125100717.png",
-    "Images/Pasted image 20231120142319.png"
+    "Boxes/Challenge Labs/2. Relia (In Process)/172.16.93.0-24 (Internal)"
   ]
 }

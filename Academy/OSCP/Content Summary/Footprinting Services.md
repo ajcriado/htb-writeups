@@ -9,6 +9,9 @@
 ## Host-based Enumeration
 
 ##### **[FTP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-ftp)** (TCP 20, 21)
+
+> **Note: ** If combined with Http, check to upload a file and execute it in the Http service
+
 |**Command**|**Description**|
 |-|-|
 | `nmap --script ftp-* -p 21 <ip>` | Nmap port scan |
@@ -20,6 +23,9 @@
 | `wget -m --no-passive ftp://anonymous:anonymous@<target>:<port>` | Download all available files on the target FTP server (no passive) |
 | `passive mode` | If a firewall protects the client, the server cannot reply because all external connections are blocked. For this purpose, the `passive mode` has been developed. Here, the server announces a port through which the client can establish the data channel. |
 ##### **[SMB](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)** (TCP 137, 138, 139, 445)
+
+> **Note: ** If combined with Http, check to upload a file and execute it in the Http service
+
 |**Command**|**Description**|
 |-|-|
 | `smbclient -N -L //<FQDN/IP>` | Null session authentication on SMB. |

