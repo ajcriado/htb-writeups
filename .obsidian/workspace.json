@@ -4,121 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "33bf76c57b770a6a",
-        "type": "split",
+        "id": "d1b80ccce62fd243",
+        "type": "tabs",
         "children": [
           {
-            "id": "93c0f9f5ade07ae7",
-            "type": "split",
-            "dimension": 41.14832535885167,
-            "children": [
-              {
-                "id": "d1b80ccce62fd243",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "6a5c6b0c61b04c90",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
-                        "mode": "preview",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "414f4add256dcd0d",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "00588a27ef143390",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Proving Grounds/Snookums/2. Services.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "5de48b1e47bd010b",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
-                        "mode": "source",
-                        "source": false
-                      }
-                    }
-                  }
-                ],
-                "currentTab": 1
+            "id": "6a5c6b0c61b04c90",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "mode": "preview",
+                "source": false
               },
-              {
-                "id": "e3a62a38d3cc5469",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "c020410e46ef0a85",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Proving Grounds/Snookums/3. Notes.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
+              "pinned": true
+            }
           },
           {
-            "id": "34632b76c7dbbc4a",
-            "type": "tabs",
-            "dimension": 58.85167464114832,
-            "children": [
-              {
-                "id": "a61bd4fbfac2efe9",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
+            "id": "5de48b1e47bd010b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "right": {
     "id": "af0655b461996112",
@@ -185,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Proving Grounds/Snookums/1. Enumeration.md"
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md"
               }
             }
           }
@@ -246,11 +161,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "414f4add256dcd0d",
+  "active": "5de48b1e47bd010b",
   "lastOpenFiles": [
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
     "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Boxes/Proving Grounds/Snookums/2. Services.md",
-    "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
     "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
     "Boxes/Proving Grounds/Snookums/Pasted image 20240117235902.png",
     "Boxes/Proving Grounds/Snookums/3. Notes.md",
@@ -261,7 +177,6 @@
     "Academy/CPTS/Content Summary/02. Getting Started.md",
     "Academy/CPTS/Content Summary/08. Shells & Payloads.md",
     "Academy/OSCP/Content Summary/Commands.md",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/Note Structures Template.txt",
     "Boxes/Proving Grounds/AuthBy/2. Services.md",
     "Boxes/Proving Grounds/Snookums",
