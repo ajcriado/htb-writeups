@@ -4,24 +4,123 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b80ccce62fd243",
-        "type": "tabs",
+        "id": "4878e78463147aec",
+        "type": "split",
         "children": [
           {
-            "id": "6a5c6b0c61b04c90",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
-                "mode": "preview",
-                "source": false
+            "id": "bcf3820f2ce72d65",
+            "type": "split",
+            "dimension": 72.32704402515724,
+            "children": [
+              {
+                "id": "d1b80ccce62fd243",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "6a5c6b0c61b04c90",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "36e3c317b1d5e160",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/OSCP/Content Summary/Password Attacks.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "32b4f6df06f901ec",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Billyboss (Just user)/1. Enumeration.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "3468789a59132f64",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ],
+                "currentTab": 3
               },
-              "pinned": true
-            }
+              {
+                "id": "00fcc20942618da9",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "ba731777b96ed1cd",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Billyboss (Just user)/3. Notes.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "59ffa02df2ed6c0c",
+            "type": "tabs",
+            "dimension": 27.672955974842772,
+            "children": [
+              {
+                "id": "3703d9276aa1b6b9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Boxes/Proving Grounds/Billyboss (Just user)/4. Attack chain.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -87,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md"
+                "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md"
               }
             }
           }
@@ -148,8 +247,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a5c6b0c61b04c90",
+  "active": "3468789a59132f64",
   "lastOpenFiles": [
+    "Boxes/Proving Grounds/Billyboss (Just user)/4. Attack chain.md",
+    "Boxes/Proving Grounds/Billyboss (Just user)/3. Notes.md",
+    "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
+    "Academy/OSCP/Content Summary/Password Attacks.md",
+    "Academy/OSCP/Content Summary/Commands.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Proving Grounds/Billyboss (Just user)/1. Enumeration.md",
+    "Boxes/Proving Grounds/Billyboss (Just user)",
+    "Academy/OSCP/Content Summary/Wordlists.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/Proving Grounds/Squid/4. Attack chain.md",
     "Boxes/Proving Grounds/Squid/3. Notes.md",
     "Boxes/Proving Grounds/Squid/Pasted image 20240121125139.png",
@@ -157,11 +267,7 @@
     "Boxes/Proving Grounds/Squid/Pasted image 20240121124936.png",
     "Boxes/Proving Grounds/Squid/2. Services.md",
     "Boxes/Proving Grounds/Squid/1. Enumeration.md",
-    "Boxes/Note Structures Template.txt",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Boxes/Proving Grounds/Squid",
-    "Academy/OSCP/Content Summary/Commands.md",
     "Academy/OSCP/Content Summary/Client-side Attacks.md",
     "Academy/CPTS/Content Summary/18. SQLMap Essentials.md",
     "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
@@ -183,17 +289,10 @@
     "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173637.png",
     "Boxes/Proving Grounds/AuthBy/3. Notes.md",
     "Boxes/Proving Grounds/AuthBy",
-    "Academy/OSCP/Content Summary/Wordlists.md",
-    "Academy/CPTS/Content Summary/22. Command Injections.md",
-    "Academy/CPTS/Content Summary/20. File Inclusion.md",
     "Academy/CPTS/Content Summary",
     "Academy/OSCP/Content Summary",
-    "Academy/CPTS/Academy Index.md",
-    "Academy/CPTS/Content Summary/04. Footprinting.md",
-    "Academy/CPTS/Content Summary/03. Network Enumeration with Nmap.md",
     "Academy/OSCP",
     "Boxes/Proving Grounds/Algernon",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.189 (VM 2)"
+    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250"
   ]
 }

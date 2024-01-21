@@ -21,12 +21,24 @@
 | ---- | ---- |
 | `john offsec.hash -wordlist=/usr/share/wordlists/rockyou.txt` | John The Ripper with wordlist |
 
-Windows - Check current shell:
+Google dork to search exploits (Instead of searchsploit):
+```text
+phpMyAdmin 4.9.2 site:exploit-db.com
+```
+
+#### Windows
+
+Check current shell:
 ```shell
 (dir 2>&1 *`|echo CMD);&<# rem #>echo PowerShell
 ```
 
-Google dork to search exploits (Instead of searchsploit):
-```text
-phpMyAdmin 4.9.2 site:exploit-db.com
+Cross-platform exploit compiling:
+```bash
+i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe
+```
+
+If we get errors due to the linker cannot find the winsock library:
+```bash
+i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe -lws2_32
 ```

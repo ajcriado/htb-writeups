@@ -1,6 +1,4 @@
-```
 
-```
 | **Directory enumeration** | **Description** |
 | ---- | ---- |
 | `/usr/share/wordlists/dirb/common.txt` | Common resources |
@@ -10,3 +8,7 @@
 | **Passwords** | **Description** |
 | ---- | ---- |
 | `/usr/share/wordlists/rockyou.txt` | Rockyou |
+
+| **Usernames** | **Description** |
+| ---- | ---- |
+| `/usr/share/wordlists/dirb/others/names.txt` | Dirb usernames |
