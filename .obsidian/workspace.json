@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4918f732459ea04f",
+        "id": "e1084e09be6c8998",
         "type": "split",
         "children": [
           {
-            "id": "3d346dd6b5e0b45a",
+            "id": "a8f3853e963775e9",
             "type": "split",
-            "dimension": 50.76380728554641,
+            "dimension": 69.05882352941177,
             "children": [
               {
                 "id": "d1b80ccce62fd243",
@@ -45,13 +45,13 @@
                     }
                   },
                   {
-                    "id": "87f61ba79a5c3832",
+                    "id": "84f643858d8478e8",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Proving Grounds/Billyboss/1. Enumeration.md",
+                        "file": "Boxes/Proving Grounds/Wombo/1. Enumeration.md",
                         "mode": "source",
                         "source": false
                       },
@@ -59,13 +59,13 @@
                     }
                   },
                   {
-                    "id": "b348610175e16cb2",
+                    "id": "d90190411d6a2feb",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Proving Grounds/Billyboss/2. Services.md",
+                        "file": "Boxes/Proving Grounds/Wombo/2. Services.md",
                         "mode": "source",
                         "source": false
                       },
@@ -76,17 +76,17 @@
                 "currentTab": 3
               },
               {
-                "id": "d8faa7f98c6dba8b",
+                "id": "b65f526f4398d79f",
                 "type": "tabs",
                 "children": [
                   {
-                    "id": "5b7fa4d8f72c407b",
+                    "id": "c2ac1463e26f1c7e",
                     "type": "leaf",
                     "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Boxes/Proving Grounds/Billyboss/3. Notes.md",
+                        "file": "Boxes/Proving Grounds/Wombo/3. Notes.md",
                         "mode": "source",
                         "source": false
                       },
@@ -99,19 +99,19 @@
             "direction": "vertical"
           },
           {
-            "id": "e6b5ad50eabc3ded",
+            "id": "551b3c23979c5fbd",
             "type": "tabs",
-            "dimension": 49.23619271445359,
+            "dimension": 30.941176470588232,
             "children": [
               {
-                "id": "538739d5c5725211",
+                "id": "1502ada30caa9ea9",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
-                    "mode": "preview",
+                    "file": "Boxes/Proving Grounds/Wombo/4. Attack chain.md",
+                    "mode": "source",
                     "source": false
                   },
                   "pinned": true
@@ -149,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "$SHA",
+                "query": "redis-cli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
+                "file": "Boxes/Proving Grounds/Wombo/3. Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
+                "file": "Boxes/Proving Grounds/Wombo/3. Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md"
+                "file": "Boxes/Proving Grounds/Wombo/3. Notes.md"
               }
             }
           }
@@ -247,15 +247,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "538739d5c5725211",
+  "active": "c2ac1463e26f1c7e",
   "lastOpenFiles": [
-    "Boxes/Proving Grounds/Billyboss/Pasted image 20240122170957.png",
+    "Boxes/Proving Grounds/Wombo/4. Attack chain.md",
+    "Boxes/Proving Grounds/Wombo/Pasted image 20240122213446.png",
+    "Boxes/Proving Grounds/Wombo/3. Notes.md",
+    "Boxes/Proving Grounds/Wombo/2. Services.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Proving Grounds/Wombo/1. Enumeration.md",
+    "Boxes/HackTheBox/Postman/3. Redis.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Boxes/Proving Grounds/Wombo",
+    "Boxes/Proving Grounds/Billyboss/1. Enumeration.md",
     "Boxes/Proving Grounds/Billyboss/2. Services.md",
     "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
+    "Boxes/Proving Grounds/Billyboss/Pasted image 20240122170957.png",
     "Boxes/Proving Grounds/Billyboss/3. Notes.md",
-    "Boxes/Proving Grounds/Billyboss/1. Enumeration.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
     "Boxes/Proving Grounds/Kevin/1. Enumeration.md",
     "Academy/OSCP/Content Summary/Commands.md",
@@ -264,7 +272,6 @@
     "Academy/OSCP/Content Summary/Client-side Attacks.md",
     "Academy/OSCP/Content Summary/Wordlists.md",
     "Boxes/HackTheBox/Bizness/1. Enumeration.md",
-    "Boxes/Note Structures Template.txt",
     "Boxes/Proving Grounds/Billyboss",
     "Boxes/Proving Grounds/Squid/4. Attack chain.md",
     "Boxes/Proving Grounds/Squid/3. Notes.md",
@@ -278,22 +285,14 @@
     "Boxes/Proving Grounds/Snookums/2. Services.md",
     "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
     "Boxes/Proving Grounds/Snookums/Pasted image 20240117235902.png",
-    "Boxes/Proving Grounds/Snookums/3. Notes.md",
     "Boxes/Proving Grounds/Snookums/Pasted image 20240117235510.png",
     "Boxes/Proving Grounds/Snookums/Pasted image 20240117233952.png",
     "Boxes/Proving Grounds/Snookums/Pasted image 20240117232249.png",
-    "Boxes/Proving Grounds/Snookums/Pasted image 20240117232014.png",
-    "Academy/CPTS/Content Summary/02. Getting Started.md",
-    "Academy/CPTS/Content Summary/08. Shells & Payloads.md",
-    "Boxes/Proving Grounds/AuthBy/2. Services.md",
     "Boxes/Proving Grounds/Snookums",
-    "Boxes/Proving Grounds/AuthBy/1. Enumeration.md",
-    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173750.png",
     "Boxes/Proving Grounds/AuthBy",
     "Academy/CPTS/Content Summary",
     "Academy/OSCP/Content Summary",
     "Academy/OSCP",
-    "Boxes/Proving Grounds/Algernon",
-    "Boxes/Challenge Labs/2. Relia (In Process)/192.168.203.0-24 (External)/192.168.203.250"
+    "Boxes/Proving Grounds/Algernon"
   ]
 }
