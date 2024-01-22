@@ -4,51 +4,123 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b80ccce62fd243",
-        "type": "tabs",
+        "id": "4918f732459ea04f",
+        "type": "split",
         "children": [
           {
-            "id": "6a5c6b0c61b04c90",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
-                "mode": "preview",
-                "source": false
+            "id": "3d346dd6b5e0b45a",
+            "type": "split",
+            "dimension": 50.76380728554641,
+            "children": [
+              {
+                "id": "d1b80ccce62fd243",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "6a5c6b0c61b04c90",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "36e3c317b1d5e160",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+                        "mode": "preview",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "87f61ba79a5c3832",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Billyboss/1. Enumeration.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  },
+                  {
+                    "id": "b348610175e16cb2",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Billyboss/2. Services.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ],
+                "currentTab": 3
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "36e3c317b1d5e160",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Password Attacks.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "d3353fb871a62cb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Wordlists.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "d8faa7f98c6dba8b",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "5b7fa4d8f72c407b",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Boxes/Proving Grounds/Billyboss/3. Notes.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true
+                    }
+                  }
+                ]
               }
-            }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "e6b5ad50eabc3ded",
+            "type": "tabs",
+            "dimension": 49.23619271445359,
+            "children": [
+              {
+                "id": "538739d5c5725211",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 2
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -77,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlmap",
+                "query": "$SHA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 380.51103591918945
   },
   "right": {
     "id": "af0655b461996112",
@@ -114,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Wordlists.md",
+                "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Wordlists.md",
+                "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Wordlists.md"
+                "file": "Boxes/Proving Grounds/Billyboss/4. Attack chain.md"
               }
             }
           }
@@ -175,19 +247,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3353fb871a62cb8",
+  "active": "538739d5c5725211",
   "lastOpenFiles": [
-    "Academy/OSCP/Content Summary/Password Attacks.md",
-    "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
-    "Boxes/Proving Grounds/Billyboss (Just user)/4. Attack chain.md",
-    "Boxes/Proving Grounds/Billyboss (Just user)/3. Notes.md",
-    "Academy/OSCP/Content Summary/Commands.md",
-    "Boxes/Note Structures Template.txt",
-    "Boxes/Proving Grounds/Billyboss (Just user)/1. Enumeration.md",
-    "Boxes/Proving Grounds/Billyboss (Just user)",
-    "Academy/OSCP/Content Summary/Wordlists.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Boxes/Proving Grounds/Billyboss/Pasted image 20240122170957.png",
+    "Boxes/Proving Grounds/Billyboss/2. Services.md",
+    "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
+    "Boxes/Proving Grounds/Billyboss/3. Notes.md",
+    "Boxes/Proving Grounds/Billyboss/1. Enumeration.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
+    "Boxes/Proving Grounds/Kevin/1. Enumeration.md",
+    "Academy/OSCP/Content Summary/Commands.md",
+    "Academy/OSCP/Content Summary/Pasted image 20240122130319.png",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/OSCP/Content Summary/Client-side Attacks.md",
+    "Academy/OSCP/Content Summary/Wordlists.md",
+    "Boxes/HackTheBox/Bizness/1. Enumeration.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Proving Grounds/Billyboss",
     "Boxes/Proving Grounds/Squid/4. Attack chain.md",
     "Boxes/Proving Grounds/Squid/3. Notes.md",
     "Boxes/Proving Grounds/Squid/Pasted image 20240121125139.png",
@@ -196,9 +274,7 @@
     "Boxes/Proving Grounds/Squid/2. Services.md",
     "Boxes/Proving Grounds/Squid/1. Enumeration.md",
     "Boxes/Proving Grounds/Squid",
-    "Academy/OSCP/Content Summary/Client-side Attacks.md",
     "Academy/CPTS/Content Summary/18. SQLMap Essentials.md",
-    "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
     "Boxes/Proving Grounds/Snookums/2. Services.md",
     "Boxes/Proving Grounds/Snookums/4. Attack chain & Post-exploitation.md",
     "Boxes/Proving Grounds/Snookums/Pasted image 20240117235902.png",
@@ -212,10 +288,7 @@
     "Boxes/Proving Grounds/AuthBy/2. Services.md",
     "Boxes/Proving Grounds/Snookums",
     "Boxes/Proving Grounds/AuthBy/1. Enumeration.md",
-    "Boxes/Proving Grounds/AuthBy/4. Attack chain & Post-exploitation.md",
     "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173750.png",
-    "Boxes/Proving Grounds/AuthBy/Pasted image 20240117173637.png",
-    "Boxes/Proving Grounds/AuthBy/3. Notes.md",
     "Boxes/Proving Grounds/AuthBy",
     "Academy/CPTS/Content Summary",
     "Academy/OSCP/Content Summary",
