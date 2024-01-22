@@ -4,123 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "4878e78463147aec",
-        "type": "split",
+        "id": "d1b80ccce62fd243",
+        "type": "tabs",
         "children": [
           {
-            "id": "bcf3820f2ce72d65",
-            "type": "split",
-            "dimension": 72.32704402515724,
-            "children": [
-              {
-                "id": "d1b80ccce62fd243",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "6a5c6b0c61b04c90",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
-                        "mode": "preview",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "36e3c317b1d5e160",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Academy/OSCP/Content Summary/Password Attacks.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "32b4f6df06f901ec",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Proving Grounds/Billyboss (Just user)/1. Enumeration.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  },
-                  {
-                    "id": "3468789a59132f64",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ],
-                "currentTab": 3
+            "id": "6a5c6b0c61b04c90",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "mode": "preview",
+                "source": false
               },
-              {
-                "id": "00fcc20942618da9",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "ba731777b96ed1cd",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Boxes/Proving Grounds/Billyboss (Just user)/3. Notes.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
+              "pinned": true
+            }
           },
           {
-            "id": "59ffa02df2ed6c0c",
-            "type": "tabs",
-            "dimension": 27.672955974842772,
-            "children": [
-              {
-                "id": "3703d9276aa1b6b9",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Boxes/Proving Grounds/Billyboss (Just user)/4. Attack chain.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
+            "id": "36e3c317b1d5e160",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Password Attacks.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d3353fb871a62cb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Wordlists.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -186,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
+                "file": "Academy/OSCP/Content Summary/Wordlists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
+                "file": "Academy/OSCP/Content Summary/Wordlists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md"
+                "file": "Academy/OSCP/Content Summary/Wordlists.md"
               }
             }
           }
@@ -247,12 +175,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3468789a59132f64",
+  "active": "d3353fb871a62cb8",
   "lastOpenFiles": [
+    "Academy/OSCP/Content Summary/Password Attacks.md",
+    "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
     "Boxes/Proving Grounds/Billyboss (Just user)/4. Attack chain.md",
     "Boxes/Proving Grounds/Billyboss (Just user)/3. Notes.md",
-    "Boxes/Proving Grounds/Billyboss (Just user)/2. Services.md",
-    "Academy/OSCP/Content Summary/Password Attacks.md",
     "Academy/OSCP/Content Summary/Commands.md",
     "Boxes/Note Structures Template.txt",
     "Boxes/Proving Grounds/Billyboss (Just user)/1. Enumeration.md",

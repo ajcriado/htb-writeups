@@ -8,6 +8,7 @@
 | **Passwords** | **Description** |
 | ---- | ---- |
 | `/usr/share/wordlists/rockyou.txt` | Rockyou |
+| `ls -la /usr/share/hashcat/rules/` | List of rules for hash cracking |
 
 | **Usernames** | **Description** |
 | ---- | ---- |
