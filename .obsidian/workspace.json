@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "ada8cbf4bf823645",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "721b0542b307d2bb",
             "type": "leaf",
             "pinned": true,
@@ -52,17 +38,19 @@
           {
             "id": "854b133627990405",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.51103591918945
+    "width": 242.50260543823242
   },
   "right": {
     "id": "af0655b461996112",
@@ -191,17 +179,17 @@
   },
   "active": "854b133627990405",
   "lastOpenFiles": [
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
-    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
     "Boxes/Proving Grounds/Box list to prepare.md",
+    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
     "Boxes/Proving Grounds/Wombo/2. Services.md",
     "Boxes/Proving Grounds/Wombo/1. Enumeration.md",
     "Academy/CPTS/Content Summary/07. File Transfers.md",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Academy/OSCP/Content Summary/Commands.md",
     "Boxes/Proving Grounds/Postfish/2. Services.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Academy/OSCP/Content Summary/Wordlists.md",
     "Boxes/Proving Grounds/Postfish/1. Enumeration.md",
     "Boxes/Proving Grounds/Postfish/4. Attack chain.md",
