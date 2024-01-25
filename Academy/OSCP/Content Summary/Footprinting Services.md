@@ -70,6 +70,13 @@ for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x
 
 
 ##### **[SMTP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smtp)** (TCP 25, 465, 587)
+
+**[Script](https://github.com/captain-noob/username-wordlist-generator)** to create a list of users by name
+/usr/share/seclists/Usernames/Names/names.txt More users
+
+**[Script](https://github.com/pentestmonkey/smtp-user-enum/blob/master/smtp-user-enum.pl)** to enum users of the previous wordlists:
+	`perl smtp-user-enum.pl -M VRFY -U /usr/share/seclists/Usernames/Names/names.txt -t 192.168.235.137`
+
 |**Command**|**Description**|
 |-|-|
 | `telnet <FQDN/IP> 25` |  |

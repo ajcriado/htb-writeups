@@ -13,3 +13,4 @@
 | **Usernames** | **Description** |
 | ---- | ---- |
 | `/usr/share/wordlists/dirb/others/names.txt` | Dirb usernames |
+| `/usr/share/seclists/Usernames/Names/names.txt` | List used to enumerate users in SMTP |

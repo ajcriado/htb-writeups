@@ -40,3 +40,8 @@ If we get errors due to the linker cannot find the winsock library:
 ```bash
 i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe -lws2_32
 ```
+
+Find filename:
+```shell
+dir -Path C:\  -Include flag.txt -File -Recurse -ErrorAction SilentlyContinue
+```

