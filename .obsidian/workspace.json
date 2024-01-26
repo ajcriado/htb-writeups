@@ -48,9 +48,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "7de7161744fcec99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md"
+                "file": "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md"
               }
             }
           }
@@ -177,12 +189,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "854b133627990405",
+  "active": "7de7161744fcec99",
   "lastOpenFiles": [
+    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Boxes/Proving Grounds/Box list to prepare.md",
-    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",
     "Boxes/Proving Grounds/Wombo/2. Services.md",
@@ -211,7 +224,6 @@
     "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
     "Boxes/Proving Grounds/Kevin/1. Enumeration.md",
     "Academy/OSCP/Content Summary/Client-side Attacks.md",
-    "Boxes/HackTheBox/Bizness/1. Enumeration.md",
     "Boxes/Proving Grounds/Billyboss",
     "Boxes/Proving Grounds/Squid/Pasted image 20240121125139.png",
     "Boxes/Proving Grounds/Squid/Pasted image 20240121125101.png",
