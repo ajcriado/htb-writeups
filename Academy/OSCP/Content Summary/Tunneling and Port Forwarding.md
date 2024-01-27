@@ -66,3 +66,18 @@ To confirm if we can reach the desired host and port, run **nmap** with **proxyc
 proxychains nmap localhost
 
 ```
+
+#### Windows - Firewall problems
+
+If we are facing firewall in Windows we can open the port to establish the port forwarding
+
+```shell
+netsh advfirewall firewall add rule name="port_forward_ssh_2222" protocol=TCP dir=in localip=192.168.50.64 localport=2222 action=allow
+```
+
+Now, to delete the rule and port forward
+
+```shell
+netsh advfirewall firewall delete rule name="port_forward_ssh_2222"
+netsh interface portproxy del v4tov4 listenport=2222 listenaddress=192.168.50.64
+```

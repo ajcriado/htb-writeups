@@ -292,3 +292,4 @@ nt authority\system
 ```
 
 While PrintSpoofer provided us a straightforward exploit process to elevate our privileges, there are also other tools that can abuse _SeImpersonatePrivilege_ for privilege escalation. Variants from the _Potato_[9](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/windows-privilege-escalation/abusing-other-windows-components/using-exploits#fn9) family (for example _RottenPotato_, _SweetPotato_, or _JuicyPotato_) are such tools. We should take the time to study these tools as they are an effective alternative to PrintSpoofer.
+	* USE **GODPOTATO** OR **SWEETPOTATO**
