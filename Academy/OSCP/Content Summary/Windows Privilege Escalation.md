@@ -1,3 +1,5 @@
+> [!info] Always run **[SharpUp](https://github.com/GhostPack/SharpUp)** for privesc and **[LaZagne](https://github.com/AlessandroZ/LaZagne)** for credential dumping
+
 **[Hacktricks](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation)**
 
 There are several key pieces of information we should always obtain:

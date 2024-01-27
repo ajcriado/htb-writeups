@@ -38,13 +38,15 @@
           {
             "id": "c5b455330df52977",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Academy/OSCP/Content Summary/Active Directory.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -178,13 +180,13 @@
   "active": "c5b455330df52977",
   "lastOpenFiles": [
     "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Academy/OSCP/Content Summary/Active Directory.md",
-    "Boxes/Proving Grounds/Box list to prepare.md",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Active Directory.md",
+    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
+    "Boxes/Proving Grounds/Box list to prepare.md",
     "Boxes/Proving Grounds/Billyboss/3. Notes.md",
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
     "Academy/OSCP/Content Summary/Commands.md",
     "Academy/OSCP/Content Summary/Client-side Attacks.md",
     "Boxes/Proving Grounds/Billyboss/4. Attack chain.md",

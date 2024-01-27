@@ -1,11 +1,6 @@
-## Infrastructure-based Enumeration
 
-|**Command**|**Description**|
-|-|-|
-| `curl -s https://crt.sh/\?q\=<target-domain>\&output\=json \| jq .` | Certificate transparency. |
-| `for i in $(cat ip-addresses.txt);do shodan host $i;done` | Scan each IP address in a list using Shodan. |
+> [!info] Always run a first scan with my script of **[Autonmap:](https://github.com/ajcriado/burbles-by-peluqqi/blob/main/autonmap)** `autonmap -H 192.168.235.137 -t script`
 
-----
 ## Host-based Enumeration
 
 ##### **[FTP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-ftp)** (TCP 20, 21)

