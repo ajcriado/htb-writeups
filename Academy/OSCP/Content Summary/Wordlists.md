@@ -9,6 +9,7 @@
 | ---- | ---- |
 | `/usr/share/wordlists/rockyou.txt` | Rockyou |
 | `ls -la /usr/share/hashcat/rules/` | List of rules for hash cracking |
+| `/usr/share/hashcat/rules/best64` | best64 rule |
 
 | **Usernames** | **Description** |
 | ---- | ---- |

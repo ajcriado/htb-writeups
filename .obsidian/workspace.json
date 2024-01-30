@@ -42,7 +42,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory.md",
+                "file": "Academy/OSCP/Content Summary/Active Directory/1. Enumeration.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,19 +50,19 @@
             }
           },
           {
-            "id": "aec0fe12a54ba36c",
+            "id": "abd0731c2df75e61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory.md",
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory.md",
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory.md"
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md"
               }
             }
           }
@@ -189,11 +189,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5b455330df52977",
+  "active": "abd0731c2df75e61",
   "lastOpenFiles": [
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-    "Academy/OSCP/Content Summary/Active Directory.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
+    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
+    "Academy/OSCP/Content Summary/Wordlists.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Academy/OSCP/Content Summary/Active Directory/1. Enumeration.md",
+    "Academy/OSCP/Content Summary/Active Directory",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
     "Boxes/Proving Grounds/Box list to prepare.md",
@@ -206,11 +211,9 @@
     "Boxes/Proving Grounds/Wombo/1. Enumeration.md",
     "Academy/CPTS/Content Summary/07. File Transfers.md",
     "Boxes/Proving Grounds/Postfish/2. Services.md",
-    "Academy/OSCP/Content Summary/Wordlists.md",
     "Boxes/Proving Grounds/Postfish/1. Enumeration.md",
     "Boxes/Proving Grounds/Postfish/4. Attack chain.md",
     "Boxes/Proving Grounds/Postfish/3. Notes.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Boxes/Proving Grounds/Postfish",
     "Academy/OSCP/Content Summary/images",
     "Academy/OSCP/Content Summary/images/Pasted image 20240122130319.png",
@@ -221,9 +224,7 @@
     "Boxes/HackTheBox/Postman/3. Redis.md",
     "Boxes/Proving Grounds/Wombo",
     "Boxes/Proving Grounds/Billyboss/1. Enumeration.md",
-    "Boxes/Proving Grounds/Billyboss/2. Services.md",
     "Boxes/Proving Grounds/Billyboss/Pasted image 20240122170957.png",
-    "Boxes/Proving Grounds/Snookums/1. Enumeration.md",
     "Boxes/Proving Grounds/Billyboss",
     "Boxes/Proving Grounds/Squid/Pasted image 20240121125139.png",
     "Boxes/Proving Grounds/Squid/Pasted image 20240121125101.png",
@@ -235,7 +236,6 @@
     "Boxes/Proving Grounds/Snookums/Pasted image 20240117232249.png",
     "Boxes/Proving Grounds/Snookums",
     "Boxes/Proving Grounds/AuthBy",
-    "Academy/CPTS/Content Summary",
-    "Academy/OSCP/Content Summary"
+    "Academy/CPTS/Content Summary"
   ]
 }
