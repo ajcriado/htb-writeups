@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Wed Jan 31 21:51:21 2024 as: nmap -p- --min-rate=10000 --open -oA 172.16.227.13/nmap/quick-scan 172.16.227.13
+Nmap scan report for 172.16.227.13
+Host is up (0.0098s latency).
+Not shown: 65531 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+49666/tcp open  unknown
+
+# Nmap done at Wed Jan 31 21:51:34 2024 -- 1 IP address (1 host up) scanned in 13.48 seconds

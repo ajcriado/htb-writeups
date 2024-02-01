@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "./images",
+  "attachmentFolderPath": "images",
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,

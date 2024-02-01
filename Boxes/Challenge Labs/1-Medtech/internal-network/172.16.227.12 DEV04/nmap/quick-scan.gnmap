@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Wed Jan 31 21:50:40 2024 as: nmap -p- --min-rate=10000 --open -oA 172.16.227.12/nmap/quick-scan 172.16.227.12
+Host: 172.16.227.12 ()	Status: Up
+Host: 172.16.227.12 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 3389/open/tcp//ms-wbt-server///, 47001/open/tcp//winrm///, 49665/open/tcp/////, 49667/open/tcp/////, 49668/open/tcp/////, 49669/open/tcp/////, 49670/open/tcp/////	Ignored State: filtered (65525)
+# Nmap done at Wed Jan 31 21:51:21 2024 -- 1 IP address (1 host up) scanned in 40.95 seconds

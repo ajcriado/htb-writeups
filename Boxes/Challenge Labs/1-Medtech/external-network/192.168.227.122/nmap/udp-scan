@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Wed Jan 31 17:17:25 2024 as: nmap -p- -sU --min-rate=5000 --open -oN udp-scan 192.168.227.122
+Warning: 192.168.227.122 giving up on port because retransmission cap hit (10).
+Nmap scan report for 192.168.227.122
+Host is up (0.034s latency).
+All 65535 scanned ports on 192.168.227.122 are in ignored states.
+Not shown: 65385 open|filtered udp ports (no-response), 150 closed udp ports (port-unreach)
+
+# Nmap done at Wed Jan 31 17:19:50 2024 -- 1 IP address (1 host up) scanned in 145.02 seconds

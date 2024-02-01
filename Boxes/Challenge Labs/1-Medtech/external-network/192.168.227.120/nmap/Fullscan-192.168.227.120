@@ -1,0 +1,37 @@
+# Nmap 7.94SVN scan initiated Wed Jan 31 14:49:04 2024 as: nmap -p- -A -T4 -sCV -oN 192.168.227.120/nmap/Fullscan-192.168.227.120 192.168.227.120
+Warning: 192.168.227.120 giving up on port because retransmission cap hit (6).
+Nmap scan report for 192.168.227.120
+Host is up (0.029s latency).
+Not shown: 65500 closed tcp ports (reset), 33 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 84:72:7e:4c:bb:ff:86:ae:b0:03:00:79:a1:c5:af:34 (RSA)
+|   256 f1:31:e5:75:31:36:a2:59:f3:12:1b:58:b4:bb:dc:0f (ECDSA)
+|_  256 5a:05:9c:fc:2f:7b:7e:0b:81:a6:20:48:5a:1d:82:7e (ED25519)
+80/tcp open  http    WEBrick httpd 1.6.1 (Ruby 2.7.4 (2021-07-07))
+|_http-title: PAW! (PWK Awesome Website)
+|_http-server-header: WEBrick/1.6.1 (Ruby/2.7.4/2021-07-07)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=1/31%OT=22%CT=1%CU=42258%PV=Y%DS=4%DC=T%G=Y%TM=65BA
+OS:536E%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%II=I%TS=A)OPS(O
+OS:1=M551ST11NW7%O2=M551ST11NW7%O3=M551NNT11NW7%O4=M551ST11NW7%O5=M551ST11N
+OS:W7%O6=M551ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R
+OS:=Y%DF=Y%T=40%W=FAF0%O=M551NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%
+OS:RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%
+OS:Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK
+OS:=A0B0%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 4 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 1723/tcp)
+HOP RTT      ADDRESS
+1   29.88 ms 192.168.45.1
+2   29.85 ms 192.168.45.254
+3   29.99 ms 192.168.251.1
+4   30.14 ms 192.168.227.120
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jan 31 15:04:30 2024 -- 1 IP address (1 host up) scanned in 926.27 seconds

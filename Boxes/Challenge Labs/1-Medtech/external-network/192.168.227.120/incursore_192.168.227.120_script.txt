@@ -1,0 +1,87 @@
+
+[1;32mLaunching a script scan on [0m192.168.227.120
+[0m
+[1;32mHost is likely running [0m[1;35mSome alien stuff![0m
+
+
+[1;33m[*] Full TCP port scan launched
+[0m
+In progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:02 elapsed - 0:00:23 remaining)   
+[####>                                              ] 8% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:02 elapsed - 0:00:23 remaining)   
+[####>                                              ] 8% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:04 elapsed - 0:00:23 remaining)   
+[#######>                                           ] 15% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:05 elapsed - 0:00:16 remaining)   
+[############>                                      ] 24% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:06 elapsed - 0:00:11 remaining)   
+[#################>                                 ] 34% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:07 elapsed - 0:00:08 remaining)   
+[######################>                            ] 45% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:08 elapsed - 0:00:07 remaining)   
+[###########################>                       ] 54% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:09 elapsed - 0:00:07 remaining)   
+[############################>                      ] 56% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:10 elapsed - 0:00:07 remaining)   
+[#############################>                     ] 58% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:11 elapsed - 0:00:08 remaining)   
+[#############################>                     ] 59% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:12 elapsed - 0:00:08 remaining)   
+[#############################>                     ] 59% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:13 elapsed - 0:00:08 remaining)   
+[###############################>                   ] 63% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:14 elapsed - 0:00:06 remaining)   
+[###################################>               ] 70% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:15 elapsed - 0:00:04 remaining)   
+[########################################>          ] 80% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:16 elapsed - 0:00:02 remaining)   
+[#############################################>     ] 90% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:17 elapsed - 0:00:00 remaining)   
+[################################################>  ] 97% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:18 elapsed - 0:00:00 remaining)   
+[#################################################> ] 98% done   
+[2A[0K
+[0K
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 61
+80/tcp open  http    syn-ack ttl 61
+
+
+
+[1;33m[*] Script Scan launched on open ports
+[0m
+In progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2A[0K
+[0K
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 84:72:7e:4c:bb:ff:86:ae:b0:03:00:79:a1:c5:af:34 (RSA)
+|   256 f1:31:e5:75:31:36:a2:59:f3:12:1b:58:b4:bb:dc:0f (ECDSA)
+|_  256 5a:05:9c:fc:2f:7b:7e:0b:81:a6:20:48:5a:1d:82:7e (ED25519)
+80/tcp open  http    WEBrick httpd 1.6.1 (Ruby 2.7.4 (2021-07-07))
+|_http-title: PAW! (PWK Awesome Website)
+|_http-server-header: WEBrick/1.6.1 (Ruby/2.7.4/2021-07-07)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+[0m
+[0m
+[1;32mOS Detection modified to: Linux
+[0m
+
+[1;32m[!] Finished all scans
+[0m
+
+[1;33mCompleted in 28 seconds
+[0m
