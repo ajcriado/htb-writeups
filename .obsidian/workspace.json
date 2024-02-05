@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md"
+                "file": "Academy/OSCP/Content Summary/Footprinting Services.md"
               }
             }
           }
@@ -161,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d64706925cb45074",
+  "active": "6a5c6b0c61b04c90",
   "lastOpenFiles": [
-    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/CPTS/Skill Assesments/Windows privilege escalation/2. Lab medium.md",
     "Boxes/Challenge-Labs/1-Medtech/tmp/id_rsa",
     "Boxes/Challenge-Labs/1-Medtech/tmp/hydra.restore",
