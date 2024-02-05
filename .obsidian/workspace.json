@@ -22,73 +22,19 @@
             }
           },
           {
-            "id": "dd4c5da1dc3e1757",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/Documentation/4. Attack chain & Post-exploitation.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c5dc7d770fa573b8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/1. Enumeration.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "5ee8ba0457a4cde0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/3. Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "943bc52bdd5a86e0",
+            "id": "d64706925cb45074",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/3. Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b2557c34b55cb3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/4. Attack chain & Post-expoitation.md",
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DCC2",
+                "query": "gcc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.51103591918945
+    "width": 435.51103591918945
   },
   "right": {
     "id": "af0655b461996112",
@@ -154,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/4. Attack chain & Post-expoitation.md",
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/4. Attack chain & Post-expoitation.md",
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/4. Attack chain & Post-expoitation.md"
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md"
               }
             }
           }
@@ -215,44 +161,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "070872a27155d906",
+  "active": "d64706925cb45074",
   "lastOpenFiles": [
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/1. Enumeration.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/4. Attack chain & Post-expoitation.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/Documentation/4. Attack chain & Post-exploitation.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/3. Notes.md",
-    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation/2. Services.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/Documentation/3. Notes.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/Documentation/1. Enumeration & Scripts.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/offsec.hash",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.82 CLIENT01 (pwned - 1 flag)/Documentation",
-    "Boxes/Challenge Labs/1-Medtech/credentials/passwords.txt",
-    "Boxes/Challenge Labs/1-Medtech/credentials/users-left.txt",
-    "Boxes/Challenge Labs/1-Medtech/credentials/credentials.txt",
-    "Boxes/Challenge Labs/1-Medtech/credentials",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/wario.hash",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/daisy.hash",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/fileMonitorBackup.log",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/bloodhound-data/20240201110722_users.json",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned - 2 flags)/Documentation/2. Services.md",
+    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Academy/CPTS/Skill Assesments/Windows privilege escalation/2. Lab medium.md",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/id_rsa",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/hydra.restore",
+    "Academy/CPTS/Content Summary/10. Password Attacks.md",
     "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
-    "Academy/OSCP/Content Summary/Active Directory/1. Enumeration.md",
     "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
-    "Boxes/HackTheBox/Forest/5. WinRM.md",
-    "Boxes/Challenge Labs/1-Medtech/external-network/192.168.227.121 WEB02 (pwned)/Documentation/3. Notes.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned)/Documentation/3. Notes.md",
-    "Academy/CPTS/Content Summary/13. Active Directory Enumeration & Attacks.md",
     "Academy/OSCP/Content Summary/Commands.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned)/Documentation/4. Attack chain & Post-exploitation.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned)/Documentation/1. Enumeration & Scripts.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/172.16.227.11 FILES02 (pwned)/Documentation/2. Services.md",
-    "Boxes/Challenge Labs/1-Medtech/external-network/192.168.227.121 WEB02 (pwned)/Documentation/4. Attack chain & Post-exploitation.md",
-    "Boxes/Challenge Labs/1-Medtech/external-network/192.168.227.121 WEB02 (pwned)/Documentation/1. Enumeration and Scripts.md",
-    "Boxes/Challenge Labs/1-Medtech/192.168.227.121 Web02 (pwned)/Documentation/5. Pivoting.md",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/leon.hash",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/backup.exe",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/adduser.c",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/ntml-hashes.txt",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/bruteforcing.txt",
+    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/scripts/script-data.txt",
+    "Boxes/Challenge-Labs/1-Medtech/tmp/scripts/bulk-commands.py",
+    "Boxes/Challenge-Labs/1-Medtech/resources/ldap_stuff/domain_users_by_group.html",
+    "Boxes/Challenge-Labs/1-Medtech/resources/Challenge Scenario.md",
+    "Boxes/Challenge-Labs/1-Medtech/internal-network/172.16.228.13-PROD01.md",
+    "Boxes/Challenge-Labs/1-Medtech/internal-network/172.16.228.14.md",
+    "Boxes/Challenge-Labs/1-Medtech/internal-network/*172.16.228.82-CLIENT01.md",
+    "Boxes/Challenge-Labs/1-Medtech/internal-network/172.16.228.10-DC01.md",
+    "Boxes/Challenge-Labs/1-Medtech/internal-network/-172.16.228.12-DEV04.md",
+    "Boxes/Challenge-Labs/1-Medtech/internal-network/-172.16.228.83-CLIENT02.md",
+    "Boxes/Challenge-Labs/1-Medtech/external-network/192.168.228.120.md",
+    "Boxes/Challenge-Labs/1-Medtech/external-network/*192.168.228.121-WEB02.md",
+    "Boxes/Challenge-Labs/1-Medtech/internal-network/*172.16.228.11-FILES02.md",
+    "Boxes/Challenge-Labs/1-Medtech/external-network/192.168.228.122.md",
+    "Boxes/Challenge-Labs/1-Medtech/Flags.md",
+    "Academy/OSCP/Content Summary/Active Directory/1. Enumeration.md",
     "Academy/OSCP/Content Summary/Web Application Attacks.md",
-    "Boxes/Challenge Labs/1-Medtech/192.168.227.121 Web02 (pwned)/Documentation/3. Notes.md",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Boxes/Challenge Labs/1-Medtech/internal-network/*172.16.228.11-FILES02.md",
+    "Boxes/Challenge Labs/1-Medtech/external-network/192.168.228.121-WEB02.md",
     "images/Pasted image 20240131195919.png",
     "images/Pasted image 20240131191656.png",
     "Academy/OSCP/Content Summary/images/Pasted image 20240122130319.png",

@@ -1,0 +1,2 @@
+distinguishedName	lockOutObservationWindow	lockoutDuration	lockoutThreshold	maxPwdAge	minPwdAge	minPwdLength	pwdHistoryLength	pwdProperties	ms-DS-MachineAccountQuota
+DC=medtech,DC=com	30.0 minutes	30.0 minutes	4	42.00 days	1.00 days	5	24		10

@@ -1,0 +1,988 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "yoshi"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=yoshi,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2022-10-06 10:44:30.875956+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:41:58.160183+00:00"
+        ],
+        "lockoutTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            9
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "yoshi"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{7ee296a3-f973-4c23-b1fa-5eedfd8a36b9}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1110"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-11-15 13:25:26.988480+00:00"
+        ],
+        "sAMAccountName": [
+            "yoshi"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            139402
+        ],
+        "uSNCreated": [
+            13024
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2024-02-01 17:41:58+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 10:50:47+00:00"
+        ]
+    },
+    "dn": "CN=yoshi,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2022-10-28 10:08:10.408350+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "wario"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=wario,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2022-11-15 09:43:35.676603+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2022-11-15 09:43:35.676603+00:00"
+        ],
+        "lockoutTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            36
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "wario"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{08035914-152e-457e-9d87-4f555cdd9af2}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1109"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-11-15 09:43:27.706594+00:00"
+        ],
+        "sAMAccountName": [
+            "wario"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            131236
+        ],
+        "uSNCreated": [
+            13018
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2023-02-19 21:35:20+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 10:50:46+00:00"
+        ]
+    },
+    "dn": "CN=wario,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "mario"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=mario,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "mario"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{28e316e8-a55a-4166-9707-d17df3bb7592}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1108"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-09-28 10:50:46.663382+00:00"
+        ],
+        "sAMAccountName": [
+            "mario"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            131230
+        ],
+        "uSNCreated": [
+            13012
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2023-02-19 21:34:43+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 10:50:46+00:00"
+        ]
+    },
+    "dn": "CN=mario,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "peach"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=peach,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "peach"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{597dbfe5-0467-4f00-830c-1c632b883a84}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1107"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-09-28 10:51:13.288553+00:00"
+        ],
+        "sAMAccountName": [
+            "peach"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            131232
+        ],
+        "uSNCreated": [
+            13009
+        ],
+        "userAccountControl": [
+            66050
+        ],
+        "whenChanged": [
+            "2023-02-19 21:35:01+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 10:50:06+00:00"
+        ]
+    },
+    "dn": "CN=peach,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2022-10-04 15:15:22.246029+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "joe"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-10-04 15:42:51+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=joe,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2023-02-28 13:41:40.232412+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2023-02-28 13:41:38.435537+00:00"
+        ],
+        "lockoutTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            93
+        ],
+        "memberOf": [
+            "CN=Backup Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "joe"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{9bdcf216-d9ae-4846-8c3d-d64bc57e9cca}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1106"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-11-11 10:02:39.686651+00:00"
+        ],
+        "sAMAccountName": [
+            "joe"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            135236
+        ],
+        "uSNCreated": [
+            13002
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2023-02-28 13:41:38+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 10:41:43+00:00"
+        ]
+    },
+    "dn": "CN=joe,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "leon"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-09-28 11:02:51+00:00",
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=leon,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2023-02-28 13:54:28.049231+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2023-02-28 13:41:27.169952+00:00"
+        ],
+        "lockoutTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            23
+        ],
+        "memberOf": [
+            "CN=Domain Admins,CN=Users,DC=medtech,DC=com"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "leon"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{02272fda-cbc9-4a59-b15e-5e2ffc2fbf86}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1105"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-11-17 20:36:23.455811+00:00"
+        ],
+        "sAMAccountName": [
+            "leon"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            135216
+        ],
+        "uSNCreated": [
+            12971
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2023-02-28 13:41:27+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 10:07:16+00:00"
+        ]
+    },
+    "dn": "CN=leon,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "krbtgt"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Key Distribution Center Service Account"
+        ],
+        "distinguishedName": [
+            "CN=krbtgt,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            0
+        ],
+        "name": [
+            "krbtgt"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{619781d7-1899-4604-9837-80cef0013968}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-502"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-09-27 17:47:41.903522+00:00"
+        ],
+        "sAMAccountName": [
+            "krbtgt"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "servicePrincipalName": [
+            "kadmin/changepw"
+        ],
+        "showInAdvancedViewOnly": [
+            true
+        ],
+        "uSNChanged": [
+            12799
+        ],
+        "uSNCreated": [
+            12324
+        ],
+        "userAccountControl": [
+            514
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:41+00:00"
+        ]
+    },
+    "dn": "CN=krbtgt,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "offsec"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "offsec"
+        ],
+        "displayName": [
+            "offsec"
+        ],
+        "distinguishedName": [
+            "CN=offsec,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "name": [
+            "offsec"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{4facd96b-c5f5-4ac8-b820-ab785958c5cd}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1000"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-09-27 17:33:23.142590+00:00"
+        ],
+        "sAMAccountName": [
+            "offsec"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8198
+        ],
+        "uSNCreated": [
+            8198
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=offsec,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Guest"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Built-in account for guest access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Guest,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            0
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Guest"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{b282544b-0606-4a01-93e3-3cbbd7c9844b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-501"
+        ],
+        "primaryGroupID": [
+            514
+        ],
+        "pwdLastSet": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "sAMAccountName": [
+            "Guest"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            8197
+        ],
+        "uSNCreated": [
+            8197
+        ],
+        "userAccountControl": [
+            66082
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Guest,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "adminCount": [
+            1
+        ],
+        "badPasswordTime": [
+            "2023-02-28 13:57:23.580313+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "Administrator"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 18:12:16+00:00"
+        ],
+        "description": [
+            "Built-in account for administering the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrator,CN=Users,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-02-01 17:36:56.285177+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:36:49.222677+00:00"
+        ],
+        "lockoutTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "logonCount": [
+            185
+        ],
+        "logonHours": [
+            {
+                "encoded": "////////////////////////////",
+                "encoding": "base64"
+            }
+        ],
+        "memberOf": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=medtech,DC=com",
+            "CN=Domain Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Enterprise Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Schema Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Remote Desktop Users,CN=Builtin,DC=medtech,DC=com",
+            "CN=Administrators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Administrator"
+        ],
+        "objectCategory": [
+            "CN=Person,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user"
+        ],
+        "objectGUID": [
+            "{ca1b2dde-c60a-4ce3-8055-ac71d1e9105d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-500"
+        ],
+        "primaryGroupID": [
+            513
+        ],
+        "pwdLastSet": [
+            "2022-12-05 19:04:32.898090+00:00"
+        ],
+        "sAMAccountName": [
+            "Administrator"
+        ],
+        "sAMAccountType": [
+            805306368
+        ],
+        "uSNChanged": [
+            139329
+        ],
+        "uSNCreated": [
+            8196
+        ],
+        "userAccountControl": [
+            66048
+        ],
+        "whenChanged": [
+            "2024-02-01 17:36:49+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Administrator,CN=Users,DC=medtech,DC=com"
+}]

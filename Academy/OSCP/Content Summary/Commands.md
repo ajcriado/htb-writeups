@@ -32,6 +32,11 @@ PS - Get local user
 Get-LocalUser
 ```
 
+PS - List IP and hostnames in AD environment
+```shell
+Get-ADComputer -Filter * | Select-Object DNSHostName, @{name="Ip";Expression={(Test-Connection $_.DNSHostname -Count 1).IPV4Address.IPAddressToString}}
+```
+
 Check current shell:
 ```shell
 (dir 2>&1 *`|echo CMD);&<# rem #>echo PowerShell

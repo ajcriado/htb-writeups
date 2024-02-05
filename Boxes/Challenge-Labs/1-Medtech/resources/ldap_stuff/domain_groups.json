@@ -1,0 +1,3091 @@
+[{
+    "attributes": {
+        "cn": [
+            "DnsUpdateProxy"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "DNS clients who are permitted to perform dynamic updates on behalf of some other clients (such as DHCP servers)."
+        ],
+        "distinguishedName": [
+            "CN=DnsUpdateProxy,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "name": [
+            "DnsUpdateProxy"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{bcaca428-1200-40ab-9c76-4aac7672b8dc}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1103"
+        ],
+        "sAMAccountName": [
+            "DnsUpdateProxy"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12491
+        ],
+        "uSNCreated": [
+            12491
+        ],
+        "whenChanged": [
+            "2022-09-27 17:48:21+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:48:21+00:00"
+        ]
+    },
+    "dn": "CN=DnsUpdateProxy,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "DnsAdmins"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "description": [
+            "DNS Administrators Group"
+        ],
+        "distinguishedName": [
+            "CN=DnsAdmins,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "name": [
+            "DnsAdmins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{340b7290-eefe-43ec-b741-e7b8036ba5c3}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1102"
+        ],
+        "sAMAccountName": [
+            "DnsAdmins"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12488
+        ],
+        "uSNCreated": [
+            12486
+        ],
+        "whenChanged": [
+            "2022-09-27 17:48:21+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:48:21+00:00"
+        ]
+    },
+    "dn": "CN=DnsAdmins,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Enterprise Key Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members of this group can perform administrative actions on key objects within the forest."
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Key Admins,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Enterprise Key Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a980aaae-bee0-47c6-8df6-a51d768c2c3d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-527"
+        ],
+        "sAMAccountName": [
+            "Enterprise Key Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12786
+        ],
+        "uSNCreated": [
+            12453
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Key Admins,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Key Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members of this group can perform administrative actions on key objects within the domain."
+        ],
+        "distinguishedName": [
+            "CN=Key Admins,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Key Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{cfa7678c-db7d-4618-9043-1f06bbeaa4f0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-526"
+        ],
+        "sAMAccountName": [
+            "Key Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12783
+        ],
+        "uSNCreated": [
+            12450
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Key Admins,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Protected Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are afforded additional protections against authentication security threats. See http://go.microsoft.com/fwlink/?LinkId=298939 for more information."
+        ],
+        "distinguishedName": [
+            "CN=Protected Users,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Protected Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{2d9ce64a-d259-486a-9a64-6fe75b8084cd}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-525"
+        ],
+        "sAMAccountName": [
+            "Protected Users"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12447
+        ],
+        "uSNCreated": [
+            12445
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Protected Users,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Cloneable Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group that are domain controllers may be cloned."
+        ],
+        "distinguishedName": [
+            "CN=Cloneable Domain Controllers,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Cloneable Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c13b2d97-26ae-417d-9da7-d5cd484d2818}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-522"
+        ],
+        "sAMAccountName": [
+            "Cloneable Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12442
+        ],
+        "uSNCreated": [
+            12440
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Cloneable Domain Controllers,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are Read-Only Domain Controllers in the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{0b81e611-d917-41c2-a88a-54fa42e1a7cb}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-498"
+        ],
+        "sAMAccountName": [
+            "Enterprise Read-only Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12431
+        ],
+        "uSNCreated": [
+            12429
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Read-only Domain Controllers,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Read-only Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members of this group are Read-Only Domain Controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Read-only Domain Controllers,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Read-only Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{d47b1582-f80b-4087-b131-e64c97e6b98c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-521"
+        ],
+        "sAMAccountName": [
+            "Read-only Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12801
+        ],
+        "uSNCreated": [
+            12419
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Read-only Domain Controllers,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Denied RODC Password Replication Group"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group cannot have their passwords replicated to any read-only domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Read-only Domain Controllers,CN=Users,DC=medtech,DC=com",
+            "CN=Group Policy Creator Owners,CN=Users,DC=medtech,DC=com",
+            "CN=Domain Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Cert Publishers,CN=Users,DC=medtech,DC=com",
+            "CN=Enterprise Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Schema Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Domain Controllers,CN=Users,DC=medtech,DC=com",
+            "CN=krbtgt,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Denied RODC Password Replication Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{c208750b-5074-4bdc-80f1-b9aa1be18779}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-572"
+        ],
+        "sAMAccountName": [
+            "Denied RODC Password Replication Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12433
+        ],
+        "uSNCreated": [
+            12405
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group can have their passwords replicated to all read-only domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Allowed RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3650b5e4-128b-49de-bf1e-557d86f638c0}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-571"
+        ],
+        "sAMAccountName": [
+            "Allowed RODC Password Replication Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12404
+        ],
+        "uSNCreated": [
+            12402
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Allowed RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Terminal Server License Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can update user accounts in Active Directory with information about license issuance, for the purpose of tracking and reporting TS Per User CAL usage"
+        ],
+        "distinguishedName": [
+            "CN=Terminal Server License Servers,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Terminal Server License Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{5d62882c-f623-4cff-8b5b-9b592ddd99c3}"
+        ],
+        "objectSid": [
+            "S-1-5-32-561"
+        ],
+        "sAMAccountName": [
+            "Terminal Server License Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12377
+        ],
+        "uSNCreated": [
+            12375
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Terminal Server License Servers,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Windows Authorization Access Group"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group have access to the computed tokenGroupsGlobalAndUniversal attribute on User objects"
+        ],
+        "distinguishedName": [
+            "CN=Windows Authorization Access Group,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-5-9,CN=ForeignSecurityPrincipals,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Windows Authorization Access Group"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{e0216d2a-c796-41b9-ac46-8fcf97313e9b}"
+        ],
+        "objectSid": [
+            "S-1-5-32-560"
+        ],
+        "sAMAccountName": [
+            "Windows Authorization Access Group"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12396
+        ],
+        "uSNCreated": [
+            12372
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Windows Authorization Access Group,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Incoming Forest Trust Builders"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can create incoming, one-way trusts to this forest"
+        ],
+        "distinguishedName": [
+            "CN=Incoming Forest Trust Builders,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Incoming Forest Trust Builders"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{ac813b8f-9894-40dc-a2ef-2e49adc11d37}"
+        ],
+        "objectSid": [
+            "S-1-5-32-557"
+        ],
+        "sAMAccountName": [
+            "Incoming Forest Trust Builders"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12371
+        ],
+        "uSNCreated": [
+            12369
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Incoming Forest Trust Builders,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "A backward compatibility group which allows read access on all users and groups in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{2b98c79e-51d4-49ec-a9c4-8ed9a6b8cad4}"
+        ],
+        "objectSid": [
+            "S-1-5-32-554"
+        ],
+        "sAMAccountName": [
+            "Pre-Windows 2000 Compatible Access"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12393
+        ],
+        "uSNCreated": [
+            12366
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Pre-Windows 2000 Compatible Access,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Account Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members can administer domain user and group accounts"
+        ],
+        "distinguishedName": [
+            "CN=Account Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Account Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{70dcbbcc-0285-403f-9e04-db330ae05f36}"
+        ],
+        "objectSid": [
+            "S-1-5-32-548"
+        ],
+        "sAMAccountName": [
+            "Account Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12798
+        ],
+        "uSNCreated": [
+            12363
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Account Operators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Server Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members can administer domain servers"
+        ],
+        "distinguishedName": [
+            "CN=Server Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Server Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{b4e42f7d-2695-4ded-9d8c-fcd7f2d27d7d}"
+        ],
+        "objectSid": [
+            "S-1-5-32-549"
+        ],
+        "sAMAccountName": [
+            "Server Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12795
+        ],
+        "uSNCreated": [
+            12360
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Server Operators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "RAS and IAS Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group can access remote access properties of users"
+        ],
+        "distinguishedName": [
+            "CN=RAS and IAS Servers,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RAS and IAS Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{f2f5aede-592a-4462-ae1c-208897a50a9b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-553"
+        ],
+        "sAMAccountName": [
+            "RAS and IAS Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12359
+        ],
+        "uSNCreated": [
+            12357
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=RAS and IAS Servers,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Group Policy Creator Owners"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group can modify group policy for the domain"
+        ],
+        "distinguishedName": [
+            "CN=Group Policy Creator Owners,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=medtech,DC=com"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Group Policy Creator Owners"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a09b32fe-8d7d-4003-9ed7-5ef3254b784e}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-520"
+        ],
+        "sAMAccountName": [
+            "Group Policy Creator Owners"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12391
+        ],
+        "uSNCreated": [
+            12354
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Group Policy Creator Owners,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Guests"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "All domain guests"
+        ],
+        "distinguishedName": [
+            "CN=Domain Guests,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Guests,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Domain Guests"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{1f0c5af2-69c5-4875-a43f-635b3dee4edf}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-514"
+        ],
+        "sAMAccountName": [
+            "Domain Guests"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12353
+        ],
+        "uSNCreated": [
+            12351
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Domain Guests,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "All domain users"
+        ],
+        "distinguishedName": [
+            "CN=Domain Users,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Domain Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{e7e7662c-b1ef-40da-b8ca-c5e6fd51a618}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-513"
+        ],
+        "sAMAccountName": [
+            "Domain Users"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12350
+        ],
+        "uSNCreated": [
+            12348
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Domain Users,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Domain Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Designated administrators of the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Admins,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=leon,CN=Users,DC=medtech,DC=com",
+            "CN=Administrator,CN=Users,DC=medtech,DC=com"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com",
+            "CN=Administrators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Domain Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{aa71009a-bb16-4e25-984b-c39ae7cddd93}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-512"
+        ],
+        "sAMAccountName": [
+            "Domain Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12990
+        ],
+        "uSNCreated": [
+            12345
+        ],
+        "whenChanged": [
+            "2022-09-28 10:12:23+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Domain Admins,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Cert Publishers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are permitted to publish certificates to the directory"
+        ],
+        "distinguishedName": [
+            "CN=Cert Publishers,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483644
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Cert Publishers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{6136d741-3137-4a31-bd3b-87e272e3c8a7}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-517"
+        ],
+        "sAMAccountName": [
+            "Cert Publishers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "uSNChanged": [
+            12344
+        ],
+        "uSNCreated": [
+            12342
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:42+00:00"
+        ]
+    },
+    "dn": "CN=Cert Publishers,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Enterprise Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Designated administrators of the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Enterprise Admins,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=medtech,DC=com"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com",
+            "CN=Administrators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Enterprise Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3719211c-43ec-40b9-b2c4-ced7f10fedb1}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-519"
+        ],
+        "sAMAccountName": [
+            "Enterprise Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12782
+        ],
+        "uSNCreated": [
+            12339
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:41+00:00"
+        ]
+    },
+    "dn": "CN=Enterprise Admins,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Schema Admins"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Designated administrators of the schema"
+        ],
+        "distinguishedName": [
+            "CN=Schema Admins,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483640
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=medtech,DC=com"
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Schema Admins"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{7bb4c5ab-0fc2-464b-983d-8491ddda481d}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-518"
+        ],
+        "sAMAccountName": [
+            "Schema Admins"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12785
+        ],
+        "uSNCreated": [
+            12336
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:41+00:00"
+        ]
+    },
+    "dn": "CN=Schema Admins,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Domain Controllers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "All domain controllers in the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Controllers,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "memberOf": [
+            "CN=Denied RODC Password Replication Group,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Domain Controllers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a9a1e4e9-dbcd-4755-82d1-9b96dba0641c}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-516"
+        ],
+        "sAMAccountName": [
+            "Domain Controllers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12802
+        ],
+        "uSNCreated": [
+            12333
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:41+00:00"
+        ]
+    },
+    "dn": "CN=Domain Controllers,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Domain Computers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "All workstations and servers joined to the domain"
+        ],
+        "distinguishedName": [
+            "CN=Domain Computers,CN=Users,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483646
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Domain Computers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{1aea68a2-5548-4643-aa1e-420a1e5abb82}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-515"
+        ],
+        "sAMAccountName": [
+            "Domain Computers"
+        ],
+        "sAMAccountType": [
+            268435456
+        ],
+        "uSNChanged": [
+            12332
+        ],
+        "uSNCreated": [
+            12330
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:41+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:41+00:00"
+        ]
+    },
+    "dn": "CN=Domain Computers,CN=Users,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Storage Replica Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group have complete and unrestricted access to all features of Storage Replica."
+        ],
+        "distinguishedName": [
+            "CN=Storage Replica Administrators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Storage Replica Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{6e76498f-31d4-45ef-8241-301fe65fc796}"
+        ],
+        "objectSid": [
+            "S-1-5-32-582"
+        ],
+        "sAMAccountName": [
+            "Storage Replica Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8234
+        ],
+        "uSNCreated": [
+            8234
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Storage Replica Administrators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Remote Management Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user."
+        ],
+        "distinguishedName": [
+            "CN=Remote Management Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Remote Management Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{90e9be5e-72e7-4410-9822-5e11cb3bcff4}"
+        ],
+        "objectSid": [
+            "S-1-5-32-580"
+        ],
+        "sAMAccountName": [
+            "Remote Management Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8233
+        ],
+        "uSNCreated": [
+            8233
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Remote Management Users,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Access Control Assistance Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can remotely query authorization attributes and permissions for resources on this computer."
+        ],
+        "distinguishedName": [
+            "CN=Access Control Assistance Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Access Control Assistance Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{eb376279-11f2-413d-90d5-0df80980cf93}"
+        ],
+        "objectSid": [
+            "S-1-5-32-579"
+        ],
+        "sAMAccountName": [
+            "Access Control Assistance Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8232
+        ],
+        "uSNCreated": [
+            8232
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Access Control Assistance Operators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Hyper-V Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group have complete and unrestricted access to all features of Hyper-V."
+        ],
+        "distinguishedName": [
+            "CN=Hyper-V Administrators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Hyper-V Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{26706017-7bbe-4384-a480-dbb5b0b34e8c}"
+        ],
+        "objectSid": [
+            "S-1-5-32-578"
+        ],
+        "sAMAccountName": [
+            "Hyper-V Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8231
+        ],
+        "uSNCreated": [
+            8231
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Hyper-V Administrators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Management Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group can perform routine administrative actions on servers running Remote Desktop Services. This group needs to be populated on all servers in a Remote Desktop Services deployment. The servers running the RDS Central Management service must be included in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Management Servers,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Management Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{68a4b738-511a-4370-a2d9-29ea98bf1524}"
+        ],
+        "objectSid": [
+            "S-1-5-32-577"
+        ],
+        "sAMAccountName": [
+            "RDS Management Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8230
+        ],
+        "uSNCreated": [
+            8230
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=RDS Management Servers,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Endpoint Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group run virtual machines and host sessions where users RemoteApp programs and personal virtual desktops run. This group needs to be populated on servers running RD Connection Broker. RD Session Host servers and RD Virtualization Host servers used in the deployment need to be in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Endpoint Servers,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Endpoint Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{fd1792cc-ef07-4761-8116-dc49185267d2}"
+        ],
+        "objectSid": [
+            "S-1-5-32-576"
+        ],
+        "sAMAccountName": [
+            "RDS Endpoint Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8229
+        ],
+        "uSNCreated": [
+            8229
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=RDS Endpoint Servers,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "RDS Remote Access Servers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Servers in this group enable users of RemoteApp programs and personal virtual desktops access to these resources. In Internet-facing deployments, these servers are typically deployed in an edge network. This group needs to be populated on servers running RD Connection Broker. RD Gateway servers and RD Web Access servers used in the deployment need to be in this group."
+        ],
+        "distinguishedName": [
+            "CN=RDS Remote Access Servers,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "RDS Remote Access Servers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{a497023b-f727-4bfd-8f79-c131461c1ac3}"
+        ],
+        "objectSid": [
+            "S-1-5-32-575"
+        ],
+        "sAMAccountName": [
+            "RDS Remote Access Servers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8216
+        ],
+        "uSNCreated": [
+            8216
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=RDS Remote Access Servers,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Certificate Service DCOM Access"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group are allowed to connect to Certification Authorities in the enterprise"
+        ],
+        "distinguishedName": [
+            "CN=Certificate Service DCOM Access,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Certificate Service DCOM Access"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{448e0352-9878-45f8-8552-8564fa8aff69}"
+        ],
+        "objectSid": [
+            "S-1-5-32-574"
+        ],
+        "sAMAccountName": [
+            "Certificate Service DCOM Access"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8227
+        ],
+        "uSNCreated": [
+            8227
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Certificate Service DCOM Access,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Event Log Readers"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can read event logs from local machine"
+        ],
+        "distinguishedName": [
+            "CN=Event Log Readers,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Event Log Readers"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{718ef923-943a-4cfa-be37-cc9c58bdd00c}"
+        ],
+        "objectSid": [
+            "S-1-5-32-573"
+        ],
+        "sAMAccountName": [
+            "Event Log Readers"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8226
+        ],
+        "uSNCreated": [
+            8226
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Event Log Readers,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Cryptographic Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members are authorized to perform cryptographic operations."
+        ],
+        "distinguishedName": [
+            "CN=Cryptographic Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Cryptographic Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{23248766-1896-461a-b4a0-fa33d6184a04}"
+        ],
+        "objectSid": [
+            "S-1-5-32-569"
+        ],
+        "sAMAccountName": [
+            "Cryptographic Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8225
+        ],
+        "uSNCreated": [
+            8225
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Cryptographic Operators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "IIS_IUSRS"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Built-in group used by Internet Information Services."
+        ],
+        "distinguishedName": [
+            "CN=IIS_IUSRS,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=S-1-5-17,CN=ForeignSecurityPrincipals,DC=medtech,DC=com"
+        ],
+        "name": [
+            "IIS_IUSRS"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{249c71ca-6c41-456c-99c4-05a57a68814b}"
+        ],
+        "objectSid": [
+            "S-1-5-32-568"
+        ],
+        "sAMAccountName": [
+            "IIS_IUSRS"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8224
+        ],
+        "uSNCreated": [
+            8221
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=IIS_IUSRS,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Distributed COM Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members are allowed to launch, activate and use Distributed COM objects on this machine."
+        ],
+        "distinguishedName": [
+            "CN=Distributed COM Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Distributed COM Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{87046b2b-7479-430a-a3d1-a284f5860685}"
+        ],
+        "objectSid": [
+            "S-1-5-32-562"
+        ],
+        "sAMAccountName": [
+            "Distributed COM Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8220
+        ],
+        "uSNCreated": [
+            8220
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Distributed COM Users,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Performance Log Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer"
+        ],
+        "distinguishedName": [
+            "CN=Performance Log Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Performance Log Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{90024a4f-c3d3-4ec5-8791-6e3727b8ff4d}"
+        ],
+        "objectSid": [
+            "S-1-5-32-559"
+        ],
+        "sAMAccountName": [
+            "Performance Log Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8219
+        ],
+        "uSNCreated": [
+            8219
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Performance Log Users,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Performance Monitor Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members of this group can access performance counter data locally and remotely"
+        ],
+        "distinguishedName": [
+            "CN=Performance Monitor Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Performance Monitor Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{14bbf0db-cb4d-4c55-9098-c80e092f3f74}"
+        ],
+        "objectSid": [
+            "S-1-5-32-558"
+        ],
+        "sAMAccountName": [
+            "Performance Monitor Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8218
+        ],
+        "uSNCreated": [
+            8218
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Performance Monitor Users,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Network Configuration Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group can have some administrative privileges to manage configuration of networking features"
+        ],
+        "distinguishedName": [
+            "CN=Network Configuration Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Network Configuration Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{bb1eee63-81e9-48a5-af16-a3db8d7a4f30}"
+        ],
+        "objectSid": [
+            "S-1-5-32-556"
+        ],
+        "sAMAccountName": [
+            "Network Configuration Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            8217
+        ],
+        "uSNCreated": [
+            8217
+        ],
+        "whenChanged": [
+            "2022-09-27 17:46:16+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Network Configuration Operators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Remote Desktop Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Members in this group are granted the right to logon remotely"
+        ],
+        "distinguishedName": [
+            "CN=Remote Desktop Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Administrator,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Remote Desktop Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{abfa9fa5-3f19-400b-b173-626d46b8f609}"
+        ],
+        "objectSid": [
+            "S-1-5-32-555"
+        ],
+        "sAMAccountName": [
+            "Remote Desktop Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12848
+        ],
+        "uSNCreated": [
+            8216
+        ],
+        "whenChanged": [
+            "2022-09-27 19:37:21+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Remote Desktop Users,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Replicator"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Supports file replication in a domain"
+        ],
+        "distinguishedName": [
+            "CN=Replicator,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Replicator"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{d601013d-ea52-4e63-b2b7-88a713c00df8}"
+        ],
+        "objectSid": [
+            "S-1-5-32-552"
+        ],
+        "sAMAccountName": [
+            "Replicator"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12792
+        ],
+        "uSNCreated": [
+            8215
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Replicator,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Backup Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Backup Operators can override security restrictions for the sole purpose of backing up or restoring files"
+        ],
+        "distinguishedName": [
+            "CN=Backup Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=joe,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Backup Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{bcf7f3c5-6808-4885-8fe7-d5b8dc82bd8a}"
+        ],
+        "objectSid": [
+            "S-1-5-32-551"
+        ],
+        "sAMAccountName": [
+            "Backup Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            18340
+        ],
+        "uSNCreated": [
+            8214
+        ],
+        "whenChanged": [
+            "2022-10-04 14:44:03+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Backup Operators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Print Operators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Members can administer printers installed on domain controllers"
+        ],
+        "distinguishedName": [
+            "CN=Print Operators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "name": [
+            "Print Operators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{baad3d36-0700-4303-9da8-561830b4afd8}"
+        ],
+        "objectSid": [
+            "S-1-5-32-550"
+        ],
+        "sAMAccountName": [
+            "Print Operators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12790
+        ],
+        "uSNCreated": [
+            8213
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Print Operators,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Guests"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Guests have the same access as members of the Users group by default, except for the Guest account which is further restricted"
+        ],
+        "distinguishedName": [
+            "CN=Guests,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Guests,CN=Users,DC=medtech,DC=com",
+            "CN=Guest,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Guests"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{436006fd-ceaa-44b2-a618-503f219b5cda}"
+        ],
+        "objectSid": [
+            "S-1-5-32-546"
+        ],
+        "sAMAccountName": [
+            "Guests"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12383
+        ],
+        "uSNCreated": [
+            8210
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Guests,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "cn": [
+            "Users"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "description": [
+            "Users are prevented from making accidental or intentional system-wide changes and can run most applications"
+        ],
+        "distinguishedName": [
+            "CN=Users,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Users,CN=Users,DC=medtech,DC=com",
+            "CN=S-1-5-11,CN=ForeignSecurityPrincipals,DC=medtech,DC=com",
+            "CN=S-1-5-4,CN=ForeignSecurityPrincipals,DC=medtech,DC=com",
+            "CN=offsec,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Users"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{3e575c93-6799-4857-b706-ad57cb086eb1}"
+        ],
+        "objectSid": [
+            "S-1-5-32-545"
+        ],
+        "sAMAccountName": [
+            "Users"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12381
+        ],
+        "uSNCreated": [
+            8203
+        ],
+        "whenChanged": [
+            "2022-09-27 17:47:42+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Users,CN=Builtin,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "adminCount": [
+            1
+        ],
+        "cn": [
+            "Administrators"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 18:02:51+00:00",
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:04:16+00:00"
+        ],
+        "description": [
+            "Administrators have complete and unrestricted access to the computer/domain"
+        ],
+        "distinguishedName": [
+            "CN=Administrators,CN=Builtin,DC=medtech,DC=com"
+        ],
+        "groupType": [
+            -2147483643
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "member": [
+            "CN=Domain Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Enterprise Admins,CN=Users,DC=medtech,DC=com",
+            "CN=Administrator,CN=Users,DC=medtech,DC=com"
+        ],
+        "name": [
+            "Administrators"
+        ],
+        "objectCategory": [
+            "CN=Group,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "group"
+        ],
+        "objectGUID": [
+            "{76dc8956-d8f4-42d4-80a2-5a528d0d06b7}"
+        ],
+        "objectSid": [
+            "S-1-5-32-544"
+        ],
+        "sAMAccountName": [
+            "Administrators"
+        ],
+        "sAMAccountType": [
+            536870912
+        ],
+        "systemFlags": [
+            -1946157056
+        ],
+        "uSNChanged": [
+            12794
+        ],
+        "uSNCreated": [
+            8200
+        ],
+        "whenChanged": [
+            "2022-09-27 18:02:51+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:46:16+00:00"
+        ]
+    },
+    "dn": "CN=Administrators,CN=Builtin,DC=medtech,DC=com"
+}]

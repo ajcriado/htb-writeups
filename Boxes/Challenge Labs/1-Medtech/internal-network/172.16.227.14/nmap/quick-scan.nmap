@@ -1,9 +1,0 @@
-# Nmap 7.94SVN scan initiated Thu Feb  1 10:22:43 2024 as: nmap -p- --min-rate=10000 --open -Pn -oA 172.16.227.14/nmap/quick-scan 172.16.212.14
-Nmap scan report for 172.16.212.14
-Host is up (0.12s latency).
-Not shown: 65534 filtered tcp ports (no-response)
-Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
-PORT   STATE SERVICE
-22/tcp open  ssh
-
-# Nmap done at Thu Feb  1 10:22:57 2024 -- 1 IP address (1 host up) scanned in 14.07 seconds

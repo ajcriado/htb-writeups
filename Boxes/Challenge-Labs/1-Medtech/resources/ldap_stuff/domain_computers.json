@@ -1,0 +1,844 @@
+[{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "WEB02"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "WEB02.dmz.medtech.com"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=WEB02,CN=Computers,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2023-02-28 14:03:09.689758+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2023-02-19 21:30:37.012745+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            198
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "WEB02"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{89330747-d500-4d7e-8b57-4d2e8abe905b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1115"
+        ],
+        "operatingSystem": [
+            "Windows Server 2022 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (20348)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2023-02-19 21:30:37.200260+00:00"
+        ],
+        "sAMAccountName": [
+            "WEB02$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "TERMSRV/WEB02.dmz.medtech.com",
+            "WSMAN/WEB02.dmz.medtech.com",
+            "RestrictedKrbHost/WEB02.dmz.medtech.com",
+            "HOST/WEB02.dmz.medtech.com",
+            "TERMSRV/WEB02",
+            "WSMAN/WEB02",
+            "RestrictedKrbHost/WEB02",
+            "HOST/WEB02"
+        ],
+        "uSNChanged": [
+            131134
+        ],
+        "uSNCreated": [
+            16637
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2023-02-19 21:30:37+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-29 10:11:44+00:00"
+        ]
+    },
+    "dn": "CN=WEB02,CN=Computers,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2023-02-19 21:31:01.622116+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "CLIENT02"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "CLIENT02.medtech.com"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=CLIENT02,CN=Computers,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-02-01 17:37:45.003916+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:37:14.144545+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            145
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "CLIENT02"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{3b42dbeb-8286-432c-bd15-863a15c5aa5b}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1114"
+        ],
+        "operatingSystem": [
+            "Windows 11 Pro"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (22000)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2024-02-01 17:37:14.269539+00:00"
+        ],
+        "sAMAccountName": [
+            "CLIENT02$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "WSMAN/CLIENT02",
+            "WSMAN/CLIENT02.medtech.com",
+            "RestrictedKrbHost/CLIENT02",
+            "HOST/CLIENT02",
+            "RestrictedKrbHost/CLIENT02.medtech.com",
+            "HOST/CLIENT02.medtech.com"
+        ],
+        "uSNChanged": [
+            139361
+        ],
+        "uSNCreated": [
+            16593
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2024-02-01 17:37:14+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-29 09:23:32+00:00"
+        ]
+    },
+    "dn": "CN=CLIENT02,CN=Computers,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "PROD01"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "PROD01.medtech.com"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=PROD01,CN=Computers,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-02-01 17:48:25.066418+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:37:14.144545+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            68
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "PROD01"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{0b9e61d1-1a2b-4677-9b71-dedf92de1426}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1113"
+        ],
+        "operatingSystem": [
+            "Windows Server 2022 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (20348)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2023-02-19 21:30:48.356506+00:00"
+        ],
+        "sAMAccountName": [
+            "PROD01$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "WSMAN/PROD01",
+            "WSMAN/PROD01.medtech.com",
+            "RestrictedKrbHost/PROD01",
+            "HOST/PROD01",
+            "RestrictedKrbHost/PROD01.medtech.com",
+            "HOST/PROD01.medtech.com"
+        ],
+        "uSNChanged": [
+            139353
+        ],
+        "uSNCreated": [
+            16565
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2024-02-01 17:37:14+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-29 08:53:06+00:00"
+        ]
+    },
+    "dn": "CN=PROD01,CN=Computers,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2023-02-19 21:31:01.918993+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "CLIENT01"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "CLIENT01.medtech.com"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=CLIENT01,CN=Computers,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-02-01 17:37:45.269543+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:37:14.628918+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            109
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "CLIENT01"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{beb0fd58-d704-4bb7-aa4b-6854a0a48f41}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1112"
+        ],
+        "operatingSystem": [
+            "Windows 11 Pro"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (22000)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2023-02-19 21:31:01.965881+00:00"
+        ],
+        "sAMAccountName": [
+            "CLIENT01$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "TERMSRV/CLIENT01",
+            "TERMSRV/CLIENT01.medtech.com",
+            "RestrictedKrbHost/CLIENT01",
+            "HOST/CLIENT01",
+            "RestrictedKrbHost/CLIENT01.medtech.com",
+            "HOST/CLIENT01.medtech.com"
+        ],
+        "uSNChanged": [
+            139362
+        ],
+        "uSNCreated": [
+            16531
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2024-02-01 17:37:14+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-29 08:43:41+00:00"
+        ]
+    },
+    "dn": "CN=CLIENT01,CN=Computers,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "2023-02-19 21:30:40.997120+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DEV04"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "DEV04.medtech.com"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=DEV04,CN=Computers,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-02-01 17:48:24.785172+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:37:13.957048+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            97
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "DEV04"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{320fd4ad-ccd4-4ccd-934a-0999984fb6de}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1111"
+        ],
+        "operatingSystem": [
+            "Windows Server 2022 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (20348)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2024-02-01 17:37:14.050795+00:00"
+        ],
+        "sAMAccountName": [
+            "DEV04$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "WSMAN/DEV04",
+            "WSMAN/DEV04.medtech.com",
+            "TERMSRV/DEV04",
+            "TERMSRV/DEV04.medtech.com",
+            "RestrictedKrbHost/DEV04",
+            "HOST/DEV04",
+            "RestrictedKrbHost/DEV04.medtech.com",
+            "HOST/DEV04.medtech.com"
+        ],
+        "uSNChanged": [
+            139348
+        ],
+        "uSNCreated": [
+            16416
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2024-02-01 17:37:14+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 12:29:34+00:00"
+        ]
+    },
+    "dn": "CN=DEV04,CN=Computers,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "FILES02"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "FILES02.medtech.com"
+        ],
+        "dSCorePropagationData": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "distinguishedName": [
+            "CN=FILES02,CN=Computers,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            false
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-02-01 17:48:25.566416+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:37:07.410164+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            113
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "FILES02"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{1568974e-d9bd-4674-89d6-e653cfbc50d8}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1104"
+        ],
+        "operatingSystem": [
+            "Windows Server 2022 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (20348)"
+        ],
+        "primaryGroupID": [
+            515
+        ],
+        "pwdLastSet": [
+            "2023-02-19 21:30:34.028601+00:00"
+        ],
+        "sAMAccountName": [
+            "FILES02$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "servicePrincipalName": [
+            "WSMAN/FILES02",
+            "WSMAN/FILES02.medtech.com",
+            "TERMSRV/FILES02",
+            "TERMSRV/FILES02.medtech.com",
+            "RestrictedKrbHost/FILES02",
+            "HOST/FILES02",
+            "RestrictedKrbHost/FILES02.medtech.com",
+            "HOST/FILES02.medtech.com"
+        ],
+        "uSNChanged": [
+            139343
+        ],
+        "uSNCreated": [
+            12918
+        ],
+        "userAccountControl": [
+            4096
+        ],
+        "whenChanged": [
+            "2024-02-01 17:37:07+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-28 09:53:04+00:00"
+        ]
+    },
+    "dn": "CN=FILES02,CN=Computers,DC=medtech,DC=com"
+},{
+    "attributes": {
+        "accountExpires": [
+            "9999-12-31 23:59:59.999999+00:00"
+        ],
+        "badPasswordTime": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "badPwdCount": [
+            0
+        ],
+        "cn": [
+            "DC01"
+        ],
+        "codePage": [
+            0
+        ],
+        "countryCode": [
+            0
+        ],
+        "dNSHostName": [
+            "DC01.medtech.com"
+        ],
+        "dSCorePropagationData": [
+            "2022-09-27 17:47:42+00:00",
+            "1601-01-01 00:00:01+00:00"
+        ],
+        "distinguishedName": [
+            "CN=DC01,OU=Domain Controllers,DC=medtech,DC=com"
+        ],
+        "instanceType": [
+            4
+        ],
+        "isCriticalSystemObject": [
+            true
+        ],
+        "lastLogoff": [
+            "1601-01-01 00:00:00+00:00"
+        ],
+        "lastLogon": [
+            "2024-02-01 17:36:54.503918+00:00"
+        ],
+        "lastLogonTimestamp": [
+            "2024-02-01 17:36:46.800787+00:00"
+        ],
+        "localPolicyFlags": [
+            0
+        ],
+        "logonCount": [
+            167
+        ],
+        "msDFSR-ComputerReferenceBL": [
+            "CN=DC01,CN=Topology,CN=Domain System Volume,CN=DFSR-GlobalSettings,CN=System,DC=medtech,DC=com"
+        ],
+        "msDS-GenerationId": [
+            {
+                "encoded": "X3ogOUB2z+4=",
+                "encoding": "base64"
+            }
+        ],
+        "msDS-SupportedEncryptionTypes": [
+            28
+        ],
+        "name": [
+            "DC01"
+        ],
+        "objectCategory": [
+            "CN=Computer,CN=Schema,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "objectClass": [
+            "top",
+            "person",
+            "organizationalPerson",
+            "user",
+            "computer"
+        ],
+        "objectGUID": [
+            "{01f6875a-1dd4-4e89-a931-3b2237df84f4}"
+        ],
+        "objectSid": [
+            "S-1-5-21-976142013-3766213998-138799841-1001"
+        ],
+        "operatingSystem": [
+            "Windows Server 2022 Standard"
+        ],
+        "operatingSystemVersion": [
+            "10.0 (20348)"
+        ],
+        "primaryGroupID": [
+            516
+        ],
+        "pwdLastSet": [
+            "2024-02-01 17:36:46.863287+00:00"
+        ],
+        "rIDSetReferences": [
+            "CN=RID Set,CN=DC01,OU=Domain Controllers,DC=medtech,DC=com"
+        ],
+        "sAMAccountName": [
+            "DC01$"
+        ],
+        "sAMAccountType": [
+            805306369
+        ],
+        "serverReferenceBL": [
+            "CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=medtech,DC=com"
+        ],
+        "servicePrincipalName": [
+            "TERMSRV/DC01",
+            "TERMSRV/DC01.medtech.com",
+            "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/DC01.medtech.com",
+            "ldap/DC01.medtech.com/ForestDnsZones.medtech.com",
+            "ldap/DC01.medtech.com/DomainDnsZones.medtech.com",
+            "DNS/DC01.medtech.com",
+            "GC/DC01.medtech.com/medtech.com",
+            "RestrictedKrbHost/DC01.medtech.com",
+            "RestrictedKrbHost/DC01",
+            "RPC/20fec320-460e-4b9b-8c84-48941bc3d905._msdcs.medtech.com",
+            "HOST/DC01/MEDTECH",
+            "HOST/DC01.medtech.com/MEDTECH",
+            "HOST/DC01",
+            "HOST/DC01.medtech.com",
+            "HOST/DC01.medtech.com/medtech.com",
+            "E3514235-4B06-11D1-AB04-00C04FC2DCD2/20fec320-460e-4b9b-8c84-48941bc3d905/medtech.com",
+            "ldap/DC01/MEDTECH",
+            "ldap/20fec320-460e-4b9b-8c84-48941bc3d905._msdcs.medtech.com",
+            "ldap/DC01.medtech.com/MEDTECH",
+            "ldap/DC01",
+            "ldap/DC01.medtech.com",
+            "ldap/DC01.medtech.com/medtech.com"
+        ],
+        "uSNChanged": [
+            139328
+        ],
+        "uSNCreated": [
+            12293
+        ],
+        "userAccountControl": [
+            532480
+        ],
+        "whenChanged": [
+            "2024-02-01 17:36:46+00:00"
+        ],
+        "whenCreated": [
+            "2022-09-27 17:47:41+00:00"
+        ]
+    },
+    "dn": "CN=DC01,OU=Domain Controllers,DC=medtech,DC=com"
+}]

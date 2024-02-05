@@ -1,2 +1,0 @@
-{GOBUSTER}/v1
-{GOBUSTER}/v2
