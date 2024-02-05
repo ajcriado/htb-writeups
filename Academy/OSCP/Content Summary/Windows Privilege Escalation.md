@@ -137,7 +137,7 @@ The output shows a stopped service named _GammaService_. The unquoted service bi
 Let's enter this command in **cmd.exe** instead of PowerShell to avoid escaping issues for the quote in the second _findstr_ command.[4](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/windows-privilege-escalation/leveraging-windows-services/unquoted-service-paths#fn4) Alternatively, we could use _Select-String_[5](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/windows-privilege-escalation/leveraging-windows-services/unquoted-service-paths#fn5) in PowerShell.
 
 ```shell
-C:\Users\steve> wmic service get name,pathname |  findstr /i /v "C:\Windows\\" | findstr /i /v """
+C:\Users\steve> wmic service get name,pathname |  findstr /i /v "C:\Windows\" | findstr /i /v ""
 Name                                       PathName                                                          
 GammaService                               C:\Program Files\Enterprise Apps\Current Version\GammaServ.exe
 ```

@@ -24,16 +24,19 @@
           {
             "id": "d64706925cb45074",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gcc",
+                "query": "crackmapexec smb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.51103591918945
+    "width": 282.5026054382324
   },
   "right": {
     "id": "af0655b461996112",
@@ -99,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md"
+                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md"
               }
             }
           }
@@ -160,53 +163,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a5c6b0c61b04c90",
+  "active": "d64706925cb45074",
   "lastOpenFiles": [
-    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Boxes/Note-Structures-Template.md",
+    "Boxes/Note Structures Template.txt",
+    "Boxes/Proving-Grounds/Nickel/Note-Structures-Template.md",
+    "Boxes/Proving-Grounds/Nickel/example.md",
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
+    "Boxes/Proving-Grounds/Box list to prepare.md",
+    "images/Pasted image 20240205205509.png",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
-    "Academy/CPTS/Skill Assesments/Windows privilege escalation/2. Lab medium.md",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/id_rsa",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/hydra.restore",
-    "Academy/CPTS/Content Summary/10. Password Attacks.md",
-    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
-    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
-    "Academy/OSCP/Content Summary/Commands.md",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/leon.hash",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/backup.exe",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/adduser.c",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/ntml-hashes.txt",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/bruteforcing.txt",
-    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/scripts/script-data.txt",
-    "Boxes/Challenge-Labs/1-Medtech/tmp/scripts/bulk-commands.py",
-    "Boxes/Challenge-Labs/1-Medtech/resources/ldap_stuff/domain_users_by_group.html",
-    "Boxes/Challenge-Labs/1-Medtech/resources/Challenge Scenario.md",
-    "Boxes/Challenge-Labs/1-Medtech/internal-network/172.16.228.13-PROD01.md",
-    "Boxes/Challenge-Labs/1-Medtech/internal-network/172.16.228.14.md",
-    "Boxes/Challenge-Labs/1-Medtech/internal-network/*172.16.228.82-CLIENT01.md",
-    "Boxes/Challenge-Labs/1-Medtech/internal-network/172.16.228.10-DC01.md",
-    "Boxes/Challenge-Labs/1-Medtech/internal-network/-172.16.228.12-DEV04.md",
-    "Boxes/Challenge-Labs/1-Medtech/internal-network/-172.16.228.83-CLIENT02.md",
-    "Boxes/Challenge-Labs/1-Medtech/external-network/192.168.228.120.md",
-    "Boxes/Challenge-Labs/1-Medtech/external-network/*192.168.228.121-WEB02.md",
-    "Boxes/Challenge-Labs/1-Medtech/internal-network/*172.16.228.11-FILES02.md",
-    "Boxes/Challenge-Labs/1-Medtech/external-network/192.168.228.122.md",
-    "Boxes/Challenge-Labs/1-Medtech/Flags.md",
-    "Academy/OSCP/Content Summary/Active Directory/1. Enumeration.md",
+    "Boxes/Proving-Grounds/Nickel/resources/pdf.hash",
+    "Boxes/Proving-Grounds/Nickel/resources/Infrastructure.pdf",
+    "Boxes/Proving-Grounds/Nickel/resources",
+    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Academy/CPTS/Content Summary/23. Web Attacks.md",
     "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
+    "Boxes/HackTheBox/Manager (just user flag)/1. Machine info.md",
+    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
+    "Academy/OSCP/Content Summary/Wordlists.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Boxes/Challenge Labs/1-Medtech/internal-network/*172.16.228.11-FILES02.md",
-    "Boxes/Challenge Labs/1-Medtech/external-network/192.168.228.121-WEB02.md",
-    "images/Pasted image 20240131195919.png",
-    "images/Pasted image 20240131191656.png",
-    "Academy/OSCP/Content Summary/images/Pasted image 20240122130319.png",
-    "Boxes/Proving Grounds/Wombo/Pasted image 20240122213446.png",
-    "Boxes/Proving Grounds/Billyboss/Pasted image 20240122170957.png",
-    "Boxes/Proving Grounds/Squid/Pasted image 20240121125139.png",
-    "Boxes/Proving Grounds/Squid/Pasted image 20240121125101.png",
-    "Boxes/Proving Grounds/Squid/Pasted image 20240121124936.png",
-    "Boxes/Proving Grounds/Snookums/Pasted image 20240117235902.png",
-    "Boxes/Proving Grounds/Snookums/Pasted image 20240117235510.png"
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Fullscan-192.168.196.99",
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Script_TCP_192.168.196.99.nmap",
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Script_TCP_192.168.196.99.nmap.tmp",
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/full_TCP_192.168.196.99.nmap",
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/full_TCP_192.168.196.99.nmap.tmp",
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap",
+    "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",
+    "Boxes/Proving-Grounds/Wombo/4. Attack chain.md",
+    "Boxes/Proving-Grounds/Wombo/3. Notes.md",
+    "Boxes/Proving-Grounds/Wombo/2. Services.md",
+    "Boxes/Proving-Grounds/Wombo/1. Enumeration.md",
+    "Boxes/Proving-Grounds/Squid/Pasted image 20240121125139.png",
+    "Boxes/Proving-Grounds/Squid/Pasted image 20240121125101.png",
+    "Boxes/Proving-Grounds/Squid/Pasted image 20240121124936.png",
+    "Boxes/Proving-Grounds/Squid/4. Attack chain.md",
+    "Boxes/Proving-Grounds/Squid/3. Notes.md",
+    "Boxes/Proving-Grounds/Squid/2. Services.md",
+    "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
+    "Boxes/Proving-Grounds/Kevin/4. Attack chain.md",
+    "Boxes/Proving-Grounds/Kevin/2. Services.md",
+    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235902.png",
+    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235510.png",
+    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117233952.png",
+    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117232249.png",
+    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117232014.png"
   ]
 }
