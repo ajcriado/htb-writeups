@@ -1,0 +1,64 @@
+# Nmap 7.94SVN scan initiated Tue Feb  6 08:52:11 2024 as: nmap -p- --open -A -T4 -oN resources/192.168.218.42-verify.nmap -Pn 192.168.218.42
+Nmap scan report for 192.168.218.42
+Host is up (0.070s latency).
+Not shown: 65456 closed tcp ports (reset), 72 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE     VERSION
+22/tcp    open  ssh         OpenSSH 3.8.1p1 Debian 8.sarge.6 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 30:3e:a4:13:5f:9a:32:c0:8e:46:eb:26:b3:5e:ee:6d (DSA)
+|_  1024 af:a2:49:3e:d8:f2:26:12:4a:a0:b5:ee:62:76:b0:18 (RSA)
+25/tcp    open  smtp        Sendmail 8.13.4/8.13.4/Debian-3sarge3
+| smtp-commands: localhost.localdomain Hello [192.168.45.232], pleased to meet you, ENHANCEDSTATUSCODES, PIPELINING, EXPN, VERB, 8BITMIME, SIZE, DSN, ETRN, DELIVERBY, HELP
+|_ 2.0.0 This is sendmail version 8.13.4 2.0.0 Topics: 2.0.0 HELO EHLO MAIL RCPT DATA 2.0.0 RSET NOOP QUIT HELP VRFY 2.0.0 EXPN VERB ETRN DSN AUTH 2.0.0 STARTTLS 2.0.0 For more info use "HELP <topic>". 2.0.0 To report bugs in the implementation send email to 2.0.0 sendmail-bugs@sendmail.org. 2.0.0 For local information send email to Postmaster at your site. 2.0.0 End of HELP info
+80/tcp    open  http        Apache httpd 1.3.33 ((Debian GNU/Linux))
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Ph33r
+|_http-server-header: Apache/1.3.33 (Debian GNU/Linux)
+139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+199/tcp   open  smux        Linux SNMP multiplexer
+445/tcp   open  netbios-ssn Samba smbd 3.0.14a-Debian (workgroup: WORKGROUP)
+60000/tcp open  ssh         OpenSSH 3.8.1p1 Debian 8.sarge.6 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 30:3e:a4:13:5f:9a:32:c0:8e:46:eb:26:b3:5e:ee:6d (DSA)
+|_  1024 af:a2:49:3e:d8:f2:26:12:4a:a0:b5:ee:62:76:b0:18 (RSA)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=2/6%OT=22%CT=1%CU=41510%PV=Y%DS=4%DC=T%G=Y%TM=65C1E
+OS:575%P=x86_64-pc-linux-gnu)SEQ(SP=C9%GCD=1%ISR=C8%TI=Z%II=I%TS=A)SEQ(SP=C
+OS:B%GCD=1%ISR=C9%TI=Z%TS=A)SEQ(SP=CB%GCD=1%ISR=C9%TI=Z%II=I%TS=A)SEQ(SP=CC
+OS:%GCD=1%ISR=C9%TI=Z%II=I%TS=A)OPS(O1=M551ST11NW0%O2=M551ST11NW0%O3=M551NN
+OS:T11NW0%O4=M551ST11NW0%O5=M551ST11NW0%O6=M551ST11)WIN(W1=16A0%W2=16A0%W3=
+OS:16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M551NNSNW0%CC=N%
+OS:Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF
+OS:=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=
+OS:164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=9449%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 4 hops
+Service Info: Host: localhost.localdomain; OSs: Linux, Unix; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.14a-Debian)
+|   NetBIOS computer name: 
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2024-02-06T07:52:54-05:00
+|_clock-skew: mean: 7h29m59s, deviation: 3h32m08s, median: 4h59m58s
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: share (dangerous)
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+|_nbstat: NetBIOS name: 0XBABE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+
+TRACEROUTE (using port 25/tcp)
+HOP RTT      ADDRESS
+1   92.86 ms 192.168.45.1
+2   93.10 ms 192.168.45.254
+3   93.43 ms 192.168.251.1
+4   93.81 ms 192.168.218.42
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb  6 08:53:25 2024 -- 1 IP address (1 host up) scanned in 73.58 seconds

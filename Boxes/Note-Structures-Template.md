@@ -25,12 +25,4 @@
 	* -
 	
 #### Post-exploitation 
-	-
-	
-### ++ Scripts and Images ++
-#### Nmap
-```bash
-# Nmap
-```
-
-#### Images
+	* -

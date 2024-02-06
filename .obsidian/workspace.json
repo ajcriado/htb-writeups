@@ -22,17 +22,15 @@
             }
           },
           {
-            "id": "d64706925cb45074",
+            "id": "5467e877aa17ee57",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
-                "mode": "source",
+                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
+                "mode": "preview",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -65,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crackmapexec smb",
+                "query": "\"crackmapexec smb\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
+                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
+                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Proving-Grounds/Nickel/192.168.196.99.md"
+                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md"
               }
             }
           }
@@ -163,14 +161,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d64706925cb45074",
+  "active": "5467e877aa17ee57",
   "lastOpenFiles": [
+    "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
     "Boxes/Note-Structures-Template.md",
+    "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
+    "images/Pasted image 20240206124421.png",
+    "Boxes/Proving-Grounds/Kevin/1. Enumeration.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Boxes/Proving-Grounds/Box list to prepare.md",
+    "Boxes/Proving-Grounds/ClamAV",
     "Boxes/Note Structures Template.txt",
     "Boxes/Proving-Grounds/Nickel/Note-Structures-Template.md",
     "Boxes/Proving-Grounds/Nickel/example.md",
-    "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
-    "Boxes/Proving-Grounds/Box list to prepare.md",
     "images/Pasted image 20240205205509.png",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Boxes/Proving-Grounds/Nickel/resources/pdf.hash",
@@ -179,18 +183,15 @@
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
     "Academy/CPTS/Content Summary/23. Web Attacks.md",
     "Academy/OSCP/Content Summary/Web Application Attacks.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
     "Boxes/HackTheBox/Manager (just user flag)/1. Machine info.md",
     "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
     "Academy/OSCP/Content Summary/Wordlists.md",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Fullscan-192.168.196.99",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Script_TCP_192.168.196.99.nmap",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Script_TCP_192.168.196.99.nmap.tmp",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/full_TCP_192.168.196.99.nmap",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/full_TCP_192.168.196.99.nmap.tmp",
-    "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap",
     "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",
     "Boxes/Proving-Grounds/Wombo/4. Attack chain.md",
     "Boxes/Proving-Grounds/Wombo/3. Notes.md",
@@ -204,11 +205,9 @@
     "Boxes/Proving-Grounds/Squid/2. Services.md",
     "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
     "Boxes/Proving-Grounds/Kevin/4. Attack chain.md",
-    "Boxes/Proving-Grounds/Kevin/2. Services.md",
     "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235902.png",
     "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235510.png",
     "Boxes/Proving-Grounds/Snookums/Pasted image 20240117233952.png",
-    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117232249.png",
-    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117232014.png"
+    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117232249.png"
   ]
 }

@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Tue Feb  6 08:46:00 2024 as: nmap -p- --min-rate=10000 --open -oG resources/192.168.218.42-discovery.gnmap 192.168.218.42
+Host: 192.168.218.42 ()	Status: Up
+Host: 192.168.218.42 ()	Ports: 22/open/tcp//ssh///, 25/open/tcp//smtp///, 80/open/tcp//http///, 139/open/tcp//netbios-ssn///, 199/open/tcp//smux///, 445/open/tcp//microsoft-ds///, 60000/open/tcp/////
+# Nmap done at Tue Feb  6 08:46:08 2024 -- 1 IP address (1 host up) scanned in 7.79 seconds
