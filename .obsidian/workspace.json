@@ -24,17 +24,43 @@
           {
             "id": "5467e877aa17ee57",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "43d48f6b74d07884",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Content Summary/12. Pivoting, Tunneling, and Port Forwarding.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66ec33ac6a1343be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
+                "file": "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
+                "file": "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md"
+                "file": "Academy/OSCP/Content Summary/Windows Privilege Escalation.md"
               }
             }
           }
@@ -161,15 +187,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5467e877aa17ee57",
+  "active": "66ec33ac6a1343be",
   "lastOpenFiles": [
+    "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Academy/CPTS/Content Summary/10. Password Attacks.md",
+    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/CPTS/Content Summary/12. Pivoting, Tunneling, and Port Forwarding.md",
+    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Wordlists.md",
+    "Academy/CPTS/Content Summary/23. Web Attacks.md",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
     "Boxes/Note-Structures-Template.md",
-    "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
     "images/Pasted image 20240206124421.png",
     "Boxes/Proving-Grounds/Kevin/1. Enumeration.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/Proving-Grounds/Box list to prepare.md",
     "Boxes/Proving-Grounds/ClamAV",
     "Boxes/Note Structures Template.txt",
@@ -180,13 +214,9 @@
     "Boxes/Proving-Grounds/Nickel/resources/pdf.hash",
     "Boxes/Proving-Grounds/Nickel/resources/Infrastructure.pdf",
     "Boxes/Proving-Grounds/Nickel/resources",
-    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
-    "Academy/CPTS/Content Summary/23. Web Attacks.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
     "Boxes/HackTheBox/Manager (just user flag)/1. Machine info.md",
     "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
-    "Academy/OSCP/Content Summary/Wordlists.md",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Fullscan-192.168.196.99",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Script_TCP_192.168.196.99.nmap",
     "Boxes/Proving-Grounds/Nickel/192.168.196.99/nmap/Script_TCP_192.168.196.99.nmap.tmp",
@@ -201,10 +231,6 @@
     "Boxes/Proving-Grounds/Squid/Pasted image 20240121125101.png",
     "Boxes/Proving-Grounds/Squid/Pasted image 20240121124936.png",
     "Boxes/Proving-Grounds/Squid/4. Attack chain.md",
-    "Boxes/Proving-Grounds/Squid/3. Notes.md",
-    "Boxes/Proving-Grounds/Squid/2. Services.md",
-    "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
-    "Boxes/Proving-Grounds/Kevin/4. Attack chain.md",
     "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235902.png",
     "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235510.png",
     "Boxes/Proving-Grounds/Snookums/Pasted image 20240117233952.png",

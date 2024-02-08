@@ -115,6 +115,13 @@ In order to execute the binary through the service, we need to restart it. We ca
 PS C:\Users\dave> net stop mysql
 ```
 
+We can try to restart the service with the following commands too:
+
+```shell
+PS C:\Users\dave> Stop-Service BackupMonitor
+PS C:\Users\dave> Start-Service BackupMonitor
+```
+
 #### Service DLL Hijacking
 
 **[OSCP Notes](https://notchxor.github.io/oscp-notes/4-win-privesc/6-dll-hijacking/)**
@@ -137,7 +144,7 @@ The output shows a stopped service named _GammaService_. The unquoted service bi
 Let's enter this command in **cmd.exe** instead of PowerShell to avoid escaping issues for the quote in the second _findstr_ command.[4](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/windows-privilege-escalation/leveraging-windows-services/unquoted-service-paths#fn4) Alternatively, we could use _Select-String_[5](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/windows-privilege-escalation/leveraging-windows-services/unquoted-service-paths#fn5) in PowerShell.
 
 ```shell
-C:\Users\steve> wmic service get name,pathname |  findstr /i /v "C:\Windows\" | findstr /i /v ""
+C:\Users\steve> wmic service get name,pathname |  findstr /i /v "C:\Windows\" | findstr /i /v """
 Name                                       PathName                                                          
 GammaService                               C:\Program Files\Enterprise Apps\Current Version\GammaServ.exe
 ```

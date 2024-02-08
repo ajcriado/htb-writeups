@@ -4,6 +4,8 @@
 | `/usr/share/wordlists/dirb/common.txt` | Common resources |
 | `/usr/share/wordlists/dirb/big.txt` | Big resources file |
 | `/usr/share/wordlists/dirb/small.txt` | Small resources file |
+| `/usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt` |  |
+| `/usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt` |  |
 
 | **Passwords** | **Description** |
 | ---- | ---- |
