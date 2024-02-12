@@ -1,0 +1,76 @@
+# Nmap 7.94SVN scan initiated Mon Feb 12 12:30:12 2024 as: nmap -p 80,135,139,445,3389,5985,47001,49664,49665,49666,49667,49668,49669,49670,49965 -sCV -A -T4 -oN 192.168.232.248.nmap 192.168.232.248
+Nmap scan report for 192.168.232.248
+Host is up (0.028s latency).
+
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft IIS httpd 10.0
+| http-robots.txt: 16 disallowed entries (15 shown)
+| /*/ctl/ /admin/ /App_Browsers/ /App_Code/ /App_Data/ 
+| /App_GlobalResources/ /bin/ /Components/ /Config/ /contest/ /controls/ 
+|_/Documentation/ /HttpModules/ /Install/ /Providers/
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Home
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: EXTERNAL
+|   NetBIOS_Domain_Name: EXTERNAL
+|   NetBIOS_Computer_Name: EXTERNAL
+|   DNS_Domain_Name: EXTERNAL
+|   DNS_Computer_Name: EXTERNAL
+|   Product_Version: 10.0.20348
+|_  System_Time: 2024-02-12T11:31:07+00:00
+| ssl-cert: Subject: commonName=EXTERNAL
+| Not valid before: 2024-02-11T10:47:31
+|_Not valid after:  2024-08-12T10:47:31
+|_ssl-date: 2024-02-12T11:31:15+00:00; -1s from scanner time.
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49965/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   192.168.232.248:49965: 
+|     Target_Name: EXTERNAL
+|     NetBIOS_Domain_Name: EXTERNAL
+|     NetBIOS_Computer_Name: EXTERNAL
+|     DNS_Domain_Name: EXTERNAL
+|     DNS_Computer_Name: EXTERNAL
+|_    Product_Version: 10.0.20348
+| ms-sql-info: 
+|   192.168.232.248:49965: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 49965
+|_ssl-date: 2024-02-12T11:31:15+00:00; -1s from scanner time.
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2023-07-27T18:43:19
+|_Not valid after:  2053-07-27T18:43:19
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-02-12T11:31:08
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb 12 12:31:16 2024 -- 1 IP address (1 host up) scanned in 63.84 seconds

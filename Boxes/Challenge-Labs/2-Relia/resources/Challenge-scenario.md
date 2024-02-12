@@ -1,0 +1,1 @@
+![Figure 1: Challenge Scenario](https://offsec-platform-prod.s3.amazonaws.com/offsec-courses/PWKR-LABS/imgs/challengelab2/01233ad451c1561bc376ad96effdf101-CL2Topo4px.png)

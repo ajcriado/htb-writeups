@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Feb 12 12:12:18 2024 as: nmap -p- --min-rate=10000 --open -oG 192.168.232.250.gnmap 192.168.232.250
+Host: 192.168.232.250 ()	Status: Up
+Host: 192.168.232.250 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 3389/open/tcp//ms-wbt-server///, 5040/open/tcp/////, 49664/open/tcp/////, 49665/open/tcp/////, 49666/open/tcp/////, 49667/open/tcp/////, 49668/open/tcp/////, 49669/open/tcp/////, 49670/open/tcp/////
+# Nmap done at Mon Feb 12 12:12:27 2024 -- 1 IP address (1 host up) scanned in 9.24 seconds
