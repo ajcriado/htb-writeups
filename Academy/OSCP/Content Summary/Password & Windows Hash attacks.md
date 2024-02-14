@@ -6,6 +6,7 @@
 | `hydra -l user -P /usr/share/wordlists/rockyou.txt 192.168.50.201 http-post-form "/index.php:fm_usr=user&fm_pwd=^PASS^:Login failed. Invalid"` | HTTP Form |
 | `hydra -l admin -P /usr/share/wordlists/rockyou.txt -e nsr -f ftp://192.168.213.61` | FTP |
 | `hydra -L users.txt -P cewl-list.txt -f 192.168.235.137 imap -u -f` | IMAP |
+| `hydra -L wordlist.txt -P wordlist.txt -u -f SERVER_IP -s PORT http-get /` | Basic Auth Brute Force - User/Pass Wordlists |
 
 #### Hash cracking
 
@@ -19,7 +20,7 @@ hashcat --help | grep -i "ntlm"
 | **Hash cracking** | **Description** |
 | ---- | ---- |
 | `hashcat -m 1000 nelly.hash /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force` | Hashcat NTLM hash with rule (we can skip the rule) |
-| `john --wordlist/usr/share/wordlists/rockyou.txt --rules=/usr/share/hashcat/rules/best64.rule ssh.hash` | John the Ripper with rule (we can skip the rule) |
+| `john --wordlist=/usr/share/wordlists/rockyou.txt --rules=/usr/share/hashcat/rules/best64.rule ssh.hash` | John the Ripper with rule (we can skip the rule) |
 
 #### Windows dumping
 | **Windows dumping** | **Description** |

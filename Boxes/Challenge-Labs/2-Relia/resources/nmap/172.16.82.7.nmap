@@ -1,0 +1,54 @@
+# Nmap 7.94SVN scan initiated Wed Feb 14 11:35:18 2024 as: nmap -p 80,135,139,443,445,3306,3389,49665,49671 -sCV -A -T4 -Pn -oN 172.16.136.7.nmap 172.16.136.7
+Nmap scan report for 172.16.136.7
+Host is up (0.057s latency).
+
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Apache httpd 2.4.53 ((Win64) OpenSSL/1.1.1n PHP/7.4.29)
+| http-title: RELIA INTRANET &#8211; Just another WordPress site
+|_Requested resource was http://172.16.136.7/wordpress/
+|_http-server-header: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.29
+|_http-generator: WordPress 6.0.3
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp   open  ssl/http      Apache httpd 2.4.53 ((Win64) OpenSSL/1.1.1n PHP/7.4.29)
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+|_http-generator: WordPress 6.0.3
+| http-title: RELIA INTRANET &#8211; Just another WordPress site
+|_Requested resource was https://172.16.136.7/wordpress/
+| ssl-cert: Subject: commonName=localhost
+| Not valid before: 2009-11-10T23:48:47
+|_Not valid after:  2019-11-08T23:48:47
+|_http-server-header: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.29
+445/tcp   open  microsoft-ds?
+3306/tcp  open  mysql         MariaDB (unauthorized)
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2024-02-14T10:36:53+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=INTRANET.relia.com
+| Not valid before: 2024-02-13T07:25:06
+|_Not valid after:  2024-08-14T07:25:06
+| rdp-ntlm-info: 
+|   Target_Name: RELIA
+|   NetBIOS_Domain_Name: RELIA
+|   NetBIOS_Computer_Name: INTRANET
+|   DNS_Domain_Name: relia.com
+|   DNS_Computer_Name: INTRANET.relia.com
+|   DNS_Tree_Name: relia.com
+|   Product_Version: 10.0.20348
+|_  System_Time: 2024-02-14T10:36:13+00:00
+49665/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: INTRANET, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:9e:57:0e (VMware)
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2024-02-14T10:36:13
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 14 11:36:54 2024 -- 1 IP address (1 host up) scanned in 96.24 seconds

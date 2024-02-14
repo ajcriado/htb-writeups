@@ -1,0 +1,14 @@
+# Nmap 7.94SVN scan initiated Wed Feb 14 11:29:07 2024 as: nmap -p 22 -sCV -A -T4 -Pn -oN 172.16.136.19.nmap 172.16.136.19
+Nmap scan report for 172.16.136.19
+Host is up (0.056s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 61:d7:77:83:c6:48:69:ca:42:35:0e:62:c3:30:b7:b4 (RSA)
+|   256 c7:62:4a:de:a5:b4:f1:2a:5a:f3:a1:d8:d3:96:1b:8d (ECDSA)
+|_  256 f2:94:b5:71:88:a1:f8:c5:d9:47:77:6b:07:ae:27:a0 (ED25519)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 14 11:29:13 2024 -- 1 IP address (1 host up) scanned in 5.61 seconds

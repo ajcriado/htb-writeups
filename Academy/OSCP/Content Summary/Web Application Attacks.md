@@ -1,3 +1,7 @@
+
+Fuzzing properly:
+`gobuster dir -u http://172.16.136.30/ -w /usr/share/dirb/wordlists/big.txt -t 200 -x .aspx,.php,.jsp,.html,.js`
+
 ### Enumerating and Abusing APIs
 ```bash
 gobuster dir -u http://192.168.50.16:5002 -w /usr/share/wordlists/dirb/big.txt -p pattern

