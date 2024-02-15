@@ -1,5 +1,5 @@
-# Nmap 7.94SVN scan initiated Mon Feb 12 12:27:32 2024 as: nmap -p 80,135,139,445,3389,5985,47001,49664,49665,49666,49667,49668,49669,49670,49671 -sCV -A -T4 -oN 192.168.246.191.nmap 192.168.246.191
-Nmap scan report for 192.168.246.191
+# Nmap 7.94SVN scan initiated Mon Feb 12 12:27:32 2024 as: nmap -p 80,135,139,445,3389,5985,47001,49664,49665,49666,49667,49668,49669,49670,49671 -sCV -A -T4 -oN 192.168.213.191.nmap 192.168.213.191
+Nmap scan report for 192.168.213.191
 Host is up (0.028s latency).
 
 PORT      STATE SERVICE       VERSION
@@ -8,7 +8,7 @@ PORT      STATE SERVICE       VERSION
 |_http-title: 401 - Unauthorized: Access is denied due to invalid credentials.
 | http-auth: 
 | HTTP/1.1 401 Unauthorized\x0D
-|_  Basic realm=192.168.246.191
+|_  Basic realm=192.168.213.191
 135/tcp   open  msrpc         Microsoft Windows RPC
 139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
 445/tcp   open  microsoft-ds?

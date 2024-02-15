@@ -1,5 +1,5 @@
-# Nmap 7.94SVN scan initiated Mon Feb 12 12:30:12 2024 as: nmap -p 80,135,139,445,3389,5985,47001,49664,49665,49666,49667,49668,49669,49670,49965 -sCV -A -T4 -oN 192.168.246.248.nmap 192.168.246.248
-Nmap scan report for 192.168.246.248
+# Nmap 7.94SVN scan initiated Mon Feb 12 12:30:12 2024 as: nmap -p 80,135,139,445,3389,5985,47001,49664,49665,49666,49667,49668,49669,49670,49965 -sCV -A -T4 -oN 192.168.213.248.nmap 192.168.213.248
+Nmap scan report for 192.168.213.248
 Host is up (0.028s latency).
 
 PORT      STATE SERVICE       VERSION
@@ -42,7 +42,7 @@ PORT      STATE SERVICE       VERSION
 49670/tcp open  msrpc         Microsoft Windows RPC
 49965/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
 | ms-sql-ntlm-info: 
-|   192.168.246.248:49965: 
+|   192.168.213.248:49965: 
 |     Target_Name: EXTERNAL
 |     NetBIOS_Domain_Name: EXTERNAL
 |     NetBIOS_Computer_Name: EXTERNAL
@@ -50,7 +50,7 @@ PORT      STATE SERVICE       VERSION
 |     DNS_Computer_Name: EXTERNAL
 |_    Product_Version: 10.0.20348
 | ms-sql-info: 
-|   192.168.246.248:49965: 
+|   192.168.213.248:49965: 
 |     Version: 
 |       name: Microsoft SQL Server 2019 RTM
 |       number: 15.00.2000.00

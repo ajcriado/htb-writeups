@@ -1,0 +1,946 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20221019132030
+Username: FILES\Administrator
+RunAs User: FILES\Administrator
+Configuration Name:
+Machine: FILES (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5936
+PSVersion: 5.1.20348.859
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.859
+BuildVersion: 10.0.20348.859
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Administrator\Documents\PowerShell_transcript.FILES.EAy4aUdb.20221019132030.txt
+PS C:\Users\Administrator> Get-Process
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
+-------  ------    -----      -----     ------     --  -- -----------
+     95       6      924       4636       0.00   3160   0 AggregatorHost
+    257      14     7444      24784       0.31   2536   1 conhost
+    487      20     1912       6140       0.23    632   0 csrss
+    298      13     1816       6104       0.28    700   1 csrss
+    397      16     3536      20040       0.08   4756   1 ctfmon
+    242      24     4880      12960       0.08   1536   1 dllhost
+    299      16     3572      13832       0.02   2804   0 dllhost
+    307      16     4352      14740       0.11   3244   0 dllhost
+    919      51   182896     248744       1.34   1036   1 dwm
+   1568      62    35020     245380       1.44   5040   1 explorer
+     39       6     1364       3544       0.00    936   0 fontdrvhost
+     39       6     1584       4168       0.08    944   1 fontdrvhost
+      0       0       60          8                 0   0 Idle
+   1227      30     5200      16952       0.56    840   0 lsass
+    210      14     3564      14716       0.08   5036   0 MoUsoCoreWorker
+    253      14     3356      10896       0.09   4048   0 msdtc
+    707      86   242116     234616      21.56   2676   0 MsMpEng
+    211      40     3460      10380       0.05   4164   0 NisSrv
+    718      35    65924      82180       0.80   5936   1 powershell
+      0       7     3096      71156       0.42     76   0 Registry
+    306      18     4520      26512       0.22   1060   1 RuntimeBroker
+    519      25    22816      48076       1.16   5272   1 RuntimeBroker
+    244      13     2556      14400       0.05   5828   1 RuntimeBroker
+   1054      74    92724     165340       1.61   5144   1 SearchApp
+    527      39   145144     185420       1.59   5788   1 ServerManager
+    566      11     4196       8880       0.56    828   0 services
+    506      17     5200      27208       0.36   4480   1 sihost
+    374      21     7848      23636       0.06   5896   1 smartscreen
+     57       4     1148       1324       0.05    520   0 smss
+    475      22     5784      16644       0.05   2260   0 spoolsv
+    639      30    18504      62912       0.69   4244   1 StartMenuExperienceHost
+    970      18     5168      11932       0.58    576   0 svchost
+    276      11     2136       8328       0.06    616   0 svchost
+   1023      21     7268      23288       0.52    960   0 svchost
+    120       8     1396       6420       0.05   1104   0 svchost
+    142       7     1400       6012       0.00   1148   0 svchost
+    230      14     2348      10492       0.08   1156   0 svchost
+    113       8     1364       5400       0.02   1184   0 svchost
+    124      15     2760       6944       0.02   1200   0 svchost
+    217      13     1728       7692       0.02   1216   0 svchost
+    233      13     2212      10116       0.13   1252   0 svchost
+    187      10     1936      12196       0.03   1260   0 svchost
+    253      11     2240       7592       0.14   1280   0 svchost
+    144       9     1676       6952       0.03   1384   0 svchost
+    301      17     3148       9964       0.44   1440   0 svchost
+    130       9     1564       7212       0.02   1448   0 svchost
+    155      10     1664       7700       0.05   1504   0 svchost
+    354      16    17328      22300       1.19   1548   0 svchost
+    288      16     3032      13164       0.05   1592   0 svchost
+    217      12     2372      11384       0.08   1604   0 svchost
+    468      10     3104       9260       0.20   1628   0 svchost
+    160       8     1292       5860       0.03   1684   0 svchost
+    159       9     1588       6732       0.03   1704   0 svchost
+    439      19     4556      13160       0.13   1748   0 svchost
+    442      33     8840      18128       0.20   1784   0 svchost
+    188      12     2016       8484       0.03   1800   0 svchost
+    402      19     5292      15348       0.14   1876   0 svchost
+    296      14     2360       9088       0.03   1896   0 svchost
+    241      14     2548      13992       0.05   1936   0 svchost
+    519      16     3780      11216       0.06   1988   0 svchost
+    188      10     2212       7388       0.11   2008   0 svchost
+    257      13     2248       9864       0.08   2036   0 svchost
+    221      11     2496       9164       0.13   2156   0 svchost
+    386      17     3100      10876       0.16   2184   0 svchost
+    406      29     9200      21028       0.16   2284   0 svchost
+    196      23     2612      10256       0.06   2376   0 svchost
+    526      21    13836      27660       0.88   2384   0 svchost
+    147      42     1696       7076       0.05   2472   0 svchost
+    216      11     2208       8856       0.03   2484   0 svchost
+    108       7     1200       5548       0.03   2520   0 svchost
+    187      10     4932      13212       0.45   2544   0 svchost
+    138       9     1576       6712       0.02   2560   0 svchost
+    129       8     1256       5680       0.02   2580   0 svchost
+    448      18    11076      20860       0.81   2668   0 svchost
+    313      19     3676      16180       0.08   2688   0 svchost
+    142       9     1688      11784       0.02   2752   0 svchost
+    403      24     3564      13248       0.14   2936   0 svchost
+    117       8     1352       6348       0.05   3184   0 svchost
+    336      28     8700      17284       0.11   3588   0 svchost
+    156       9     1700       8096       0.02   3736   0 svchost
+    222      12     2652      11236       0.06   3900   0 svchost
+    185      14     6684      14084       0.05   4068   0 svchost
+    261      14     3424      20800       0.11   4416   0 svchost
+    312      15     3828      15692       0.14   4500   1 svchost
+    341      17     6024      28380       0.27   4528   1 svchost
+    141       8     1336       6440       0.00   4708   0 svchost
+    219      12     2592      11604       0.06   4880   0 svchost
+    147       9     1792       8616       0.16   4920   0 svchost
+    257      13     3008      17540       0.03   5404   1 svchost
+    189      12     2396      10216       0.03   6140   0 svchost
+   2375       0       40        148      22.45      4   0 System
+    224      21     3836      12536       0.05   4580   1 taskhostw
+    562      25    14464      47108       0.19   4340   1 TextInputHost
+    174      11     2824      11372       0.03   2604   0 VGAuthService
+    126       8     1496       6360       0.02   2620   0 vm3dservice
+    122       9     1576       6828       0.03   2820   1 vm3dservice
+    124       9     1584       6908       0.02   3596   1 vm3dservice
+    392      22     9552      22612       0.27   2644   0 vmtoolsd
+    423      27    17604      36800       1.16   5960   1 vmtoolsd
+    173      11     1896       9088       0.03   2552   0 VSSVC
+    168      12     1660       7036       0.05    708   0 wininit
+    258      13     2520      12460       0.22    764   1 winlogon
+     65       5      776       3648       0.02   2728   0 wlms
+    179      13     1812       9064       0.03   5440   0 WmiApSrv
+    382      19     9620      21188       2.41   3524   0 WmiPrvSE
+    438      24    26480      36340       0.83   4744   0 WmiPrvSE
+    291      12     5244      12524       0.78   4776   0 WmiPrvSE
+    171      11     2532       9552       0.02   5784   0 WmiPrvSE
+
+
+PS C:\Users\Administrator> Get-Process | Select-Object -Property Name, ProcessName, Path, Id, CPU
+
+
+Name        : AggregatorHost
+ProcessName : AggregatorHost
+Path        : C:\Windows\System32\AggregatorHost.exe
+Id          : 3160
+CPU         : 0
+
+Name        : conhost
+ProcessName : conhost
+Path        : C:\Windows\system32\conhost.exe
+Id          : 2536
+CPU         : 0.359375
+
+Name        : csrss
+ProcessName : csrss
+Path        :
+Id          : 632
+CPU         : 0.234375
+
+Name        : csrss
+ProcessName : csrss
+Path        :
+Id          : 700
+CPU         : 0.28125
+
+Name        : ctfmon
+ProcessName : ctfmon
+Path        : C:\Windows\system32\ctfmon.exe
+Id          : 4756
+CPU         : 0.078125
+
+Name        : dllhost
+ProcessName : dllhost
+Path        : C:\Windows\system32\DllHost.exe
+Id          : 1536
+CPU         : 0.078125
+
+Name        : dllhost
+ProcessName : dllhost
+Path        : C:\Windows\system32\dllhost.exe
+Id          : 2804
+CPU         : 0.015625
+
+Name        : dllhost
+ProcessName : dllhost
+Path        : C:\Windows\system32\dllhost.exe
+Id          : 3244
+CPU         : 0.109375
+
+Name        : dwm
+ProcessName : dwm
+Path        : C:\Windows\system32\dwm.exe
+Id          : 1036
+CPU         : 1.34375
+
+Name        : explorer
+ProcessName : explorer
+Path        : C:\Windows\Explorer.EXE
+Id          : 5040
+CPU         : 1.4375
+
+Name        : fontdrvhost
+ProcessName : fontdrvhost
+Path        : C:\Windows\system32\fontdrvhost.exe
+Id          : 936
+CPU         : 0
+
+Name        : fontdrvhost
+ProcessName : fontdrvhost
+Path        : C:\Windows\system32\fontdrvhost.exe
+Id          : 944
+CPU         : 0.078125
+
+Name        : Idle
+ProcessName : Idle
+Path        :
+Id          : 0
+CPU         :
+
+Name        : lsass
+ProcessName : lsass
+Path        : C:\Windows\system32\lsass.exe
+Id          : 840
+CPU         : 0.5625
+
+Name        : MoUsoCoreWorker
+ProcessName : MoUsoCoreWorker
+Path        : C:\Windows\System32\mousocoreworker.exe
+Id          : 5036
+CPU         : 0.078125
+
+Name        : msdtc
+ProcessName : msdtc
+Path        : C:\Windows\System32\msdtc.exe
+Id          : 4048
+CPU         : 0.09375
+
+Name        : MsMpEng
+ProcessName : MsMpEng
+Path        :
+Id          : 2676
+CPU         : 21.578125
+
+Name        : NisSrv
+ProcessName : NisSrv
+Path        :
+Id          : 4164
+CPU         : 0.046875
+
+Name        : powershell
+ProcessName : powershell
+Path        : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id          : 5936
+CPU         : 0.9375
+
+Name        : Registry
+ProcessName : Registry
+Path        :
+Id          : 76
+CPU         : 0.421875
+
+Name        : RuntimeBroker
+ProcessName : RuntimeBroker
+Path        : C:\Windows\System32\RuntimeBroker.exe
+Id          : 1060
+CPU         : 0.21875
+
+Name        : RuntimeBroker
+ProcessName : RuntimeBroker
+Path        : C:\Windows\System32\RuntimeBroker.exe
+Id          : 5272
+CPU         : 1.15625
+
+Name        : RuntimeBroker
+ProcessName : RuntimeBroker
+Path        : C:\Windows\System32\RuntimeBroker.exe
+Id          : 5828
+CPU         : 0.046875
+
+Name        : SearchApp
+ProcessName : SearchApp
+Path        : C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+Id          : 5144
+CPU         : 1.609375
+
+Name        : ServerManager
+ProcessName : ServerManager
+Path        : C:\Windows\system32\ServerManager.exe
+Id          : 5788
+CPU         : 1.59375
+
+Name        : services
+ProcessName : services
+Path        :
+Id          : 828
+CPU         : 0.5625
+
+Name        : sihost
+ProcessName : sihost
+Path        : C:\Windows\system32\sihost.exe
+Id          : 4480
+CPU         : 0.359375
+
+Name        : smartscreen
+ProcessName : smartscreen
+Path        : C:\Windows\System32\smartscreen.exe
+Id          : 5896
+CPU         : 0.0625
+
+Name        : smss
+ProcessName : smss
+Path        :
+Id          : 520
+CPU         : 0.046875
+
+Name        : spoolsv
+ProcessName : spoolsv
+Path        : C:\Windows\System32\spoolsv.exe
+Id          : 2260
+CPU         : 0.046875
+
+Name        : StartMenuExperienceHost
+ProcessName : StartMenuExperienceHost
+Path        : C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+Id          : 4244
+CPU         : 0.6875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 576
+CPU         : 0.578125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 616
+CPU         : 0.0625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 960
+CPU         : 0.515625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1104
+CPU         : 0.046875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1148
+CPU         : 0
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1156
+CPU         : 0.078125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1184
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1200
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1216
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1252
+CPU         : 0.125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1260
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1280
+CPU         : 0.140625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1384
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1440
+CPU         : 0.4375
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1448
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1504
+CPU         : 0.046875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1548
+CPU         : 1.1875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1592
+CPU         : 0.046875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1604
+CPU         : 0.078125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1628
+CPU         : 0.203125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1684
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1704
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1748
+CPU         : 0.125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1784
+CPU         : 0.203125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1800
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1876
+CPU         : 0.140625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 1896
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1936
+CPU         : 0.046875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 1988
+CPU         : 0.0625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2008
+CPU         : 0.109375
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2036
+CPU         : 0.078125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2156
+CPU         : 0.125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2184
+CPU         : 0.15625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2284
+CPU         : 0.15625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2376
+CPU         : 0.0625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2384
+CPU         : 0.875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2472
+CPU         : 0.046875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2484
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2520
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2544
+CPU         : 0.453125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2560
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2580
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2668
+CPU         : 0.8125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2688
+CPU         : 0.078125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 2752
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 2936
+CPU         : 0.140625
+
+Name        : svchost
+ProcessName : svchost
+Path        :
+Id          : 3184
+CPU         : 0.046875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 3588
+CPU         : 0.109375
+
+Name        : svchost
+ProcessName : svchost
+Path        :
+Id          : 3736
+CPU         : 0.015625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 3900
+CPU         : 0.0625
+
+Name        : svchost
+ProcessName : svchost
+Path        :
+Id          : 4068
+CPU         : 0.046875
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 4416
+CPU         : 0.109375
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 4500
+CPU         : 0.140625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 4528
+CPU         : 0.265625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\System32\svchost.exe
+Id          : 4708
+CPU         : 0
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 4880
+CPU         : 0.0625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 4920
+CPU         : 0.15625
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 5404
+CPU         : 0.03125
+
+Name        : svchost
+ProcessName : svchost
+Path        : C:\Windows\system32\svchost.exe
+Id          : 6140
+CPU         : 0.03125
+
+Name        : System
+ProcessName : System
+Path        :
+Id          : 4
+CPU         : 22.46875
+
+Name        : taskhostw
+ProcessName : taskhostw
+Path        : C:\Windows\system32\taskhostw.exe
+Id          : 4580
+CPU         : 0.046875
+
+Name        : TextInputHost
+ProcessName : TextInputHost
+Path        : C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+Id          : 4340
+CPU         : 0.1875
+
+Name        : VGAuthService
+ProcessName : VGAuthService
+Path        : C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe
+Id          : 2604
+CPU         : 0.03125
+
+Name        : vm3dservice
+ProcessName : vm3dservice
+Path        : C:\Windows\system32\vm3dservice.exe
+Id          : 2620
+CPU         : 0.015625
+
+Name        : vm3dservice
+ProcessName : vm3dservice
+Path        : C:\Windows\system32\vm3dservice.exe
+Id          : 2820
+CPU         : 0.03125
+
+Name        : vm3dservice
+ProcessName : vm3dservice
+Path        : C:\Windows\system32\vm3dservice.exe
+Id          : 3596
+CPU         : 0.015625
+
+Name        : vmtoolsd
+ProcessName : vmtoolsd
+Path        : C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+Id          : 2644
+CPU         : 0.265625
+
+Name        : vmtoolsd
+ProcessName : vmtoolsd
+Path        : C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+Id          : 5960
+CPU         : 1.15625
+
+Name        : VSSVC
+ProcessName : VSSVC
+Path        : C:\Windows\system32\vssvc.exe
+Id          : 2552
+CPU         : 0.03125
+
+Name        : wininit
+ProcessName : wininit
+Path        :
+Id          : 708
+CPU         : 0.046875
+
+Name        : winlogon
+ProcessName : winlogon
+Path        : C:\Windows\system32\winlogon.exe
+Id          : 764
+CPU         : 0.21875
+
+Name        : wlms
+ProcessName : wlms
+Path        : C:\Windows\system32\wlms\wlms.exe
+Id          : 2728
+CPU         : 0.015625
+
+Name        : WmiApSrv
+ProcessName : WmiApSrv
+Path        : C:\Windows\system32\wbem\WmiApSrv.exe
+Id          : 5440
+CPU         : 0.03125
+
+Name        : WmiPrvSE
+ProcessName : WmiPrvSE
+Path        : C:\Windows\system32\wbem\wmiprvse.exe
+Id          : 3524
+CPU         : 2.40625
+
+Name        : WmiPrvSE
+ProcessName : WmiPrvSE
+Path        : C:\Windows\system32\wbem\wmiprvse.exe
+Id          : 4744
+CPU         : 0.828125
+
+Name        : WmiPrvSE
+ProcessName : WmiPrvSE
+Path        : C:\Windows\system32\wbem\wmiprvse.exe
+Id          : 4776
+CPU         : 0.78125
+
+Name        : WmiPrvSE
+ProcessName : WmiPrvSE
+Path        : C:\Windows\system32\wbem\wmiprvse.exe
+Id          : 5784
+CPU         : 0.015625
+
+
+
+PS C:\Users\Administrator> Get-CimInstance Win32_OperatingSystem -ComputerName DC1 -Property LocalDateTime,LastBootUpTime
+Get-CimInstance : WinRM cannot process the request. The following error with errorcode 0x8009030e occurred while using
+Kerberos authentication: A specified logon session does not exist. It may already have been terminated.
+ Possible causes are:
+  -The user name or password specified are invalid.
+  -Kerberos is used when no authentication method and no user name are specified.
+  -Kerberos accepts domain user names, but not local user names.
+  -The Service Principal Name (SPN) for the remote computer name and port does not exist.
+  -The client and remote computers are in different domains and there is no trust between the two domains.
+ After checking for the above issues, try the following:
+  -Check the Event Viewer for events related to authentication.
+  -Change the authentication method; add the destination computer to the WinRM TrustedHosts configuration setting or
+use HTTPS transport.
+ Note that computers in the TrustedHosts list might not be authenticated.
+   -For more information about WinRM configuration, run the following command: winrm help config.
+At line:1 char:1
++ Get-CimInstance Win32_OperatingSystem -ComputerName DC1 -Property Loc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-CimInstance], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070520,Microsoft.Management.Infrastructure.CimCmdlets.GetCimInstanceCommand
+    + PSComputerName        : DC1
+Get-CimInstance : WinRM cannot process the request. The following error with errorcode 0x8009030e occurred while using
+Kerberos authentication: A specified logon session does not exist. It may already have been terminated.
+ Possible causes are:
+  -The user name or password specified are invalid.
+  -Kerberos is used when no authentication method and no user name are specified.
+  -Kerberos accepts domain user names, but not local user names.
+  -The Service Principal Name (SPN) for the remote computer name and port does not exist.
+  -The client and remote computers are in different domains and there is no trust between the two domains.
+ After checking for the above issues, try the following:
+  -Check the Event Viewer for events related to authentication.
+  -Change the authentication method; add the destination computer to the WinRM TrustedHosts configuration setting or
+use HTTPS transport.
+ Note that computers in the TrustedHosts list might not be authenticated.
+   -For more information about WinRM configuration, run the following command: winrm help config.
+At line:1 char:1
++ Get-CimInstance Win32_OperatingSystem -ComputerName DC1 -Property Loc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-CimInstance], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070520,Microsoft.Management.Infrastructure.CimCmdlets.GetCimInstanceCommand
+    + PSComputerName        : DC1
+
+PS C:\Users\Administrator> Get-CimInstance Win32_OperatingSystem -ComputerName FILES -Property LocalDateTime,LastBootUpTime
+
+
+
+PSShowComputerName                        : True
+Status                                    :
+Name                                      :
+FreePhysicalMemory                        :
+FreeSpaceInPagingFiles                    :
+FreeVirtualMemory                         :
+Caption                                   :
+Description                               :
+InstallDate                               :
+CreationClassName                         :
+CSCreationClassName                       :
+CSName                                    :
+CurrentTimeZone                           :
+Distributed                               :
+LastBootUpTime                            : 10/19/2022 1:18:31 PM
+LocalDateTime                             : 10/19/2022 1:20:31 PM
+MaxNumberOfProcesses                      :
+MaxProcessMemorySize                      :
+NumberOfLicensedUsers                     :
+NumberOfProcesses                         :
+NumberOfUsers                             :
+OSType                                    :
+OtherTypeDescription                      :
+SizeStoredInPagingFiles                   :
+TotalSwapSpaceSize                        :
+TotalVirtualMemorySize                    :
+TotalVisibleMemorySize                    :
+Version                                   :
+BootDevice                                :
+BuildNumber                               :
+BuildType                                 :
+CodeSet                                   :
+CountryCode                               :
+CSDVersion                                :
+DataExecutionPrevention_32BitApplications :
+DataExecutionPrevention_Available         :
+DataExecutionPrevention_Drivers           :
+DataExecutionPrevention_SupportPolicy     :
+Debug                                     :
+EncryptionLevel                           :
+ForegroundApplicationBoost                :
+LargeSystemCache                          :
+Locale                                    :
+Manufacturer                              :
+MUILanguages                              :
+OperatingSystemSKU                        :
+Organization                              :
+OSArchitecture                            :
+OSLanguage                                :
+OSProductSuite                            :
+PAEEnabled                                :
+PlusProductID                             :
+PlusVersionNumber                         :
+PortableOperatingSystem                   :
+Primary                                   :
+ProductType                               :
+RegisteredUser                            :
+SerialNumber                              :
+ServicePackMajorVersion                   :
+ServicePackMinorVersion                   :
+SuiteMask                                 :
+SystemDevice                              :
+SystemDirectory                           :
+SystemDrive                               :
+WindowsDirectory                          :
+PSComputerName                            : FILES
+CimClass                                  : root/cimv2:Win32_OperatingSystem
+CimInstanceProperties                     : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                       : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+
+PS C:\Users\Administrator> Start-Porcess powershell -verb runasuser
+Start-Porcess : The term 'Start-Porcess' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Start-Porcess powershell -verb runasuser
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Start-Porcess:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Start-Porcess : The term 'Start-Porcess' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Start-Porcess powershell -verb runasuser
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Start-Porcess:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator> Start-Process powershell -verb runasuer
+>> TerminatingError(Start-Process): "This command cannot be run due to the error: No application is associated with the specified file for this operation."
+Start-Process : This command cannot be run due to the error: No application is associated with the specified file for
+this operation.
+At line:1 char:1
++ Start-Process powershell -verb runasuer
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+Start-Process : This command cannot be run due to the error: No application is associated with the specified file for
+this operation.
+At line:1 char:1
++ Start-Process powershell -verb runasuer
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\Users\Administrator> Start-Process powershell -verb runasuser
+PS C:\Users\Administrator> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20221019132100
+**********************

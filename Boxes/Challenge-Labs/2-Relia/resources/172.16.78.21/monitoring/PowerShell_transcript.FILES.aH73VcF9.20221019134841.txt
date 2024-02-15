@@ -1,0 +1,291 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20221019134841
+Username: FILES\Administrator
+RunAs User: FILES\Administrator
+Configuration Name:
+Machine: FILES (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5936
+PSVersion: 5.1.20348.859
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.859
+BuildVersion: 10.0.20348.859
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Administrator\Documents\PowerShell_transcript.FILES.aH73VcF9.20221019134841.txt
+PS C:\Users\Administrator> Get-ComputerInfo
+
+
+WindowsBuildLabEx                                       : 20348.1.amd64fre.fe_release.210507-1500
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : ServerDatacenterEval
+WindowsInstallationType                                 : Server
+WindowsInstallDateFromRegistry                          : 8/24/2022 7:07:28 PM
+WindowsProductId                                        : 00455-50000-00001-AA000
+WindowsProductName                                      : Windows Server 2022 Datacenter Evaluation
+WindowsRegisteredOrganization                           :
+WindowsRegisteredOwner                                  : Windows User
+WindowsSystemRoot                                       : C:\Windows
+WindowsVersion                                          : 2009
+OSDisplayVersion                                        : 21H2
+BiosCharacteristics                                     : {4, 7, 9, 11...}
+BiosBIOSVersion                                         : {INTEL  - 6040000, VMW71.00V.18452719.B64.2108091906,
+                                                          VMware, Inc. - 10000}
+BiosBuildNumber                                         :
+BiosCaption                                             : VMW71.00V.18452719.B64.2108091906
+BiosCodeSet                                             :
+BiosCurrentLanguage                                     :
+BiosDescription                                         : VMW71.00V.18452719.B64.2108091906
+BiosEmbeddedControllerMajorVersion                      : 255
+BiosEmbeddedControllerMinorVersion                      : 255
+BiosFirmwareType                                        : Uefi
+BiosIdentificationCode                                  :
+BiosInstallableLanguages                                :
+BiosInstallDate                                         :
+BiosLanguageEdition                                     :
+BiosListOfLanguages                                     :
+BiosManufacturer                                        : VMware, Inc.
+BiosName                                                : VMW71.00V.18452719.B64.2108091906
+BiosOtherTargetOS                                       :
+BiosPrimaryBIOS                                         : True
+BiosReleaseDate                                         : 8/8/2021 5:00:00 PM
+BiosSeralNumber                                         : VMware-56 4d eb fb 36 cc 74 61-3f e2 a0 48 19 1f df fb
+BiosSMBIOSBIOSVersion                                   : VMW71.00V.18452719.B64.2108091906
+BiosSMBIOSMajorVersion                                  : 2
+BiosSMBIOSMinorVersion                                  : 7
+BiosSMBIOSPresent                                       : True
+BiosSoftwareElementState                                : Running
+BiosStatus                                              : OK
+BiosSystemBiosMajorVersion                              : 255
+BiosSystemBiosMinorVersion                              : 255
+BiosTargetOperatingSystem                               : 0
+BiosVersion                                             : INTEL  - 6040000
+CsAdminPasswordStatus                                   : Enabled
+CsAutomaticManagedPagefile                              : True
+CsAutomaticResetBootOption                              : True
+CsAutomaticResetCapability                              : True
+CsBootOptionOnLimit                                     : DoNotReboot
+CsBootOptionOnWatchDog                                  : DoNotReboot
+CsBootROMSupported                                      : True
+CsBootStatus                                            : {0, 0, 0, 33...}
+CsBootupState                                           : Normal boot
+CsCaption                                               : FILES
+CsChassisBootupState                                    : Safe
+CsChassisSKUNumber                                      :
+CsCurrentTimeZone                                       : -420
+CsDaylightInEffect                                      : True
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : FILES
+CsDomain                                                : RELIA.com
+CsDomainRole                                            : MemberServer
+CsEnableDaylightSavingsTime                             : True
+CsFrontPanelResetStatus                                 : Unknown
+CsHypervisorPresent                                     : True
+CsInfraredSupported                                     : False
+CsInitialLoadInfo                                       :
+CsInstallDate                                           :
+CsKeyboardPasswordStatus                                : Unknown
+CsLastLoadInfo                                          :
+CsManufacturer                                          : VMware, Inc.
+CsModel                                                 : VMware7,1
+CsName                                                  : FILES
+CsNetworkAdapters                                       : {Ethernet0}
+CsNetworkServerModeEnabled                              : True
+CsNumberOfLogicalProcessors                             : 1
+CsNumberOfProcessors                                    : 1
+CsProcessors                                            : {11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz}
+CsOEMStringArray                                        : {[MS_VM_CERT/SHA1/27d66596a61c48dd3dc7216fd715126e33f59ae7],
+                                                          Welcome to the Virtual Machine}
+CsPartOfDomain                                          : True
+CsPauseAfterReset                                       : 3932100000
+CsPCSystemType                                          : Desktop
+CsPCSystemTypeEx                                        : Desktop
+CsPowerManagementCapabilities                           :
+CsPowerManagementSupported                              :
+CsPowerOnPasswordStatus                                 : Disabled
+CsPowerState                                            : Unknown
+CsPowerSupplyState                                      : Safe
+CsPrimaryOwnerContact                                   :
+CsPrimaryOwnerName                                      : Windows User
+CsResetCapability                                       : Other
+CsResetCount                                            : -1
+CsResetLimit                                            : -1
+CsRoles                                                 : {LM_Workstation, LM_Server, NT, Server_NT}
+CsStatus                                                : OK
+CsSupportContactDescription                             :
+CsSystemFamily                                          :
+CsSystemSKUNumber                                       :
+CsSystemType                                            : x64-based PC
+CsThermalState                                          : Safe
+CsTotalPhysicalMemory                                   : 8588910592
+CsPhyicallyInstalledMemory                              : 8388608
+CsUserName                                              : FILES\Administrator
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             :
+OsName                                                  : Microsoft Windows Server 2022 Datacenter Evaluation
+OsType                                                  : WINNT
+OsOperatingSystemSKU                                    : 80
+OsVersion                                               : 10.0.20348
+OsCSDVersion                                            :
+OsBuildNumber                                           : 20348
+OsHotFixes                                              : {KB5017265, KB5012170, KB5018421, KB5017399}
+OsBootDevice                                            : \Device\HarddiskVolume1
+OsSystemDevice                                          : \Device\HarddiskVolume3
+OsSystemDirectory                                       : C:\Windows\system32
+OsSystemDrive                                           : C:
+OsWindowsDirectory                                      : C:\Windows
+OsCountryCode                                           : 1
+OsCurrentTimeZone                                       : -420
+OsLocaleID                                              : 0409
+OsLocale                                                : en-US
+OsLocalDateTime                                         : 10/19/2022 1:48:41 PM
+OsLastBootUpTime                                        : 10/19/2022 1:18:31 PM
+OsUptime                                                : 00:30:10.2926743
+OsBuildType                                             : Multiprocessor Free
+OsCodeSet                                               : 1252
+OsDataExecutionPreventionAvailable                      : True
+OsDataExecutionPrevention32BitApplications              : True
+OsDataExecutionPreventionDrivers                        : True
+OsDataExecutionPreventionSupportPolicy                  : OptOut
+OsDebug                                                 : False
+OsDistributed                                           : False
+OsEncryptionLevel                                       : 256
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 8387608
+OsFreePhysicalMemory                                    : 6170384
+OsTotalVirtualMemorySize                                : 9698328
+OsFreeVirtualMemory                                     : 7824480
+OsInUseVirtualMemory                                    : 1873848
+OsTotalSwapSpaceSize                                    :
+OsSizeStoredInPagingFiles                               : 1310720
+OsFreeSpaceInPagingFiles                                : 1310720
+OsPagingFiles                                           : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.20348.558
+OsInstallDate                                           : 8/24/2022 12:07:28 PM
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {en-US}
+OsNumberOfLicensedUsers                                 : 0
+OsNumberOfProcesses                                     : 111
+OsNumberOfUsers                                         : 7
+OsOrganization                                          :
+OsArchitecture                                          : 64-bit
+OsLanguage                                              : en-US
+OsProductSuites                                         : {TerminalServices, DatacenterEdition,
+                                                          TerminalServicesSingleSession}
+OsOtherTypeDescription                                  :
+OsPAEEnabled                                            :
+OsPortableOperatingSystem                               : False
+OsPrimary                                               : True
+OsProductType                                           : Server
+OsRegisteredUser                                        : Windows User
+OsSerialNumber                                          : 00455-50000-00001-AA000
+OsServicePackMajorVersion                               : 0
+OsServicePackMinorVersion                               : 0
+OsStatus                                                : OK
+OsSuites                                                : {TerminalServices, DatacenterEdition,
+                                                          TerminalServicesSingleSession}
+OsServerLevel                                           : FullServer
+KeyboardLayout                                          : en-US
+TimeZone                                                : (UTC-08:00) Pacific Time (US & Canada)
+LogonServer                                             : \\FILES
+PowerPlatformRole                                       : Desktop
+HyperVisorPresent                                       : True
+HyperVRequirementDataExecutionPreventionAvailable       :
+HyperVRequirementSecondLevelAddressTranslation          :
+HyperVRequirementVirtualizationFirmwareEnabled          :
+HyperVRequirementVMMonitorModeExtensions                :
+DeviceGuardSmartStatus                                  : Off
+DeviceGuardRequiredSecurityProperties                   :
+DeviceGuardAvailableSecurityProperties                  :
+DeviceGuardSecurityServicesConfigured                   :
+DeviceGuardSecurityServicesRunning                      :
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         :
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus :
+
+
+
+PS C:\Users\Administrator> Get-ComputerInfo -Property "*version"
+
+
+WindowsCurrentVersion              : 6.3
+WindowsVersion                     : 2009
+OSDisplayVersion                   : 21H2
+BiosBIOSVersion                    : {INTEL  - 6040000, VMW71.00V.18452719.B64.2108091906, VMware, Inc. - 10000}
+BiosEmbeddedControllerMajorVersion : 255
+BiosEmbeddedControllerMinorVersion : 255
+BiosSMBIOSBIOSVersion              : VMW71.00V.18452719.B64.2108091906
+BiosSMBIOSMajorVersion             : 2
+BiosSMBIOSMinorVersion             : 7
+BiosSystemBiosMajorVersion         : 255
+BiosSystemBiosMinorVersion         : 255
+BiosVersion                        : INTEL  - 6040000
+OsVersion                          : 10.0.20348
+OsCSDVersion                       :
+OsServicePackMajorVersion          : 0
+OsServicePackMinorVersion          : 0
+
+
+
+PS C:\Users\Administrator> Get-HotFix
+
+Source        Description      HotFixID      InstalledBy          InstalledOn
+------        -----------      --------      -----------          -----------
+FILES         Update           KB5017265     FILES\Administrator  10/16/2022 12:00:00 AM
+FILES         Security Update  KB5012170     FILES\Administrator  10/17/2022 12:00:00 AM
+FILES         Security Update  KB5018421     NT AUTHORITY\SYSTEM  10/16/2022 12:00:00 AM
+FILES         Update           KB5017399     NT AUTHORITY\SYSTEM  10/15/2022 12:00:00 AM
+
+
+PS C:\Users\Administrator> Get-HotFix -Description Security*
+
+Source        Description      HotFixID      InstalledBy          InstalledOn
+------        -----------      --------      -----------          -----------
+FILES         Security Update  KB5012170     FILES\Administrator  10/17/2022 12:00:00 AM
+FILES         Security Update  KB5018421     NT AUTHORITY\SYSTEM  10/16/2022 12:00:00 AM
+
+
+PS C:\Users\Administrator> Get-HotFix -Description Security* -ComputerName DC1
+>> TerminatingError(Get-HotFix): "Access is denied.
+"
+Get-HotFix : Access is denied.
+
+At line:1 char:1
++ Get-HotFix -Description Security* -ComputerName DC1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-HotFix], UnauthorizedAccessException
+    + FullyQualifiedErrorId : System.UnauthorizedAccessException,Microsoft.PowerShell.Commands.GetHotFixCommand
+Get-HotFix : Access is denied.
+
+At line:1 char:1
++ Get-HotFix -Description Security* -ComputerName DC1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Get-HotFix], UnauthorizedAccessException
+    + FullyQualifiedErrorId : System.UnauthorizedAccessException,Microsoft.PowerShell.Commands.GetHotFixCommand
+
+PS C:\Users\Administrator> Get-HotFix -Description Security* -ComputerName DC1 -Credential $Credential
+
+Source        Description      HotFixID      InstalledBy          InstalledOn
+------        -----------      --------      -----------          -----------
+DC1           Security Update  KB5012170     RELIA\Administrator  10/18/2022 12:00:00 AM
+DC1           Security Update  KB5018421     NT AUTHORITY\SYSTEM  10/18/2022 12:00:00 AM
+
+
+PS C:\Users\Administrator> Get-HotFix -Description Security* -ComputerName DC1 -Credential $Credential | Sort-Object -Property InstalledOn
+
+Source        Description      HotFixID      InstalledBy          InstalledOn
+------        -----------      --------      -----------          -----------
+DC1           Security Update  KB5018421     NT AUTHORITY\SYSTEM  10/18/2022 12:00:00 AM
+DC1           Security Update  KB5012170     RELIA\Administrator  10/18/2022 12:00:00 AM
+
+
+PS C:\Users\Administrator> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20221019134905
+**********************

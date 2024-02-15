@@ -1,0 +1,69 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20221019013308
+Username: FILES\Administrator
+RunAs User: FILES\Administrator
+Configuration Name:
+Machine: FILES (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1304
+PSVersion: 5.1.20348.859
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.859
+BuildVersion: 10.0.20348.859
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Administrator\Documents\PowerShell_transcript.FILES.35fvmr5q.20221019013308.txt
+PS C:\Users\Administrator\Desktop> ls
+
+
+    Directory: C:\Users\Administrator\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10/11/2022  10:17 AM           1965 Process Hacker 2.lnk
+
+
+PS C:\Users\Administrator\Desktop> Start-Process powershell -verb runasuser
+PS C:\Users\Administrator\Desktop> $Credential = Get-Credential
+PS C:\Users\Administrator\Desktop> TerminatingError(Get-Credential): "Cannot process command because of one or more missing mandatory parameters: Credential."
+Get-Credential : Cannot process command because of one or more missing mandatory parameters: Credential.
+At line:1 char:15
++ $Credential = Get-Credential
++               ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Credential], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.GetCredentialCommand
+Get-Credential : Cannot process command because of one or more missing mandatory parameters: Credential.
+At line:1 char:15
++ $Credential = Get-Credential
++               ~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Credential], ParameterBindingException
+    + FullyQualifiedErrorId : MissingMandatoryParameter,Microsoft.PowerShell.Commands.GetCredentialCommand
+
+PS C:\Users\Administrator\Desktop> Stop-TRansaction
+Stop-TRansaction : The term 'Stop-TRansaction' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ Stop-TRansaction
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop-TRansaction:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Stop-TRansaction : The term 'Stop-TRansaction' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ Stop-TRansaction
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop-TRansaction:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Administrator\Desktop> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20221019013346
+**********************

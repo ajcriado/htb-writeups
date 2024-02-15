@@ -1,0 +1,131 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20221019132304
+Username: FILES\Administrator
+RunAs User: FILES\Administrator
+Configuration Name:
+Machine: FILES (Microsoft Windows NT 10.0.20348.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5936
+PSVersion: 5.1.20348.859
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.20348.859
+BuildVersion: 10.0.20348.859
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Administrator\Documents\PowerShell_transcript.FILES.9_DjDa0f.20221019132304.txt
+PS C:\Users\Administrator> $spass = ConvertTo-SecureString "vau!XCKjNQBv2$" -AsPlaintext -Force
+PS C:\Users\Administrator> $cred = New-Object System.Management.Automation.PSCredential("RELIA\Administrator", $spass)
+PS C:\Users\Administrator> Enter-PSSession -ComputerName INTRANET -Credential $cred
+Enter-PSSession : Connecting to remote server INTRANET failed with the following error message : WinRM cannot complete
+the operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and
+that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM
+firewall exception for public profiles limits access to remote computers within the same local subnet. For more
+information, see the about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName INTRANET -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (INTRANET:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+Enter-PSSession : Connecting to remote server INTRANET failed with the following error message : WinRM cannot complete
+the operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and
+that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM
+firewall exception for public profiles limits access to remote computers within the same local subnet. For more
+information, see the about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName INTRANET -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (INTRANET:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+
+PS C:\Users\Administrator> Enter-PSSession -ComputerName INTRANT -Credential $cred
+Enter-PSSession : Connecting to remote server INTRANT failed with the following error message : WinRM cannot process
+the request. The following error occurred while using Kerberos authentication: Cannot find the computer INTRANT. Verify
+that the computer exists on the network and that the name provided is spelled correctly. For more information, see the
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName INTRANT -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (INTRANT:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+Enter-PSSession : Connecting to remote server INTRANT failed with the following error message : WinRM cannot process
+the request. The following error occurred while using Kerberos authentication: Cannot find the computer INTRANT.
+Verify that the computer exists on the network and that the name provided is spelled correctly. For more information,
+see the about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName INTRANT -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (INTRANT:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+
+PS C:\Users\Administrator> Enter-PSSession -ComputerName BACKUP -Credential $cred
+Enter-PSSession : Connecting to remote server BACKUP failed with the following error message : WinRM cannot process the
+request. The following error occurred while using Kerberos authentication: Cannot find the computer BACKUP. Verify that
+the computer exists on the network and that the name provided is spelled correctly. For more information, see the
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName BACKUP -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (BACKUP:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+Enter-PSSession : Connecting to remote server BACKUP failed with the following error message : WinRM cannot process
+the request. The following error occurred while using Kerberos authentication: Cannot find the computer BACKUP. Verify
+that the computer exists on the network and that the name provided is spelled correctly. For more information, see the
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName BACKUP -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (BACKUP:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+
+PS C:\Users\Administrator> Enter-PSSession -ComputerName WEB0 -Credential $cred
+Enter-PSSession : Connecting to remote server WEB0 failed with the following error message : WinRM cannot process the
+request. The following error occurred while using Kerberos authentication: Cannot find the computer WEB0. Verify that
+the computer exists on the network and that the name provided is spelled correctly. For more information, see the
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName WEB0 -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (WEB0:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+Enter-PSSession : Connecting to remote server WEB0 failed with the following error message : WinRM cannot process the
+request. The following error occurred while using Kerberos authentication: Cannot find the computer WEB0. Verify that
+the computer exists on the network and that the name provided is spelled correctly. For more information, see the
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName WEB0 -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (WEB0:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+
+PS C:\Users\Administrator> Enter-PSSession -ComputerName WEB01 -Credential $cred
+Enter-PSSession : Connecting to remote server WEB01 failed with the following error message : WinRM cannot process the
+request. The following error occurred while using Kerberos authentication: Cannot find the computer WEB01. Verify that
+the computer exists on the network and that the name provided is spelled correctly. For more information, see the
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName WEB01 -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (WEB01:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+Enter-PSSession : Connecting to remote server WEB01 failed with the following error message : WinRM cannot process the
+request. The following error occurred while using Kerberos authentication: Cannot find the computer WEB01. Verify that
+the computer exists on the network and that the name provided is spelled correctly. For more information, see the
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName WEB01 -Credential $cred
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (WEB01:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+
+PS C:\Users\Administrator> Stop-Trace
+PS C:\Users\Administrator> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\Administrator> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20221019132422
+**********************

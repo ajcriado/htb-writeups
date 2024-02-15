@@ -1,5 +1,5 @@
-# Nmap 7.94SVN scan initiated Wed Feb 14 11:33:43 2024 as: nmap -p 53,135,139,445,3389,49670,49673,59329 -sCV -A -T4 -Pn -oN 172.16.136.6.nmap 172.16.136.6
-Nmap scan report for 172.16.136.6
+# Nmap 7.94SVN scan initiated Wed Feb 14 11:33:43 2024 as: nmap -p 53,135,139,445,3389,49670,49673,59329 -sCV -A -T4 -Pn -oN 172.16.103.6.nmap 172.16.103.6
+Nmap scan report for 172.16.103.6
 Host is up (0.058s latency).
 
 PORT      STATE SERVICE       VERSION
