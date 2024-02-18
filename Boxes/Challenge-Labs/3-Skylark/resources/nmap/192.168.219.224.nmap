@@ -1,0 +1,24 @@
+# Nmap 7.94SVN scan initiated Fri Feb 16 12:36:56 2024 as: nmap -p 22,3128,8000 -sCV -A -T4 -oN 192.168.240.224.nmap 192.168.240.224
+Nmap scan report for 192.168.240.224
+Host is up (0.034s latency).
+
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 3a:86:87:62:d1:b3:e3:74:97:fa:94:4b:31:a8:41:e5 (RSA)
+|   256 64:b0:c3:72:98:ec:47:ca:77:01:5d:73:5d:12:4b:69 (ECDSA)
+|_  256 de:0c:d1:ed:27:70:b6:9f:1f:99:31:e8:eb:cd:ff:b7 (ED25519)
+3128/tcp open  http-proxy Squid http proxy 4.10
+|_http-server-header: squid/4.10
+|_http-title: ERROR: The requested URL could not be retrieved
+8000/tcp open  http       Apache httpd 2.4.41
+|_http-title: Index of /
+| http-ls: Volume /
+| SIZE  TIME              FILENAME
+| 1.1K  2024-02-16 06:37  debug.txt
+|_
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 12:37:09 2024 -- 1 IP address (1 host up) scanned in 13.14 seconds

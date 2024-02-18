@@ -1,0 +1,41 @@
+# Nmap 7.94SVN scan initiated Fri Feb 16 12:38:34 2024 as: nmap -p 135,139,445,3389,5040,49664,49665,49666,49667,49668,49669,49670 -sCV -A -T4 -oN 192.168.240.250.nmap 192.168.240.250
+Nmap scan report for 192.168.240.250
+Host is up (0.032s latency).
+
+PORT      STATE SERVICE            VERSION
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3389/tcp  open  ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=WINPREP
+| Not valid before: 2023-12-21T20:26:15
+|_Not valid after:  2024-06-21T20:26:15
+|_ssl-date: 2024-02-16T11:41:29+00:00; +1s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: WINPREP
+|   NetBIOS_Domain_Name: WINPREP
+|   NetBIOS_Computer_Name: WINPREP
+|   DNS_Domain_Name: WINPREP
+|   DNS_Computer_Name: WINPREP
+|   Product_Version: 10.0.22000
+|_  System_Time: 2024-02-16T11:41:14+00:00
+5040/tcp  open  unknown
+49664/tcp open  msrpc              Microsoft Windows RPC
+49665/tcp open  msrpc              Microsoft Windows RPC
+49666/tcp open  msrpc              Microsoft Windows RPC
+49667/tcp open  msrpc              Microsoft Windows RPC
+49668/tcp open  msrpc              Microsoft Windows RPC
+49669/tcp open  msrpc              Microsoft Windows RPC
+49670/tcp open  msrpc              Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2024-02-16T11:41:18
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 12:41:29 2024 -- 1 IP address (1 host up) scanned in 174.66 seconds

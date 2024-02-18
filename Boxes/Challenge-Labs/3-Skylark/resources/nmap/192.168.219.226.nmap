@@ -1,0 +1,85 @@
+# Nmap 7.94SVN scan initiated Fri Feb 16 12:37:23 2024 as: nmap -p 135,139,445,5985,24621,24680,47001,49664,49665,49666,49667,49668,49669 -sCV -A -T4 -oN 192.168.240.226.nmap 192.168.240.226
+Nmap scan report for 192.168.240.226
+Host is up (0.029s latency).
+
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+24621/tcp open  unknown
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, GenericLines, NULL, RPCCheck, SSLSessionReq, TLSSessionReq, TerminalServerCookie: 
+|     220-FileZilla Server 1.5.1
+|     Please visit https://filezilla-project.org/
+|   GetRequest: 
+|     220-FileZilla Server 1.5.1
+|     Please visit https://filezilla-project.org/
+|     What are you trying to do? Go away.
+|   HTTPOptions, RTSPRequest: 
+|     220-FileZilla Server 1.5.1
+|     Please visit https://filezilla-project.org/
+|     Wrong command.
+|   Help: 
+|     220-FileZilla Server 1.5.1
+|     Please visit https://filezilla-project.org/
+|     214-The following commands are recognized.
+|     USER TYPE SYST SIZE RNTO RNFR RMD REST QUIT
+|     HELP XMKD MLST MKD EPSV XCWD NOOP AUTH OPTS DELE
+|     CDUP APPE STOR ALLO RETR PWD FEAT CLNT MFMT
+|     MODE XRMD PROT ADAT ABOR XPWD MDTM LIST MLSD PBSZ
+|     NLST EPRT PASS STRU PASV STAT PORT
+|_    Help ok.
+24680/tcp open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: &#x30DB;&#x30FC;&#x30E0; - Umbraco&#x30B5;&#x30F3;&#x30D7;&#x3...
+47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port24621-TCP:V=7.94SVN%I=7%D=2/16%Time=65CF48F9%P=x86_64-pc-linux-gnu%
+SF:r(NULL,4D,"220-FileZilla\x20Server\x201\.5\.1\r\n220\x20Please\x20visit
+SF:\x20https://filezilla-project\.org/\r\n")%r(GenericLines,4D,"220-FileZi
+SF:lla\x20Server\x201\.5\.1\r\n220\x20Please\x20visit\x20https://filezilla
+SF:-project\.org/\r\n")%r(GetRequest,76,"220-FileZilla\x20Server\x201\.5\.
+SF:1\r\n220\x20Please\x20visit\x20https://filezilla-project\.org/\r\n501\x
+SF:20What\x20are\x20you\x20trying\x20to\x20do\?\x20Go\x20away\.\r\n")%r(HT
+SF:TPOptions,61,"220-FileZilla\x20Server\x201\.5\.1\r\n220\x20Please\x20vi
+SF:sit\x20https://filezilla-project\.org/\r\n500\x20Wrong\x20command\.\r\n
+SF:")%r(RTSPRequest,61,"220-FileZilla\x20Server\x201\.5\.1\r\n220\x20Pleas
+SF:e\x20visit\x20https://filezilla-project\.org/\r\n500\x20Wrong\x20comman
+SF:d\.\r\n")%r(RPCCheck,4D,"220-FileZilla\x20Server\x201\.5\.1\r\n220\x20P
+SF:lease\x20visit\x20https://filezilla-project\.org/\r\n")%r(DNSVersionBin
+SF:dReqTCP,4D,"220-FileZilla\x20Server\x201\.5\.1\r\n220\x20Please\x20visi
+SF:t\x20https://filezilla-project\.org/\r\n")%r(DNSStatusRequestTCP,4D,"22
+SF:0-FileZilla\x20Server\x201\.5\.1\r\n220\x20Please\x20visit\x20https://f
+SF:ilezilla-project\.org/\r\n")%r(Help,17C,"220-FileZilla\x20Server\x201\.
+SF:5\.1\r\n220\x20Please\x20visit\x20https://filezilla-project\.org/\r\n21
+SF:4-The\x20following\x20commands\x20are\x20recognized\.\r\n\x20NOP\x20\x2
+SF:0USER\x20TYPE\x20SYST\x20SIZE\x20RNTO\x20RNFR\x20RMD\x20\x20REST\x20QUI
+SF:T\r\n\x20HELP\x20XMKD\x20MLST\x20MKD\x20\x20EPSV\x20XCWD\x20NOOP\x20AUT
+SF:H\x20OPTS\x20DELE\r\n\x20CWD\x20\x20CDUP\x20APPE\x20STOR\x20ALLO\x20RET
+SF:R\x20PWD\x20\x20FEAT\x20CLNT\x20MFMT\r\n\x20MODE\x20XRMD\x20PROT\x20ADA
+SF:T\x20ABOR\x20XPWD\x20MDTM\x20LIST\x20MLSD\x20PBSZ\r\n\x20NLST\x20EPRT\x
+SF:20PASS\x20STRU\x20PASV\x20STAT\x20PORT\r\n214\x20Help\x20ok\.\r\n")%r(S
+SF:SLSessionReq,4D,"220-FileZilla\x20Server\x201\.5\.1\r\n220\x20Please\x2
+SF:0visit\x20https://filezilla-project\.org/\r\n")%r(TerminalServerCookie,
+SF:4D,"220-FileZilla\x20Server\x201\.5\.1\r\n220\x20Please\x20visit\x20htt
+SF:ps://filezilla-project\.org/\r\n")%r(TLSSessionReq,4D,"220-FileZilla\x2
+SF:0Server\x201\.5\.1\r\n220\x20Please\x20visit\x20https://filezilla-proje
+SF:ct\.org/\r\n");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 12:38:27 2024 -- 1 IP address (1 host up) scanned in 64.59 seconds

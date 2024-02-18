@@ -1,0 +1,21 @@
+# Nmap 7.94SVN scan initiated Fri Feb 16 12:38:27 2024 as: nmap -p 135,139,445,5985,24621,24680,47001,49664,49665,49666,49667,49668,49669 -sCV -A -T4 -oN 192.168.240.227.nmap 192.168.240.227
+Nmap scan report for 192.168.240.227
+Host is up (0.030s latency).
+
+PORT      STATE    SERVICE      VERSION
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+5985/tcp  filtered wsman
+24621/tcp filtered unknown
+24680/tcp filtered tcc-http
+47001/tcp filtered winrm
+49664/tcp filtered unknown
+49665/tcp filtered unknown
+49666/tcp filtered unknown
+49667/tcp filtered unknown
+49668/tcp filtered unknown
+49669/tcp filtered unknown
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb 16 12:38:34 2024 -- 1 IP address (1 host up) scanned in 7.01 seconds
