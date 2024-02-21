@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
-                "mode": "source",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md"
+                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md"
               }
             }
           }
@@ -201,9 +201,21 @@
   },
   "active": "c085e86f7e87d0cc",
   "lastOpenFiles": [
+    "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
+    "Boxes/Proving-Grounds/Slort/192.168.156.53",
+    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap/Script_TCP_192.168.156.53.nmap",
+    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap/full_TCP_192.168.156.53.nmap",
+    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap/Fullscan-192.168.156.53",
+    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap",
+    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/incursore_192.168.156.53_script.txt",
+    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53",
+    "Boxes/Proving-Grounds/Slort/192.168.156.53/nmap/Fullscan-192.168.156.53",
+    "Boxes/Proving-Grounds/Slort/tmp",
+    "Boxes/Proving-Grounds/Slort/192.168.156.53a",
+    "Boxes/Proving-Grounds/Box list to prepare.md",
+    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
     "Academy/OSCP/Content Summary/Commands.md",
     "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
-    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
     "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
     "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.221-austin02.md",
@@ -211,21 +223,11 @@
     "Academy/CPTS/Content Summary/12. Pivoting, Tunneling, and Port Forwarding.md",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/cpub-SkylarkStatus-QuickSessionCollection-CmsRdsh.rdp",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/user-guide-rdweb.pdf",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/topsecret.pdf",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/192.168.219.225.md",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/__pycache__/url_request.cpython-311.pyc",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/__pycache__",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/url_request.py",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/spose.py",
     "images/Pasted image 20240219110637.png",
     "images/Pasted image 20240219110526.png",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/test.pdf",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/DVWA_v1.3.pdf",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/shell.php",
     "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/README.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/-192.168.219.223-milan.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/-192.168.219.223.md",
@@ -237,8 +239,6 @@
     "Boxes/Challenge-Labs/2-Relia/resources/Challenge-scenario.md",
     "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
     "Academy/CPTS/Content Summary/10. Password Attacks.md",
-    "Academy/OSCP/Content Summary/Wordlists.md",
-    "Academy/CPTS/Content Summary/23. Web Attacks.md",
     "images/Pasted image 20240206124421.png",
     "images/Pasted image 20240205205509.png",
     "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",

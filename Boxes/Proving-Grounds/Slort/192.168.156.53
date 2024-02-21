@@ -1,0 +1,48 @@
+### ++ Approach ++
+#### Credentials
+	* 
+
+#### Services
+	##### 21 FTP
+		Exploitable FileZilla version for privesc (https://github.com/NeoTheCapt/FilezillaExploit/blob/master/FuckFilezilla_0_9_41.php)
+
+	##### 139,445 SMB
+		No null session
+
+	##### 3306 MySQL
+        -
+
+	##### 4443 HTTP
+        XAMPP Fuzzing:
+            /site (Website)
+			We found LFI: 4443/site/index.php?page=../../../../Windows/System32/drivers/etc/hosts
+
+	##### 5040 ?
+        -    
+
+	##### 8080 HTTP
+        XAMPP Fuzzing:
+            /site (Website)
+
+	##### 135,49664-69 RPC
+        No null session
+
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: LFI ++
+	* We found LFI vulnerability in index.php page through page parameter
+		4443/site/index.php?page=../../../../Windows/System32/drivers/etc/hosts
+
+#### Vuln 2: Log Poisoning ++
+	* Through LFI we upload a cmd shell in User-Agent header and get RCE
+
+### ++ System Interaction ++
+#### Foothold  
+	* Abusing vulns 1 and 2 we get a shell as rupert
+
+#### Privilege Escalation 
+	* In C:\Backup we found info.txt file we tell us about a cron job that executes TFTP.EXE every 5 minutes and we have full permissions over the binary, so we replace the binary with a payload and we get a elevated shell
+	
+#### Post-exploitation 
+	* -

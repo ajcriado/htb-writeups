@@ -1,0 +1,57 @@
+# Nmap 7.94SVN scan initiated Wed Feb 21 14:13:29 2024 as: /usr/bin/nmap -Pn -sCV -p21,135,139,445,3306,4443,5040,8080,49664,49665,49666,49667,49668,49669 --open -oN nmap/Script_TCP_192.168.156.53.nmap --system-dns --stats-every 2s 192.168.156.53
+Nmap scan report for 192.168.156.53
+Host is up (0.026s latency).
+
+PORT      STATE SERVICE       VERSION
+21/tcp    open  ftp           FileZilla ftpd 0.9.41 beta
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3306/tcp  open  mysql?
+| fingerprint-strings: 
+|   GetRequest, LANDesk-RC, NULL, SIPOptions, SMBProgNeg, TerminalServer: 
+|_    Host '192.168.45.193' is not allowed to connect to this MariaDB server
+4443/tcp  open  http          Apache httpd 2.4.43 ((Win64) OpenSSL/1.1.1g PHP/7.4.6)
+|_http-server-header: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6
+| http-title: Welcome to XAMPP
+|_Requested resource was http://192.168.156.53:4443/dashboard/
+5040/tcp  open  unknown
+8080/tcp  open  http          Apache httpd 2.4.43 ((Win64) OpenSSL/1.1.1g PHP/7.4.6)
+|_http-server-header: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6
+|_http-open-proxy: Proxy might be redirecting requests
+| http-title: Welcome to XAMPP
+|_Requested resource was http://192.168.156.53:8080/dashboard/
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.94SVN%I=7%D=2/21%Time=65D5F6FA%P=x86_64-pc-linux-gnu%r
+SF:(NULL,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(GetReq
+SF:uest,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x20
+SF:allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(SMBProg
+SF:Neg,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x20a
+SF:llowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(SIPOptio
+SF:ns,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x20al
+SF:lowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(LANDesk-R
+SF:C,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x20all
+SF:owed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(TerminalSe
+SF:rver,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x20
+SF:allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-02-21T13:16:10
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 21 14:16:24 2024 -- 1 IP address (1 host up) scanned in 175.48 seconds

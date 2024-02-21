@@ -1,0 +1,86 @@
+# Nmap 7.94SVN scan initiated Wed Feb 21 14:16:26 2024 as: nmap -p- --open -A -T4 -sCV -oN 192.168.156.53/nmap/Fullscan-192.168.156.53 192.168.156.53
+Nmap scan report for 192.168.156.53
+Host is up (0.027s latency).
+Not shown: 63799 closed tcp ports (reset), 1722 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE       VERSION
+21/tcp    open  ftp           FileZilla ftpd 0.9.41 beta
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3306/tcp  open  mysql?
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP, GenericLines, GetRequest, Help, NULL, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServerCookie, afp: 
+|_    Host '192.168.45.193' is not allowed to connect to this MariaDB server
+4443/tcp  open  http          Apache httpd 2.4.43 ((Win64) OpenSSL/1.1.1g PHP/7.4.6)
+|_http-server-header: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6
+| http-title: Welcome to XAMPP
+|_Requested resource was http://192.168.156.53:4443/dashboard/
+5040/tcp  open  unknown
+8080/tcp  open  http          Apache httpd 2.4.43 ((Win64) OpenSSL/1.1.1g PHP/7.4.6)
+| http-title: Welcome to XAMPP
+|_Requested resource was http://192.168.156.53:8080/dashboard/
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.94SVN%I=7%D=2/21%Time=65D5F7BA%P=x86_64-pc-linux-gnu%r
+SF:(NULL,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(Generi
+SF:cLines,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x
+SF:20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(GetRe
+SF:quest,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(RTSPRe
+SF:quest,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(DNSVer
+SF:sionBindReqTCP,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\
+SF:x20not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")
+SF:%r(Help,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20not\
+SF:x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(SSLS
+SF:essionReq,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x20no
+SF:t\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(Te
+SF:rminalServerCookie,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x2
+SF:0is\x20not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20serv
+SF:er")%r(TLSSessionReq,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\
+SF:x20is\x20not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20se
+SF:rver")%r(afp,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.193'\x20is\x2
+SF:0not\x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=2/21%OT=21%CT=1%CU=34048%PV=Y%DS=4%DC=T%G=Y%TM=65D5
+OS:F874%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=104%TI=I%TS=U)OPS(O1=M55
+OS:1NW8NNS%O2=M551NW8NNS%O3=M551NW8%O4=M551NW8NNS%O5=M551NW8NNS%O6=M551NNS)
+OS:WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%DF=Y%T=80%W=
+OS:FFFF%O=M551NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)
+OS:T3(R=N)T4(R=N)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=
+OS:N)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=B261%RUD=G)IE(
+OS:R=N)
+
+Network Distance: 4 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-02-21T13:19:37
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_clock-skew: -1s
+
+TRACEROUTE (using port 135/tcp)
+HOP RTT      ADDRESS
+1   26.58 ms 192.168.45.1
+2   26.56 ms 192.168.45.254
+3   27.23 ms 192.168.251.1
+4   27.28 ms 192.168.156.53
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 21 14:19:48 2024 -- 1 IP address (1 host up) scanned in 202.03 seconds
