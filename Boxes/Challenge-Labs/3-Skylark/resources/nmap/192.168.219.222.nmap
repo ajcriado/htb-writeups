@@ -1,5 +1,5 @@
-# Nmap 7.94SVN scan initiated Fri Feb 16 12:35:29 2024 as: nmap -p 135,139,445,2994,5985,47001,49664,49665,49666,49667,49669,49670 -sCV -A -T4 -oN 192.168.240.222.nmap 192.168.240.222
-Nmap scan report for 192.168.240.222
+# Nmap 7.94SVN scan initiated Fri Feb 16 12:35:29 2024 as: nmap -p 135,139,445,2994,5985,47001,49664,49665,49666,49667,49669,49670 -sCV -A -T4 -oN 192.168.203.222.nmap 192.168.203.222
+Nmap scan report for 192.168.203.222
 Host is up (0.031s latency).
 
 PORT      STATE SERVICE       VERSION

@@ -41,14 +41,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6d15fb1d697397f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c085e86f7e87d0cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -77,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GenericAll",
+                "query": "Squid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md"
+                "file": "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md"
               }
             }
           }
@@ -175,34 +199,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43d48f6b74d07884",
+  "active": "c085e86f7e87d0cc",
   "lastOpenFiles": [
-    "Boxes/Challenge-Labs/3-Skylark/tmp/shell.php",
-    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/malicious.php",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/froxlor-rce.py",
-    "Academy/CPTS/Content Summary/12. Pivoting, Tunneling, and Port Forwarding.md",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/froxlor.hashes",
-    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/admin-223.hash",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/libnss_X/X.so.2",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/libnss_X",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/exploit",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/shell_tool.c",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/mybufferof.c",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/get_all_ssh_keys.sh",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/README.md",
     "Academy/OSCP/Content Summary/Commands.md",
+    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
+    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
+    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.221-austin02.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Academy/CPTS/Content Summary/12. Pivoting, Tunneling, and Port Forwarding.md",
+    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
+    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/cpub-SkylarkStatus-QuickSessionCollection-CmsRdsh.rdp",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/user-guide-rdweb.pdf",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/topsecret.pdf",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
+    "Boxes/Challenge-Labs/3-Skylark/external-network/192.168.219.225.md",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/__pycache__/url_request.cpython-311.pyc",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/__pycache__",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/url_request.py",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/spose.py",
+    "images/Pasted image 20240219110637.png",
+    "images/Pasted image 20240219110526.png",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/test.pdf",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/DVWA_v1.3.pdf",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/shell.php",
+    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/README.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/-192.168.219.223-milan.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/-192.168.219.223.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.250-WINPREP.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/-192.168.219.250-WINPREP.md",
-    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
-    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Academy/OSCP/Content Summary/Active Directory/1. Enumeration.md",
     "Academy/CPTS/Content Summary/16. Login Brute Forcing.md",
     "Boxes/Note-Structures-Template.md",
@@ -211,8 +239,6 @@
     "Academy/CPTS/Content Summary/10. Password Attacks.md",
     "Academy/OSCP/Content Summary/Wordlists.md",
     "Academy/CPTS/Content Summary/23. Web Attacks.md",
-    "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
-    "Boxes/Proving-Grounds/Nickel/192.168.196.99.md",
     "images/Pasted image 20240206124421.png",
     "images/Pasted image 20240205205509.png",
     "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",
@@ -220,8 +246,6 @@
     "Boxes/Proving-Grounds/Squid/Pasted image 20240121125101.png",
     "Boxes/Proving-Grounds/Squid/Pasted image 20240121124936.png",
     "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235902.png",
-    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235510.png",
-    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117233952.png",
-    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117232249.png"
+    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235510.png"
   ]
 }

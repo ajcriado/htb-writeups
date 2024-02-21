@@ -32,6 +32,11 @@ When xfreerdp admin doesn't work
 reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f
 ```
 
+PS - Enable terminal color (for WinPeas for example)
+```shell
+REG ADD HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1
+```
+
 PS - Get local user
 ```shell
 Get-LocalUser
