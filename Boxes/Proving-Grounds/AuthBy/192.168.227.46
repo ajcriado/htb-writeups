@@ -1,0 +1,42 @@
+### ++ Approach ++
+#### Credentials
+	* admin:admin (FTP)
+    * offsec:elite
+
+#### Services
+	##### 21 FTP
+		Accounts:
+            admin
+            Offsec 
+            anonymous
+        Null session allowed
+        Bruteforcing we found admin:admin creds for ftp
+
+	##### 242 HTTP
+		Basic Auth
+            tried brute force
+            access with offsec:elite (Found in FTP for admin user)
+
+    ##### 3145 zftp-admin
+		-
+
+    ##### 3389 RDP
+		-
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: Admin weak credentials for FTP ++
+	* With hydra (using `-e nsr`) we find admin creds
+
+### ++ System Interaction ++
+#### Foothold  
+	* In admin ftp we can put php shell and access through 242 port webapp
+
+#### Privilege Escalation 
+	* -
+
+#### Attack chain
+	* -
+	
+#### Post-exploitation 
+	* -

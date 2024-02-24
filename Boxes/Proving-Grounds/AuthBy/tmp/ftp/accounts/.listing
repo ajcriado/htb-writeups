@@ -1,0 +1,7 @@
+total 4
+dr-xr-xr-x   1 root     root          512 Feb 18  2023 backup
+----------   1 root     root          764 Feb 18  2023 acc[Offsec].uac
+----------   1 root     root         1032 Feb 22 19:00 acc[anonymous].uac
+----------   1 root     root          926 Feb 18  2023 acc[admin].uac
+d--x--x--x   1 root     root          512 Feb 22 11:00 ..
+d--x--x--x   1 root     root          512 Feb 22 11:00 .

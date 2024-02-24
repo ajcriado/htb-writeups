@@ -1,0 +1,15 @@
+total 9680
+----------   1 root     root      5610496 Oct 18  2011 zFTPServer.exe
+----------   1 root     root           25 Feb 10  2011 UninstallService.bat
+----------   1 root     root      4284928 Oct 18  2011 Uninstall.exe
+----------   1 root     root           17 Aug 13  2011 StopService.bat
+----------   1 root     root           18 Aug 13  2011 StartService.bat
+----------   1 root     root         8736 Nov 09  2011 Settings.ini
+dr-xr-xr-x   1 root     root          512 Feb 22 18:56 log
+----------   1 root     root         2275 Aug 09  2011 LICENSE.htm
+----------   1 root     root           23 Feb 10  2011 InstallService.bat
+dr-xr-xr-x   1 root     root          512 Nov 08  2011 extensions
+dr-xr-xr-x   1 root     root          512 Nov 08  2011 certificates
+dr-xr-xr-x   1 root     root          512 Feb 18  2023 accounts
+d--x--x--x   1 root     root          512 Feb 22 11:00 ..
+d--x--x--x   1 root     root          512 Feb 22 11:00 .

@@ -1,0 +1,75 @@
+
+[1;32mLaunching a script scan on [0m192.168.195.126
+[0m
+[1;32mHost is likely running [0m[1;35mSome alien stuff![0m
+
+
+[1;33m[*] Full TCP port scan launched
+[0m
+In progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:02 elapsed - 0:02:22 remaining)   
+[#>                                                  ] 1% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:03 elapsed - 0:00:56 remaining)   
+[##>                                                ] 5% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:04 elapsed - 0:00:36 remaining)   
+[####>                                              ] 9% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:05 elapsed - 0:00:26 remaining)   
+[########>                                          ] 16% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:06 elapsed - 0:00:19 remaining)   
+[############>                                      ] 24% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:07 elapsed - 0:00:14 remaining)   
+[################>                                  ] 32% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:08 elapsed - 0:00:11 remaining)   
+[####################>                              ] 41% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:09 elapsed - 0:00:09 remaining)   
+[#########################>                         ] 50% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:10 elapsed - 0:00:07 remaining)   
+[#############################>                     ] 58% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:11 elapsed - 0:00:06 remaining)   
+[#################################>                 ] 66% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:11 elapsed - 0:00:06 remaining)   
+[#################################>                 ] 66% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:13 elapsed - 0:00:05 remaining)   
+[####################################>              ] 73% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:14 elapsed - 0:00:03 remaining)   
+[#########################################>         ] 82% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:15 elapsed - 0:00:01 remaining)   
+[#############################################>     ] 91% done   
+[2A[0K
+[0K
+PORT    STATE SERVICE REASON
+22/tcp  open  ssh     syn-ack ttl 61
+873/tcp open  rsync   syn-ack ttl 61
+
+
+
+[1;33m[*] Script Scan launched on open ports
+[0m
+In progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mScript[0m Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2A[0K
+[0K
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 74:ba:20:23:89:92:62:02:9f:e7:3d:3b:83:d4:d9:6c (RSA)
+|   256 54:8f:79:55:5a:b0:3a:69:5a:d5:72:39:64:fd:07:4e (ECDSA)
+|_  256 7f:5d:10:27:62:ba:75:e9:bc:c8:4f:e2:72:87:d4:e2 (ED25519)
+873/tcp open  rsync   (protocol version 31)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+[0m
+[0m
+[1;32mOS Detection modified to: Linux
+[0m
+
+[1;32m[!] Finished all scans
+[0m
+
+[1;33mCompleted in 20 seconds
+[0m

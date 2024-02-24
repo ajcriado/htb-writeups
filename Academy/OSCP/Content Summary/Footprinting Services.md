@@ -184,7 +184,6 @@ for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x
 | `rsync -av --list-only rsync://127.0.0.1/dev` | Enumerating an open share |
 | `rsync -av rsync://127.0.0.1/dev` | Sync all files to our attack host |
 | `rsync -av rsync://127.0.0.1/dev -e "ssh -p2222"` | Sync all files to our attack host if ssh is configured in a non-standard port |
-
 The [R-commands](https://en.wikipedia.org/wiki/Berkeley_r-commands) suite consists of the following programs:
 - rcp (`remote copy`)
 - rexec (`remote execution`)
@@ -200,6 +199,19 @@ The [R-commands](https://en.wikipedia.org/wiki/Berkeley_r-commands) suite consis
 |`rsh`|`rshd`|514|TCP|Opens a shell on a remote machine without a login procedure. Relies upon the trusted entries in the `/etc/hosts.equiv` and `.rhosts` files for validation.|
 |`rexec`|`rexecd`|512|TCP|Enables a user to run shell commands on a remote machine. Requires authentication through the use of a `username` and `password` through an unencrypted network socket. Authentication is overridden by the trusted entries in the `/etc/hosts.equiv` and `.rhosts` files.|
 |`rlogin`|`rlogind`|513|TCP|Enables a user to log in to a remote host over the network. It works similarly to `telnet` but can only connect to Unix-like hosts. Authentication is overridden by the trusted entries in the `/etc/hosts.equiv` and `.rhosts` files.|
+
+**~/.ssh/authorized_keys**
+During a pentest or audit, you might want to add an authorized_keys file to let you log in using an SSH key. The authorized_keys file lives in a user’s home directory on the SSH server.  It holds the public keys of the users allowed to log into that user’s account. 
+* Generate a public/private key pair like this: `ssh-keygen -f mykey`
+* Change the name of `mykey.pub` to `authorized_keys` and move the file to the server
+
+If you want to shortest possible key (because your arbitrary-file-write vector is limited), do this:
+* `ssh-keygen -f mykey -t rsa -b 768`
+
+Connect to the target system like this (you need to know the username of the user you added an authorized key for):
+* `ssh -i mykey user@10.0.0.1`
+
+Caveat: The authorized_keys file might not work if it’s writable by other users.  If you already have shell access you can `chmod 600 ~/.ssh/authorized_keys`.  However, if you’re remotely exploiting an arbitrary file-write vulnerability and happen to have a weak umask, you may have problems.
 ##### Windows Remote Management (**[RDP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-rdp)** TCP 3389 - **[WinRM](https://book.hacktricks.xyz/network-services-pentesting/5985-5986-pentesting-winrm)** TCP 5985, 5986, ¿47001?)
 |**Command**|**Description**|
 |-|-|

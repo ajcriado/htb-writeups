@@ -1,0 +1,111 @@
+# Nmap 7.94SVN scan initiated Thu Feb 22 13:15:50 2024 as: nmap -p- --open -A -T4 -sCV -oN 192.168.227.39/nmap/Fullscan-192.168.227.39 192.168.227.39
+Nmap scan report for 192.168.227.39
+Host is up (0.036s latency).
+Not shown: 64451 closed tcp ports (reset), 1076 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 4.6p1 Debian 5build1 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 f3:6e:87:04:ea:2d:b3:60:ff:42:ad:26:67:17:94:d5 (DSA)
+|_  2048 bb:03:ce:ed:13:f1:9a:9e:36:03:e2:af:ca:b2:35:04 (RSA)
+80/tcp  open  http        Apache httpd 2.2.4 ((Ubuntu) PHP/5.2.3-1ubuntu6)
+|_http-server-header: Apache/2.2.4 (Ubuntu) PHP/5.2.3-1ubuntu6
+|_http-title: CS-Cart. Powerful PHP shopping cart software
+110/tcp open  pop3        Dovecot pop3d
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+|_ssl-date: 2024-02-22T12:16:42+00:00; +7s from scanner time.
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Not valid before: 2008-04-25T02:02:48
+|_Not valid after:  2008-05-25T02:02:48
+|_pop3-capabilities: UIDL RESP-CODES SASL TOP PIPELINING CAPA STLS
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: MSHOME)
+143/tcp open  imap        Dovecot imapd
+|_ssl-date: 2024-02-22T12:16:42+00:00; +7s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+|_imap-capabilities: completed Capability IMAP4rev1 LOGIN-REFERRALS SASL-IR IDLE CHILDREN SORT STARTTLS UNSELECT LOGINDISABLEDA0001 LITERAL+ OK NAMESPACE THREAD=REFERENCES MULTIAPPEND
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Not valid before: 2008-04-25T02:02:48
+|_Not valid after:  2008-05-25T02:02:48
+445/tcp open  netbios-ssn Samba smbd 3.0.26a (workgroup: MSHOME)
+993/tcp open  ssl/imap    Dovecot imapd
+|_imap-capabilities: completed IMAP4rev1 Capability SASL-IR IDLE CHILDREN SORT LOGIN-REFERRALS UNSELECT MULTIAPPEND LITERAL+ OK NAMESPACE THREAD=REFERENCES AUTH=PLAINA0001
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+|_ssl-date: 2024-02-22T12:16:41+00:00; +6s from scanner time.
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Not valid before: 2008-04-25T02:02:48
+|_Not valid after:  2008-05-25T02:02:48
+995/tcp open  ssl/pop3    Dovecot pop3d
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_RC2_128_CBC_WITH_MD5
+|     SSL2_RC2_128_CBC_EXPORT40_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+|_ssl-date: 2024-02-22T12:16:41+00:00; +6s from scanner time.
+|_pop3-capabilities: UIDL RESP-CODES SASL(PLAIN) TOP PIPELINING CAPA USER
+| ssl-cert: Subject: commonName=ubuntu01/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX
+| Not valid before: 2008-04-25T02:02:48
+|_Not valid after:  2008-05-25T02:02:48
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=2/22%OT=22%CT=1%CU=37000%PV=Y%DS=4%DC=T%G=Y%TM=65D7
+OS:3B24%P=x86_64-pc-linux-gnu)SEQ()SEQ(SP=CD%GCD=1%ISR=EF%TI=Z%II=I%TS=7)SE
+OS:Q(SP=D0%GCD=1%ISR=EF%TI=Z%II=I%TS=7)OPS(O1=M551ST11NW5%O2=M551ST11NW5%O3
+OS:=M551NNT11NW5%O4=M551ST11NW5%O5=M551ST11NW5%O6=M551ST11)WIN(W1=16A0%W2=1
+OS:6A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M551NNSNW
+OS:5%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=
+OS:40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=86A6%RUD=G)IE(R=Y%DFI=N%T=40%C
+OS:D=S)
+
+Network Distance: 4 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.26a)
+|   Computer name: payday
+|   NetBIOS computer name: 
+|   Domain name: 
+|   FQDN: payday
+|_  System time: 2024-02-22T07:16:38-05:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_clock-skew: mean: 50m06s, deviation: 2h02m29s, median: 5s
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE (using port 995/tcp)
+HOP RTT      ADDRESS
+1   36.71 ms 192.168.45.1
+2   36.65 ms 192.168.45.254
+3   36.83 ms 192.168.251.1
+4   36.81 ms 192.168.227.39
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 22 13:16:36 2024 -- 1 IP address (1 host up) scanned in 46.57 seconds

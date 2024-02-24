@@ -1,0 +1,36 @@
+# Nmap 7.94SVN scan initiated Sat Feb 24 10:48:28 2024 as: nmap -p- --open -A -T4 -sCV -oN 192.168.195.126/nmap/Fullscan-192.168.195.126 192.168.195.126
+Nmap scan report for 192.168.195.126
+Host is up (0.041s latency).
+Not shown: 64742 closed tcp ports (reset), 791 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 74:ba:20:23:89:92:62:02:9f:e7:3d:3b:83:d4:d9:6c (RSA)
+|   256 54:8f:79:55:5a:b0:3a:69:5a:d5:72:39:64:fd:07:4e (ECDSA)
+|_  256 7f:5d:10:27:62:ba:75:e9:bc:c8:4f:e2:72:87:d4:e2 (ED25519)
+873/tcp open  rsync   (protocol version 31)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=2/24%OT=22%CT=1%CU=44066%PV=Y%DS=4%DC=T%G=Y%TM=65D9
+OS:BB8A%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=106%TI=Z%II=I%TS=A)SEQ(S
+OS:P=FD%GCD=1%ISR=102%TI=Z%II=I%TS=7)OPS(O1=M551ST11NW7%O2=M551ST11NW7%O3=M
+OS:551NNT11NW7%O4=M551ST11NW7%O5=M551ST11NW7%O6=M551ST11)WIN(W1=FE88%W2=FE8
+OS:8%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M551NNSNW7%
+OS:CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40
+OS:%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=A3C7%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Network Distance: 4 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+1   38.94 ms 192.168.45.1
+2   38.90 ms 192.168.45.254
+3   41.79 ms 192.168.251.1
+4   41.90 ms 192.168.195.126
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 24 10:48:58 2024 -- 1 IP address (1 host up) scanned in 29.85 seconds

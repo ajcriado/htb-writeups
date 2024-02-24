@@ -1,0 +1,6 @@
+total 4
+----------   1 root     root          764 Jan 29  2023 acc[Offsec].uac
+----------   1 root     root         1030 Jan 29  2023 acc[anonymous].uac
+----------   1 root     root          926 Jan 29  2023 acc[admin].uac
+d--x--x--x   1 root     root          512 Feb 22 11:00 ..
+d--x--x--x   1 root     root          512 Feb 22 11:00 .

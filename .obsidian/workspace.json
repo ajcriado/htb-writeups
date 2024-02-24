@@ -36,43 +36,19 @@
             }
           },
           {
-            "id": "43d48f6b74d07884",
+            "id": "c1ccffc248447af7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6d15fb1d697397f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Commands.md",
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c085e86f7e87d0cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md"
+                "file": "Academy/OSCP/Content Summary/Linux Privilege Escalation.md"
               }
             }
           }
@@ -199,31 +175,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c085e86f7e87d0cc",
+  "active": "070872a27155d906",
   "lastOpenFiles": [
-    "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
-    "Boxes/Proving-Grounds/Slort/192.168.156.53",
-    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap/Script_TCP_192.168.156.53.nmap",
-    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap/full_TCP_192.168.156.53.nmap",
-    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap/Fullscan-192.168.156.53",
-    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/nmap",
-    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53/incursore_192.168.156.53_script.txt",
-    "Boxes/Proving-Grounds/Slort/tmp/192.168.156.53",
-    "Boxes/Proving-Grounds/Slort/192.168.156.53/nmap/Fullscan-192.168.156.53",
-    "Boxes/Proving-Grounds/Slort/tmp",
-    "Boxes/Proving-Grounds/Slort/192.168.156.53a",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Boxes/Proving-Grounds/Fail/192.168.195.126.md",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126/nmap/Fullscan-192.168.195.126",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126/nmap/Script_TCP_192.168.195.126.nmap",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126/nmap/Script_TCP_192.168.195.126.nmap.tmp",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126/nmap/full_TCP_192.168.195.126.nmap",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126/nmap/full_TCP_192.168.195.126.nmap.tmp",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126/nmap",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126/incursore_192.168.195.126_script.txt",
+    "Boxes/Proving-Grounds/Fail/tmp/192.168.195.126",
+    "Boxes/Note-Structures-Template.md",
+    "Boxes/Proving-Grounds/Fail/tmp",
     "Boxes/Proving-Grounds/Box list to prepare.md",
-    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
+    "Boxes/Proving-Grounds/Fail",
+    "Boxes/Proving-Grounds/Untitled.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Academy/OSCP/Content Summary/Commands.md",
+    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
+    "Boxes/Proving-Grounds/ClamAV/192.168.218.42.md",
+    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
     "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
     "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.221-austin02.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Academy/CPTS/Content Summary/12. Pivoting, Tunneling, and Port Forwarding.md",
-    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/192.168.219.225.md",
     "images/Pasted image 20240219110637.png",
@@ -235,10 +214,6 @@
     "Boxes/Challenge-Labs/3-Skylark/external-network/-192.168.219.250-WINPREP.md",
     "Academy/OSCP/Content Summary/Active Directory/1. Enumeration.md",
     "Academy/CPTS/Content Summary/16. Login Brute Forcing.md",
-    "Boxes/Note-Structures-Template.md",
-    "Boxes/Challenge-Labs/2-Relia/resources/Challenge-scenario.md",
-    "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
-    "Academy/CPTS/Content Summary/10. Password Attacks.md",
     "images/Pasted image 20240206124421.png",
     "images/Pasted image 20240205205509.png",
     "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",

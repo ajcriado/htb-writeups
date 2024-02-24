@@ -1,0 +1,6 @@
+AuthName "Qui e nuce nuculeum esse volt, frangit nucem!"
+AuthType Basic
+AuthUserFile c:\\wamp\www\.htpasswd
+<Limit GET POST PUT>
+Require valid-user
+</Limit>

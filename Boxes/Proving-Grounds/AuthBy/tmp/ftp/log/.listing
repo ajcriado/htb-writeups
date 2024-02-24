@@ -1,0 +1,24 @@
+total 21043
+----------   1 root     root          136 Mar 30  2020 stor-2020-03-30.log
+----------   1 root     root          386 Mar 30  2020 retr-2020-03-30.log
+----------   1 root     root            0 Feb 22 18:56 log-2024-02-22.log
+----------   1 root     root          370 Feb 18  2023 log-2023-02-17.log
+----------   1 root     root            0 Jan 29  2023 log-2023-01-28.log
+----------   1 root     root          574 Jul 10  2020 log-2020-07-09.log
+----------   1 root     root        71178 Mar 30  2020 log-2020-03-30.log
+----------   1 root     root          930 Mar 27  2020 log-2020-03-26.log
+----------   1 root     root          568 Mar 25  2020 log-2020-03-24.log
+----------   1 root     root          568 Mar 05  2015 log-2015-03-05.log
+----------   1 root     root         1134 Feb 28  2015 log-2015-02-27.log
+----------   1 root     root          572 Nov 03  2014 log-2014-11-03.log
+----------   1 root     root         1712 May 22  2013 log-2013-05-22.log
+----------   1 root     root         2440 Jun 12  2012 log-2012-06-11.log
+----------   1 root     root         1142 May 25  2012 log-2012-05-24.log
+----------   1 root     root          208 Dec 15  2011 log-2011-12-15.log
+----------   1 root     root          944 Dec 15  2011 log-2011-12-14.log
+----------   1 root     root         1150 Dec 14  2011 log-2011-12-13.log
+----------   1 root     root          208 Dec 13  2011 log-2011-12-12.log
+----------   1 root     root      6877584 Nov 09  2011 log-2011-11-09.log
+----------   1 root     root     14575458 Nov 09  2011 log-2011-11-08.log
+d--x--x--x   1 root     root          512 Feb 22 11:00 ..
+d--x--x--x   1 root     root          512 Feb 22 11:00 .
