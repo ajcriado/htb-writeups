@@ -1,0 +1,407 @@
+
+[1;32mLaunching a script scan on [0m192.168.209.127
+[0m
+[1;32mHost is likely running [0m[1;35mSome alien stuff![0m
+
+
+[1;33m[*] Full TCP port scan launched
+[0m
+In progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:01 elapsed - 0:00:42 remaining)   
+[#>                                                 ] 2% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:02 elapsed - 0:00:30 remaining)   
+[###>                                               ] 6% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:02 elapsed - 0:00:30 remaining)   
+[###>                                               ] 6% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:04 elapsed - 0:00:31 remaining)   
+[#####>                                             ] 11% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:05 elapsed - 0:00:24 remaining)   
+[########>                                          ] 17% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:06 elapsed - 0:00:19 remaining)   
+[############>                                      ] 24% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:07 elapsed - 0:00:14 remaining)   
+[################>                                  ] 32% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:08 elapsed - 0:00:12 remaining)   
+[####################>                              ] 40% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:09 remaining)   
+[########################>                          ] 49% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:10 elapsed - 0:00:07 remaining)   
+[#############################>                     ] 58% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:06 remaining)   
+[#################################>                 ] 66% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:12 elapsed - 0:00:04 remaining)   
+[#####################################>             ] 74% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:13 elapsed - 0:00:03 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mSYN Stealth[0m Scan (0:00:14 elapsed - 0:00:01 remaining)   
+[##############################################>    ] 92% done   
+[2AIn progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE      REASON
+135/tcp   open  msrpc        syn-ack ttl 125
+139/tcp   open  netbios-ssn  syn-ack ttl 125
+445/tcp   open  microsoft-ds syn-ack ttl 125
+3306/tcp  open  mysql        syn-ack ttl 125
+5040/tcp  open  unknown      syn-ack ttl 125
+7680/tcp  open  pando-pub    syn-ack ttl 125
+8000/tcp  open  http-alt     syn-ack ttl 125
+30021/tcp open  unknown      syn-ack ttl 125
+33033/tcp open  unknown      syn-ack ttl 125
+44330/tcp open  unknown      syn-ack ttl 125
+45332/tcp open  unknown      syn-ack ttl 125
+45443/tcp open  unknown      syn-ack ttl 125
+49664/tcp open  unknown      syn-ack ttl 125
+49665/tcp open  unknown      syn-ack ttl 125
+49666/tcp open  unknown      syn-ack ttl 125
+49667/tcp open  unknown      syn-ack ttl 125
+49668/tcp open  unknown      syn-ack ttl 125
+49669/tcp open  unknown      syn-ack ttl 125
+
+
+
+[1;33m[*] Script Scan launched on open ports
+[0m
+In progress: [1;35mNo[0m Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:02 elapsed - 0:00:17 remaining)   
+[##>                                                ] 5% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:02 elapsed - 0:00:17 remaining)   
+[##>                                                ] 5% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:02 elapsed - 0:00:17 remaining)   
+[##>                                                ] 5% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:07 elapsed - 0:00:21 remaining)   
+[###########>                                       ] 22% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:09 elapsed - 0:00:21 remaining)   
+[#############>                                     ] 27% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:11 elapsed - 0:00:22 remaining)   
+[################>                                  ] 33% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:11 elapsed - 0:00:22 remaining)   
+[################>                                  ] 33% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:11 elapsed - 0:00:22 remaining)   
+[################>                                  ] 33% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:17 elapsed - 0:00:21 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:19 elapsed - 0:00:24 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:22 elapsed - 0:00:26 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:24 elapsed - 0:00:30 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:24 elapsed - 0:00:30 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:28 elapsed - 0:00:34 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:29 elapsed - 0:00:36 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:32 elapsed - 0:00:39 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:34 elapsed - 0:00:43 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:34 elapsed - 0:00:43 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:38 elapsed - 0:00:48 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:39 elapsed - 0:00:49 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:42 elapsed - 0:00:51 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:43 elapsed - 0:00:54 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:43 elapsed - 0:00:54 remaining)   
+[######################>                            ] 44% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:47 elapsed - 0:00:47 remaining)   
+[#########################>                         ] 50% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:49 elapsed - 0:00:49 remaining)   
+[#########################>                         ] 50% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:52 elapsed - 0:00:52 remaining)   
+[#########################>                         ] 50% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:55 elapsed - 0:00:54 remaining)   
+[#########################>                         ] 50% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:55 elapsed - 0:00:54 remaining)   
+[#########################>                         ] 50% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:57 elapsed - 0:00:11 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:00:59 elapsed - 0:00:12 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:02 elapsed - 0:00:12 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:05 elapsed - 0:00:13 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:05 elapsed - 0:00:13 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:07 elapsed - 0:00:13 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:09 elapsed - 0:00:14 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:13 elapsed - 0:00:14 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:15 elapsed - 0:00:15 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:15 elapsed - 0:00:15 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:18 elapsed - 0:00:15 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:20 elapsed - 0:00:16 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:23 elapsed - 0:00:16 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:25 elapsed - 0:00:17 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:25 elapsed - 0:00:17 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:28 elapsed - 0:00:18 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:30 elapsed - 0:00:18 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:30 elapsed - 0:00:19 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:35 elapsed - 0:00:19 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:35 elapsed - 0:00:19 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:38 elapsed - 0:00:20 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:40 elapsed - 0:00:20 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:43 elapsed - 0:00:21 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:45 elapsed - 0:00:21 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:47 elapsed - 0:00:21 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:49 elapsed - 0:00:22 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:50 elapsed - 0:00:22 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:52 elapsed - 0:00:22 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:55 elapsed - 0:00:23 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:57 elapsed - 0:00:23 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:01:59 elapsed - 0:00:24 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:00 elapsed - 0:00:24 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:02 elapsed - 0:00:24 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:05 elapsed - 0:00:25 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:07 elapsed - 0:00:25 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:09 elapsed - 0:00:26 remaining)   
+[#########################################>         ] 83% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:10 elapsed - 0:00:16 remaining)   
+[############################################>      ] 88% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:14 elapsed - 0:00:17 remaining)   
+[############################################>      ] 88% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:14 elapsed - 0:00:17 remaining)   
+[############################################>      ] 88% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:18 elapsed - 0:00:17 remaining)   
+[############################################>      ] 88% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:19 elapsed - 0:00:08 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:19 elapsed - 0:00:08 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:23 elapsed - 0:00:08 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:23 elapsed - 0:00:08 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:28 elapsed - 0:00:09 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:28 elapsed - 0:00:09 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:28 elapsed - 0:00:09 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:33 elapsed - 0:00:09 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mService[0m Scan (0:02:33 elapsed - 0:00:09 remaining)   
+[###############################################>   ] 94% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:39 elapsed - 0:00:00 remaining)   
+[###############################################>   ] 95% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:40 elapsed - 0:00:00 remaining)   
+[################################################>  ] 97% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:42 elapsed - 0:00:00 remaining)   
+[################################################>  ] 97% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:44 elapsed - 0:00:00 remaining)   
+[#################################################> ] 98% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:46 elapsed - 0:00:00 remaining)   
+[#################################################> ] 98% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:48 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:50 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:52 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:54 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:56 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:02:58 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:03:00 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:03:02 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:03:04 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:03:06 elapsed - 0:00:00 remaining)   
+[#################################################> ] 99% done   
+[2AIn progress: [1;35mScript[0m Scan (0:03:08 elapsed - 0:00:00 remaining)   
+[##########################################>        ] 84% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3306/tcp  open  mysql?
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP, GetRequest, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, NCP, NULL, RPCCheck, SMBProgNeg, WMSRequest, ms-sql-s, oracle-tns: 
+|_    Host '192.168.45.158' is not allowed to connect to this MariaDB server
+5040/tcp  open  unknown
+7680/tcp  open  pando-pub?
+8000/tcp  open  http-alt      BarracudaServer.com (Windows)
+| http-webdav-scan: 
+|   Allowed Methods: OPTIONS, GET, HEAD, PROPFIND, PUT, COPY, DELETE, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK
+|   Server Date: Sun, 25 Feb 2024 07:18:23 GMT
+|   WebDAV type: Unknown
+|_  Server Type: BarracudaServer.com (Windows)
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: BarracudaServer.com (Windows)
+|_http-title: Home
+| fingerprint-strings: 
+|   FourOhFourRequest, Socks5: 
+|     HTTP/1.1 200 OK
+|     Date: Sun, 25 Feb 2024 07:15:56 GMT
+|     Server: BarracudaServer.com (Windows)
+|     Connection: Close
+|   GenericLines, GetRequest: 
+|     HTTP/1.1 200 OK
+|     Date: Sun, 25 Feb 2024 07:15:51 GMT
+|     Server: BarracudaServer.com (Windows)
+|     Connection: Close
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 200 OK
+|     Date: Sun, 25 Feb 2024 07:16:01 GMT
+|     Server: BarracudaServer.com (Windows)
+|     Connection: Close
+|   SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Sun, 25 Feb 2024 07:17:04 GMT
+|     Server: BarracudaServer.com (Windows)
+|     Connection: Close
+|     Content-Type: text/html
+|     Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+|_    <html><body><h1>400 Bad Request</h1>Can't parse request<p>BarracudaServer.com (Windows)</p></body></html>
+| http-methods: 
+|_  Potentially risky methods: PROPFIND PUT COPY DELETE MOVE MKCOL PROPPATCH LOCK UNLOCK
+30021/tcp open  ftp           FileZilla ftpd 0.9.41 beta
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| -r--r--r-- 1 ftp ftp            536 Nov 03  2020 .gitignore
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 app
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 bin
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 config
+| -r--r--r-- 1 ftp ftp            130 Nov 03  2020 config.ru
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 db
+| -r--r--r-- 1 ftp ftp           1750 Nov 03  2020 Gemfile
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 lib
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 log
+| -r--r--r-- 1 ftp ftp             66 Nov 03  2020 package.json
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 public
+| -r--r--r-- 1 ftp ftp            227 Nov 03  2020 Rakefile
+| -r--r--r-- 1 ftp ftp            374 Nov 03  2020 README.md
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 test
+| drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 tmp
+|_drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 vendor
+|_ftp-bounce: bounce working!
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+33033/tcp open  unknown
+| fingerprint-strings: 
+|   GenericLines: 
+|     HTTP/1.1 400 Bad Request
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 403 Forbidden
+|     Content-Type: text/html; charset=UTF-8
+|     Content-Length: 3102
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8" />
+|     <title>Action Controller: Exception caught</title>
+|     <style>
+|     body {
+|     background-color: #FAFAFA;
+|     color: #333;
+|     margin: 0px;
+|     body, p, ol, ul, td {
+|     font-family: helvetica, verdana, arial, sans-serif;
+|     font-size: 13px;
+|     line-height: 18px;
+|     font-size: 11px;
+|     white-space: pre-wrap;
+|     pre.box {
+|     border: 1px solid #EEE;
+|     padding: 10px;
+|     margin: 0px;
+|     width: 958px;
+|     header {
+|     color: #F0F0F0;
+|     background: #C52F24;
+|     padding: 0.5em 1.5em;
+|     margin: 0.2em 0;
+|     line-height: 1.1em;
+|     font-size: 2em;
+|     color: #C52F24;
+|     line-height: 25px;
+|     .details {
+|_    bord
+44330/tcp open  ssl/unknown
+|_ssl-date: 2024-02-25T07:18:53+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=server demo 1024 bits/organizationName=Real Time Logic/stateOrProvinceName=CA/countryName=US
+| Not valid before: 2009-08-27T14:40:47
+|_Not valid after:  2019-08-25T14:40:47
+45332/tcp open  http          Apache httpd 2.4.46 ((Win64) OpenSSL/1.1.1g PHP/7.3.23)
+|_http-server-header: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.3.23
+|_http-title: Quiz App
+| http-methods: 
+|_  Potentially risky methods: TRACE
+45443/tcp open  http          Apache httpd 2.4.46 ((Win64) OpenSSL/1.1.1g PHP/7.3.23)
+|_http-server-header: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.3.23
+|_http-title: Quiz App
+| http-methods: 
+|_  Potentially risky methods: TRACE
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-02-25T07:18:26
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+[0m
+[0m
+[1;32mOS Detection modified to: Windows
+[0m
+
+[1;32m[!] Finished all scans
+[0m
+
+[1;33mCompleted in 3 minute(s) and 28 second(s)
+[0m

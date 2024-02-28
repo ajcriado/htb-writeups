@@ -1,0 +1,29 @@
+06:12:28.930 smtp started at 5/2/2022 6:12:28 AM
+06:12:28.946 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+06:35:56.737 smtp stopped at 5/2/2022 6:35:56 AM
+06:52:23.719 smtp started at 5/2/2022 6:52:23 AM
+06:52:23.782 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+07:03:38.548 smtp started at 5/2/2022 7:03:38 AM
+07:03:38.564 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+07:06:00.242 smtp stopped at 5/2/2022 7:06:00 AM
+07:06:37.808 smtp started at 5/2/2022 7:06:37 AM
+07:06:37.840 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+07:50:33.353 smtp stopped at 5/2/2022 7:50:33 AM
+07:51:08.729 smtp started at 5/2/2022 7:51:08 AM
+07:51:08.760 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+07:55:09.354 smtp stopped at 5/2/2022 7:55:09 AM

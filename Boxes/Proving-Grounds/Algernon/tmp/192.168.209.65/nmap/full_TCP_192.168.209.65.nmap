@@ -1,0 +1,24 @@
+# Nmap 7.94SVN scan initiated Sun Feb 25 19:34:14 2024 as: /usr/bin/nmap -T4 -p- --max-retries 2 -vv --max-scan-delay 30 -Pn --open -oN nmap/full_TCP_192.168.209.65.nmap --system-dns --stats-every 1s 192.168.209.65
+Nmap scan report for 192.168.209.65
+Host is up, received user-set (0.087s latency).
+Scanned at 2024-02-25 19:34:14 CET for 34s
+Not shown: 61346 closed tcp ports (reset), 4175 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE      REASON
+21/tcp    open  ftp          syn-ack ttl 125
+80/tcp    open  http         syn-ack ttl 125
+135/tcp   open  msrpc        syn-ack ttl 125
+139/tcp   open  netbios-ssn  syn-ack ttl 125
+445/tcp   open  microsoft-ds syn-ack ttl 125
+5040/tcp  open  unknown      syn-ack ttl 125
+9998/tcp  open  distinct32   syn-ack ttl 125
+17001/tcp open  unknown      syn-ack ttl 125
+49664/tcp open  unknown      syn-ack ttl 125
+49665/tcp open  unknown      syn-ack ttl 125
+49666/tcp open  unknown      syn-ack ttl 125
+49667/tcp open  unknown      syn-ack ttl 125
+49668/tcp open  unknown      syn-ack ttl 125
+49669/tcp open  unknown      syn-ack ttl 125
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Feb 25 19:34:48 2024 -- 1 IP address (1 host up) scanned in 34.89 seconds

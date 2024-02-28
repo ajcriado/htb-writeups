@@ -1,0 +1,7 @@
+03:35:45.726 [192.168.118.6] User @ calling create primary system admin, username: admin
+03:35:47.054 [192.168.118.6] Webmail Attempting to login user: admin
+03:35:47.054 [192.168.118.6] Webmail Login successful: With user admin
+03:35:55.820 [192.168.118.6] Webmail Attempting to login user: admin
+03:35:55.820 [192.168.118.6] Webmail Login successful: With user admin
+03:36:00.195 [192.168.118.6] User admin@ calling set setup wizard settings
+03:36:08.242 [192.168.118.6] User admin@ logging out

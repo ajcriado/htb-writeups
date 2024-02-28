@@ -1,0 +1,44 @@
+### ++ Approach ++
+#### Credentials
+	* 
+
+#### Services
+	##### 21 FTP
+		Anonymous login allowed - Passive mode
+
+	##### 80 HTTP
+		-
+
+	##### 139,445 SMB
+		No null session
+
+	##### 135 RPC
+		No null session
+
+	##### 1978 unisql?
+		If we connect with telnet to this port the following message pops up: system windows 6.2
+        If we google the message and the port, we found this two exploits:
+            https://www.exploit-db.com/exploits/46697 (It says that this app is not installed)
+            https://www.exploit-db.com/exploits/49601 (Works perfectly)
+
+	##### 3389 RDP
+		No null session
+
+	##### UDP 161 SNMP
+		No communities found
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: WiFi Mouse 1.7.8.5 RCE ++
+	* Exploit: https://www.exploit-db.com/exploits/49601
+    * Creating a msfvenom exe payload and exposing it through python http server we get a shell as offsec user
+
+### ++ System Interaction ++
+#### Foothold  
+	* Abusing vuln 1 we got a shell
+
+#### Privilege Escalation 
+	* With winpeas we got zachary creds and we can login by rdp
+	
+#### Post-exploitation 
+	* -

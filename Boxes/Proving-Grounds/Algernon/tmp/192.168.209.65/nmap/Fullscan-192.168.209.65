@@ -1,0 +1,78 @@
+# Nmap 7.94SVN scan initiated Sun Feb 25 19:37:47 2024 as: nmap -p- --open -A -T4 -sCV -oN 192.168.209.65/nmap/Fullscan-192.168.209.65 192.168.209.65
+Nmap scan report for 192.168.209.65
+Host is up (0.17s latency).
+Not shown: 60730 closed tcp ports (reset), 4791 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE       VERSION
+21/tcp    open  ftp           Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 04-29-20  09:31PM       <DIR>          ImapRetrieval
+| 02-25-24  10:26AM       <DIR>          Logs
+| 04-29-20  09:31PM       <DIR>          PopRetrieval
+|_04-29-20  09:32PM       <DIR>          Spool
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows
+|_http-server-header: Microsoft-IIS/10.0
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+5040/tcp  open  unknown
+9998/tcp  open  http          Microsoft IIS httpd 10.0
+| http-title: Site doesn't have a title (text/html; charset=utf-8).
+|_Requested resource was /interface/root
+| uptime-agent-info: HTTP/1.1 400 Bad Request\x0D
+| Content-Type: text/html; charset=us-ascii\x0D
+| Server: Microsoft-HTTPAPI/2.0\x0D
+| Date: Sun, 25 Feb 2024 18:41:20 GMT\x0D
+| Connection: close\x0D
+| Content-Length: 326\x0D
+| \x0D
+| <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\x0D
+| <HTML><HEAD><TITLE>Bad Request</TITLE>\x0D
+| <META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\x0D
+| <BODY><h2>Bad Request - Invalid Verb</h2>\x0D
+| <hr><p>HTTP Error 400. The request verb is invalid.</p>\x0D
+|_</BODY></HTML>\x0D
+|_http-server-header: Microsoft-IIS/10.0
+17001/tcp open  remoting      MS .NET Remoting services
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=2/25%OT=21%CT=1%CU=31435%PV=Y%DS=4%DC=T%G=Y%TM=65DB
+OS:89E1%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10E%TI=I%TS=U)SEQ(SP=105
+OS:%GCD=1%ISR=10E%TI=RD%TS=U)OPS(O1=M551NW8NNS%O2=M551NW8NNS%O3=M551NW8%O4=
+OS:M551NW8NNS%O5=M551NW8NNS%O6=M551NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%
+OS:W5=FFFF%W6=FF70)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M551NW8NNS%CC=N%Q=)T1(R=Y%DF=
+OS:Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y%T=80%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL
+OS:=G%RID=G%RIPCK=G%RUCK=844F%RUD=G)IE(R=N)
+
+Network Distance: 4 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-02-25T18:41:22
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE (using port 135/tcp)
+HOP RTT       ADDRESS
+1   136.65 ms 192.168.45.1
+2   136.51 ms 192.168.45.254
+3   136.59 ms 192.168.251.1
+4   136.70 ms 192.168.209.65
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 25 19:41:37 2024 -- 1 IP address (1 host up) scanned in 230.08 seconds

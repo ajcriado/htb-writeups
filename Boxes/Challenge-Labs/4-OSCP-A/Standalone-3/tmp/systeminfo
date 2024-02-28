@@ -1,0 +1,43 @@
+Host Name:                 OSCP
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19041 N/A Build 19041
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          zachary
+Registered Organization:   
+Product ID:                00331-10000-00001-AA533
+Original Install Date:     1/5/2023, 5:10:42 AM
+System Boot Time:          1/29/2024, 4:51:45 PM
+System Manufacturer:       VMware, Inc.
+System Model:              VMware7,1
+System Type:               x64-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: AMD64 Family 25 Model 1 Stepping 1 AuthenticAMD ~2650 Mhz
+                           [02]: AMD64 Family 25 Model 1 Stepping 1 AuthenticAMD ~2650 Mhz
+BIOS Version:              VMware, Inc. VMW71.00V.21100432.B64.2301110304, 1/11/2023
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     4,095 MB
+Available Physical Memory: 2,162 MB
+Virtual Memory: Max Size:  4,799 MB
+Virtual Memory: Available: 2,884 MB
+Virtual Memory: In Use:    1,915 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\OSCP
+Hotfix(s):                 3 Hotfix(s) Installed.
+                           [01]: KB5006365
+                           [02]: KB5015684
+                           [03]: KB5020372
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: vmxnet3 Ethernet Adapter
+                                 Connection Name: Ethernet0
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.224.145
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.

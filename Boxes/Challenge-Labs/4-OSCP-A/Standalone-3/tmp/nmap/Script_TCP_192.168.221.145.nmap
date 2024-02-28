@@ -1,0 +1,70 @@
+# Nmap 7.94SVN scan initiated Wed Feb 28 11:44:33 2024 as: /usr/bin/nmap -Pn -sCV -p21,80,135,139,445,1978,3389 --open -oN nmap/Script_TCP_192.168.224.145.nmap --system-dns --stats-every 2s 192.168.224.145
+Nmap scan report for 192.168.224.145
+Host is up (0.026s latency).
+
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           Microsoft ftpd
+| ftp-syst: 
+|_  SYST: Windows_NT
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+80/tcp   open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Samuel's Personal Site
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1978/tcp open  unisql?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, NULL, NotesRPC, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, WMSRequest, X11Probe, afp, giop, ms-sql-s, oracle-tns: 
+|_    system windows 6.2
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: OSCP
+|   NetBIOS_Domain_Name: OSCP
+|   NetBIOS_Computer_Name: OSCP
+|   DNS_Domain_Name: oscp
+|   DNS_Computer_Name: oscp
+|   Product_Version: 10.0.19041
+|_  System_Time: 2024-02-28T10:47:14+00:00
+| ssl-cert: Subject: commonName=oscp
+| Not valid before: 2024-01-29T00:51:58
+|_Not valid after:  2024-07-30T00:51:58
+|_ssl-date: 2024-02-28T10:47:54+00:00; 0s from scanner time.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1978-TCP:V=7.94SVN%I=7%D=2/28%Time=65DF0E97%P=x86_64-pc-linux-gnu%r
+SF:(NULL,14,"system\x20windows\x206\.2\n\n")%r(GenericLines,14,"system\x20
+SF:windows\x206\.2\n\n")%r(GetRequest,14,"system\x20windows\x206\.2\n\n")%
+SF:r(HTTPOptions,14,"system\x20windows\x206\.2\n\n")%r(RTSPRequest,14,"sys
+SF:tem\x20windows\x206\.2\n\n")%r(RPCCheck,14,"system\x20windows\x206\.2\n
+SF:\n")%r(DNSVersionBindReqTCP,14,"system\x20windows\x206\.2\n\n")%r(DNSSt
+SF:atusRequestTCP,14,"system\x20windows\x206\.2\n\n")%r(Help,14,"system\x2
+SF:0windows\x206\.2\n\n")%r(SSLSessionReq,14,"system\x20windows\x206\.2\n\
+SF:n")%r(TerminalServerCookie,14,"system\x20windows\x206\.2\n\n")%r(TLSSes
+SF:sionReq,14,"system\x20windows\x206\.2\n\n")%r(Kerberos,14,"system\x20wi
+SF:ndows\x206\.2\n\n")%r(SMBProgNeg,14,"system\x20windows\x206\.2\n\n")%r(
+SF:X11Probe,14,"system\x20windows\x206\.2\n\n")%r(FourOhFourRequest,14,"sy
+SF:stem\x20windows\x206\.2\n\n")%r(LPDString,14,"system\x20windows\x206\.2
+SF:\n\n")%r(LDAPSearchReq,14,"system\x20windows\x206\.2\n\n")%r(LDAPBindRe
+SF:q,14,"system\x20windows\x206\.2\n\n")%r(SIPOptions,14,"system\x20window
+SF:s\x206\.2\n\n")%r(LANDesk-RC,14,"system\x20windows\x206\.2\n\n")%r(Term
+SF:inalServer,14,"system\x20windows\x206\.2\n\n")%r(NCP,14,"system\x20wind
+SF:ows\x206\.2\n\n")%r(NotesRPC,14,"system\x20windows\x206\.2\n\n")%r(Java
+SF:RMI,14,"system\x20windows\x206\.2\n\n")%r(WMSRequest,14,"system\x20wind
+SF:ows\x206\.2\n\n")%r(oracle-tns,14,"system\x20windows\x206\.2\n\n")%r(ms
+SF:-sql-s,14,"system\x20windows\x206\.2\n\n")%r(afp,14,"system\x20windows\
+SF:x206\.2\n\n")%r(giop,14,"system\x20windows\x206\.2\n\n");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-02-28T10:47:17
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 28 11:47:55 2024 -- 1 IP address (1 host up) scanned in 202.15 seconds

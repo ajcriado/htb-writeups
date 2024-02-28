@@ -1,0 +1,6 @@
+09:23:16.237 smtp started at 4/4/2022 9:23:16 AM
+09:23:16.268 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+09:29:47.297 smtp stopped at 4/4/2022 9:29:47 AM

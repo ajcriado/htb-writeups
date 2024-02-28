@@ -1,0 +1,16 @@
+-r--r--r-- 1 ftp ftp            536 Nov 03  2020 .gitignore
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 app
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 bin
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 config
+-r--r--r-- 1 ftp ftp            130 Nov 03  2020 config.ru
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 db
+-r--r--r-- 1 ftp ftp           1750 Nov 03  2020 Gemfile
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 lib
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 log
+-r--r--r-- 1 ftp ftp             66 Nov 03  2020 package.json
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 public
+-r--r--r-- 1 ftp ftp            227 Nov 03  2020 Rakefile
+-r--r--r-- 1 ftp ftp            374 Nov 03  2020 README.md
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 test
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 tmp
+drwxr-xr-x 1 ftp ftp              0 Nov 03  2020 vendor

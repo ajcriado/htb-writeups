@@ -1,0 +1,33 @@
+06:12:29.086 xmpp Started at 5/2/2022 6:12:29 AM
+06:12:29.086 Could not start listening on 192.168.120.110:5222 - System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.Protocols.XMPP.Core.XmppServer.StartListening(IPEndPoint ipEndPoint)
+06:35:56.830 All Xmpp Connections terminated
+06:35:56.893 xmpp Stopped at 5/2/2022 6:35:56 AM
+06:52:23.969 xmpp Started at 5/2/2022 6:52:23 AM
+06:52:23.969 Could not start listening on 192.168.120.110:5222 - System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.Protocols.XMPP.Core.XmppServer.StartListening(IPEndPoint ipEndPoint)
+07:03:38.720 xmpp Started at 5/2/2022 7:03:38 AM
+07:03:38.720 Could not start listening on 192.168.120.110:5222 - System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.Protocols.XMPP.Core.XmppServer.StartListening(IPEndPoint ipEndPoint)
+07:06:00.351 All Xmpp Connections terminated
+07:06:00.414 xmpp Stopped at 5/2/2022 7:06:00 AM
+07:06:37.871 xmpp Started at 5/2/2022 7:06:37 AM
+07:06:37.886 Could not start listening on 192.168.120.110:5222 - System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.Protocols.XMPP.Core.XmppServer.StartListening(IPEndPoint ipEndPoint)
+07:50:33.416 All Xmpp Connections terminated
+07:50:33.463 xmpp Stopped at 5/2/2022 7:50:33 AM
+07:51:08.791 xmpp Started at 5/2/2022 7:51:08 AM
+07:51:08.807 Could not start listening on 192.168.120.110:5222 - System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.Protocols.XMPP.Core.XmppServer.StartListening(IPEndPoint ipEndPoint)
+07:55:09.354 All Xmpp Connections terminated
+07:55:09.385 xmpp Stopped at 5/2/2022 7:55:09 AM

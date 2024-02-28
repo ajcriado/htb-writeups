@@ -1,0 +1,56 @@
+### ++ Approach ++
+#### Credentials
+	* 
+
+#### Services
+	##### 21 FTP
+		- 
+
+	##### 22 SSH
+		-
+
+	##### 80 HTTP
+		Found /api endpoint
+            - Fuzzing with raft-medium-words.txt we found /api/heartbeat
+            - Cmd: gobuster dir -u 'http://192.168.224.143/api/' -w /usr/share/seclists/Discovery/Web-Content/raft-medium-words.txt -b 403,404 -t 100
+
+        In /api/heartbeat we found aerospike service, and this exploit related: https://github.com/b4ny4n/CVE-2020-13151
+
+	##### 81 HTTP
+		-
+
+	##### 443 HTTP
+		-
+
+	##### 3001 nessus
+		-
+
+	##### 3003 cgms
+		-
+
+	##### 3306 mysql
+		-
+
+	##### 5432 postgresql
+		-
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: RCE in aerospike service ++
+	* Exploit: https://github.com/b4ny4n/CVE-2020-13151
+
+#### Vuln 2: SUID binary screen-4.5.0 exploitable ++
+	* Exploit: https://www.exploit-db.com/exploits/41154
+    * Gcc is not installed in the machine, so we check for another gcc version:
+        apt list --installed | tr "/" " " | cut -d" " -f1,3 | sed 's/[0-9]://g' | grep gcc
+        We found gcc-9 so change in the exploit gcc for gcc-9 and launch the script in the machine to privesc
+
+### ++ System Interaction ++
+#### Foothold  
+	* Get a user shell abusing vuln 1
+
+#### Privilege Escalation 
+	* Abuse vuln 2
+    
+#### Post-exploitation 
+	* -

@@ -1,0 +1,32 @@
+### ++ Approach ++
+#### Credentials
+	* postgres:postgres (Psql)
+
+#### Services
+	##### 21 FTP
+		No null session
+
+	##### 22 SSH
+		-
+
+	##### 80 HTTP
+		-
+
+	##### 5437 PostgreSQL
+		Connect with postgres:postgres credentials:
+			psql -h 192.168.209.47 -p 5437 -U postgres (Password postgres)
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: Default credentials in postgresql service ++
+	* Found postgresql database with default credentials (postgres:postgres)
+
+### ++ System Interaction ++
+#### Foothold  
+	* PostgreSQL RCE: https://github.com/squid22/PostgreSQL_RCE
+
+#### Privilege Escalation 
+	* SUID Find: https://gtfobins.github.io/gtfobins/find/
+	
+#### Post-exploitation 
+	* -

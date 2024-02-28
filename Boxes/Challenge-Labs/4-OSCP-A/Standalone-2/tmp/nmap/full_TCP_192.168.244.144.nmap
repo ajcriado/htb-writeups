@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Tue Feb 27 21:53:57 2024 as: /usr/bin/nmap -Pn -T4 -p- --max-retries 2 -vv --max-scan-delay 30 -Pn --open -oN nmap/full_TCP_192.168.224.144.nmap --system-dns --stats-every 1s 192.168.224.144
+Nmap scan report for 192.168.224.144
+Host is up, received user-set (0.031s latency).
+Scanned at 2024-02-27 21:53:57 CET for 13s
+Not shown: 65532 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack ttl 61
+22/tcp open  ssh     syn-ack ttl 61
+80/tcp open  http    syn-ack ttl 61
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Feb 27 21:54:10 2024 -- 1 IP address (1 host up) scanned in 13.56 seconds

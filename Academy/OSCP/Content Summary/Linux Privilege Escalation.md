@@ -7,10 +7,12 @@ There are several key pieces of information we should always obtain:
 	# cat /etc/passwd (check write permissions)
 	# hostname
 	# sudo -l
+	# Check /opt folder
 - Abuse Setuid Binaries and Capabilities
 	# /usr/sbin/getcap -r / 2>/dev/null (Find cap_setuid+ep, even grep by cap_setuid)
 - Directories writable by the current user
 	# find / -writable -type d 2>/dev/null
+	# find / -perm -4000 2>/dev/null (Check binaries in GTFO Bins)
 - Scheduled tasks
 	# ls -lah /etc/cron*
 	# sudo crontab -l
@@ -71,4 +73,11 @@ Password: w00t
 
 root@debian-privesc:/home/joe# id
 uid=0(root) gid=0(root) groups=0(root)
+```
+
+##### Compile binaries
+
+Check for compilers in the machine: 
+```bash
+apt list --installed | tr "/" " " | cut -d" " -f1,3 | sed 's/[0-9]://g' | grep gcc
 ```

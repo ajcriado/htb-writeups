@@ -1,0 +1,38 @@
+# Nmap 7.94SVN scan initiated Sun Feb 25 09:36:02 2024 as: nmap -p- --open -A -T4 -sCV -oN 192.168.209.47/nmap/Fullscan-192.168.209.47 192.168.209.47
+Nmap scan report for 192.168.209.47
+Host is up (0.041s latency).
+Not shown: 65529 filtered tcp ports (no-response), 2 closed tcp ports (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        vsftpd 3.0.3
+22/tcp   open  ssh        OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 10:62:1f:f5:22:de:29:d4:24:96:a7:66:c3:64:b7:10 (RSA)
+|   256 c9:15:ff:cd:f3:97:ec:39:13:16:48:38:c5:58:d7:5f (ECDSA)
+|_  256 90:7c:a3:44:73:b4:b4:4c:e3:9c:71:d1:87:ba:ca:7b (ED25519)
+80/tcp   open  http       Apache httpd 2.4.38 ((Debian))
+|_http-title: Enter a title, displayed at the top of the window.
+|_http-server-header: Apache/2.4.38 (Debian)
+5437/tcp open  postgresql PostgreSQL DB 11.3 - 11.9
+| ssl-cert: Subject: commonName=debian
+| Subject Alternative Name: DNS:debian
+| Not valid before: 2020-04-27T15:41:47
+|_Not valid after:  2030-04-25T15:41:47
+|_ssl-date: TLS randomness does not represent time
+Device type: general purpose|storage-misc
+Running (JUST GUESSING): Linux 2.6.X|3.X|4.X (85%), Synology DiskStation Manager 5.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4.2 cpe:/o:linux:linux_kernel cpe:/a:synology:diskstation_manager:5.1
+Aggressive OS guesses: Linux 2.6.32 (85%), Linux 2.6.39 (85%), Linux 3.10 - 3.12 (85%), Linux 3.4 (85%), Linux 3.5 (85%), Linux 4.2 (85%), Linux 4.4 (85%), Synology DiskStation Manager 5.1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+1   40.89 ms 192.168.45.1
+2   40.85 ms 192.168.45.254
+3   40.95 ms 192.168.251.1
+4   41.06 ms 192.168.209.47
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 25 09:39:52 2024 -- 1 IP address (1 host up) scanned in 229.56 seconds

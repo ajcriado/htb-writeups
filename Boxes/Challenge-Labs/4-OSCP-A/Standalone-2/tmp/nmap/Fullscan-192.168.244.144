@@ -1,0 +1,45 @@
+# Nmap 7.94SVN scan initiated Tue Feb 27 21:54:22 2024 as: nmap -p- --open -A -T4 -sCV -oN 192.168.224.144/nmap/Fullscan-192.168.224.144 192.168.224.144
+Nmap scan report for 192.168.224.144
+Host is up (0.030s latency).
+Not shown: 65469 closed tcp ports (reset), 63 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.5
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 fb:ea:e1:18:2f:1d:7b:5e:75:96:5a:98:df:3d:17:e4 (ECDSA)
+|_  256 66:f4:54:42:1f:25:16:d7:f3:eb:f7:44:9f:5a:1a:0b (ED25519)
+80/tcp open  http    Apache httpd 2.4.52 ((Ubuntu))
+|_http-title: Home
+| http-git: 
+|   192.168.224.144:80/.git/
+|     Git repository found!
+|     Repository description: Unnamed repository; edit this file 'description' to name the...
+|     Last commit message: Security Update 
+|     Remotes:
+|_      https://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@github.com/PWK-Challenge-Lab/dev.git
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+|_http-generator: Nicepage 4.21.12, nicepage.com
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=2/27%OT=21%CT=1%CU=31675%PV=Y%DS=4%DC=T%G=Y%TM=65DE
+OS:4C20%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=108%TI=Z%II=I%TS=A)OPS(O
+OS:1=M551ST11NW7%O2=M551ST11NW7%O3=M551NNT11NW7%O4=M551ST11NW7%O5=M551ST11N
+OS:W7%O6=M551ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R
+OS:=Y%DF=Y%T=40%W=FAF0%O=M551NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%
+OS:RD=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%
+OS:Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK
+OS:=8718%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 4 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+1   33.58 ms 192.168.45.1
+2   33.56 ms 192.168.45.254
+3   33.60 ms 192.168.251.1
+4   33.65 ms 192.168.224.144
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 27 21:54:56 2024 -- 1 IP address (1 host up) scanned in 35.11 seconds

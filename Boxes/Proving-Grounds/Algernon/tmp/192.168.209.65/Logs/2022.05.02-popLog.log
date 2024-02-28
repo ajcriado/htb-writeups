@@ -1,0 +1,20 @@
+06:12:28.946 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+06:52:23.782 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+07:03:38.579 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+07:06:37.840 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)
+07:51:08.745 System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at MailService.TcpServerLib.Common.PooledTcpServer.StartListening(IPEndPoint ipEndPoint)

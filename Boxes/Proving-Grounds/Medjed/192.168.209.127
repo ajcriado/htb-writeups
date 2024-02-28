@@ -1,0 +1,40 @@
+### ++ Approach ++
+#### Credentials
+	* test:test (SSH)
+
+#### Services
+	##### 139,445 SMB
+		- 
+
+	##### 3306 MySQL
+		No null session
+
+	##### 8000 BarracudaServer.com
+        Webapp BarracudaServer 6.5
+        Privesc exploit: https://www.exploit-db.com/exploits/48789
+		Ask to create an admin account
+            peluqqi:Password123! (test@test.com)
+        We can grab the flags through the Web-File-Server function
+            http://192.168.209.127:8000/fs/C/Users/Jerren/Desktop/local.txt
+            http://192.168.209.127:8000/fs/C/Users/Administrator/Desktop/proof.txt
+
+	##### 3306 RPC
+		No null session
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: ++
+	* -
+
+### ++ System Interaction ++
+#### Foothold  
+	* -
+
+#### Privilege Escalation 
+	* -
+
+#### Attack chain
+	* -
+	
+#### Post-exploitation 
+	* -

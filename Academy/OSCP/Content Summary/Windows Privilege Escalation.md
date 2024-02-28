@@ -28,8 +28,8 @@ There are several key pieces of information we should always obtain:
 ```
 
 #### Finding files
-| **Command** | **Description** |
-| ---- | ---- |
+| **Command**                                                                                        | **Description**         |
+| -------------------------------------------------------------------------------------------------- | ----------------------- |
 | `Get-ChildItem -Path C:\ -Include *.kdbx,*.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue` | Find files by extension |
 With GUI interface we can execute `RunAs` if we have the user password to spawn a shell as the specified user:
 `# runas /user:backupadmin cmd`
@@ -341,3 +341,7 @@ nt authority\system
 
 While PrintSpoofer provided us a straightforward exploit process to elevate our privileges, there are also other tools that can abuse _SeImpersonatePrivilege_ for privilege escalation. Variants from the _Potato_[9](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/windows-privilege-escalation/abusing-other-windows-components/using-exploits#fn9) family (for example _RottenPotato_, _SweetPotato_, or _JuicyPotato_) are such tools. We should take the time to study these tools as they are an effective alternative to PrintSpoofer.
 	* USE **GODPOTATO** OR **SWEETPOTATO**
+
+#### SAM, Security and System files
+
+With this files we can dump credentials using impacket-secretsdump. We can get this files if we are admins or maybe check for folders like windows.old and check there inside .\\Windows\\System32 folder

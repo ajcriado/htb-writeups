@@ -1,0 +1,60 @@
+### ++ Approach ++
+#### Credentials
+	* stuart:BreakingBad92 (SSH)
+    * codeblue (password for backup zip file)
+
+    root:x:0:0:root:/root:/bin/bash
+    stuart:x:1000:1000:CClNW:/home/stuart:/bin/bash
+    thato:x:1010:1010::/home/thato:/bin/bash
+    chloe:x:1011:1011::/home/chloe:/bin/bash
+    carla:x:1012:1012::/home/carla:/bin/bash
+
+#### Services
+	##### 21 FTP
+		- 
+
+	##### 22 SSH
+		-
+
+	##### 80 HTTP
+		Found /.git so download everything with git-dumper (https://github.com/arthaud/git-dumper)
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: Credentials leaked in public git repository ++
+	* Found /.git so download everything with git-dumper (https://github.com/arthaud/git-dumper)
+    * In git/configuration/database.php we find that the credentials have been removed (we can be sure by the comment 'Cleartext creds cannot be added to public repos!')
+    * In the directory we execute 'git show' command to show diffs and we find a commit with the hardcoded credentials:
+        
+        diff --git a/configuration/database.php b/configuration/database.php
+        index 55b1645..8ad08b0 100644
+        --- a/configuration/database.php
+        +++ b/configuration/database.php
+        @@ -2,8 +2,9 @@
+        class Database{
+            private $host = "localhost";
+            private $db_name = "staff";
+        -    private $username = "stuart@challenge.lab";
+        -    private $password = "BreakingBad92";
+        +    private $username = "";
+        +    private $password = "";
+        +// Cleartext creds cannot be added to public repos!
+            public $conn;
+            public function getConnection() {
+                $this->conn = null;
+
+### ++ System Interaction ++
+#### Foothold  
+	* With vuln 1 we get stuart credentials, so we can connect through ssh
+
+#### Lateral movement: chloe
+	* In /opt/backup we found backup zips. After moving them to our kali machine, we can only decompress number 3 which is a joomla installation but we can see that just folders are decompressed, like some files are encrypted with password
+    * With zip2john and john we find codeblue password, and decompressing backup3 file with 7z (7z x sitebackup3.zip) we get the files
+    * In /joomla/configuration.php we find mysql credentials (no mysql is configured in the server as we can check with the ports 'ss -tulnp') and secret variable, which is the password for user chloe
+    * Connect to chloe just using 'su chloe'
+
+#### Privilege Escalation 
+	* Chloe can run anything as sudo so we can spawn a elevated bash
+	
+#### Post-exploitation 
+	* -
