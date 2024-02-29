@@ -1,28 +1,35 @@
-### ++ Approach ++
+### ++ Approach 192.168.222.149 ++
 #### Credentials
 	* test:test (SSH)
 
 #### Services
 	##### 21 FTP
-		- 
+		After resetting kiero password we can login as kiero:kiero and get ssh keys
 
 	##### 22 SSH
+		Login with: ssh -i id_rsa john@192.168.222.149
+
+	##### 80 Http
 		-
+
+	##### UDP 161 SNMP
+		Find public community
+		With 'snmpwalk -v 1 -c public 192.168.222.149 'NET-SNMP-EXTEND-MIB::nsExtendObjects'' a command is thrown and reset 'kiero' user to its defaults (kiero:kiero)
+
 
 ### ++ Vulnerabilities ++
 
-#### Vuln 1: ++
+#### Vuln 1:  ++
 	* -
 
 ### ++ System Interaction ++
 #### Foothold  
-	* -
+	* Launch the script in snmp to reset kiero password for FTP and then retrieve id_rsa ssh key with kiero:kiero creds in FTP
+	* Login with ssh key
 
 #### Privilege Escalation 
-	* -
-
-#### Attack chain
-	* -
+	* Exploit: https://www.exploit-db.com/exploits/50135
+	* Abuse kernel 5.9.0-050900-generic
 	
 #### Post-exploitation 
 	* -
