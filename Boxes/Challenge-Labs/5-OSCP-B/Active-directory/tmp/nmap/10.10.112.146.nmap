@@ -1,0 +1,39 @@
+# Nmap 7.94SVN scan initiated Thu Feb 29 11:28:57 2024 as: /usr/bin/nmap -Pn -sCV -p53,88,135,139,389,445,464,593,636,3268,3269,5985,9389,49668,49677,49678,49681,49708,54443 --open -oN nmap/Script_TCP_10.10.112.146.nmap --system-dns --stats-every 2s 10.10.112.146
+Nmap scan report for 10.10.112.146
+Host is up (0.060s latency).
+
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2024-02-29 10:29:04Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+9389/tcp  open  mc-nmf        .NET Message Framing
+49668/tcp open  msrpc         Microsoft Windows RPC
+49677/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49678/tcp open  msrpc         Microsoft Windows RPC
+49681/tcp open  msrpc         Microsoft Windows RPC
+49708/tcp open  msrpc         Microsoft Windows RPC
+54443/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DC01, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:ba:28:fa (VMware)
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2024-02-29T10:29:52
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 29 11:30:33 2024 -- 1 IP address (1 host up) scanned in 96.10 seconds

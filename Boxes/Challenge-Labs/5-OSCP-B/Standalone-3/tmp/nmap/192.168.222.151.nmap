@@ -1,0 +1,81 @@
+# Nmap 7.94SVN scan initiated Thu Feb 29 10:00:39 2024 as: /usr/bin/nmap -Pn -sCV -p80,2855,2856,3389,5060,5066,5080,7443,8021,8081,8082 --open -oN nmap/Script_TCP_192.168.222.151.nmap --system-dns --stats-every 2s 192.168.222.151
+Nmap scan report for 192.168.222.151
+Host is up (0.027s latency).
+
+PORT     STATE SERVICE          VERSION
+80/tcp   open  http             Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows
+|_http-server-header: Microsoft-IIS/10.0
+2855/tcp open  msrp?
+2856/tcp open  ssl/cesdinv?
+| ssl-cert: Subject: commonName=FreeSWITCH/countryName=US
+| Not valid before: 2022-10-28T14:47:12
+|_Not valid after:  1986-09-04T08:18:56
+|_ssl-date: TLS randomness does not represent time
+3389/tcp open  ms-wbt-server    Microsoft Terminal Services
+|_ssl-date: 2024-02-29T09:04:35+00:00; -1s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: OSCP
+|   NetBIOS_Domain_Name: OSCP
+|   NetBIOS_Computer_Name: OSCP
+|   DNS_Domain_Name: OSCP
+|   DNS_Computer_Name: OSCP
+|   Product_Version: 10.0.19041
+|_  System_Time: 2024-02-29T09:04:22+00:00
+| ssl-cert: Subject: commonName=OSCP
+| Not valid before: 2024-01-29T00:56:41
+|_Not valid after:  2024-07-30T00:56:41
+5060/tcp open  sip-proxy        FreeSWITCH mod_sofia 1.10.1~64bit
+|_sip-methods: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+5066/tcp open  websocket        (WebSocket version: 13)
+| fingerprint-strings: 
+|   GenericLines, GetRequest, HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|_    Sec-WebSocket-Version: 13
+5080/tcp open  sip-proxy        FreeSWITCH mod_sofia 1.10.1~64bit
+7443/tcp open  ssl/websocket    (WebSocket version: 13)
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=FreeSWITCH/countryName=US
+| Not valid before: 2022-10-28T14:47:12
+|_Not valid after:  1986-09-04T08:18:56
+8021/tcp open  freeswitch-event FreeSWITCH mod_event_socket
+8081/tcp open  websocket        (WebSocket version: 13)
+| fingerprint-strings: 
+|   GenericLines, GetRequest, HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|_    Sec-WebSocket-Version: 13
+8082/tcp open  ssl/websocket    (WebSocket version: 13)
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=FreeSWITCH/countryName=US
+| Not valid before: 2022-10-28T14:47:12
+|_Not valid after:  1986-09-04T08:18:56
+| fingerprint-strings: 
+|   GenericLines, GetRequest, HTTPOptions: 
+|     HTTP/1.1 400 Bad Request
+|_    Sec-WebSocket-Version: 13
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5066-TCP:V=7.94SVN%I=7%D=2/29%Time=65E047BD%P=x86_64-pc-linux-gnu%r
+SF:(GenericLines,37,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nSec-WebSocket-V
+SF:ersion:\x2013\r\n\r\n")%r(GetRequest,37,"HTTP/1\.1\x20400\x20Bad\x20Req
+SF:uest\r\nSec-WebSocket-Version:\x2013\r\n\r\n")%r(HTTPOptions,37,"HTTP/1
+SF:\.1\x20400\x20Bad\x20Request\r\nSec-WebSocket-Version:\x2013\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8081-TCP:V=7.94SVN%I=7%D=2/29%Time=65E047BD%P=x86_64-pc-linux-gnu%r
+SF:(GetRequest,37,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nSec-WebSocket-Ver
+SF:sion:\x2013\r\n\r\n")%r(GenericLines,37,"HTTP/1\.1\x20400\x20Bad\x20Req
+SF:uest\r\nSec-WebSocket-Version:\x2013\r\n\r\n")%r(HTTPOptions,37,"HTTP/1
+SF:\.1\x20400\x20Bad\x20Request\r\nSec-WebSocket-Version:\x2013\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8082-TCP:V=7.94SVN%T=SSL%I=7%D=2/29%Time=65E047D1%P=x86_64-pc-linux
+SF:-gnu%r(GenericLines,37,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nSec-WebSo
+SF:cket-Version:\x2013\r\n\r\n")%r(GetRequest,37,"HTTP/1\.1\x20400\x20Bad\
+SF:x20Request\r\nSec-WebSocket-Version:\x2013\r\n\r\n")%r(HTTPOptions,37,"
+SF:HTTP/1\.1\x20400\x20Bad\x20Request\r\nSec-WebSocket-Version:\x2013\r\n\
+SF:r\n");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 29 10:04:37 2024 -- 1 IP address (1 host up) scanned in 237.88 seconds

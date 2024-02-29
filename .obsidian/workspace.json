@@ -41,14 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
+                "file": "Academy/OSCP/Content Summary/Commands.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa58dd3e21a926ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "impacket-mssqlclient",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,31 +187,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7ec51d7055ebf48",
+  "active": "fa58dd3e21a926ea",
   "lastOpenFiles": [
+    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
+    "Academy/OSCP/Content Summary/Commands.md",
+    "Boxes/HackTheBox/Querier/3. Notes.md",
+    "Boxes/HackTheBox/Manager (just user flag)/5. MSSQL.md",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146/nmap/Fullscan-10.10.112.146",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146/nmap/Script_TCP_10.10.112.146.nmap",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146/nmap/Script_TCP_10.10.112.146.nmap.tmp",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146/nmap/full_TCP_10.10.112.146.nmap",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146/nmap/full_TCP_10.10.112.146.nmap.tmp",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146/nmap",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146/incursore_10.10.112.146_script.txt",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/10.10.112.146",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/internal-scope",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-directory/tmp/hashes",
+    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
     "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
-    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/HackTheBox/Pilgrimage/3. HTTP.md",
     "Academy/OSCP/Content Summary/Wordlists.md",
-    "Academy/OSCP/Content Summary/Commands.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/test",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/cmd",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/hashes",
     "Boxes/HackTheBox/Bastion/3. SMB.md",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/SAM",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/web_svc.hash",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/admin.hash",
-    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
     "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/10.10.107.142/nmap/quick-scan.xml",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/10.10.107.142/nmap/quick-scan.nmap",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/10.10.107.142/nmap/quick-scan.gnmap",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/tmp/10.10.107.142/nmap",
     "Academy/CPTS/Skill Assesments/Windows privilege escalation/2. Lab medium.md",
     "Boxes/Proving-Grounds/Box list to prepare.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.225-singapore06.md",
@@ -211,10 +225,8 @@
     "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.221-austin02.md",
     "Academy/CPTS/Content Summary/12. Pivoting, Tunneling, and Port Forwarding.md",
     "Boxes/Proving-Grounds/Squid/1. Enumeration.md",
-    "Boxes/Challenge-Labs/3-Skylark/external-network/192.168.219.225.md",
     "images/Pasted image 20240219110637.png",
     "images/Pasted image 20240219110526.png",
-    "Boxes/Challenge-Labs/3-Skylark/tmp/PE_CVE-CVE-2021-3156/README.md",
     "images/Pasted image 20240206124421.png",
     "images/Pasted image 20240205205509.png",
     "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",

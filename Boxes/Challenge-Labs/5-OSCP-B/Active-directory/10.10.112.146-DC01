@@ -1,0 +1,28 @@
+### ++ Approach 10.10.112.146 ++
+#### Credentials
+	* Administrator:fd727689b0b98aebc953ac4fc3ba9756 (Found in post-exploitation of MS02)
+
+#### Services
+	##### 21 FTP
+		- 
+
+	##### 22 SSH
+		-
+
+### ++ Vulnerabilities ++
+
+#### Vuln 1: ++
+	* -
+
+### ++ System Interaction ++
+#### Foothold  
+	* -
+
+#### Privilege Escalation 
+	* -
+
+#### Attack chain
+	* -
+	
+#### Post-exploitation 
+	* -
