@@ -1,117 +1,77 @@
-### Other Modules
+### Network Enumeration with Nmap
 
-* Network Enumeration with Nmap
-- Information Gathering - Web Edition
-- Shells & Payloads
-- Using the Metasploit Framework
-# Modules to reference
+* Firewall and IDS/IPS Evasion - Easy Lab
+- Firewall and IDS/IPS Evasion - Medium Lab
+- Firewall and IDS/IPS Evasion - Hard Lab
+### Footprinting
 
-- #### <u>Footprinting</u> *Boxes counter: 0*
-	- FTP
-	- SMB
-	- RPC
-	- NFS
-	- DNS
-	- SMTP
-	- IMAP
-	- POP3
-	- SNMP
-	- MySQL
-	- MSQL
-	- IPMI
-	- SSH
-	- RSync
-	- RServices
-	- RDP
-	- WinRM
-	- Oracle TNS
-	</br>
-- #### <u>Attacking Common Services</u> *Boxes counter: 0*
-	- Attacking FTP 
-		- Enumeration, Misconfigurations, Brute Force, FTP Bounce Attack
-	- Attacking SMB
-		- Enumeration, Misconfigurations, Remote Procedure Call (RPC), Brute Force, Password Spray, Remote Code Execution (RCE)
-	- Attacking SQL Databases
-		- Enumeration, Misconfigurations, Protocol Specific Attacks, Default Databases, SQL Syntax, Execute Commands, Read/Write Local Files, MSSQL Attacks
-	- Attacking RDP
-		- Enumeration, Password Spraying, Session Hijacking, Pass the Hash, DisableRestrictedAdmin Registry Key
-	- Attacking DNS
-		- Enumeration, DNS Zone Transfer, Domain Takeovers and Subdomain Enumeration, DNS Spoofing
-	- Attacking Email Services
-		- Enumeration, Misconfigurations, Cloud Enumeration, Password Attacks, Protocol Specifics Attacks
-	</br>
-- #### <u>File Transfers</u> (Ways to move files) *Boxes counter: 0*
-	</br>
-- #### <u>Password Attacks</u> (Credential Storage, Brute Forcing, Pass the Hash/Ticket) *Boxes counter: 0*
-	- John the Ripper / Hashcat
-	- ##### Credential Storage
-		- Linux
-			- Files
-			- History
-			- Memory
-			- Key-Rings (Browsers)
-			- Passwd, Shadow & Opasswd
-		- Windows
-			- SAM
-			- LSASS
-			- Credential Manager / Credential Hunting
-				- FindSTR
-				- Lazagne
-			- Active Directory & NTDS.dit
-	- Services
-		- WinRM (crackmapexec and evil-winrm)
-		- SSH (hydra)
-		- RDP (hydra and xfreerdp)
-		- SMB (hydra, msfconsole, crackmapexec and smbclient)
-	- ##### Password Mutations / Cewl
-	- ##### Password Reuse / Default Passwords
-	- ##### Pass the Hash
-		- NTLM
-		- Mimikatz
-		- PowerShell Invoke-TheHash
-		- Impacket
-			- impacket-wmiexec
-			- impacket-atexec
-			- impacket-smbexec
-		- Crackmapexec
-		- Evil-winrm
-		- RDP
-			- Enable Restricted Admin Mode to Allow PtH (If blue screen appears)
-	- ##### Pass the Ticket 
-		- Pass the Ticket (From Windows, using Mimikatz / Rubeus)
-			- Kerberos
-			- Pass the Key or OverPass the Hash
-			- Pass The Ticket with PowerShell Remoting
-		- Pass the Ticket (From Linux)
-			- Identifying Linux and Active Directory Integration
-			- Finding Kerberos Tickets in Linux
-				- Finding Keytab Files
-				- Finding ccache Files
-				- Abusing KeyTab Files
-			- Keytab Extract / Extracting Keytab Hashes with KeyTabExtract
-			- Obtaining More Hashes / Abusing Keytab ccache
-			- Using Linux Attack Tools with Kerberos
-	- Protected Files / Archives
-		- Cracking
-	- Password Policies
+* Footprinting Lab - Easy
+- Footprinting Lab - Medium
+- Footprinting Lab - Hard
+### Information Gathering - Web Edition
 
-### Pending modules
+* Information Gathering - Web - Skills Assessment
+### Password Attacks
 
+* Password Attacks Lab - Easy
+- Password Attacks Lab - Medium
+- Password Attacks Lab - Hard
+### Attacking Common Services
 
-- Attacking Common Services
-- Pivoting, Tunneling, and Port Forwarding
-- Active Directory Enumeration & Attacks
-- Attacking Web Applications with Ffuf
-- Login Brute Forcing
-- SQL Injection Fundamentals
-- SQLMap Essentials
-- Cross-Site Scripting (XSS)
-- File Inclusion
-- File Upload Attacks
-- Command Injections
-- Web Attacks
-- Attacking Common Applications
-- Linux Privilege Escalation
-- Windows Privilege Escalation
-- Documentation & Reporting
-- Attacking Enterprise Networks
+* Attacking Common Services - Easy
+- Attacking Common Services - Medium
+- Attacking Common Services - Hard
+### Pivoting, Tunneling and Port Forwarding
+
+* Skills Assessment
+### Active Directory: Enumeration & Attacks
+
+* AD Enumeration & Attacks - Skills Assessment Part I
+- AD Enumeration & Attacks - Skills Assessment Part II
+### Using Web Proxies
+
+* Skills Assessment - Using Web Proxies
+### Attacking Web Applications with Ffuf
+
+* Skills Assessment - Web Fuzzing
+### Login Brute Forcing
+
+* Service Authentication Brute Forcing
+- Skills Assessment - Website
+- Skills Assessment - Service Login
+### SQL Injection Fundamentals
+
+* ~~Skills Assessment - SQL Injection Fundamentals~~
+### SQLMap Essentials
+
+* ~~Skills Assessment~~
+### Cross-Site Scripting (XSS)
+
+* ~~Skills Assessment~~
+### File Inclusion
+
+* Skills Assessment - File Inclusion
+### File Upload Attacks
+
+* Skills Assessment - File Upload Attacks
+### Command Injections
+
+* Skills Assessment
+### Web Attacks
+
+* Web Attacks - Skills Assessment
+### Attacking Common Applications
+
+* Attacking Common Applications - Skills Assessment I
+- Attacking Common Applications - Skills Assessment II
+- Attacking Common Applications - Skills Assessment III
+### Linux Privilege Escalation
+
+* Linux Local Privilege Escalation - Skills Assessment
+### Windows Privilege Escalation
+
+* Windows Privilege Escalation Skills Assessment - Part I
+- Windows Privilege Escalation Skills Assessment - Part II
+### Attacking Enterprise Networks
+
+* Final Skill Assessment: perform this module blind

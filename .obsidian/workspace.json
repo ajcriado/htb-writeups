@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -30,6 +30,20 @@
               "state": {
                 "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
                 "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9b6d30dc130becfc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Academy/CPTS/Academy Index.md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -65,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "onesixtyone",
+                "query": "snmpwalk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,11 +180,16 @@
   },
   "active": "5467e877aa17ee57",
   "lastOpenFiles": [
+    "Academy/CPTS/Academy Index.md",
+    "Academy/OSCP/Content Summary/Footprinting Services.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/CPTS/Pentesting AD Guide Map.svg",
+    "Boxes/Note-Structures-Template.md",
+    "images/Pasted image 20240122130319.png",
     "Academy/OSCP/Content Summary/Commands.md",
     "Academy/OSCP/Content Summary/Wordlists.md",
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/linpeas-output.txt",
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/shellcode.c",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/exploit.c",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/README.md",
@@ -185,7 +205,6 @@
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/6. Services to try.md",
     "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
     "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
     "Boxes/HackTheBox/Querier/3. Notes.md",
     "Boxes/HackTheBox/Manager (just user flag)/5. MSSQL.md",
@@ -198,8 +217,6 @@
     "Boxes/Proving-Grounds/Box list to prepare.md",
     "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.225-singapore06.md",
     "Boxes/Proving-Grounds/Nibbles/tmp/PostgreSQL_RCE/README.md",
-    "Boxes/Note-Structures-Template.md",
-    "Boxes/Proving-Grounds/Fail/192.168.195.126.md",
     "images/Pasted image 20240219110637.png",
     "images/Pasted image 20240219110526.png",
     "images/Pasted image 20240206124421.png",
@@ -207,8 +224,6 @@
     "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",
     "Boxes/Proving-Grounds/Squid/Pasted image 20240121125139.png",
     "Boxes/Proving-Grounds/Squid/Pasted image 20240121125101.png",
-    "Boxes/Proving-Grounds/Squid/Pasted image 20240121124936.png",
-    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235902.png",
-    "Boxes/Proving-Grounds/Snookums/Pasted image 20240117235510.png"
+    "Boxes/Proving-Grounds/Squid/Pasted image 20240121124936.png"
   ]
 }

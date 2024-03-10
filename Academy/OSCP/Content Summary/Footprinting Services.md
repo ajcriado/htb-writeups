@@ -129,18 +129,19 @@ for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x
 |`QUIT`|Closes the connection with the POP3 server.|
 
 ##### **[SNMP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-snmp)** (TCP 161, 162 - UDP 10161, 10162)
-|**Command**|**Description**|
-|-|-|
-| `onesixtyone -c /.../Discovery/SNMP/snmp.txt <FQDN/IP>` | Bruteforcing community strings of the SNMP service. |
-| `snmpwalk -v2c -c <found community> <FQDN/IP>` | Querying OIDs using snmpwalk. |
-| `braa <community string>@<FQDN/IP>:.1.*` | Bruteforcing SNMP service OIDs. |
+| **Command**                                                           | **Description**                                     |
+| --------------------------------------------------------------------- | --------------------------------------------------- |
+| `onesixtyone -c /.../Discovery/SNMP/snmp.txt <FQDN/IP>`               | Bruteforcing community strings of the SNMP service. |
+| `snmpwalk -v2c -c <found community> <FQDN/IP>`                        | Querying OIDs using snmpwalk.                       |
+| `braa <community string>@<FQDN/IP>:.1.*`                              | Bruteforcing SNMP service OIDs.                     |
+| `snmpwalk -v 1 -c public <IP> 'NET-SNMP-EXTEND-MIB::nsExtendObjects'` |                                                     |
 
 
 ##### **[MySQL](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mysql)** (TCP 3306)
-|**Command**|**Description**|
-|-|-|
-| `mysql -u <user> -p<password> -h <FQDN/IP>` | Login to the MySQL server. |
-| `sudo nmap <IP> -sV -sC -p3306 --script mysql*` | Nmap script scan |
+| **Command**                                     | **Description**            |
+| ----------------------------------------------- | -------------------------- |
+| `mysql -u <user> -p<password> -h <FQDN/IP>`     | Login to the MySQL server. |
+| `sudo nmap <IP> -sV -sC -p3306 --script mysql*` | Nmap script scan           |
 
 |**Command**|**Description**|
 |---|---|
