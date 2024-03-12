@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,8 +96,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "file": "Academy/CPTS/Academy Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "file": "Academy/CPTS/Academy Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md"
+                "file": "Academy/CPTS/Academy Index.md"
               }
             }
           }
@@ -178,16 +177,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5467e877aa17ee57",
+  "active": "9b6d30dc130becfc",
   "lastOpenFiles": [
+    "Academy/OSCP/Content Summary/Wordlists.md",
+    "Academy/OSCP/Content Summary/Web Application Attacks.md",
+    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Academy/CPTS/Academy Index.md",
     "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
     "Boxes/Note-Structures-Template.md",
     "images/Pasted image 20240122130319.png",
     "Academy/OSCP/Content Summary/Commands.md",
-    "Academy/OSCP/Content Summary/Wordlists.md",
     "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/linpeas-output.txt",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/shellcode.c",
@@ -208,7 +208,6 @@
     "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
     "Boxes/HackTheBox/Querier/3. Notes.md",
     "Boxes/HackTheBox/Manager (just user flag)/5. MSSQL.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
     "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
     "Boxes/HackTheBox/Pilgrimage/3. HTTP.md",
     "Boxes/HackTheBox/Bastion/3. SMB.md",

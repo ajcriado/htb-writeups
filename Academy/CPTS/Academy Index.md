@@ -1,13 +1,13 @@
 ### Network Enumeration with Nmap
 
-* Firewall and IDS/IPS Evasion - Easy Lab
-- Firewall and IDS/IPS Evasion - Medium Lab
-- Firewall and IDS/IPS Evasion - Hard Lab
+* ~~Firewall and IDS/IPS Evasion - Easy Lab~~
+- ~~Firewall and IDS/IPS Evasion - Medium Lab~~
+- ~~Firewall and IDS/IPS Evasion - Hard Lab~~
 ### Footprinting
 
-* Footprinting Lab - Easy
-- Footprinting Lab - Medium
-- Footprinting Lab - Hard
+* ~~Footprinting Lab - Easy~~
+- ~~Footprinting Lab - Medium~~
+- ~~Footprinting Lab - Hard~~
 ### Information Gathering - Web Edition
 
 * Information Gathering - Web - Skills Assessment
@@ -33,12 +33,11 @@
 * Skills Assessment - Using Web Proxies
 ### Attacking Web Applications with Ffuf
 
-* Skills Assessment - Web Fuzzing
+* ~~Skills Assessment - Web Fuzzing~~
 ### Login Brute Forcing
 
-* Service Authentication Brute Forcing
-- Skills Assessment - Website
-- Skills Assessment - Service Login
+- ~~Skills Assessment - Website~~
+- ~~Skills Assessment - Service Login~~
 ### SQL Injection Fundamentals
 
 * ~~Skills Assessment - SQL Injection Fundamentals~~
@@ -50,13 +49,13 @@
 * ~~Skills Assessment~~
 ### File Inclusion
 
-* Skills Assessment - File Inclusion
+* ~~Skills Assessment - File Inclusion~~
 ### File Upload Attacks
 
-* Skills Assessment - File Upload Attacks
+* ~~Skills Assessment - File Upload Attacks~~
 ### Command Injections
 
-* Skills Assessment
+* ~~Skills Assessment~~
 ### Web Attacks
 
 * Web Attacks - Skills Assessment

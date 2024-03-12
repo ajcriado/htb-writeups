@@ -1,4 +1,11 @@
-#### Brute Forcing
+gobuster #### Brute Forcing
+
+> [!info]  Always try default passwords, and username as password if we have some users
+
+**First of all, brute force with basic usernames and passwords:**
+* **Basic usernames:** `/usr/share/seclists/Usernames/top-usernames-shortlist.txt`
+* **Basic passwords:** `/usr/share/seclists/Passwords/Leaked-Databases/rockyou-10.txt`
+
 | **Brute force**                                                                                                                                           | **Description**                              |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | `hydra -l george -P /usr/share/wordlists/rockyou.txt -e nsr -s 2222 ssh://192.168.50.201 -vV`                                                             | SSH                                          |
