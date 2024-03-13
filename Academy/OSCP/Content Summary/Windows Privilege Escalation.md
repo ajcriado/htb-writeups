@@ -351,3 +351,6 @@ Sweetpotato examples:
 #### SAM, Security and System files
 
 With this files we can dump credentials using impacket-secretsdump. We can get this files if we are admins or maybe check for folders like windows.old and check there inside .\\Windows\\System32 folder
+
+#### Stealing NTLM Hash with Responder
+[[2. Attacking AD#Stealing NTLM hashes with Responder]]

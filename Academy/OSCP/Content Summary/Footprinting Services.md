@@ -4,6 +4,7 @@
 ## Host-based Enumeration
 
 ##### **[FTP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-ftp)** (TCP 20, 21)
+**Attacking FTP**: https://academy.hackthebox.com/module/116/section/1165
 
 > **Note: ** If combined with Http, check to upload a file and execute it in the Http service
 
@@ -18,6 +19,7 @@
 | `wget -m --no-passive ftp://anonymous:anonymous@<target>:<port>` | Download all available files on the target FTP server (no passive) |
 | `passive mode` | If a firewall protects the client, the server cannot reply because all external connections are blocked. For this purpose, the `passive mode` has been developed. Here, the server announces a port through which the client can establish the data channel. |
 ##### **[SMB](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)** (TCP 137, 138, 139, 445)
+**Attacking SMB**: https://academy.hackthebox.com/module/116/section/1167
 
 > **Note: ** If combined with Http, check to upload a file and execute it in the Http service
 
@@ -31,6 +33,7 @@
 | `crackmapexec smb <FQDN/IP> --shares -u '' -p ''` | Enumerating SMB shares using null session authentication. |
 | `enum4linux-ng.py <FQDN/IP> -A` | **SMB enumeration using enum4linux.** |
 |`smb: \> tarmode`<br>`smb: \> recurse`<br>`smb: \> prompt`<br>`smb: \> mget *`|Download all files in smbclient|
+Mount a SMB server in Linux: `sudo mount -t cifs -o username=plaintext,password=Password123,domain=. //192.168.220.129/Finance /mnt/Finance`
 
 |**RPCClient**|**Description**|
 |-|-|
@@ -46,7 +49,22 @@
 #### Brute Forcing User RIDs
 for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x\n' $i)" | grep "User Name\|user_rid\|group_rid" && echo "";done
 ```
+
+Apart from enumeration, we can use RPC to make changes to the system, such as:
+- Change a user's password.
+- Create a new domain user.
+- Create a new shared folder.
+
+**RCE Options:**
+* Impacket PsExec 
+- Impacket SMBExec: A similar approach to PsExec without using [RemComSvc](https://github.com/kavika13/RemCom). The technique is described here. This implementation goes one step further, instantiating a local SMB server to receive the output of the commands. This is useful when the target machine does NOT have a writeable share available.
+- Impacket atexec: This example executes a command on the target machine through the Task Scheduler service and returns the output of the executed command.
+- CrackMapExec: includes an implementation of `smbexec` and `atexec`.
+- Metasploit PsExec: Ruby PsExec implementation.
+
+We can steal NTLM hashes with responder or perform NTLM Relay Attack (Check Attacking AD page)
 ##### **[NFS](https://book.hacktricks.xyz/network-services-pentesting/nfs-service-pentesting)** (TCP 111, 2049)
+
 |**Command**|**Description**|
 |-|-|
 | `showmount -e <FQDN/IP>` | Show available NFS shares. |
@@ -56,15 +74,17 @@ for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x
 | `sudo nmap --script nfs* <IP> -sV -p111,2049` | Script scan default ports  |
 
 ##### **[DNS](https://book.hacktricks.xyz/network-services-pentesting/pentesting-dns)** (TCP 53)
-|**Command**|**Description**|
-|-|-|
-| `dig ns <domain.tld> @<nameserver>` | NS request to the specific nameserver. |
-| `dig any <domain.tld> @<nameserver>` | ANY request to the specific nameserver. |
-| `dig axfr <domain.tld> @<nameserver>` | AXFR request to the specific nameserver. |
-| `dnsenum --dnsserver <nameserver> --enum -p 0 -s 0 -o found_subdomains.txt -f /.../subdomains-top1million-110000.txt <domain.tld>` | Subdomain brute forcing. |
+| **Command**                                                                                                                        | **Description**                          |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| `dig ns <domain.tld> @<nameserver>`                                                                                                | NS request to the specific nameserver.   |
+| `dig any <domain.tld> @<nameserver>`                                                                                               | ANY request to the specific nameserver.  |
+| `dig axfr <domain.tld> @<nameserver>`                                                                                              | AXFR request to the specific nameserver. |
+| `dnsenum --dnsserver <nameserver> --enum -p 0 -s 0 -o found_subdomains.txt -f /.../subdomains-top1million-110000.txt <domain.tld>` | Subdomain brute forcing.                 |
 
 
 ##### **[SMTP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smtp)** (TCP 25, 465, 587)
+**Attacking Email Services**: https://academy.hackthebox.com/module/116/section/1173
+**Check for phishing**: Refer to PEN-200 content, 24.3.2 module and use swaks
 
 **[Script](https://github.com/captain-noob/username-wordlist-generator)** to create a list of users by name
 /usr/share/seclists/Usernames/Names/names.txt More users
@@ -92,6 +112,9 @@ for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x
 |`QUIT`|The client terminates the session.|
 
 ##### **[IMAP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-imap)** (TCP 143, 993) /**[POP3](https://book.hacktricks.xyz/network-services-pentesting/pentesting-pop)** (TCP 110, 995)
+**Attacking Email Services**: https://academy.hackthebox.com/module/116/section/1173
+**Check for phishing**: Refer to PEN-200 content, 24.3.2 module and use swaks
+
 |**Command**|**Description**|
 |-|-|
 | `curl -k 'imaps://<FQDN/IP>' --user <user>:<password>` | Log in to the IMAPS service using cURL. |
@@ -138,10 +161,15 @@ for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x
 
 
 ##### **[MySQL](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mysql)** (TCP 3306)
+**Attacking SQL Databases**: https://academy.hackthebox.com/module/116/section/1169
+
+> We can use `dbeaver` app to connect any database through GUI
+
 | **Command**                                     | **Description**            |
 | ----------------------------------------------- | -------------------------- |
 | `mysql -u <user> -p<password> -h <FQDN/IP>`     | Login to the MySQL server. |
 | `sudo nmap <IP> -sV -sC -p3306 --script mysql*` | Nmap script scan           |
+> [!info] To connect from **Windows** terminal we can use sqlcmd: `C:\htb> sqlcmd -S SRVMSSQL -U julio -P 'MyPassword!' -y 30 -Y 30`
 
 |**Command**|**Description**|
 |---|---|
@@ -153,6 +181,10 @@ for i in $(seq 500 1100);do rpcclient -N -U "" <IP> -c "queryuser 0x$(printf '%x
 |`select * from <table>;`|Show everything in the desired table.|
 |`select * from <table> where <column> = "<string>";`|Search for needed `string` in the desired table.|
 ##### **[MSSQL](https://book.hacktricks.xyz/network-services-pentesting/pentesting-mssql-microsoft-sql-server)** (TCP 1433)
+**Attacking SQL Databases**: https://academy.hackthebox.com/module/116/section/1169
+
+> We can use `dbeaver` app to connect any database through GUI
+
 | **Command** | **Description** |
 | ---- | ---- |
 | `sudo nmap --script ms-sql-info,ms-sql-empty-password,ms-sql-xp-cmdshell,ms-sql-config,ms-sql-ntlm-info,ms-sql-tables,ms-sql-hasdbaccess,ms-sql-dac,ms-sql-dump-hashes --script-args mssql.instance-port=1433,mssql.username=sa,mssql.password=,mssql.instance-name=MSSQLSERVER -sV -p 1433 <IP>` | Nmap port scan |
@@ -214,6 +246,12 @@ Connect to the target system like this (you need to know the username of the use
 
 Caveat: The authorized_keys file might not work if it’s writable by other users.  If you already have shell access you can `chmod 600 ~/.ssh/authorized_keys`.  However, if you’re remotely exploiting an arbitrary file-write vulnerability and happen to have a weak umask, you may have problems.
 ##### Windows Remote Management (**[RDP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-rdp)** TCP 3389 - **[WinRM](https://book.hacktricks.xyz/network-services-pentesting/5985-5986-pentesting-winrm)** TCP 5985, 5986, ¿47001?)
+
+**RDP Attacks**: https://academy.hackthebox.com/module/116/section/1171
+* Password attack through Hydra, Crackmapexec or Crowbar. 
+* RDP Session Hijacking
+* Pass-the-Hash (PtH)
+
 |**Command**|**Description**|
 |-|-|
 | `nmap -sV -sC 10.129.201.248 -p3389 --script rdp*` | Nmap port scan for RDP |
@@ -222,8 +260,10 @@ Caveat: The authorized_keys file might not work if it’s writable by other user
 | `nmap -sV -sC 10.129.201.248 -p5985,5986 --disable-arp-ping -n*` | Nmap port scan for WinRM |
 | `evil-winrm -i <FQDN/IP> -u <user> -p <password>` | Log in to the WinRM server. |
 | `wmiexec.py <user>:"<password>"@<FQDN/IP> "<system command>"` | Execute command using the WMI service. |
-
 ##### **[Oracle TNS](https://book.hacktricks.xyz/network-services-pentesting/1521-1522-1529-pentesting-oracle-listener)** (TCP 1521, 1522-1529)
+
+> We can use `dbeaver` app to connect any database through GUI
+
 |**Command**|**Description**|
 |-|-|
 | `sudo nmap -p1521 -sV 10.129.204.235 --open` | Nmap port scanning |

