@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Footprinting Services.md",
+                "file": "Cheatsheets/Content Summary/Footprinting Services.md",
                 "mode": "preview",
                 "source": false
               },
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
+                "file": "Cheatsheets/Content Summary/Web Application Attacks.md",
                 "mode": "source",
                 "source": false
               },
@@ -48,61 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "855fdf9b45de3769",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "953ddc1dbcb20cc8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "48881c503baf381a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Web Application Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ef402d43a887d42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+                "file": "Cheatsheets/Content Summary/Web Application Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
+                "file": "Cheatsheets/Content Summary/Web Application Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md"
+                "file": "Cheatsheets/Content Summary/Web Application Attacks.md"
               }
             }
           }
@@ -229,24 +177,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ef402d43a887d42",
+  "active": "5467e877aa17ee57",
   "lastOpenFiles": [
-    "Academy/OSCP/Content Summary/Footprinting Services.md",
-    "Academy/OSCP/Content Summary/Web Application Attacks.md",
-    "Boxes/Challenge-Labs/2-Relia/internal-network/*172.16.86.14-WK01.md",
-    "Academy/OSCP/Content Summary/Commands.md",
-    "Academy/OSCP/Content Summary/Active Directory/2. Attacking AD.md",
-    "Academy/OSCP/Content Summary/Password & Windows Hash attacks.md",
-    "Academy/OSCP/Content Summary/Windows Privilege Escalation.md",
-    "Academy/OSCP/Content Summary/Active Directory/3. Lateral Movement.md",
-    "Academy/CPTS/Academy Index.md",
-    "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
+    "README.md",
     "3..md",
-    "Academy/OSCP/Content Summary/Wordlists.md",
+    "Cheatsheets/Content Summary/Web Application Attacks.md",
+    "Academy/CPTS/Academy Index.md",
+    "Cheatsheets/Content Summary/Password & Windows Hash attacks.md",
+    "Cheatsheets/Content Summary/Footprinting Services.md",
+    "Boxes/Challenge-Labs/2-Relia/internal-network/*172.16.86.14-WK01.md",
+    "Cheatsheets/Content Summary/Commands.md",
+    "Cheatsheets/Content Summary/Active Directory/2. Attacking AD.md",
+    "Cheatsheets/Content Summary/Windows Privilege Escalation.md",
+    "Cheatsheets/Content Summary/Active Directory/3. Lateral Movement.md",
+    "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
+    "Cheatsheets/Content Summary/Wordlists.md",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
     "Boxes/Note-Structures-Template.md",
     "images/Pasted image 20240122130319.png",
-    "Academy/OSCP/Content Summary/Linux Privilege Escalation.md",
+    "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/linpeas-output.txt",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/shellcode.c",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/exploit.c",
@@ -261,14 +210,13 @@
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/7. SNMP.md",
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/5. Enumeration.md",
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/6. Services to try.md",
-    "Academy/OSCP/Content Summary/Tunneling and Port Forwarding.md",
+    "Cheatsheets/Content Summary/Tunneling and Port Forwarding.md",
     "Boxes/HackTheBox/Querier/3. Notes.md",
     "Boxes/HackTheBox/Manager (just user flag)/5. MSSQL.md",
     "Boxes/HackTheBox/Pilgrimage/3. HTTP.md",
     "Boxes/HackTheBox/Bastion/3. SMB.md",
     "Academy/CPTS/Skill Assesments/Windows privilege escalation/2. Lab medium.md",
     "Boxes/Proving-Grounds/Box list to prepare.md",
-    "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.225-singapore06.md",
     "images/Pasted image 20240219110637.png",
     "images/Pasted image 20240219110526.png",
     "images/Pasted image 20240206124421.png",

@@ -10,7 +10,7 @@
 - ~~Footprinting Lab - Hard~~
 ### Information Gathering - Web Edition
 
-* Information Gathering - Web - Skills Assessment
+* ~~Information Gathering - Web - Skills Assessment~~
 ### Password Attacks
 
 * Password Attacks Lab - Easy
