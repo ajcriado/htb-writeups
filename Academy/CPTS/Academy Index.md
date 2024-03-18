@@ -18,9 +18,9 @@
 - Password Attacks Lab - Hard
 ### Attacking Common Services
 
-* Attacking Common Services - Easy
-- Attacking Common Services - Medium
-- Attacking Common Services - Hard
+* ~~Attacking Common Services - Easy~~
+- ~~Attacking Common Services - Medium~~
+- ~~Attacking Common Services - Hard~~
 ### Pivoting, Tunneling and Port Forwarding
 
 * Skills Assessment
@@ -58,7 +58,7 @@
 * ~~Skills Assessment~~
 ### Web Attacks
 
-* Web Attacks - Skills Assessment
+* ~~Web Attacks - Skills Assessment~~
 ### Attacking Common Applications
 
 * Attacking Common Applications - Skills Assessment I

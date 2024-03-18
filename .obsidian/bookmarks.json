@@ -3,7 +3,7 @@
     {
       "type": "file",
       "ctime": 1710327224594,
-      "path": "Cheatsheets/Content Summary/Active Directory/3. Lateral Movement.md",
+      "path": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
       "subpath": "#NTLM Relay Attack (stealing NTLMv2 hash from server 1 and launch command in server 2)",
       "title": "NTLM Relay"
     }

@@ -5,6 +5,8 @@ There are several key pieces of information we should always obtain:
 - User context
 	# id
 	# cat /etc/passwd (check write permissions)
+	# cat /etc/shadow (check read permissions, use unshadow if you can read it)
+	# cat /etc/security/opasswd (check read permissions)
 	# hostname
 	# sudo -l
 	# Check /opt folder
@@ -81,3 +83,9 @@ Check for compilers in the machine:
 ```bash
 apt list --installed | tr "/" " " | cut -d" " -f1,3 | sed 's/[0-9]://g' | grep gcc
 ```
+
+##### Credential Hunting
+https://academy.hackthebox.com/module/147/section/1320
+
+##### Add user to sudoers file
+`echo 'username  ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers`

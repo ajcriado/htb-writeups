@@ -16,6 +16,9 @@
 | `/usr/share/wordlists/rockyou.txt` | Rockyou |
 | `ls -la /usr/share/hashcat/rules/` | List of rules for hash cracking |
 | `/usr/share/hashcat/rules/best64` | best64 rule |
+**[Password mutations with Hashcat](https://academy.hackthebox.com/module/147/section/1391)**
+**[Default credentials cheatsheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)**
+Use Cewl if we have a webapp with juicy content
 
 | **Usernames**                                   | **Description**                                               |
 | ----------------------------------------------- | ------------------------------------------------------------- |

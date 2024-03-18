@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Mar 18 13:52:01 2024 as: nmap -p- --min-rate=10000 --open -oG nmap/quick-scan -Pn 192.168.186.105
+Host: 192.168.186.105 ()	Status: Up
+Host: 192.168.186.105 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 3306/open/tcp//mysql///, 5000/open/tcp//upnp///, 13000/open/tcp/////, 36445/open/tcp/////	Ignored State: filtered (65529)
+# Nmap done at Mon Mar 18 13:52:28 2024 -- 1 IP address (1 host up) scanned in 26.64 seconds

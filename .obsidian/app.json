@@ -8,5 +8,6 @@
   },
   "trashOption": "none",
   "showLineNumber": false,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "spellcheck": false
 }

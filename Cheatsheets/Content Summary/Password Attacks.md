@@ -1,3 +1,5 @@
+Once inside the server, always check for passwd and shadow file permissions
+
 #### Brute Forcing
 
 > [!info]  Always try default passwords, and username as password if we have some users
@@ -28,3 +30,6 @@ hashcat --help | grep -i "ntlm"
 | ---- | ---- |
 | `hashcat -m 1000 nelly.hash /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force` | Hashcat NTLM hash with rule (we can skip the rule) |
 | `john --wordlist=/usr/share/wordlists/rockyou.txt --rules=/usr/share/hashcat/rules/best64.rule ssh.hash` | John the Ripper with rule (we can skip the rule) |
+
+**[Password mutations with Hashcat](https://academy.hackthebox.com/module/147/section/1391)**
+Use Cewl if we have a webapp with juicy content

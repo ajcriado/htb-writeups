@@ -48,9 +48,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "8961c7e78bcd2f6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "swaks",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/Content Summary/Web Application Attacks.md",
+                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/Content Summary/Web Application Attacks.md",
+                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Content Summary/Web Application Attacks.md"
+                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md"
               }
             }
           }
@@ -177,53 +189,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5467e877aa17ee57",
+  "active": "8961c7e78bcd2f6a",
   "lastOpenFiles": [
+    "Cheatsheets/Content Summary/Password Attacks.md",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/vncpwd",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/vncpwd.c",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/d3des.h",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/d3des.c",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/README",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/Makefile",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/LICENSE",
+    "Boxes/Proving-Grounds/Nukem/resources/vncpwd",
+    "Boxes/Proving-Grounds/Nukem/192.168.186.105.md",
+    "Boxes/Proving-Grounds/Nukem/resources/passwd-vnc",
+    "Cheatsheets/Content Summary/Footprinting Services.md",
+    "Boxes/Proving-Grounds/Nukem/resources/admin.hash",
+    "Boxes/Proving-Grounds/Box list to prepare.md",
+    "Boxes/Proving-Grounds/Nukem/resources/6329.png",
+    "Boxes/Proving-Grounds/Nukem/resources/4400.png",
+    "Boxes/Proving-Grounds/Nukem/resources/994.png",
+    "Boxes/Proving-Grounds/Nukem/ 192.168.186.105.md",
+    "Academy/CPTS/Academy Index.md",
+    "Boxes/Note-Structures-Template.md",
+    "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+    "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
+    "Cheatsheets/Content Summary/Windows/Dumping and Credential Hunting.md",
+    "Academy/CPTS/Content Summary/10. Password Attacks.md",
+    "Cheatsheets/Content Summary/Windows/Windows Privilege Escalation.md",
+    "Cheatsheets/Content Summary/Wordlists.md",
+    "Cheatsheets/Content Summary/Web Application Attacks.md",
     "README.md",
     "3..md",
-    "Cheatsheets/Content Summary/Web Application Attacks.md",
-    "Academy/CPTS/Academy Index.md",
-    "Cheatsheets/Content Summary/Password & Windows Hash attacks.md",
-    "Cheatsheets/Content Summary/Footprinting Services.md",
     "Boxes/Challenge-Labs/2-Relia/internal-network/*172.16.86.14-WK01.md",
     "Cheatsheets/Content Summary/Commands.md",
-    "Cheatsheets/Content Summary/Active Directory/2. Attacking AD.md",
-    "Cheatsheets/Content Summary/Windows Privilege Escalation.md",
-    "Cheatsheets/Content Summary/Active Directory/3. Lateral Movement.md",
+    "Cheatsheets/Content Summary/Windows/2. Attacking AD.md",
     "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
-    "Cheatsheets/Content Summary/Wordlists.md",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
-    "Boxes/Note-Structures-Template.md",
     "images/Pasted image 20240122130319.png",
-    "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/linpeas-output.txt",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/shellcode.c",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/exploit.c",
     "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/README.md",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/Makefile",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/exploit",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/libnss_x/x.so.2",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/libnss_x",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/test.txt",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/id_rsa_2",
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/7. SNMP.md",
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/5. Enumeration.md",
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/6. Services to try.md",
     "Cheatsheets/Content Summary/Tunneling and Port Forwarding.md",
-    "Boxes/HackTheBox/Querier/3. Notes.md",
-    "Boxes/HackTheBox/Manager (just user flag)/5. MSSQL.md",
-    "Boxes/HackTheBox/Pilgrimage/3. HTTP.md",
-    "Boxes/HackTheBox/Bastion/3. SMB.md",
-    "Academy/CPTS/Skill Assesments/Windows privilege escalation/2. Lab medium.md",
-    "Boxes/Proving-Grounds/Box list to prepare.md",
     "images/Pasted image 20240219110637.png",
     "images/Pasted image 20240219110526.png",
     "images/Pasted image 20240206124421.png",
     "images/Pasted image 20240205205509.png",
-    "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png",
-    "Boxes/Proving-Grounds/Squid/Pasted image 20240121125139.png",
-    "Boxes/Proving-Grounds/Squid/Pasted image 20240121125101.png",
-    "Boxes/Proving-Grounds/Squid/Pasted image 20240121124936.png"
+    "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png"
   ]
 }
