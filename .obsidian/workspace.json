@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md"
+                "file": "README.md"
               }
             }
           }
@@ -191,6 +191,7 @@
   },
   "active": "8961c7e78bcd2f6a",
   "lastOpenFiles": [
+    "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
     "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
     "Cheatsheets/Content Summary/Password Attacks.md",
     "Boxes/Proving-Grounds/Nukem/resources/vncpwd/vncpwd",
@@ -212,7 +213,6 @@
     "Boxes/Proving-Grounds/Nukem/ 192.168.186.105.md",
     "Academy/CPTS/Academy Index.md",
     "Boxes/Note-Structures-Template.md",
-    "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
     "Cheatsheets/Content Summary/Windows/Dumping and Credential Hunting.md",
     "Academy/CPTS/Content Summary/10. Password Attacks.md",
     "Cheatsheets/Content Summary/Windows/Windows Privilege Escalation.md",
