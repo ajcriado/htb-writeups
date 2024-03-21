@@ -1,7 +1,7 @@
 > [!info] Always try to use **[Ligolo-ng](https://github.com/nicocha30/ligolo-ng)**
 
 **[Hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/tunneling-and-port-forwarding)**
-
+**[HackTheBoxAcademy](https://academy.hackthebox.com/module/158/section/1425)**
 #### Ligolo-ng
 
 ```text

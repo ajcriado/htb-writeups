@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Wed Mar 20 18:19:55 2024 as: nmap -p 22,80,6379 -sCV -A -T4 -O -oG nmap/full-scan -Pn 192.168.205.166
+Host: 192.168.205.166 ()	Status: Up
+Host: 192.168.205.166 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.38 ((Debian))/, 6379/open/tcp//redis//Redis key-value store/	Seq Index: 258	IP ID Seq: All zeros
+# Nmap done at Wed Mar 20 18:20:23 2024 -- 1 IP address (1 host up) scanned in 28.08 seconds

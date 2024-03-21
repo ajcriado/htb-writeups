@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Wed Mar 20 18:19:20 2024 as: nmap -p- --min-rate=10000 --open -oG nmap/quick-scan -Pn 192.168.205.166
+Host: 192.168.205.166 ()	Status: Up
+Host: 192.168.205.166 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 6379/open/tcp//redis///
+# Nmap done at Wed Mar 20 18:19:27 2024 -- 1 IP address (1 host up) scanned in 6.89 seconds

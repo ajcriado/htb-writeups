@@ -6,3 +6,10 @@ Hackthebox AD: Forest, Sauna, Monteverde, Multimaster, Cascade, Sizzle
 ![https://miro.medium.com/v2/resize:fit:1400/0*laXf68WrWCmIu8Le.PNG](https://miro.medium.com/v2/resize:fit:1400/0*laXf68WrWCmIu8Le.PNG)
 
 ![[Pasted image 20240205205509.png]]
+
+- <u>Done</u>:
+	- ClamAV
+	- Kevin
+	- Fail
+	- Nukem
+	- 

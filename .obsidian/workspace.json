@@ -38,17 +38,43 @@
           {
             "id": "db38fe1bb4650f92",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "b89078628c1ba004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Content Summary/Web Application Attacks.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bae85ae7c653b8c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5026054382324
+    "width": 273.51103591918945
   },
   "right": {
     "id": "af0655b461996112",
@@ -114,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+                "file": "Academy/CPTS/Academy Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+                "file": "Academy/CPTS/Academy Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md"
+                "file": "Academy/CPTS/Academy Index.md"
               }
             }
           }
@@ -175,29 +201,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db38fe1bb4650f92",
+  "active": "9b6d30dc130becfc",
   "lastOpenFiles": [
-    "Cheatsheets/Content Summary/Windows/Dumping and Credential Hunting.md",
-    "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
-    "Cheatsheets/Content Summary/Windows/Windows Privilege Escalation.md",
+    "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
+    "Boxes/Proving-Grounds/Readys/resources/shell.php",
+    "Boxes/Proving-Grounds/Readys/resources/php-reverse-shell.php",
+    "Academy/CPTS/Academy Index.md",
     "Cheatsheets/Content Summary/Footprinting Services.md",
     "Cheatsheets/Content Summary/Web Application Attacks.md",
-    "Academy/CPTS/Academy Index.md",
-    "README.md",
-    "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
-    "Cheatsheets/Content Summary/Password Attacks.md",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/vncpwd",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/vncpwd.c",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/d3des.h",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/d3des.c",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/README",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/Makefile",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd/LICENSE",
-    "Boxes/Proving-Grounds/Nukem/resources/vncpwd",
-    "Boxes/Proving-Grounds/Nukem/192.168.186.105.md",
-    "Boxes/Proving-Grounds/Nukem/resources/passwd-vnc",
-    "Boxes/Proving-Grounds/Nukem/resources/admin.hash",
+    "Boxes/Proving-Grounds/Readys/resources/out.txt",
+    "Boxes/Proving-Grounds/Readys/resources/dump.rdb",
+    "Boxes/Proving-Grounds/Readys/resources/redis.conf",
     "Boxes/Proving-Grounds/Box list to prepare.md",
+    "Boxes/Proving-Grounds/Readys/resources/nmap/full-scan",
+    "Boxes/Proving-Grounds/Readys/resources/nmap/quick-scan",
+    "Boxes/Proving-Grounds/Readys/192.168.205.166.md",
+    "Boxes/Proving-Grounds/Readys/resources/nmap",
+    "Boxes/Proving-Grounds/Readys/resources",
+    "Boxes/Proving-Grounds/Readys",
+    "Academy/CPTS/Content Summary/18. SQLMap Essentials.md",
+    "Academy/CPTS/Content Summary/16. Login Brute Forcing.md",
+    "Academy/CPTS/Content Summary/23. Web Attacks.md",
+    "Academy/CPTS/Content Summary/22. Command Injections.md",
+    "Cheatsheets/Content Summary/Tunneling and Port Forwarding.md",
+    "Cheatsheets/Content Summary/Password Attacks.md",
+    "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
+    "Cheatsheets/Content Summary/Windows/Dumping and Credential Hunting.md",
+    "Cheatsheets/Content Summary/Windows/Windows Privilege Escalation.md",
+    "README.md",
+    "Boxes/Proving-Grounds/Nukem/192.168.186.105.md",
     "Boxes/Proving-Grounds/Nukem/resources/6329.png",
     "Boxes/Proving-Grounds/Nukem/resources/4400.png",
     "Boxes/Proving-Grounds/Nukem/resources/994.png",
@@ -209,14 +241,8 @@
     "Boxes/Challenge-Labs/2-Relia/internal-network/*172.16.86.14-WK01.md",
     "Cheatsheets/Content Summary/Commands.md",
     "Cheatsheets/Content Summary/Windows/2. Attacking AD.md",
-    "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
     "images/Pasted image 20240122130319.png",
-    "Boxes/Challenge-Labs/5-OSCP-B/Standalone-1/tmp/Sudo-1.8.31-Root-Exploit/README.md",
-    "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/7. SNMP.md",
-    "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/5. Enumeration.md",
-    "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Hard/6. Services to try.md",
-    "Cheatsheets/Content Summary/Tunneling and Port Forwarding.md",
     "images/Pasted image 20240219110637.png",
     "images/Pasted image 20240219110526.png",
     "images/Pasted image 20240206124421.png",

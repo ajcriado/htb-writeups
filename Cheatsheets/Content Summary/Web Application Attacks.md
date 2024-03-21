@@ -1,4 +1,32 @@
+### Common Applications
 
+* CMS:
+	* **[Wordpress](https://academy.hackthebox.com/module/113/section/1100)** (`api-token: B6Xs2CqIkohUytn8nDdDegW1akcv8MWiNw2gnxosfX4`)
+	* **[Joomla](https://academy.hackthebox.com/module/113/section/1095)**
+	* **[Drupal](https://academy.hackthebox.com/module/113/section/1089)**
+* Servlet Containers/Software Development:
+	* **[Tomcat](https://academy.hackthebox.com/module/113/section/1090)** / **[Tomcat CGI](https://academy.hackthebox.com/module/113/section/2140)** / **[Shellshock](https://academy.hackthebox.com/module/113/section/2166)**
+	* **[Jenkins](https://academy.hackthebox.com/module/113/section/1091)**
+* Infrastructure/Network Monitoring Tools
+	* **[Splunk](https://academy.hackthebox.com/module/113/section/1092)**
+	* **[PRTG Network Monitor](https://academy.hackthebox.com/module/113/section/1094)**
+* Customer Service & Configuration Management
+	* **[osTicket](https://academy.hackthebox.com/module/113/section/1214)**
+	* **[GitLab](https://academy.hackthebox.com/module/113/section/1216)**
+* **[Desktop Applications](https://academy.hackthebox.com/module/113/section/2139)**
+* Miscellaneous Applications
+	* **[Coldfusion](https://academy.hackthebox.com/module/113/section/2134)**
+	* **[IIS Tilde Enumeration](https://academy.hackthebox.com/module/113/section/2152)**
+	* **[Other Notable Applications](https://academy.hackthebox.com/module/113/section/1102)**
+		* Axis2
+		* Websphere
+		* Elasticsearch
+		* Zabbix
+		* Nagios
+		* WebLogic
+		* Wikis/Intranets
+		* DotNetNuke
+		* vCenter
 ### Fuzzing
 
 * Directory fuzzing: `ffuf -w <wordlist>:FUZZ -u "http://academy.htb:30873/FUZZ" -t 200 -e .aspx,.php,.jsp,.html,.js -recursion -recursion-depth 1 -fs xxx`

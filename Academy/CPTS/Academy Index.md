@@ -13,9 +13,9 @@
 * ~~Information Gathering - Web - Skills Assessment~~
 ### Password Attacks
 
-* Password Attacks Lab - Easy
-- Password Attacks Lab - Medium
-- Password Attacks Lab - Hard
+* ~~Password Attacks Lab - Easy~~
+- ~~Password Attacks Lab - Medium~~
+- ~~Password Attacks Lab - Hard~~
 ### Attacking Common Services
 
 * ~~Attacking Common Services - Easy~~
@@ -23,14 +23,14 @@
 - ~~Attacking Common Services - Hard~~
 ### Pivoting, Tunneling and Port Forwarding
 
-* Skills Assessment
+* ~~Skills Assessment~~
 ### Active Directory: Enumeration & Attacks
 
 * AD Enumeration & Attacks - Skills Assessment Part I
 - AD Enumeration & Attacks - Skills Assessment Part II
 ### Using Web Proxies
 
-* Skills Assessment - Using Web Proxies
+* ~~Skills Assessment - Using Web Proxies~~
 ### Attacking Web Applications with Ffuf
 
 * ~~Skills Assessment - Web Fuzzing~~
@@ -61,9 +61,9 @@
 * ~~Web Attacks - Skills Assessment~~
 ### Attacking Common Applications
 
-* Attacking Common Applications - Skills Assessment I
-- Attacking Common Applications - Skills Assessment II
-- Attacking Common Applications - Skills Assessment III
+* ~~Attacking Common Applications - Skills Assessment I~~
+- ~~Attacking Common Applications - Skills Assessment II~~
+- ~~Attacking Common Applications - Skills Assessment III~~
 ### Linux Privilege Escalation
 
 * Linux Local Privilege Escalation - Skills Assessment
