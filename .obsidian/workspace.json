@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Content Summary/Footprinting Services.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
                 "mode": "preview",
                 "source": false
               },
@@ -42,39 +42,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
-                "mode": "source",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true
             }
           },
           {
-            "id": "b89078628c1ba004",
+            "id": "6ed269678d68a467",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Content Summary/Web Application Attacks.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "bae85ae7c653b8c7",
+            "id": "7244c622bfcb9a90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Academy/CPTS/Academy Index.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Academy/CPTS/Academy Index.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Academy/CPTS/Academy Index.md"
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md"
               }
             }
           }
@@ -201,52 +201,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b6d30dc130becfc",
+  "active": "7244c622bfcb9a90",
   "lastOpenFiles": [
-    "Cheatsheets/Content Summary/Linux Privilege Escalation.md",
-    "Boxes/Proving-Grounds/Readys/resources/shell.php",
-    "Boxes/Proving-Grounds/Readys/resources/php-reverse-shell.php",
-    "Academy/CPTS/Academy Index.md",
-    "Cheatsheets/Content Summary/Footprinting Services.md",
-    "Cheatsheets/Content Summary/Web Application Attacks.md",
-    "Boxes/Proving-Grounds/Readys/resources/out.txt",
-    "Boxes/Proving-Grounds/Readys/resources/dump.rdb",
-    "Boxes/Proving-Grounds/Readys/resources/redis.conf",
+    "Cheatsheets/Old-OSCP-Cheatsheet/Wordlists.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
+    "Cheatsheets/Old-OSCP-Cheatsheet/Windows Privilege Escalation.md",
+    "Cheatsheets/Old-OSCP-Cheatsheet/Web Application Attacks.md",
+    "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/3. Lateral Movement.md",
+    "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/2. Attacking AD.md",
+    "Cheatsheets/Old-OSCP-Cheatsheet/images/Pasted image 20240122130319.png",
+    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_users.json",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_ous.json",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_groups.json",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_gpos.json",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_domains.json",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_containers.json",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_computers.json",
+    "Boxes/Proving-Grounds/Heist/resources/bloodhound",
+    "Boxes/Proving-Grounds/Heist/resources/20240325185958_computers.json",
+    "Boxes/Proving-Grounds/Heist/resources/20240325185958_domains.json",
+    "Cheatsheets/Mix-OSCP-CPTS/Wordlists.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
     "Boxes/Proving-Grounds/Box list to prepare.md",
-    "Boxes/Proving-Grounds/Readys/resources/nmap/full-scan",
-    "Boxes/Proving-Grounds/Readys/resources/nmap/quick-scan",
+    "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
+    "Academy/CPTS/Academy Index.md",
+    "Boxes/Proving-Grounds/Exfiltrated/192.168.239.163.md",
+    "Boxes/Proving-Grounds/Marketing/192.168.233.225.md",
+    "Boxes/Proving-Grounds/Walla/192.168.242.97.md",
     "Boxes/Proving-Grounds/Readys/192.168.205.166.md",
-    "Boxes/Proving-Grounds/Readys/resources/nmap",
-    "Boxes/Proving-Grounds/Readys/resources",
-    "Boxes/Proving-Grounds/Readys",
     "Academy/CPTS/Content Summary/18. SQLMap Essentials.md",
     "Academy/CPTS/Content Summary/16. Login Brute Forcing.md",
     "Academy/CPTS/Content Summary/23. Web Attacks.md",
     "Academy/CPTS/Content Summary/22. Command Injections.md",
-    "Cheatsheets/Content Summary/Tunneling and Port Forwarding.md",
-    "Cheatsheets/Content Summary/Password Attacks.md",
-    "Cheatsheets/Content Summary/Windows/3. Lateral Movement.md",
-    "Cheatsheets/Content Summary/Windows/Dumping and Credential Hunting.md",
-    "Cheatsheets/Content Summary/Windows/Windows Privilege Escalation.md",
-    "README.md",
-    "Boxes/Proving-Grounds/Nukem/192.168.186.105.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Tunneling and Port Forwarding.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Password Attacks.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
     "Boxes/Proving-Grounds/Nukem/resources/6329.png",
     "Boxes/Proving-Grounds/Nukem/resources/4400.png",
     "Boxes/Proving-Grounds/Nukem/resources/994.png",
-    "Boxes/Proving-Grounds/Nukem/ 192.168.186.105.md",
-    "Boxes/Note-Structures-Template.md",
-    "Academy/CPTS/Content Summary/10. Password Attacks.md",
-    "Cheatsheets/Content Summary/Wordlists.md",
-    "3..md",
-    "Boxes/Challenge-Labs/2-Relia/internal-network/*172.16.86.14-WK01.md",
-    "Cheatsheets/Content Summary/Commands.md",
-    "Cheatsheets/Content Summary/Windows/2. Attacking AD.md",
     "Academy/CPTS/Pentesting AD Guide Map.svg",
     "images/Pasted image 20240122130319.png",
     "images/Pasted image 20240219110637.png",
     "images/Pasted image 20240219110526.png",
     "images/Pasted image 20240206124421.png",
-    "images/Pasted image 20240205205509.png",
-    "Boxes/Proving-Grounds/Wombo/Pasted image 20240122213446.png"
+    "images/Pasted image 20240205205509.png"
   ]
 }

@@ -1,0 +1,67 @@
+# Nmap 7.94SVN scan initiated Mon Mar 25 12:48:16 2024 as: nmap -p 53,88,135,139,389,445,464,593,636,3268,3269,3389,5985,8080,9389,49666,49667,49673,49674,49677,49703,49759 -sCV -A -T4 -O -oN nmap/full-scan 192.168.180.165
+Nmap scan report for 192.168.180.165
+Host is up (0.036s latency).
+
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2024-03-25 11:48:23Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: heist.offsec0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: heist.offsec0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=DC01.heist.offsec
+| Not valid before: 2023-11-14T05:10:15
+|_Not valid after:  2024-05-15T05:10:15
+|_ssl-date: 2024-03-25T11:49:55+00:00; 0s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: HEIST
+|   NetBIOS_Domain_Name: HEIST
+|   NetBIOS_Computer_Name: DC01
+|   DNS_Domain_Name: heist.offsec
+|   DNS_Computer_Name: DC01.heist.offsec
+|   DNS_Tree_Name: heist.offsec
+|   Product_Version: 10.0.17763
+|_  System_Time: 2024-03-25T11:49:16+00:00
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+8080/tcp  open  http          Werkzeug httpd 2.0.1 (Python 3.9.0)
+|_http-title: Super Secure Web Browser
+|_http-server-header: Werkzeug/2.0.1 Python/3.9.0
+9389/tcp  open  mc-nmf        .NET Message Framing
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49673/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49674/tcp open  msrpc         Microsoft Windows RPC
+49677/tcp open  msrpc         Microsoft Windows RPC
+49703/tcp open  msrpc         Microsoft Windows RPC
+49759/tcp open  msrpc         Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Network Distance: 4 hops
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-03-25T11:49:16
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+
+TRACEROUTE (using port 8080/tcp)
+HOP RTT      ADDRESS
+1   36.86 ms 192.168.45.1
+2   36.86 ms 192.168.45.254
+3   36.92 ms 192.168.251.1
+4   38.84 ms 192.168.180.165
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 25 12:49:57 2024 -- 1 IP address (1 host up) scanned in 100.62 seconds

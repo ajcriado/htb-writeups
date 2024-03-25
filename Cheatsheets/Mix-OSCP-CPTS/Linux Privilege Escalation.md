@@ -90,6 +90,11 @@ https://academy.hackthebox.com/module/147/section/1320
 ##### Add user to sudoers file
 `echo 'username  ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers`
 
+##### SUID to /bin/bash
+`chmod +s /bin/bash` (command as root)
+`/bin/bash -p` (launch command to spawn a root shell)
+##### Find files by group
+`find / -group <group> 2>/dev/null | grep -v '^/proc\|^/run\|^/sys\|^/snap'`
 ##### Active Directory joined
 https://academy.hackthebox.com/module/147/section/1657
 ###### Identify AD and find kerberos files

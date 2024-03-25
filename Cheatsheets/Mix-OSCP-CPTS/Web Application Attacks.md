@@ -29,7 +29,7 @@
 		* vCenter
 ### Fuzzing
 
-* Directory fuzzing: `ffuf -w <wordlist>:FUZZ -u "http://academy.htb:30873/FUZZ" -t 200 -e .aspx,.php,.jsp,.html,.js -recursion -recursion-depth 1 -fs xxx`
+* Directory fuzzing: `ffuf -w <wordlist>:FUZZ -u "http://academy.htb:30873/FUZZ" -t 200 -e .aspx,.php,.jsp,.html,.js,.txt,.zip -recursion -recursion-depth 1 -fs xxx -c`
 * Subdomain fuzzing: `ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.inlanefreight.com/` (do not forget to add host to `/etc/hosts` file)
 * VHOST fuzzing: `ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:PORT/ -H 'Host: FUZZ.academy.htb'` (do not forget to add host to `/etc/hosts` file) 
 * Extensions fuzzing: `ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u "http://academy.htb/indexFUZZ" -fs xxx`
@@ -434,7 +434,7 @@ With this technique we can abuse some functionalities:
 | ---- | ---- |
 | `-X OPTIONS` | Set HTTP Method with Curl |
 ### Stealing NTLM Hash with Responder
-[[2. Attacking AD#Stealing NTLM hashes with Responder]]
+[[Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD#Stealing NTLM hashes with Responder]]
 
 ### Insecure Direct Object References (IDOR)
 Whenever we receive a specific file or resource, we should study the HTTP requests to look for URL parameters or APIs with an object reference (e.g. `?uid=1` or `?filename=file_1.pdf`). These are mostly found in URL parameters or APIs but may also be found in other HTTP headers, like cookies. In the most basic cases, we can try incrementing the values of the object references to retrieve other data, like (`?uid=2`) or (`?filename=file_2.pdf`). We can also use a fuzzing application to try thousands of variations and see if they return any data. Any successful hits to files that are not our own would indicate an IDOR vulnerability.

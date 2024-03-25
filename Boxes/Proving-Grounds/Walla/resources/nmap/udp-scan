@@ -1,0 +1,1 @@
+# Nmap 7.94SVN scan initiated Fri Mar 22 10:59:50 2024 as: nmap -sU -p- --open -oG nmap/udp-scan 192.168.242.97

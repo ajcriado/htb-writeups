@@ -12,4 +12,13 @@ Hackthebox AD: Forest, Sauna, Monteverde, Multimaster, Cascade, Sizzle
 	- Kevin
 	- Fail
 	- Nukem
-	- 
+	- Readys
+	- Walla
+	- Billyboss
+	- Jacko
+	- Marketing
+	- Exfiltrated
+	- Squid
+	- H
+	- Payday
+	- Snookums

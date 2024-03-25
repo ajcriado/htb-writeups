@@ -1,0 +1,32 @@
+# Nmap 7.94SVN scan initiated Mon Mar 25 11:17:14 2024 as: nmap -p 22,80 -sCV -A -T4 -O -oN nmap/full-scan 192.168.239.163
+Nmap scan report for exfiltrated.offsec (192.168.239.163)
+Host is up (0.035s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 c1:99:4b:95:22:25:ed:0f:85:20:d3:63:b4:48:bb:cf (RSA)
+|   256 0f:44:8b:ad:ad:95:b8:22:6a:f0:36:ac:19:d0:0e:f3 (ECDSA)
+|_  256 32:e1:2a:6c:cc:7c:e6:3e:23:f4:80:8d:33:ce:9b:3a (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-title: Home :: Powered by Subrion 4.2
+| http-robots.txt: 7 disallowed entries 
+| /backup/ /cron/? /front/ /install/ /panel/ /tmp/ 
+|_/updates/
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-generator: Subrion CMS - Open Source Content Management System
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.18 (87%), Linux 4.15 - 5.8 (87%), Linux 5.0 - 5.4 (87%), Linux 2.6.32 (87%), Linux 2.6.32 or 3.10 (87%), Linux 4.4 (87%), WatchGuard Fireware 11.8 (87%), Linux 5.3 - 5.4 (87%), Linux 4.8 (86%), Synology DiskStation Manager 5.1 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+1   34.46 ms 192.168.45.1
+2   34.47 ms 192.168.45.254
+3   34.52 ms 192.168.251.1
+4   34.55 ms exfiltrated.offsec (192.168.239.163)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar 25 11:17:27 2024 -- 1 IP address (1 host up) scanned in 12.58 seconds

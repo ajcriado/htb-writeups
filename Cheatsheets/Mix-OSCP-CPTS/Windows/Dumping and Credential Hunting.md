@@ -156,7 +156,7 @@ peluqqi@htb[/htb]$ sudo hashcat -m 1000 64f12cddaa88057e06a81b54e73b949b /usr/sh
 ```
 
 ### Attacking NTDS.dit
-[[3. Lateral Movement#Shadow Copies (ntds.dit and system)]]
+[[Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement#Shadow Copies (ntds.dit and system)]]
 
 ### Credential Hunting
 https://academy.hackthebox.com/module/147/section/1318

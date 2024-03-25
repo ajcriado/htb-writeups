@@ -1,0 +1,54 @@
+# Nmap 7.94SVN scan initiated Fri Mar 22 10:34:27 2024 as: nmap -p 22,23,25,53,422,8091,42042 -sCV -A -T4 -O -oN nmap/full-scan 192.168.242.97
+Nmap scan report for 192.168.242.97
+Host is up (0.044s latency).
+
+PORT      STATE SERVICE    VERSION
+22/tcp    open  ssh        OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 02:71:5d:c8:b9:43:ba:6a:c8:ed:15:c5:6c:b2:f5:f9 (RSA)
+|   256 f3:e5:10:d4:16:a9:9e:03:47:38:ba:ac:18:24:53:28 (ECDSA)
+|_  256 02:4f:99:ec:85:6d:79:43:88:b2:b5:7c:f0:91:fe:74 (ED25519)
+23/tcp    open  telnet     Linux telnetd
+25/tcp    open  smtp       Postfix smtpd
+| ssl-cert: Subject: commonName=walla
+| Subject Alternative Name: DNS:walla
+| Not valid before: 2020-09-17T18:26:36
+|_Not valid after:  2030-09-15T18:26:36
+|_ssl-date: TLS randomness does not represent time
+|_smtp-commands: walla, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING
+53/tcp    open  tcpwrapped
+422/tcp   open  ssh        OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 02:71:5d:c8:b9:43:ba:6a:c8:ed:15:c5:6c:b2:f5:f9 (RSA)
+|   256 f3:e5:10:d4:16:a9:9e:03:47:38:ba:ac:18:24:53:28 (ECDSA)
+|_  256 02:4f:99:ec:85:6d:79:43:88:b2:b5:7c:f0:91:fe:74 (ED25519)
+8091/tcp  open  http       lighttpd 1.4.53
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=RaspAP
+|_http-server-header: lighttpd/1.4.53
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+42042/tcp open  ssh        OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 02:71:5d:c8:b9:43:ba:6a:c8:ed:15:c5:6c:b2:f5:f9 (RSA)
+|   256 f3:e5:10:d4:16:a9:9e:03:47:38:ba:ac:18:24:53:28 (ECDSA)
+|_  256 02:4f:99:ec:85:6d:79:43:88:b2:b5:7c:f0:91:fe:74 (ED25519)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.18 (87%), Linux 4.15 - 5.8 (87%), Linux 5.0 - 5.4 (87%), Linux 2.6.32 (87%), Linux 2.6.32 or 3.10 (87%), Linux 2.6.39 (87%), Linux 3.10 - 3.12 (87%), Linux 3.4 (87%), Linux 3.5 (87%), Linux 3.7 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: Host:  walla; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+1   37.85 ms 192.168.45.1
+2   37.90 ms 192.168.45.254
+3   37.93 ms 192.168.251.1
+4   37.98 ms 192.168.242.97
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 22 10:34:50 2024 -- 1 IP address (1 host up) scanned in 23.54 seconds
