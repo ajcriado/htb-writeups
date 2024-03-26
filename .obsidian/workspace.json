@@ -50,31 +50,19 @@
             }
           },
           {
-            "id": "6ed269678d68a467",
+            "id": "23352dee8c50faf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7244c622bfcb9a90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
+                "file": "Boxes/Proving-Grounds/Box list to prepare.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
+                "file": "Boxes/Proving-Grounds/Box list to prepare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
+                "file": "Boxes/Proving-Grounds/Box list to prepare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md"
+                "file": "Boxes/Proving-Grounds/Box list to prepare.md"
               }
             }
           }
@@ -201,8 +189,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7244c622bfcb9a90",
+  "active": "23352dee8c50faf4",
   "lastOpenFiles": [
+    "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
+    "Boxes/Proving-Grounds/Heist/resources/shell.exe",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Wordlists.md",
     "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
@@ -221,11 +215,8 @@
     "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_computers.json",
     "Boxes/Proving-Grounds/Heist/resources/bloodhound",
     "Boxes/Proving-Grounds/Heist/resources/20240325185958_computers.json",
-    "Boxes/Proving-Grounds/Heist/resources/20240325185958_domains.json",
     "Cheatsheets/Mix-OSCP-CPTS/Wordlists.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
     "Boxes/Proving-Grounds/Box list to prepare.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
     "Academy/CPTS/Academy Index.md",
     "Boxes/Proving-Grounds/Exfiltrated/192.168.239.163.md",
     "Boxes/Proving-Grounds/Marketing/192.168.233.225.md",
@@ -237,9 +228,6 @@
     "Academy/CPTS/Content Summary/22. Command Injections.md",
     "Cheatsheets/Mix-OSCP-CPTS/Tunneling and Port Forwarding.md",
     "Cheatsheets/Mix-OSCP-CPTS/Password Attacks.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
     "Boxes/Proving-Grounds/Nukem/resources/6329.png",
     "Boxes/Proving-Grounds/Nukem/resources/4400.png",
     "Boxes/Proving-Grounds/Nukem/resources/994.png",

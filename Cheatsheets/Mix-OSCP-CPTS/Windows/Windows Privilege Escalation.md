@@ -354,3 +354,10 @@ With this files we can dump credentials using impacket-secretsdump. We can get t
 
 #### Stealing NTLM Hash with Responder
 [[Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD#Stealing NTLM hashes with Responder]]
+
+#### Find some services
+```
+PS C:\> cd hklm:\system\CurrentControlSet\services\
+PS HKLM:\system\CurrentControlSet\services\> ls | findstr /i cleanup
+PS HKLM:\system\CurrentControlSet\services\> ls cleanup
+```
