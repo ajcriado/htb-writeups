@@ -9,7 +9,7 @@ Hackthebox AD: Forest, Sauna, Monteverde, Cascade
 
 #### HackTheBox
 * ~~Forest~~ (Easy AD)
-* Sauna (Easy AD)
+* ~~Sauna~~ (Easy AD)
 * Monteverde (Medium AD)
 * Cascade (Medium AD)
 #### Proving Grounds

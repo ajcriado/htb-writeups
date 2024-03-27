@@ -1,5 +1,6 @@
 ### Common Applications
 
+* <u>**Microsoft IIS Server**</u> (Use **[cadaver](https://github.com/notroj/cadaver)** if we got credentials to upload a webshell)
 * CMS:
 	* **[Wordpress](https://academy.hackthebox.com/module/113/section/1100)** (`api-token: B6Xs2CqIkohUytn8nDdDegW1akcv8MWiNw2gnxosfX4`)
 	* **[Joomla](https://academy.hackthebox.com/module/113/section/1095)**
