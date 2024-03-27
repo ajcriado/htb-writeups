@@ -56,13 +56,25 @@
               "type": "markdown",
               "state": {
                 "file": "Boxes/Proving-Grounds/Box list to prepare.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a79d89ea9d16b13c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boxes/Proving-Grounds/Box list to prepare.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boxes/Proving-Grounds/Box list to prepare.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boxes/Proving-Grounds/Box list to prepare.md"
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md"
               }
             }
           }
@@ -189,23 +201,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23352dee8c50faf4",
+  "active": "a79d89ea9d16b13c",
   "lastOpenFiles": [
     "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
+    "Boxes/Proving-Grounds/Box list to prepare.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
     "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
     "Boxes/Proving-Grounds/Heist/resources/shell.exe",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Wordlists.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Windows Privilege Escalation.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Web Application Attacks.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/3. Lateral Movement.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/2. Attacking AD.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/images/Pasted image 20240122130319.png",
-    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
     "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_users.json",
     "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_ous.json",
     "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_groups.json",
@@ -216,7 +230,6 @@
     "Boxes/Proving-Grounds/Heist/resources/bloodhound",
     "Boxes/Proving-Grounds/Heist/resources/20240325185958_computers.json",
     "Cheatsheets/Mix-OSCP-CPTS/Wordlists.md",
-    "Boxes/Proving-Grounds/Box list to prepare.md",
     "Academy/CPTS/Academy Index.md",
     "Boxes/Proving-Grounds/Exfiltrated/192.168.239.163.md",
     "Boxes/Proving-Grounds/Marketing/192.168.233.225.md",
@@ -227,7 +240,6 @@
     "Academy/CPTS/Content Summary/23. Web Attacks.md",
     "Academy/CPTS/Content Summary/22. Command Injections.md",
     "Cheatsheets/Mix-OSCP-CPTS/Tunneling and Port Forwarding.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Password Attacks.md",
     "Boxes/Proving-Grounds/Nukem/resources/6329.png",
     "Boxes/Proving-Grounds/Nukem/resources/4400.png",
     "Boxes/Proving-Grounds/Nukem/resources/994.png",
