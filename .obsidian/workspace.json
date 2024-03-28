@@ -79,8 +79,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
-                "mode": "source",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "godpotato",
+                "query": "account operators",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md"
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md"
               }
             }
           }
@@ -215,33 +215,35 @@
   },
   "active": "0e412cdd9bf4352f",
   "lastOpenFiles": [
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+    "Boxes/Box list to prepare.md",
+    "Boxes/HackTheBox/Forest/5. WinRM.md",
+    "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/3. Lateral Movement.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
+    "Boxes/HackTheBox/Timelapse/resources/bloodhound.zip",
+    "Boxes/HackTheBox/Timelapse/resources/bloodhound/bloodhound.zip",
+    "Boxes/HackTheBox/Timelapse/resources/bloodhound/data.zip",
+    "Boxes/HackTheBox/Timelapse/resources/bloodhound",
+    "Boxes/HackTheBox/Timelapse/resources/smb-shares/Dev/private2.pem",
+    "Boxes/HackTheBox/Timelapse/resources/smb-shares/Dev/cert.crt",
+    "Boxes/HackTheBox/Timelapse/resources/smb-shares/Dev/private.pem",
+    "Boxes/HackTheBox/Timelapse/resources/smb-shares/Dev/certs/key.pem",
+    "Boxes/HackTheBox/Timelapse/resources/smb-shares/Dev/certs/cert.pem",
+    "Boxes/HackTheBox/Timelapse/resources/smb-shares/Dev/certs",
+    "Boxes/HackTheBox/Timelapse/10.129.227.113.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
-    "Boxes/Proving-Grounds/Hutch/resources/shell.aspx",
-    "Boxes/Proving-Grounds/Hutch/resources/revshell.aspx",
     "Cheatsheets/Old-OSCP-Cheatsheet/Windows Privilege Escalation.md",
     "Boxes/Proving-Grounds/Billyboss/3. Notes.md",
-    "Boxes/Proving-Grounds/Hutch/resources/shell.exe",
-    "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
     "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
-    "Boxes/Proving-Grounds/Hutch/resources/hashes.asreproast",
-    "Boxes/Proving-Grounds/Hutch/resources/users.txt",
-    "Boxes/Proving-Grounds/Hutch/resources/ldapsearch-output",
     "Cheatsheets/Old-OSCP-Cheatsheet/Web Application Attacks.md",
-    "Boxes/Proving-Grounds/Box list to prepare.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
     "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
-    "Boxes/Proving-Grounds/Heist/resources/shell.exe",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Wordlists.md",
-    "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/3. Lateral Movement.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/2. Attacking AD.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/images/Pasted image 20240122130319.png",
-    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_users.json",
-    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_ous.json",
-    "Boxes/Proving-Grounds/Heist/resources/bloodhound/20240325185958_groups.json",
     "Cheatsheets/Mix-OSCP-CPTS/Wordlists.md",
     "Academy/CPTS/Academy Index.md",
     "Boxes/Proving-Grounds/Exfiltrated/192.168.239.163.md",
@@ -250,7 +252,6 @@
     "Boxes/Proving-Grounds/Readys/192.168.205.166.md",
     "Academy/CPTS/Content Summary/18. SQLMap Essentials.md",
     "Academy/CPTS/Content Summary/16. Login Brute Forcing.md",
-    "Academy/CPTS/Content Summary/23. Web Attacks.md",
     "Boxes/Proving-Grounds/Nukem/resources/6329.png",
     "Boxes/Proving-Grounds/Nukem/resources/4400.png",
     "Boxes/Proving-Grounds/Nukem/resources/994.png",

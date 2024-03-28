@@ -1,0 +1,52 @@
+# Nmap 7.94SVN scan initiated Thu Mar 28 18:06:24 2024 as: nmap -p 53,88,135,139,389,445,464,593,636,5986,9389,49667,49673,49674,49696 -sCV -A -T4 -O -oN nmap/full-scan 10.129.227.113
+Nmap scan report for 10.129.227.113
+Host is up (0.093s latency).
+
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Simple DNS Plus
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2024-03-29 01:06:31Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: timelapse.htb0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  ldapssl?
+5986/tcp  open  ssl/http      Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| tls-alpn: 
+|_  http/1.1
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+| ssl-cert: Subject: commonName=dc01.timelapse.htb
+| Not valid before: 2021-10-25T14:05:29
+|_Not valid after:  2022-10-25T14:25:29
+|_ssl-date: 2024-03-29T01:08:06+00:00; +8h00m00s from scanner time.
+9389/tcp  open  mc-nmf        .NET Message Framing
+49667/tcp open  msrpc         Microsoft Windows RPC
+49673/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49674/tcp open  msrpc         Microsoft Windows RPC
+49696/tcp open  msrpc         Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019 (89%)
+Aggressive OS guesses: Microsoft Windows Server 2019 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+|_clock-skew: mean: 7h59m59s, deviation: 0s, median: 7h59m59s
+| smb2-time: 
+|   date: 2024-03-29T01:07:28
+|_  start_date: N/A
+
+TRACEROUTE (using port 445/tcp)
+HOP RTT       ADDRESS
+1   116.17 ms 10.10.16.1
+2   116.27 ms 10.129.227.113
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar 28 18:08:07 2024 -- 1 IP address (1 host up) scanned in 103.15 seconds
