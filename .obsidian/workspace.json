@@ -15,22 +15,10 @@
               "type": "markdown",
               "state": {
                 "file": "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "d65b145823621145",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
-                "mode": "source",
-                "source": false
-              }
             }
           },
           {
@@ -44,9 +32,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9c36ad05b3b19ff2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35c226e2b42bb821",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "944e221bb2e27480",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -75,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Cheatsheets/Mix-OSCP-CPTS/\" SAM  ",
+                "query": "path:\"Academy/\" \"tr ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,45 +197,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d65b145823621145",
+  "active": "944e221bb2e27480",
   "lastOpenFiles": [
-    "Boxes/Box list to prepare.md",
-    "Boxes/Challenge-Labs/3-Skylark/external-network/*192.168.219.221-austin02.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
-    "Cheatsheets/Old-OSCP-Cheatsheet/Windows Privilege Escalation.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
-    "Boxes/Proving-Grounds/Vault/resources/anirudh.hash",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/192.168.236.147-service-scan",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/192.168.236.147-quick-scan",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/192.168.236.147-full-scan",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/10.10.126.148-quick-scan",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/10.10.126.146-quick-scan",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/web_svc.hash",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/revshell.aspx",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/internal-scope.txt",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/hashes.kerberoast",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/Attack-chain.md",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/192.168.236.147-MS01.md",
+    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/10.10.126.148-MS02.md",
+    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/Attack-chain.md",
+    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/10.10.126.148-MS02.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Tunneling and Port Forwarding.md",
     "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/malicious-(remotetemplate).docx",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/malicious-(frameset).docx",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/malicious-(includepicture).docx",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/desktop.ini",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/Autorun.inf",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/zoom-attack-instructions.txt",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/malicious.pdf",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/malicious.application",
-    "Boxes/Proving-Grounds/Vault/resources/ntlm_theft/malicious/malicious.jnlp",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
+    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/10.10.126.148.md",
     "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
-    "Boxes/Proving-Grounds/Vault/192.168.168.172.md",
-    "Academy/CPTS/Academy Index.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
-    "Boxes/HackTheBox/Forest/5. WinRM.md",
-    "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/3. Lateral Movement.md",
-    "Boxes/HackTheBox/Timelapse/10.129.227.113.md",
-    "Boxes/Proving-Grounds/Billyboss/3. Notes.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
-    "Cheatsheets/Old-OSCP-Cheatsheet/Web Application Attacks.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/192.168.236.147-MS01.md",
+    "Academy/CPTS/Content Summary/13. Active Directory Enumeration & Attacks.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
-    "Cheatsheets/Old-OSCP-Cheatsheet/Wordlists.md",
-    "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/2. Attacking AD.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
+    "Boxes/Box list to prepare.md",
+    "Boxes/Proving-Grounds/Hetemit/192.168.174.117.md",
+    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/192.168.207.141-MS01.md",
+    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/10.10.97.142-MS02.md",
+    "Boxes/Challenge-Labs/4-OSCP-A-2nd/Active-directory/10.10.97.142-MS02.md",
+    "Boxes/Challenge-Labs/4-OSCP-A-2nd/10.10.97.142-MS02.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Password Attacks.md",
+    "Boxes/Challenge-Labs/4-OSCP-A-2nd/Active-directory/192.168.207.141-MS01.md",
+    "Boxes/Challenge-Labs/4-OSCP-A-2nd/Active-directory/192.168.207.141-DC01.md",
     "Cheatsheets/Old-OSCP-Cheatsheet/images/Pasted image 20240122130319.png",
-    "Cheatsheets/Mix-OSCP-CPTS/Wordlists.md",
-    "Boxes/Proving-Grounds/Exfiltrated/192.168.239.163.md",
-    "Boxes/Proving-Grounds/Marketing/192.168.233.225.md",
-    "Boxes/Proving-Grounds/Walla/192.168.242.97.md",
-    "Boxes/Proving-Grounds/Readys/192.168.205.166.md",
     "Boxes/Proving-Grounds/Nukem/resources/6329.png",
     "Boxes/Proving-Grounds/Nukem/resources/4400.png",
     "Boxes/Proving-Grounds/Nukem/resources/994.png",

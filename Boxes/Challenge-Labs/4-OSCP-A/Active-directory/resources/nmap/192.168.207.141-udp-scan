@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Sat Mar 30 08:39:00 2024 as: nmap -sU -p- --min-rate=10000 --open -oG nmap/192.168.207.141-udp-scan 192.168.207.141
+Host: 192.168.207.141 ()	Status: Up
+Host: 192.168.207.141 ()	Ports: 
+# Nmap done at Sat Mar 30 08:40:12 2024 -- 1 IP address (1 host up) scanned in 72.88 seconds

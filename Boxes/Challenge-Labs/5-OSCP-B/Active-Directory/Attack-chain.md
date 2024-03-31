@@ -1,0 +1,6 @@
+- Abuse RFI in 192.168.236.147:8080 webapp and hash stealing through responder
+- With web_svc (the user which hash we have stolen) we can upload a aspx shell and execute it in 192.168.236.147:8000
+- Abuse SeImpersonateprivilege to escalate our privileges in MS01
+- Perform Kerberoasting to extract sql_svc and get a shell in MS02 through MSSQL
+- Abuse SeImpersonatePrivilege to escalate our privileges in MS02
+- Dump cache credentials to get domain admin credentials

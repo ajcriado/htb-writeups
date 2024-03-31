@@ -1,0 +1,78 @@
+# Nmap 7.94SVN scan initiated Sat Mar 30 08:17:47 2024 as: nmap -p 22,80,81,135,139,445,3306,3307,5040,5985,47001,49664,49665,49666,49667,49668,49669,49670,50763 -sCV -A -T4 -O -oN nmap/192.168.207.141-full-scan 192.168.207.141
+Nmap scan report for 192.168.207.141
+Host is up (0.043s latency).
+
+PORT      STATE SERVICE         VERSION
+22/tcp    open  ssh             OpenSSH for_Windows_8.1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 e0:3a:63:4a:07:83:4d:0b:6f:4e:8a:4d:79:3d:6e:4c (RSA)
+|   256 3f:16:ca:33:25:fd:a2:e6:bb:f6:b0:04:32:21:21:0b (ECDSA)
+|_  256 fe:b0:7a:14:bf:77:84:9a:b3:26:59:8d:ff:7e:92:84 (ED25519)
+80/tcp    open  http            Apache httpd 2.4.51 ((Win64) PHP/7.4.26)
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.51 (Win64) PHP/7.4.26
+|_http-generator: Nicepage 4.8.2, nicepage.com
+|_http-title: Home
+81/tcp    open  http            Apache httpd 2.4.51 ((Win64) PHP/7.4.26)
+|_http-server-header: Apache/2.4.51 (Win64) PHP/7.4.26
+|_http-title: Attendance and Payroll System
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+3306/tcp  open  mysql           MySQL (unauthorized)
+3307/tcp  open  opsession-prxy?
+| fingerprint-strings: 
+|   Help, SSLSessionReq: 
+|_    Host '192.168.45.210' is not allowed to connect to this MariaDB server
+5040/tcp  open  unknown
+5985/tcp  open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+47001/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc           Microsoft Windows RPC
+49665/tcp open  msrpc           Microsoft Windows RPC
+49666/tcp open  msrpc           Microsoft Windows RPC
+49667/tcp open  msrpc           Microsoft Windows RPC
+49668/tcp open  msrpc           Microsoft Windows RPC
+49669/tcp open  msrpc           Microsoft Windows RPC
+49670/tcp open  msrpc           Microsoft Windows RPC
+50763/tcp open  msrpc           Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3307-TCP:V=7.94SVN%I=7%D=3/30%Time=6607BCA4%P=x86_64-pc-linux-gnu%r
+SF:(Help,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.210'\x20is\x20not\x2
+SF:0allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server")%r(SSLSes
+SF:sionReq,4D,"I\0\0\x01\xffj\x04Host\x20'192\.168\.45\.210'\x20is\x20not\
+SF:x20allowed\x20to\x20connect\x20to\x20this\x20MariaDB\x20server");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (86%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp3
+Aggressive OS guesses: Microsoft Windows XP SP3 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2024-03-30T07:20:35
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   44.76 ms 192.168.45.1
+2   44.75 ms 192.168.45.254
+3   44.78 ms 192.168.251.1
+4   44.84 ms 192.168.207.141
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 30 08:21:02 2024 -- 1 IP address (1 host up) scanned in 194.43 seconds

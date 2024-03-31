@@ -1,0 +1,52 @@
+# Nmap 7.94SVN scan initiated Sun Mar 31 10:56:55 2024 as: nmap -A -T4 --open -oN nmap/10.10.126.148-quick-scan -Pn 10.10.126.148
+Nmap scan report for 10.10.126.148
+Host is up (0.26s latency).
+Not shown: 996 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   10.10.126.148:1433: 
+|     Target_Name: OSCP
+|     NetBIOS_Domain_Name: OSCP
+|     NetBIOS_Computer_Name: MS02
+|     DNS_Domain_Name: oscp.exam
+|     DNS_Computer_Name: MS02.oscp.exam
+|     DNS_Tree_Name: oscp.exam
+|_    Product_Version: 10.0.19041
+|_ssl-date: 2024-03-31T08:58:58+00:00; 0s from scanner time.
+| ms-sql-info: 
+|   10.10.126.148:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2023-07-11T16:46:16
+|_Not valid after:  2053-07-11T16:46:16
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: MS02, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:9e:ba:61 (VMware)
+| smb2-time: 
+|   date: 2024-03-31T08:58:19
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   256.74 ms 10.10.126.148
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar 31 10:58:58 2024 -- 1 IP address (1 host up) scanned in 123.96 seconds

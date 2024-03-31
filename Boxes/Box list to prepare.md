@@ -48,5 +48,5 @@ Hackthebox AD: Forest, Sauna, Monteverde, Cascade
 * ~~Authby~~
 * ~~Hutch~~ (AD)
 * Slort
-* Vault (AD)
+* ~~Vault~~ (AD)
 * Resourced (AD)

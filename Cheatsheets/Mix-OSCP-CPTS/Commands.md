@@ -27,7 +27,7 @@ exiftool -a -u brochure.pdf
 
 #### Windows
 
-When we are admin but cannot execute commands as nt authority\\system we can use this two powershell scripts (**[Invoke-CommandAs](https://raw.githubusercontent.com/mkellerman/Invoke-CommandAs/master/Invoke-CommandAs/Public/Invoke-CommandAs.ps1) and **[Invoke-CommandAs.ps1](https://gist.githubusercontent.com/amnich/6485c57e15d8272205d9c11dbaf419b7/raw/8a0914af1e0fe04b5815b3b703aa6c0a8c4ca163/Invoke-CommandAs.ps1)**)
+When we are admin but cannot execute commands as nt authority\\system we can use this two powershell scripts (**[Invoke-CommandAs](https://raw.githubusercontent.com/mkellerman/Invoke-CommandAs/master/Invoke-CommandAs/Public/Invoke-CommandAs.ps1) and **[Invoke-ScheduledTask.ps1](https://raw.githubusercontent.com/mkellerman/Invoke-CommandAs/master/Invoke-CommandAs/Private/Invoke-ScheduledTask.ps1)**)
 ```shell
 *Evil-WinRM* PS C:\> Import-Module .\Invoke-CommandAs.ps1
 *Evil-WinRM* PS C:\> Import-Module .\Invoke-ScheduledTask.ps1

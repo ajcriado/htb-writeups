@@ -1,0 +1,28 @@
+# Nmap 7.94SVN scan initiated Sun Mar 31 10:11:28 2024 as: nmap -p 21,22,135,139,445,5040,7680,8000,8080,8443,47001,49664,49665,49666,49667,49668,49669,49670,49671 -sV -oN nmap/192.168.236.147-service-scan 192.168.236.147
+Nmap scan report for 192.168.236.147
+Host is up (0.046s latency).
+
+PORT      STATE  SERVICE       VERSION
+21/tcp    open   ftp           Microsoft ftpd
+22/tcp    open   ssh           OpenSSH for_Windows_8.1 (protocol 2.0)
+135/tcp   open   msrpc         Microsoft Windows RPC
+139/tcp   open   netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open   microsoft-ds?
+5040/tcp  open   unknown
+7680/tcp  closed pando-pub
+8000/tcp  open   http          Microsoft IIS httpd 10.0
+8080/tcp  open   http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8443/tcp  open   ssl/http      Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+47001/tcp open   http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49664/tcp open   msrpc         Microsoft Windows RPC
+49665/tcp open   msrpc         Microsoft Windows RPC
+49666/tcp open   msrpc         Microsoft Windows RPC
+49667/tcp open   msrpc         Microsoft Windows RPC
+49668/tcp open   msrpc         Microsoft Windows RPC
+49669/tcp open   msrpc         Microsoft Windows RPC
+49670/tcp open   msrpc         Microsoft Windows RPC
+49671/tcp open   msrpc         Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar 31 10:14:15 2024 -- 1 IP address (1 host up) scanned in 167.60 seconds

