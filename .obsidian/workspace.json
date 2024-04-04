@@ -4,73 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b80ccce62fd243",
+        "id": "f038dd63817647d8",
         "type": "tabs",
         "children": [
           {
-            "id": "6a5c6b0c61b04c90",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "e347fbccdde681e9",
+            "id": "7be2c5b106ef0c64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
+                "file": "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/attack-chain.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c36ad05b3b19ff2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35c226e2b42bb821",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "944e221bb2e27480",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"Academy/\" \"tr ",
+                "query": "Inveigh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+                "file": "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/attack-chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+                "file": "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/attack-chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md"
+                "file": "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/attack-chain.md"
               }
             }
           }
@@ -197,53 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "944e221bb2e27480",
+  "active": "7be2c5b106ef0c64",
   "lastOpenFiles": [
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/192.168.236.147-service-scan",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/192.168.236.147-quick-scan",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/192.168.236.147-full-scan",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/10.10.126.148-quick-scan",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap/10.10.126.146-quick-scan",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/web_svc.hash",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/revshell.aspx",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/nmap",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/internal-scope.txt",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources/hashes.kerberoast",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/resources",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/Attack-chain.md",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/192.168.236.147-MS01.md",
-    "Boxes/Challenge-Labs/5-OSCP-B/Active-Directory/10.10.126.148-MS02.md",
-    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/Attack-chain.md",
-    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/10.10.126.148-MS02.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Tunneling and Port Forwarding.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
+    "Boxes/Challenge-Labs/OSCP-Exam-2nd-attemp.zip",
+    "Boxes/Challenge-Labs/OSCP-Exam-2nd-attemp.zip.tmp",
+    "Boxes/Challenge-Labs/OSCP-Exam/OSCP-OS-57159609-Exam-Report.pdf",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-3/attack-chain.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-2/attack-chain.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/attack-chain.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/attack-chain.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/192.168.124.101-MS01.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Exercises.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-3/192.168.124.112.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-2/192.168.124.111.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/192.168.124.110.md",
+    "images/Pasted image 20240403082855.png",
+    "images/Pasted image 20240403082439.png",
+    "images/Pasted image 20240403082047.png",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/resources/extractPorts.tmp",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/resources/nmap/extractPorts.tmp",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
-    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/10.10.126.148.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
-    "Boxes/Challenge-Labs/5-OSCP-B-2n/Active-Directory/192.168.236.147-MS01.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/192.168.124.102-MS02.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/192.168.124.100-dc01.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
     "Academy/CPTS/Content Summary/13. Active Directory Enumeration & Attacks.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+    "images/Pasted image 20240403113304.png",
+    "images/Pasted image 20240403113038.png",
+    "images/Pasted image 20240403112847.png",
+    "images/Pasted image 20240403112646.png",
+    "images/Pasted image 20240403112608.png",
+    "images/Pasted image 20240403112214.png",
+    "images/Pasted image 20240403112003.png",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-2/resources/gsm_codec.dll",
+    "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
     "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
-    "Boxes/Box list to prepare.md",
-    "Boxes/Proving-Grounds/Hetemit/192.168.174.117.md",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/192.168.207.141-MS01.md",
-    "Boxes/Challenge-Labs/4-OSCP-A/Active-directory/10.10.97.142-MS02.md",
-    "Boxes/Challenge-Labs/4-OSCP-A-2nd/Active-directory/10.10.97.142-MS02.md",
-    "Boxes/Challenge-Labs/4-OSCP-A-2nd/10.10.97.142-MS02.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/resources/ssh/spaced_key.txt",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/resources/ssh/id_rsa.pub",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/resources/ssh/id_rsa",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/resources/ssh",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/resources/id_rsa.pub",
+    "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Tunneling and Port Forwarding.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
     "Cheatsheets/Mix-OSCP-CPTS/Password Attacks.md",
-    "Boxes/Challenge-Labs/4-OSCP-A-2nd/Active-directory/192.168.207.141-MS01.md",
-    "Boxes/Challenge-Labs/4-OSCP-A-2nd/Active-directory/192.168.207.141-DC01.md",
-    "Cheatsheets/Old-OSCP-Cheatsheet/images/Pasted image 20240122130319.png",
-    "Boxes/Proving-Grounds/Nukem/resources/6329.png",
-    "Boxes/Proving-Grounds/Nukem/resources/4400.png",
-    "Boxes/Proving-Grounds/Nukem/resources/994.png",
-    "Academy/CPTS/Pentesting AD Guide Map.svg",
-    "images/Pasted image 20240122130319.png",
-    "images/Pasted image 20240219110637.png",
-    "images/Pasted image 20240219110526.png",
-    "images/Pasted image 20240206124421.png",
-    "images/Pasted image 20240205205509.png"
+    "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
+    "Cheatsheets/Old-OSCP-Cheatsheet/Active Directory/2. Attacking AD.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
+    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-/attack-chain.md"
   ]
 }

@@ -1,0 +1,60 @@
+# Nmap 7.94SVN scan initiated Mon Apr  1 09:30:39 2024 as: nmap -p 22,135,139,445,5040,5985,8000,47001,49664,49665,49666,49667,49668,49669,49670,49671 -sCV -A -T4 -O -oN nmap/192.168.186.153-full-scan 192.168.186.153
+Nmap scan report for 192.168.186.153
+Host is up (0.048s latency).
+
+PORT      STATE SERVICE       VERSION
+22/tcp    open  ssh           OpenSSH for_Windows_8.1 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 e0:3a:63:4a:07:83:4d:0b:6f:4e:8a:4d:79:3d:6e:4c (RSA)
+|   256 3f:16:ca:33:25:fd:a2:e6:bb:f6:b0:04:32:21:21:0b (ECDSA)
+|_  256 fe:b0:7a:14:bf:77:84:9a:b3:26:59:8d:ff:7e:92:84 (ED25519)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+5040/tcp  open  unknown
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+8000/tcp  open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows
+|_http-open-proxy: Proxy might be redirecting requests
+47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  msrpc         Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP (86%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp3
+Aggressive OS guesses: Microsoft Windows XP SP3 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 4 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2024-04-01T07:33:27
+|_  start_date: N/A
+
+TRACEROUTE (using port 445/tcp)
+HOP RTT      ADDRESS
+1   46.24 ms 192.168.45.1
+2   46.19 ms 192.168.45.254
+3   46.34 ms 192.168.251.1
+4   46.36 ms 192.168.186.153
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  1 09:33:40 2024 -- 1 IP address (1 host up) scanned in 181.28 seconds

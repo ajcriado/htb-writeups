@@ -1,0 +1,37 @@
+# Nmap 7.94SVN scan initiated Mon Apr  1 10:18:38 2024 as: nmap -A -T4 --open -oN nmap/10.10.76.152-quick-scan -Pn 10.10.76.152
+Nmap scan report for 10.10.76.152
+Host is up (0.028s latency).
+Not shown: 989 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2024-04-01 08:18:52Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: oscp.exam0., Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DC01, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:9e:40:f2 (VMware)
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2024-04-01T08:18:59
+|_  start_date: N/A
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   28.40 ms 10.10.76.152
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  1 10:19:40 2024 -- 1 IP address (1 host up) scanned in 61.79 seconds

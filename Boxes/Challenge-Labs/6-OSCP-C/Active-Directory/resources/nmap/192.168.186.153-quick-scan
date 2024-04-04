@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Apr  1 09:26:36 2024 as: nmap -p- --open -oG nmap/192.168.186.153-quick-scan 192.168.186.153
+Host: 192.168.186.153 ()	Status: Up
+Host: 192.168.186.153 ()	Ports: 22/open/tcp//ssh///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 5040/open/tcp/////, 5985/open/tcp//wsman///, 8000/open/tcp//http-alt///, 47001/open/tcp//winrm///, 49664/open/tcp/////, 49665/open/tcp/////, 49666/open/tcp/////, 49667/open/tcp/////, 49668/open/tcp/////, 49669/open/tcp/////, 49670/open/tcp/////, 49671/open/tcp/////
+# Nmap done at Mon Apr  1 09:27:28 2024 -- 1 IP address (1 host up) scanned in 51.40 seconds

