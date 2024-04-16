@@ -1,4 +1,0 @@
-# Nmap 7.94SVN scan initiated Sun Apr  7 13:17:38 2024 as: nmap -sU -p- --min-rate=10000 --open -oG nmap/NIX01-udp-quick-scan 10.129.254.96
-Host: 10.129.254.96 (trilocor.local)	Status: Up
-Host: 10.129.254.96 (trilocor.local)	Ports: 53/open/udp//domain///, 111/open/udp//rpcbind///
-# Nmap done at Sun Apr  7 13:18:51 2024 -- 1 IP address (1 host up) scanned in 73.00 seconds
