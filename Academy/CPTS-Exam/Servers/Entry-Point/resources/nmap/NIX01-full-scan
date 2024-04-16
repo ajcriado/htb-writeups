@@ -1,0 +1,96 @@
+# Nmap 7.94SVN scan initiated Sun Apr  7 13:08:10 2024 as: nmap -p 21,22,25,53,80,110,111,143,993,995,7777 -sCV -A -T4 -oN nmap/NIX01-full-scan 10.129.254.96
+Nmap scan report for trilocor.local (10.129.254.96)
+Host is up (0.050s latency).
+
+PORT     STATE SERVICE  VERSION
+21/tcp   open  ftp      vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-rw-r--r--    1 0        0               0 Sep 14  2022 Uninstaller.lnk
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.10.14.9
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 1
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 71:08:b0:c4:f3:ca:97:57:64:97:70:f9:fe:c5:0c:7b (RSA)
+|   256 45:c3:b5:14:63:99:3d:9e:b3:22:51:e5:97:76:e1:50 (ECDSA)
+|_  256 2e:c2:41:66:46:ef:b6:81:95:d5:aa:35:23:94:55:38 (ED25519)
+25/tcp   open  smtp     Postfix smtpd
+|_smtp-commands: WEB-NIX01, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING
+53/tcp   open  domain   (unknown banner: ISC BIND 9 (Ubuntu Linux))
+| dns-nsid: 
+|_  bind.version: ISC BIND 9 (Ubuntu Linux)
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|     bind
+|_    BIND 9 (Ubuntu Linux)
+80/tcp   open  http     Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-generator: WordPress 5.8.3
+|_http-title: Trilocor &#8211; A cutting edge robotics company!
+110/tcp  open  pop3     Dovecot pop3d
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=ubuntu
+| Subject Alternative Name: DNS:ubuntu
+| Not valid before: 2022-08-03T08:24:29
+|_Not valid after:  2032-07-31T08:24:29
+|_pop3-capabilities: UIDL CAPA STLS RESP-CODES SASL AUTH-RESP-CODE TOP PIPELINING
+111/tcp  open  rpcbind  2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|_  100000  3,4          111/udp6  rpcbind
+143/tcp  open  imap     Dovecot imapd (Ubuntu)
+|_ssl-date: TLS randomness does not represent time
+|_imap-capabilities: STARTTLS ENABLE more Pre-login LITERAL+ have post-login SASL-IR IDLE listed capabilities LOGIN-REFERRALS LOGINDISABLEDA0001 IMAP4rev1 OK ID
+| ssl-cert: Subject: commonName=ubuntu
+| Subject Alternative Name: DNS:ubuntu
+| Not valid before: 2022-08-03T08:24:29
+|_Not valid after:  2032-07-31T08:24:29
+993/tcp  open  ssl/imap Dovecot imapd (Ubuntu)
+| ssl-cert: Subject: commonName=ubuntu
+| Subject Alternative Name: DNS:ubuntu
+| Not valid before: 2022-08-03T08:24:29
+|_Not valid after:  2032-07-31T08:24:29
+|_ssl-date: TLS randomness does not represent time
+|_imap-capabilities: ENABLE more Pre-login LITERAL+ have post-login SASL-IR IDLE listed capabilities AUTH=PLAINA0001 LOGIN-REFERRALS IMAP4rev1 OK ID
+995/tcp  open  ssl/pop3 Dovecot pop3d
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=ubuntu
+| Subject Alternative Name: DNS:ubuntu
+| Not valid before: 2022-08-03T08:24:29
+|_Not valid after:  2032-07-31T08:24:29
+|_pop3-capabilities: UIDL CAPA RESP-CODES USER SASL(PLAIN) AUTH-RESP-CODE TOP PIPELINING
+7777/tcp open  http     Werkzeug httpd 2.2.1 (Python 3.8.10)
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+|_http-server-header: Werkzeug/2.2.1 Python/3.8.10
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.94SVN%I=7%D=4/7%Time=66127EA6%P=x86_64-pc-linux-gnu%r(DN
+SF:SVersionBindReqTCP,46,"\0D\0\x06\x85\0\0\x01\0\x01\0\0\0\0\x07version\x
+SF:04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\x1a\x19ISC\x20BIND\x
+SF:209\x20\(Ubuntu\x20Linux\)");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 5.0 (97%), Linux 4.15 - 5.8 (96%), Linux 5.3 - 5.4 (95%), Linux 2.6.32 (95%), Linux 5.0 - 5.5 (95%), Linux 3.1 (95%), Linux 3.2 (95%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (95%), ASUS RT-N56U WAP (Linux 3.4) (93%), Linux 3.16 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host:  WEB-NIX01; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   49.45 ms 10.10.14.1
+2   49.58 ms trilocor.local (10.129.254.96)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr  7 13:09:07 2024 -- 1 IP address (1 host up) scanned in 57.34 seconds

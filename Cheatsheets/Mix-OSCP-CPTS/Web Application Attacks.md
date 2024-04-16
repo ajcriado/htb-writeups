@@ -49,7 +49,7 @@ pattern.txt
 {GOBUSTER}/v2
 ```
 
-### Cross-Site Scripting
+### Cross-Site Scripting (XSS)
 > **Special characters:** 
 > * `< > ' " { } ;`
 

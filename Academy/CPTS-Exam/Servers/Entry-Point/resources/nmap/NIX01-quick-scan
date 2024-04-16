@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Sun Apr  7 13:06:44 2024 as: nmap -p- --min-rate=10000 --open -oG nmap/NIX01-quick-scan -iL ../../../hosts-scope
+Host: 10.129.254.96 (trilocor.local)	Status: Up
+Host: 10.129.254.96 (trilocor.local)	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 25/open/tcp//smtp///, 53/open/tcp//domain///, 80/open/tcp//http///, 110/open/tcp//pop3///, 111/open/tcp//rpcbind///, 143/open/tcp//imap///, 993/open/tcp//imaps///, 995/open/tcp//pop3s///, 7777/open/tcp//cbt///
+# Nmap done at Sun Apr  7 13:06:57 2024 -- 1 IP address (1 host up) scanned in 13.50 seconds
