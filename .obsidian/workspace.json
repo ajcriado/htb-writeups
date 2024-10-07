@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f038dd63817647d8",
+        "id": "92e4bbcd82d748df",
         "type": "tabs",
         "children": [
           {
-            "id": "7be2c5b106ef0c64",
+            "id": "44b24fc567c9018d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"git show\"",
+                "query": "chain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +61,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 273.51103591918945
+    "width": 274.5
   },
   "right": {
     "id": "af0655b461996112",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Commands.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,20 +139,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7be2c5b106ef0c64",
+  "active": "44b24fc567c9018d",
   "lastOpenFiles": [
+    "Boxes/HackTheBox/LaCasaDePapel/5. HTTP.md",
+    "Boxes/cherrytree-CTFs.ctb17794891520.ctb",
+    "Boxes/cherrytree-CTFs.ctb-journal",
+    "Boxes/cherrytree-CTFs.ctb17763945524.ctb",
+    "Boxes/cherrytree-CTFs.ctb17703944581.ctb",
+    "Boxes/cherrytree-CTFs.ctb17643945281.ctb",
+    "Boxes/cherrytree-CTFs.ctb17583945852.ctb",
+    "Boxes/cherrytree-CTFs.ctb17523946134.ctb",
+    "Boxes/cherrytree-CTFs.ctb17463943587.ctb",
+    "Boxes/cherrytree-CTFs.ctb17403944697.ctb",
+    "Boxes/cherrytree-CTFs.ctb17343941008.ctb",
+    "Boxes/HackTheBox/LaCasaDePapel/4. FTP.md",
+    "Boxes/HackTheBox/Forest/5. WinRM.md",
+    "Boxes/HackTheBox/Forest/4. RPC.md",
+    "Boxes/HackTheBox/Forest/3. Services to try.md",
+    "Boxes/HackTheBox/Forest/2. Enumeration.md",
+    "Boxes/HackTheBox/Bastion/4. SSH.md",
+    "Boxes/HackTheBox/Bastion/3. SMB.md",
+    "Boxes/HackTheBox/Bastion/2. Enumeration.md",
+    "Boxes/HackTheBox/Bashed/4. HTTP.md",
+    "Boxes/HackTheBox/Bashed/3. Services to try.md",
+    "Boxes/HackTheBox/Bashed/1. Machine Info.md",
+    "Boxes/HackTheBox/Bashed/2. Enumeration.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
     "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
     "Boxes/Challenge-Labs/2-Relia/external-network/*192.168.196.249-LEGACY.md",
-    "Academy/BCPS/Burp-Suite/2024-04-09-BSCP.burp.backup.temp_20240415_154636",
-    "Academy/BCPS/Burp-Suite/2024-04-09-BSCP.burp.backup.temp_20240415_151636",
-    "Academy/BCPS/Burp-Suite/2024-04-09-BSCP.burp.backup.temp_20240415_144636",
-    "Academy/BCPS/Burp-Suite/2024-04-09-BSCP.burp.backup.temp_20240415_141636",
-    "Academy/BCPS/Burp-Suite/2024-04-09-BSCP.burp.backup.temp_20240415_134636",
-    "Academy/BCPS/Burp-Suite/2024-04-09-BSCP.burp.backup.temp_20240415_131636",
-    "Academy/BCPS/Burp-Suite/2024-04-09-BSCP.burp.backup.temp_20240415_124636",
-    "Academy/BCPS",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/ftp/Uninstaller.lnk",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/joomla-CVE-2023-23752",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.trilocor.local.png",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.store.trilocor.local.png",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.remote.trilocor.local.png",
@@ -176,23 +185,7 @@
     "Boxes/Challenge-Labs/OSCP-Exam/Standalone-2/attack-chain.md",
     "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/attack-chain.md",
     "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/attack-chain.md",
-    "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/192.168.124.101-MS01.md",
-    "Boxes/Challenge-Labs/OSCP-Exam/Exercises.md",
-    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-3/192.168.124.112.md",
-    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-2/192.168.124.111.md",
-    "Boxes/Challenge-Labs/OSCP-Exam/Standalone-1/192.168.124.110.md",
     "images/Pasted image 20240403082855.png",
-    "images/Pasted image 20240403082439.png",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
-    "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/192.168.124.102-MS02.md",
-    "Boxes/Challenge-Labs/OSCP-Exam/Active-directory/192.168.124.100-dc01.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/1. Enumeration.md",
-    "Academy/CPTS/Content Summary/13. Active Directory Enumeration & Attacks.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Linux Privilege Escalation.md",
-    "Academy/CPTS/Content Summary/26. Windows Privilege Escalation.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Tunneling and Port Forwarding.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/3. Lateral Movement.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Password Attacks.md"
+    "images/Pasted image 20240403082439.png"
   ]
 }

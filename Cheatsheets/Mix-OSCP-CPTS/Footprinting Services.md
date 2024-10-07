@@ -25,16 +25,17 @@
 
 If we have **write permission** in a SMB share we can place malicious files in there and steal hashes with responder (Check Attacking AD page)
 
-| **Command**                                                                    | **Description**                                           |
-| ------------------------------------------------------------------------------ | --------------------------------------------------------- |
-| `smbclient -N -L //<FQDN/IP>`                                                  | Null session authentication on SMB.                       |
-| `smbclient //<FQDN/IP>/<share>`                                                | Connect to a specific SMB share.                          |
-| `rpcclient -U "" <FQDN/IP>`                                                    | Interaction with the target using RPC.                    |
-| `samrdump.py <FQDN/IP>`                                                        | Username enumeration using Impacket scripts.              |
-| `smbmap -H <FQDN/IP>`                                                          | Enumerating SMB shares.                                   |
-| `crackmapexec smb <FQDN/IP> --shares -u '' -p ''`                              | Enumerating SMB shares using null session authentication. |
-| `enum4linux-ng.py <FQDN/IP> -A`                                                | **SMB enumeration using enum4linux.**                     |
-| `smb: \> tarmode`<br>`smb: \> recurse`<br>`smb: \> prompt`<br>`smb: \> mget *` | Download all files in smbclient                           |
+| **Command**                                                                    | **Description**                                            |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| `smbclient -N -L //<FQDN/IP>`                                                  | Null session authentication on SMB.                        |
+| `smbclient //<FQDN/IP>/<share>`                                                | Connect to a specific SMB share.                           |
+| `rpcclient -U "" <FQDN/IP>`                                                    | Interaction with the target using RPC.                     |
+| `samrdump.py <FQDN/IP>`                                                        | Username enumeration using Impacket scripts.               |
+| `smbmap -H <FQDN/IP>`                                                          | Enumerating SMB shares.                                    |
+| `crackmapexec smb <FQDN/IP> --shares -u '' -p ''`                              | Enumerating SMB shares using null session authentication.  |
+| `enum4linux-ng <FQDN/IP> -A`                                                   | **SMB enumeration using enum4linux-ng in aggressive mode** |
+| `smb: \> tarmode`<br>`smb: \> recurse`<br>`smb: \> prompt`<br>`smb: \> mget *` | Download all files in smbclient                            |
+| `netexec smb 10.10.11.35 -u 'guest' -p '' --rid-brute`                         | RID Brute (users)                                          |
 Mount a SMB server in Linux: `sudo mount -t cifs -o username=plaintext,password=Password123,domain=. //192.168.220.129/Finance /mnt/Finance`
 
 |**RPCClient**|**Description**|
