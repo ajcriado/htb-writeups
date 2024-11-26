@@ -42,14 +42,12 @@ OS and Service detection performed. Please report any incorrect results at https
 # Nmap done at Sun Nov 24 11:28:59 2024 -- 1 IP address (1 host up) scanned in 43.67 seconds
 ```
 
-
 ### Services
 
 - **SMB:** Enumerate through enum4linux to get user **cyber** (`enum4linux 192.168.56.101 -a`)
 - **Apache Server (80):** Here we find the cyber password encrypted in BrainFuck! language, it is hidden in the landing page source code
 - **Usermin (20000):** With cyber credentials we can access and we can get RCE in **Usermin/Login/Command Shell**
 - **Webmin (10000):** Not useful
-
 
 ### Privilege escalation
 
