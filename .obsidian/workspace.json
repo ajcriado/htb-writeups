@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/TryHackMe/MrRobot.md",
+                "file": "Boxes/TryHackMe/AttacktiveDirectory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MrRobot"
+              "title": "AttacktiveDirectory"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wpscan",
+                "query": "bloodhound",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,6 +164,19 @@
   },
   "active": "39a9bed9d46ff533",
   "lastOpenFiles": [
+    "Academy/CPTS/Content Summary/13. Active Directory Enumeration & Attacks.md",
+    "Boxes/TryHackMe/AttacktiveDirectory.md",
+    "Academy/CPTS/Content Summary/07. File Transfers.md",
+    "Academy/CPTS/Skill Assesments/Documenting and reporting/1. 172.16.5.225 Linux/2. RDP.md",
+    "Boxes/HackTheBox/Forest/5. WinRM.md",
+    "Boxes/TryHackMe/Wonderland.md",
+    "images/Pasted image 20241127144435.png",
+    "images/Pasted image 20241127143822.png",
+    "images/Pasted image 20241127135908.png",
+    "Boxes/TryHackMe/Hammer.md",
+    "images/Pasted image 20241127120726.png",
+    "images/Pasted image 20241127120441.png",
+    "Boxes/TryHackMe/Pickle Rick.md",
     "Boxes/TryHackMe/MrRobot.md",
     "Boxes/TryHackMe",
     "Boxes/Vulnhub/Empire-LupinOne/Writeup.md",
@@ -191,24 +204,11 @@
     "Boxes/cherrytree-CTFs.ctb17643945281.ctb",
     "Boxes/cherrytree-CTFs.ctb17583945852.ctb",
     "Boxes/HackTheBox/LaCasaDePapel/4. FTP.md",
-    "Boxes/HackTheBox/Forest/5. WinRM.md",
     "Boxes/HackTheBox/Forest/4. RPC.md",
     "Boxes/HackTheBox/Forest/3. Services to try.md",
     "Boxes/HackTheBox/Forest/2. Enumeration.md",
     "Boxes/HackTheBox/Bastion/4. SSH.md",
-    "Boxes/HackTheBox/Bastion/3. SMB.md",
-    "Boxes/HackTheBox/Bastion/2. Enumeration.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Windows/Windows Privilege Escalation.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Footprinting Services.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Web Application Attacks.md",
-    "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
-    "Boxes/Challenge-Labs/2-Relia/external-network/*192.168.196.249-LEGACY.md",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.trilocor.local.png",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.store.trilocor.local.png",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.remote.trilocor.local.png",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.pr.trilocor.local.png",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.portal.trilocor.local.png",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.dev.trilocor.local.png",
-    "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.careers.trilocor.local.png"
+    "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.store.trilocor.local.png"
   ]
 }
