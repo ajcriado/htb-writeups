@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/HackTheBox/Access.md",
+                "file": "Boxes/HackTheBox/Driver.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Access"
+              "title": "Driver"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "suggester",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +164,9 @@
   },
   "active": "36e153d9ab2e7ea9",
   "lastOpenFiles": [
-    "Boxes/TryHackMe/AttacktiveDirectory.md",
     "Boxes/HackTheBox/Access.md",
+    "Boxes/HackTheBox/Driver.md",
+    "Boxes/TryHackMe/AttacktiveDirectory.md",
     "Boxes/HackTheBox/Granny/4. HTTP.md",
     "Boxes/HackTheBox/Devel/3. FTP and HTTP.md",
     "Cheatsheets/Mix-OSCP-CPTS/Commands.md",
@@ -207,7 +208,6 @@
     "Boxes/cherrytree-CTFs.ctb17703944581.ctb",
     "Boxes/cherrytree-CTFs.ctb17643945281.ctb",
     "Boxes/cherrytree-CTFs.ctb17583945852.ctb",
-    "Boxes/HackTheBox/LaCasaDePapel/4. FTP.md",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.trilocor.local.png",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.store.trilocor.local.png"
   ]
