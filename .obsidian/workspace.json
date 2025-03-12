@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/HackTheBox/Driver.md",
+                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Driver"
+              "title": "Dumping and Credential Hunting"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dpapi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,8 +166,10 @@
   },
   "active": "36e153d9ab2e7ea9",
   "lastOpenFiles": [
-    "Boxes/HackTheBox/Access.md",
+    "Academy/CPTS/Skill Assesments/Pivoting, Tunneling and Port Forwarding/Skills Assessment/3. Windows Machine 1.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
     "Boxes/HackTheBox/Driver.md",
+    "Boxes/HackTheBox/Access.md",
     "Boxes/TryHackMe/AttacktiveDirectory.md",
     "Boxes/HackTheBox/Granny/4. HTTP.md",
     "Boxes/HackTheBox/Devel/3. FTP and HTTP.md",
@@ -199,9 +203,7 @@
     "Boxes/HackTheBox/Bashed/4. HTTP.md",
     "Boxes/HackTheBox/Bashed/1. Machine Info.md",
     "Boxes/Vulnhub/Empire-Breakout",
-    "Academy/CPTS/Content Summary/24. Attacking Common Applications.md",
     "Boxes/Vulnhub",
-    "Boxes/HackTheBox/LaCasaDePapel/5. HTTP.md",
     "Boxes/cherrytree-CTFs.ctb17794891520.ctb",
     "Boxes/cherrytree-CTFs.ctb-journal",
     "Boxes/cherrytree-CTFs.ctb17763945524.ctb",
