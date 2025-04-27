@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "356bf857f47f6931",
+        "id": "0217f23cd8a9b2e8",
         "type": "tabs",
         "children": [
           {
-            "id": "36e153d9ab2e7ea9",
+            "id": "b49eff3cdcb0369a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Dumping and Credential Hunting"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dpapi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +160,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36e153d9ab2e7ea9",
+  "active": "b49eff3cdcb0369a",
   "lastOpenFiles": [
+    "Boxes/HackTheBox/Nibbles/2. Services.md",
+    "Boxes/HackTheBox/Nibbles/3. Notes.md",
+    "Boxes/HackTheBox/Nibbles/1. Enumeration.md",
+    "Boxes/HackTheBox/Networked/1. Enumeration.md",
+    "Boxes/HackTheBox/Nibbles/4. Attack chain.md",
+    "Cheatsheets/Mix-OSCP-CPTS/Windows/Dumping and Credential Hunting.md",
+    "Boxes/HackTheBox/Nibbles",
     "Academy/CPTS/Skill Assesments/Pivoting, Tunneling and Port Forwarding/Skills Assessment/3. Windows Machine 1.md",
     "Cheatsheets/Mix-OSCP-CPTS/Windows/2. Attacking AD.md",
     "Boxes/HackTheBox/Driver.md",
@@ -196,12 +199,6 @@
     "Boxes/HackTheBox/tjnull-list.jpg",
     "Boxes/Box list to prepare.md",
     "Academy/CPTS/Skill Assesments/Footprinting/Footprinting Lab - Easy/6. FTP - Port 21 tcp.md",
-    "Academy/CPTS/Content Summary/02. Getting Started.md",
-    "Boxes/Note-Structures-Template.md",
-    "Boxes/HackTheBox/Bashed/2. Enumeration.md",
-    "Boxes/HackTheBox/Bashed/3. Services to try.md",
-    "Boxes/HackTheBox/Bashed/4. HTTP.md",
-    "Boxes/HackTheBox/Bashed/1. Machine Info.md",
     "Boxes/Vulnhub/Empire-Breakout",
     "Boxes/Vulnhub",
     "Boxes/cherrytree-CTFs.ctb17794891520.ctb",
@@ -209,7 +206,6 @@
     "Boxes/cherrytree-CTFs.ctb17763945524.ctb",
     "Boxes/cherrytree-CTFs.ctb17703944581.ctb",
     "Boxes/cherrytree-CTFs.ctb17643945281.ctb",
-    "Boxes/cherrytree-CTFs.ctb17583945852.ctb",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.trilocor.local.png",
     "Academy/CPTS-Exam/Servers/Entry-Point/resources/eyewitness/TRCOLOR_subdomain_EyeWitness/screens/http.store.trilocor.local.png"
   ]
