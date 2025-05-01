@@ -1,0 +1,55 @@
+# 📋 Hack The Box Linear Progression Path (50 Retired Machines)
+
+> **Goal**: Just follow the list, step-by-step. No decisions, pure focus.
+
+---
+
+- [x] Lame
+- [x] Jerry
+- [x] Legacy
+- [x] Bashed
+- [x] Devel
+- [x] Blue
+- [x] Nibbles
+- [x] Netmon
+- [ ] Optimum
+- [ ] Valentine
+- [ ] Beep
+- [ ] Granny
+- [ ] Shocker
+- [ ] Arctic
+- [ ] Sense
+- [ ] Bounty
+- [ ] SolidState
+- [ ] Poison
+- [ ] Sunday
+- [ ] Access
+- [ ] Node
+- [ ] Forest
+- [ ] Mango
+- [ ] Active
+- [ ] Haircut
+- [ ] Heist
+- [ ] Cronos
+- [ ] SwagShop
+- [ ] OpenAdmin
+- [ ] Remote
+- [ ] Cascade
+- [ ] Time
+- [ ] Sauna
+- [ ] Book
+- [ ] Querier
+- [ ] Blunder
+- [ ] ServMon
+- [ ] SneakyMailer
+- [ ] Buff
+- [ ] Reddish
+- [ ] Bastard
+- [ ] Resolute
+- [ ] Monteverde
+- [ ] Jeeves
+- [ ] Forest (Harder Version)
+- [ ] Granny (Harder Version)
+- [ ] Blunder (Again, Review)
+- [ ] Sauna (Harder Version)
+- [ ] Reddish (Final Review)
