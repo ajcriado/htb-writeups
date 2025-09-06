@@ -12,9 +12,8 @@
 - [x] Blue
 - [x] Nibbles
 - [x] Netmon
-- [ ] Optimum
+- [x] Optimum
 - [ ] Valentine
-- [ ] Beep
 - [ ] Granny
 - [ ] Shocker
 - [ ] Arctic
